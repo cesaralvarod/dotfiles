@@ -1,4 +1,4 @@
-#DOTFILES
+<h1>DOTFILES</h1>
 
 - bspwm
 - i3
