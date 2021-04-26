@@ -1,0 +1,51 @@
+#! /bin/sh
+
+# POlybar
+
+sh $HOME/.config/polybar/launch.sh
+
+# Aditional
+
+wmname LG3D &
+
+nm-applet
+
+# sxhd
+
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# super = windows key
+
+bscp config pointer modifier mod1
+
+# background
+
+feh --bg-fill $HOME/Documents/wallpaper.jpg
+
+# keyboard
+
+setxkbmap us
+
+bspc config focus_follows_pointer true
+
+# bspc monitor DP-1 -n center 
+# bspc monitor eDP-1 -n left
+
+bspc monitor -d          
+# bspc monitor left -d a s s s a 
+
+bspc config focused_border_color \#F9F9F9
+bspc config border_width 1
+bspc config window_gap 4
+
+bspc config split_ratio          0.50
+bspc config borderless_monocle   false
+bspc config gapless_monocle      false
+
+# Multihead behavior
+bspc config remove_disabled_monitors true
+bspc config remove_unplugged_monitors true
+
+
+bspc rule -a Firefox border=off
+bspc rule -a Chrome border=off
