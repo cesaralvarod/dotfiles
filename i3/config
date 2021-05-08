@@ -149,7 +149,7 @@ set $urgent-bg-color     #E53935
 set $blue-color          #5DA8F4
 
 # Window colors
-client.focused          $bg-color           $bg-color          $text-color          #555555
+client.focused #5E81AC #5E81AC #5E81AC #5E81AC
 client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #555555
 client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #555555
 client.urgent           $blue-color    $blue-color   $text-color  
@@ -199,22 +199,16 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 2
 for_window [title="video0 - mpv"] floating enable
 for_window [title="video0 - mpv"] sticky enable
 
-client.focused #DDDDDD #DDDDDD #DDDDDD #DDDDDD
 
 # Screenshot
 
-bindsym --release Shift+Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh partial
-bindsym --release Ctrl+Shift+Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh partial clipboard
+bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
 
-bindsym --release Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh full
-bindsym --release Ctrl+Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh full clipboard
-
-bindsym --release Mod1+Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh current
-bindsym --release $mod+Print exec --no-startup-id sh $HOME/.config/i3/screenshot.sh current clipboard
+bindsym --release Shift+ Print exec --no-startup-id flameshot gui
 
 # i3 gaps
 gaps outer 4
@@ -238,10 +232,6 @@ exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 # Network
 
 exec_always --no-startup-id nm-applet
-
-# Bluethoot
-
-# exec_always --no-startup-id blueman-applet
 
 # Keyboard
 
