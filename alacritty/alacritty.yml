@@ -312,8 +312,8 @@ background_opacity: 1
 #   - (macOS) /bin/bash --login
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
-# shell:
-# program: /bin/bash/zsh
+shell:
+  program: /bin/fish
 #  args:
 #    - --login
 

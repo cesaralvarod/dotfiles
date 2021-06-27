@@ -65,8 +65,9 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # suspend and exit
-bindsym $mod+mod1+l exec dm-tool exit
-bindsym $mod+mod1+s exec systemctl suspend
+bindsym $mod+mod1+e exec i3 exit
+bindsym $mod+mod1+l exec dm-tool lock
+bindsym $mod+mod1+s exec dm-tool lock && systemctl suspend
 
 # Workspaces
 
@@ -111,7 +112,6 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -156,7 +156,7 @@ client.urgent           $blue-color    $blue-color   $text-color
 
 # Google chrome
 
-bindsym $mod+Mod1+g exec google-chrome-unstable
+bindsym $mod+Mod1+g exec google-chrome-stable
 
 # Firefox
 
@@ -221,7 +221,7 @@ exec_always feh --bg-fill $HOME/Documents/wallpaper.jpg
 
 # Two screens
 
-exec xrandr --output DP-1 --left-of eDP-1 
+exec_always --no-startup-id sh $HOME/.config/i3/hdmi2.sh 
 
 # Polybar
 
@@ -233,6 +233,9 @@ exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 
 exec_always --no-startup-id nm-applet
 
+# Uncluttter
+
+exec_always unclutter
 # Keyboard
 
 exec setxkbmap us

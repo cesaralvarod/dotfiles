@@ -10,14 +10,13 @@ Plug 'lilydjwg/colorizer'
 Plug 'prettier/vim-prettier', {'do': 'npm install'}
 Plug 'Yggdroot/indentLine'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ryanoasis/vim-devicons'
-Plug 'cj/vim-webdevicons'
 Plug 'leafgarland/typescript-vim'
+Plug 'kyazdani42/nvim-web-devicons'
+Plug 'ryanoasis/vim-devicons'
 Plug 'pangloss/vim-javascript'
 Plug 'burnettk/vim-angular'
 Plug 'rhysd/vim-clang-format'
 Plug 'jiangmiao/auto-pairs'
-Plug 'dracula/vim', {'name':'dracula'}
 Plug 'dense-analysis/ale'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-syntastic/syntastic'
@@ -43,6 +42,8 @@ Plug 'grvcoelho/vim-javascript-snippets'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'tomoyukikashiro/vim-angular-snippets'
 Plug '2072/PHP-Indenting-for-VIm'
+Plug 'Galooshi/vim-import-js'
+Plug 'StanAngeloff/php.vim'
 
 call plug#end()
 
@@ -86,7 +87,7 @@ let mapleader=" "
 
 let g:netrw_liststyle=3
 
-nnoremap <leader>w :ALEFix<CR>:Prettier<CR>:w<CR>
+nnoremap <leader>w :Prettier<CR>:ALEFix<CR>:w<CR>
 nnoremap <leader>q :Prettier<CR>:wq<CR>
 nnoremap <leader>qq :q!<CR>
 
@@ -204,8 +205,18 @@ let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_list_window_size = 5
 let g:ale_set_quickfix = 1
 let g:ale_fixers={'*':[],  'html':['prettier'], 'python':['autopep8']}
-let g:ale_linters={'python':['flake8']}
+let g:ale_linters={'python':['flake8'], 'typescript':['typescript-eslint']}
 
 " Vim python
 
 let g:python_highlight_all = 1
+
+" Ident html on php
+
+function IdentPHPHTML()
+  set ft=html
+  normal gg=G
+  set ft=php
+endfunction
+
+nnoremap <leader>ip <CR>:call IdentPHPHTML()<CR>:w<CR>

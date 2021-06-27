@@ -1,0 +1,1 @@
+/home/andres/.local/share/omf/themes/separation/fish_prompt.fish
