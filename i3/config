@@ -219,7 +219,7 @@ smart_borders on
 
 # Background screens
 
-exec_always feh --bg-fill $HOME/Documents/wallpaper.jpg
+exec_always feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
 
 # Two screens
 
