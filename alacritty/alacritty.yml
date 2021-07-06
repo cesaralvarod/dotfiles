@@ -275,7 +275,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 1
+background_opacity: 0.88
 # background_opacity: 0.80
 
 #selection:
@@ -294,7 +294,7 @@ background_opacity: 1
 #   - ▇ Block
 #   - _ Underline
 #   - | Beam
-#style: Block
+# style: Block
 
 # If this is `true`, the cursor will be rendered as a hollow box when the
 # window is not focused.
@@ -366,7 +366,7 @@ shell:
 # The `double_click` and `triple_click` settings control the time
 # alacritty should wait for accepting multiple clicks as one double
 # or triple click.
-#double_click: { threshold: 300 }
+# double_click: { threshold: 300 }
 #triple_click: { threshold: 300 }
 
 # If this is `true`, the cursor is temporarily hidden when typing.
