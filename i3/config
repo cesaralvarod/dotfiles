@@ -150,8 +150,8 @@ set $blue-color          #5DA8F4
 
 # Window colors
 client.focused #5E81AC #5E81AC #5E81AC #5E81AC
-client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #555555
-client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #555555
+client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #999
+client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #999
 client.urgent           $blue-color    $blue-color   $text-color  
 
 # Google chrome
@@ -199,7 +199,6 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 
-for_window [class="^.*"] border pixel 2
 for_window [title="video0 - mpv"] floating enable
 for_window [title="video0 - mpv"] sticky enable
 
@@ -211,9 +210,12 @@ bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
 bindsym --release Shift+ Print exec --no-startup-id flameshot gui
 
 # i3 gaps
+for_window [class="^.*"] border pixel 1
 gaps outer 4
-gaps inner 4
+gaps inner 6
 smart_borders on
+# smart_borders no_gaps
+# border_radius 2
 
 # Background screens
 
@@ -236,6 +238,11 @@ exec_always --no-startup-id nm-applet
 # Uncluttter
 
 exec_always unclutter
+
 # Keyboard
 
 exec setxkbmap us
+
+# Compton
+
+exec_always compton
