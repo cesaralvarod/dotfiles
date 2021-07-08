@@ -56,15 +56,15 @@ font:
 
   # Italic font face
   italic:
-    family: Cascadia Code
-    style: BoldItalic
+    family: Cascadia Code Italic
+    style: Bold Italic
 
   # Bold italic font face
   bold_italic:
-    family: Cascadia Code
-    style: BoldItalic
+    family: Cascadia Code Italic
+    style: Bold Italic
 
-  size: 12
+  size: 11.5
 
   # Point size
 
