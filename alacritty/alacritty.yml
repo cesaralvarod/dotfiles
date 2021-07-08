@@ -46,24 +46,22 @@ scrolling:
 font:
   # Normal (roman) font face
   normal:
-    family: mononokiNerd Font
+    family: Cascadia Code
     style: Bold
 
   # Bold font face
   bold:
-    family: mononoki Nerd Font
-
+    family: Cascadia Code
     style: Bold
 
   # Italic font face
   italic:
-    family: mononoki Nerd Font
-
+    family: Cascadia Code
     style: BoldItalic
 
   # Bold italic font face
   bold_italic:
-    family: mononoki Nerd Font
+    family: Cascadia Code
     style: BoldItalic
 
   size: 12
