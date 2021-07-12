@@ -156,23 +156,23 @@ client.urgent           $blue-color    $blue-color   $text-color
 
 # Google chrome
 
-bindsym $mod+Mod1+g exec google-chrome-stable
+bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
 
 # Firefox
 
-bindsym $mod+Mod1+f exec firefox-developer-edition
+bindsym $mod+Mod1+f exec --no-startup-id firefox-developer-edition
 
 # file manager
 
-bindsym $mod+Mod1+t exec thunar
+bindsym $mod+Mod1+t exec --no-startup-id thunar
 
 # Visual Studio Code
 
-bindsym $mod+Mod1+v exec code
+bindsym $mod+Mod1+v exec --no-startup-id code
 
 # Postman
 
-bindsym $mod+Mod1+p exec postman
+bindsym $mod+Mod1+p exec --no-startup-id postman
 
 #Rofi
 
@@ -205,9 +205,9 @@ for_window [title="video0 - mpv"] sticky enable
 
 # Screenshot
 
-bindsym --release Print exec flameshot screen -r -p ~/Pictures/
+bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
 
-bindsym --release Shift+ Print exec flameshot gui
+bindsym --release Shift+ Print exec --no-startup-id flameshot gui
 
 # i3 gaps
 for_window [class="^.*"] border pixel 1
