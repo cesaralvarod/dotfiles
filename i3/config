@@ -8,7 +8,7 @@ font pango:mononoki NF Bold 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec --no-startup-id alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -162,9 +162,9 @@ bindsym $mod+Mod1+g exec google-chrome-stable
 
 bindsym $mod+Mod1+f exec firefox-developer-edition
 
-# nemo
+# file manager
 
-bindsym $mod+Mod1+n exec nemo
+bindsym $mod+Mod1+t exec thunar
 
 # Visual Studio Code
 
@@ -178,7 +178,7 @@ bindsym $mod+Mod1+p exec postman
 
 set $rofi_theme "$HOME/.config/rofi/flat-blue.rasi"
 bindsym $mod+Shift+i exec rofi -show run -config $rofi_theme
-bindsym $mod+Shift+d exec rofi -show window -config $rofi_theme
+bindsym $mod+Shift+d exec -show window -config $rofi_theme
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -186,17 +186,17 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #d
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Sreen brightness controls
-bindsym XF86MonBrightnessDown exec brightnessctl set 5%- # increase screen brightness
-bindsym XF86MonBrightnessUp exec brightnessctl set +5% # decrease screen brightness
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%- # increase screen brightness
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5% # decrease screen brightness
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec /home/andres/bin/toggletouchpad # toggle touchpad
+bindsym XF86TouchpadToggle exec --no-startup-id /home/andres/bin/toggletouchpad # toggle touchpad
 
 # Music song controls
-bindsym XF86AudioPlay exec play_pause
-bindsym XF86AudioPause exec play_pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+bindsym XF86AudioPlay exec --no-startup-id play_pause
+bindsym XF86AudioPause exec --no-startup-id play_pause
+bindsym XF86AudioNext exec --no-startup-id playerctl next
+bindsym XF86AudioPrev exec --no-startup-id playerctl previous
 
 
 for_window [title="video0 - mpv"] floating enable
@@ -205,21 +205,19 @@ for_window [title="video0 - mpv"] sticky enable
 
 # Screenshot
 
-bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
+bindsym --release Print exec flameshot screen -r -p ~/Pictures/
 
-bindsym --release Shift+ Print exec --no-startup-id flameshot gui
+bindsym --release Shift+ Print exec flameshot gui
 
 # i3 gaps
 for_window [class="^.*"] border pixel 1
 gaps outer 4
 gaps inner 6
 smart_borders on
-# smart_borders no_gaps
-# border_radius 2
 
 # Background screens
 
-exec_always feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
 
 # Two screens
 
@@ -237,12 +235,16 @@ exec_always --no-startup-id nm-applet
 
 # Uncluttter
 
-exec_always unclutter
+exec_always --no-startup-id unclutter
 
 # Keyboard
 
-exec setxkbmap us
+exec --no-startup-id setxkbmap us
 
 # Compton
 
-exec_always compton
+exec_always --no-startup-id compton
+
+# blueman applet
+
+exec_always --no-startup-id blueman-applet
