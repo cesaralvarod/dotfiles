@@ -4,6 +4,7 @@
 killall -q polybar
 
 for m in $(polybar --list-monitors | cut -d":" -f1); do
+    echo $m
     MONITOR=$m polybar main -r -c $HOME/.config/polybar/config.ini &
 
     # MONITOR=$m polybar barleft -r -c $HOME/.config/polybar/config.ini &
