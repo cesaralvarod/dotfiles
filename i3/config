@@ -219,11 +219,11 @@ smart_borders on
 
 # Background screens
 
-exec --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
 
 # Two screens
 
-exec --no-startup-id sh $HOME/.config/i3/screen.sh 
+exec_always --no-startup-id sh $HOME/.config/i3/screen.sh 
 
 # Polybar
 
@@ -233,7 +233,7 @@ exec_always --no-startup-id sh $HOME/.config/polybar/launch.sh
 
 # Network
 
-exec --no-startup-id nm-applet
+exec_always --no-startup-id nm-applet
 
 # Uncluttter
 
@@ -241,16 +241,16 @@ exec_always --no-startup-id unclutter
 
 # Keyboard
 
-exec --no-startup-id setxkbmap us
+exec_always --no-startup-id setxkbmap us
 
 # Compton
 
-exec --no-startup-id compton
+exec_always --no-startup-id compton
 
 # blueman applet
 
-exec --no-startup-id blueman-applet
+exec_always --no-startup-id blueman-applet
 
-# i3-battery-popup
+# Battery
 
-exec --no-startup-id i3-battery-popup
+exec_always --no-startup-id bato

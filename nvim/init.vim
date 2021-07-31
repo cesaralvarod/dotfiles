@@ -166,7 +166,7 @@ let g:clang_format#style_options = {
             \ "Standard" : "C++11",
             \ "BreakBeforeBraces" : "Stroustrup"}
 
-" " Vim rainbow
+" Vim rainbow
 
 au FileType typescript,json,python,javascript,cs,c,cpp,objc,objcpp call rainbow#load()
 let g:rainbow_load_separately = [
