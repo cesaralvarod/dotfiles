@@ -1,0 +1,22 @@
+[2021-11-06 12:53:39.349] [exthost] [info] extension host started
+[2021-11-06 12:53:39.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-06 12:53:39.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/debug-auto-launch/dist/extension
+[2021-11-06 12:53:39.434] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-06 12:53:39.434] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/git/dist/main
+[2021-11-06 12:53:39.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-06 12:53:39.612] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/github/dist/extension.js
+[2021-11-06 12:53:39.629] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-06 12:53:39.629] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-06 12:53:39.889] [exthost] [info] eager extensions activated
+[2021-11-06 12:53:39.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-06 12:53:39.902] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-06 12:53:39.920] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-06 12:53:39.920] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-06 12:54:03.542] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-06 12:54:03.542] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-06 12:54:03.568] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-06 12:54:03.568] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-06 12:54:03.676] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-06 12:54:03.676] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/lib/code/extensions/typescript-language-features/dist/extension
+[2021-11-06 12:54:34.045] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-06 12:54:35.100] [exthost] [info] exiting with code 0

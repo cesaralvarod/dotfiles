@@ -17,7 +17,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'burnettk/vim-angular'
 Plug 'rhysd/vim-clang-format'
 Plug 'jiangmiao/auto-pairs'
-Plug 'dense-analysis/ale'
+Plug 'w0rp/ale'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'frazrepo/vim-rainbow'
@@ -28,6 +28,9 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-python/python-syntax'
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'mxw/vim-jsx'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
 Plug 'tpope/vim-eunuch'
 Plug 'airblade/vim-gitgutter'
 Plug 'justmao945/vim-clang'
@@ -44,6 +47,7 @@ Plug 'tomoyukikashiro/vim-angular-snippets'
 Plug '2072/PHP-Indenting-for-VIm'
 Plug 'Galooshi/vim-import-js'
 Plug 'StanAngeloff/php.vim'
+Plug 'tomlion/vim-solidity'
 
 call plug#end()
 
@@ -87,8 +91,8 @@ let mapleader=" "
 
 let g:netrw_liststyle=3
 
-nnoremap <leader>w :Prettier<CR>:w<CR>
-nnoremap <leader>q :Prettier<CR>:wq<CR>
+nnoremap <leader>w :ALEFix<CR>:w<CR>
+nnoremap <leader>q :ALEFix<CR>:wq<CR>
 nnoremap <leader>qq :q!<CR>
 
 nnoremap <leader>t :ter<CR>
@@ -145,6 +149,7 @@ let g:NERDTreePatternExtensionHighlightFullName=1
 
 " COC
 let g:coc_disable_startup_warning = 1
+let g:coc_global_extensions = ['coc-tsserver']
 
 " Prettier
 
@@ -190,7 +195,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%* 
 
 let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
+let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
@@ -204,8 +209,22 @@ au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
 let b:ale_warn_about_trailing_whitespace = 0
 let g:ale_list_window_size = 5
 let g:ale_set_quickfix = 1
-let g:ale_fixers={'*':[],  'html':['prettier'], 'python':['autopep8']}
-let g:ale_linters={'python':['flake8'], 'typescript':['typescript-eslint']}
+
+let g:ale_sign_error = ''
+let g:ale_sign_warning = ''
+let g:ale_sign_info = 'כֿ'
+let g:airline#extensions#ale#enabled = 1
+let g:ale_echo_msg_error_str = ''
+let g:ale_echo_msg_warning_str = ''
+let g:ale_echo_msg_info_str = 'כֿ'
+let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
+let g:ale_fixers={'*':['prettier'], 'python':['autopep8']}
+let g:ale_linters={'typescript':['typescript-eslint'], 'css':['eslint'], 'javascript': ['prettier-eslint', 'eslint'], 'json':['eslint'], }
+let g:ale_lint_on_enter = 1
+let g:ale_lint_on_filetype_changed = 1
+let g:ale_lint_on_insert_leave = 1
+let g:ale_lint_on_save = 1
+let g:ale_lint_on_text_changed = 'normal'
 
 " Vim python
 
@@ -220,3 +239,12 @@ function IdentPHPHTML()
 endfunction
 
 nnoremap <leader>ip <CR>:call IdentPHPHTML()<CR>:w<CR>
+
+" gitgutter
+
+let g:gitgutter_sign_added = ''
+let g:gitgutter_sign_modified = ''
+let g:gitgutter_sign_removed = ''
+let g:gitgutter_sign_removed_first_line = ''
+" let g:gitgutter_sign_removed_above_and_below = ''
+let g:gitgutter_sign_modified_removed = ''

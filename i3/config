@@ -65,9 +65,9 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # suspend and exit
-bindsym $mod+mod1+e exec --no-startup-id i3 exit
-bindsym $mod+mod1+l exec --no-startup-id dm-tool lock
-bindsym $mod+mod1+s exec  --no-startup-id dm-tool lock && systemctl suspend
+bindsym $mod+mod1+e exec --no-startup-id i3 exit && systemctl suspend
+# bindsym $mod+mod1+l exec --no-startup-id dm-tool lock
+bindsym $mod+mod1+s exec  --no-startup-id systemctl suspend
 
 # Workspaces
 
@@ -156,7 +156,7 @@ client.urgent           $blue-color    $blue-color   $text-color
 
 # Google chrome
 
-bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
+bindsym $mod+Mod1+g exec --no-startup-id chromium
 
 # Firefox
 
@@ -177,8 +177,8 @@ bindsym $mod+Mod1+p exec --no-startup-id postman
 #Rofi
 
 set $rofi_theme "$HOME/.config/rofi/flat-blue.rasi"
-bindsym $mod+Shift+i exec rofi --no-startup-id -show run -config $rofi_theme
-bindsym $mod+Shift+d exec --no-startup-id -show window -config $rofi_theme
+bindsym $mod+Shift+i exec --no-startup-id rofi -show run
+bindsym $mod+Shift+d exec --no-startup-id rofi -show window 
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -219,7 +219,7 @@ smart_borders on
 
 # Background screens
 
-exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/wallpaper.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/27.jpg
 
 # Two screens
 
@@ -254,3 +254,4 @@ exec_always --no-startup-id blueman-applet
 # Battery
 
 exec_always --no-startup-id bato
+
