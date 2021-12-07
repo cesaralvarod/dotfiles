@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Bnb";
+  src: url(../fonts/AirbnbCerealBook.ttf) format('truetype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bnb";
+  src: url(../fonts/AirbnbCerealMedium.ttf) format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Bnb";
+  src: url(../fonts/AirbnbCerealBold.ttf) format('truetype');
+  font-weight: bold;
+}
+
+
+
+.hidden {
+    display: none !important;
+}
+
+body {
+    font-family: 'Bnb', sans-serif;
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+    background: #f2f5f7;
+}
+
+.flex-even {
+    flex: 1;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 5px 20px -5px rgb(200 200 200 / 70%);
+}
+
+.btn,
+.alert,
+.list-group {
+    border-radius: 0;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 300px;
+    height: auto;
+    padding: 10px;
+}
+
+.btn-row {
+    overflow: visible;
+}
+
+.btn-row button {
+    background: #fbfbfb;
+    overflow: visible;
+    padding: 10px 10px;
+    border-radius: 15px;
+  font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+
+.buttons-holder button, .converter-holder button{
+    margin-bottom: 12px;
+    background: transparent linear-gradient(284deg, #ffffff, #f8f8f8, #ffffff) 0 0 no-repeat padding-box;
+    color: #494d54;
+    transition: all .5s ease;
+    background-size: 200%;
+}
+
+.buttons-holder button:hover, .converter-holder button:hover, .buttons-holder button:focus, .converter-holder button:focus {
+    box-shadow: 0 20px 15px 1px #e2e6ed;
+    background-position: 50% 0;
+    transition: all .5s ease;
+
+}
+
+.find-pdf-files img{
+    width: 60px!important;
+}
+
+
+.buttons-holder button:nth-child(2) {
+    margin-bottom: 0;
+}
+
+
+
+.converter-holder {
+    width: 45%;
+}
+
+.converter-holder button {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+
+
+.buttons-holder {
+    width: 45%;
+}
+
+.buttons-holder button {
+    width: 100%;
+}
+
+
+.btn-row button img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h5 img {
+    width: 135px;
+}
+
+.pdf-files-container {
+    overflow-y: auto;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+}
+
+.not-found{
+    width: 75px;
+    display: block;
+    margin:0 auto;
+}
+
+.pdf-keeper{
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.pdf-keeper h2{
+    text-align: center;
+    font-size: 14px;
+    color: #404040;
+}
+
+.pdf-keeper img{
+    margin-bottom: 15px;
+}
+
+.pdf-files-container li{
+    list-style: none;
+}
+
+.pdf-files-container li a{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+    transition: all .5s ease;
+    margin-bottom: 5px;
+}
+
+.pdf-files-container li a:hover{
+    background: #f2f5f7;
+    transition: all .5s ease;
+}
+
+.pdf-files-container li:last-child a{
+    margin-bottom: 0;
+}
+
+
+.pdf-files-container li a:before{
+    content: '';
+    width: 21px;
+    margin-right: 10px;
+    height:21px;
+    display: inline-block;
+    background: url(../img/download.png) no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+}
+
+.empty-page{
+    background: white;
+}
+
+.pdf-preloader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #fff;
+    opacity: 0.5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /* width: 100%; */
+    /* height: 448px; */
+}

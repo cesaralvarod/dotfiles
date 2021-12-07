@@ -1,0 +1,6 @@
+2021/11/27-02:17:15.471 11f4f Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb since it was missing.
+2021/11/27-02:17:15.478 11f4f Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_hackernoon.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/27-02:17:23.537 11f4f Level-0 table #5: started
+2021/11/27-02:17:23.539 11f4f Level-0 table #5: 1149 bytes OK
+2021/11/27-02:17:23.541 11f4f Delete type=0 #3
+2021/11/27-02:17:23.541 11f4f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

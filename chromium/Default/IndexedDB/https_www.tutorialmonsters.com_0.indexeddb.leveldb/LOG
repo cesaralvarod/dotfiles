@@ -1,0 +1,30 @@
+2021/11/23-20:51:37.576 dfefe Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_www.tutorialmonsters.com_0.indexeddb.leveldb since it was missing.
+2021/11/23-20:51:37.583 dfefe Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_www.tutorialmonsters.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/23-20:51:46.238 d571d Level-0 table #5: started
+2021/11/23-20:51:46.239 d571d Level-0 table #5: 675 bytes OK
+2021/11/23-20:51:46.240 d571d Delete type=0 #3
+2021/11/23-20:51:46.240 d571d Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/11/23-20:51:46.701 dbfcb Level-0 table #7: started
+2021/11/23-20:51:46.704 dbfcb Level-0 table #7: 514 bytes OK
+2021/11/23-20:51:46.707 dbfcb Delete type=0 #4
+2021/11/23-20:51:46.707 dbfcb Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/11/23-20:51:46.707 dbfcb Manual compaction at level-1 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at '\x00\x02\x00\x00\x05' @ 39 : 0
+2021/11/23-20:51:46.707 dbfcb Compacting 1@1 + 1@2 files
+2021/11/23-20:51:46.713 dbfcb Generated table #8@1: 6 keys, 271 bytes
+2021/11/23-20:51:46.713 dbfcb Compacted 1@1 + 1@2 files => 271 bytes
+2021/11/23-20:51:46.715 dbfcb compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/23-20:51:46.716 dbfcb Delete type=2 #7
+2021/11/23-20:51:46.718 e0034 Manual compaction at level-1 from '\x00\x02\x00\x00\x05' @ 39 : 0 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/11/23-20:51:48.710 e0034 Level-0 table #10: started
+2021/11/23-20:51:48.712 e0034 Level-0 table #10: 256 bytes OK
+2021/11/23-20:51:48.714 e0034 Delete type=2 #5
+2021/11/23-20:51:48.714 e0034 Delete type=0 #6
+2021/11/23-20:51:48.714 e0034 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/11/23-20:51:48.714 e0034 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0
+2021/11/23-20:51:48.714 e0034 Compacting 1@1 + 1@2 files
+2021/11/23-20:51:48.716 e0034 Generated table #11@1: 6 keys, 253 bytes
+2021/11/23-20:51:48.716 e0034 Compacted 1@1 + 1@2 files => 253 bytes
+2021/11/23-20:51:48.717 e0034 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/23-20:51:48.717 e0034 Delete type=2 #10
+2021/11/23-20:51:48.718 e0034 Delete type=2 #8
+2021/11/23-20:51:48.718 e0034 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x03\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 40 : 0 .. (end); will stop at (end)

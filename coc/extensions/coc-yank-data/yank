@@ -1,0 +1,939 @@
+0c362caa3bdf23c4304d8b8987be2cce|file:///home/andres/workspace/journalapp-react/src/styles/components/_notes.scss|22|5|v|scss
+	@media (min-width: 780px) {
+	      & {
+	        margin-left: 1.5rem;
+	      }
+	    }
+7d35fea9eda1714d463e3c68cab2b0ff|file:///home/andres/workspace/journalapp-react/src/styles/components/_notes.scss|18|1|v|scss
+	  @media (min-width: 780px) {
+	    & {
+	      margin-left: 1.5rem;
+	    }
+	  }
+82bf1c10eba9e5690bab290df24107e0|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|10|28|V|javascriptreact
+	  console.log("cargando " + id);
+aacb47db6feb6279b989f915c598402a|file:///home/andres/workspace/journalapp-react/src/components/notes/NoteScreen.js|28|32|V|javascriptreact
+	    console.log(notesValues.body);
+b4788af676f98b1bc9d3f84067837bef|file:///home/andres/workspace/journalapp-react/src/components/notes/NoteScreen.js|28|5|v|javascriptreact
+	notesValues
+2063c1608d6e0baf80249c42e2be5804|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|50|v|javascriptreact
+	value
+7f7cfde5ec586119b48911a2c75851e5|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|43|v|javascriptreact
+	newValue
+07582dd71036278789f8d24ca04b9a5e|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|118|7|V|scss
+	      width: 100px;
+3af9112556e6f0a88ac2a937f88a6d7b|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|1|1|V|scss
+	      overflow-wrap: break-word;
+03271eef487b1d4004adc642ca862a06|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|17|v|javascriptreact
+	useEffect
+798e1088414668836c3a8c2f7b78e257|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|99|18|v|scss
+	nowrap
+b67c3ac2868474a6e5b02a280bf5cb9a|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|99|1|V|scss
+	    white-space: wrap;
+7687f8fd21e71675896cd405fb6f4b64|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|100|1|V|scss
+	    overflow-wrap: break-word;
+b1849723b74e8f5064efaf8f56c7454e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|9|20|V|javascriptreact
+	  console.log(title);
+7a1aa11476f3b5b670a51d62f30bcd55|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|12|V|javascriptreact
+	    console.log(newValue);
+6c1cc405b85498c60fdea84a4c4c51ea|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|1|1|V|javascriptreact
+	    const newValue = target.value.replace(/\n\t\r/g, "\n\t\r");
+8652606c8d662eac2fcf1ce9a9d0fa10|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|9|42|v|javascriptreact
+	nbsp
+281b1f0cafe16c0922e6e6b11f3ffd12|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|7|20|V|javascriptreact
+	  console.log(body);
+0c81c15596e22ca7a2a71afb7a2ca648|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|30|16|V|javascriptreact
+	  console.log(text);
+d6da736e95386461d28a5bd02c70fa97|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|18|V|javascriptreact
+	const BodyEntry = (text) => {};
+1b947ddd5abd259c91f2b9a8694f7a43|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|7|41|V|javascriptreact
+	  const bodyText = body.replace(/\s/g, "\n'");
+6e8c8a76991c85769c49f7a756fcbde2|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|18|48|v|javascriptreact
+	bodyText
+4803e6b9e63dabf04de980788d6a13c4|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|48|v|javascriptreact
+	Line
+eac828e40705bfafd82ef1a82e3f5ab8|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|43|v|javascriptreact
+	span
+adf9fc6e0477667f196e3b8248904a1a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|7|v|javascriptreact
+	BodyEntry
+d478aafe7a29d8c587b2cb1f40735caf|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|1|V|javascriptreact
+	const BodyEntry = (text) => {
+	  const textCleaned = text.split("\r\n");
+	  console.log(textCleaned);
+	
+	  const span = textCleaned.map((line) => <p>{line}</p>);
+	
+	  console.log(span);
+	
+	  return { span };
+	};
+	
+9e2cd3a49272eb4863464c187878b93d|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|19|55|v|javascriptreact
+	trim
+927b7918bb582b0da988f38e4b9901ea|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|31|27|V|javascriptreact
+	  console.log(textCleaned);
+41aea6b17456891f7d8997d571ca7b37|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|1|V|javascriptreact
+	  console.log(span);
+f41f31991bd58571be91179c8d2a8c46|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|16|v|javascriptreact
+	textCleaned
+7b16dd3da8227f18681b1e376b6ed87a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
+	  const textCleaned = text.split("\r\n");
+4c740e657f43b24c8c19134e7d575e52|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|7|v|javascriptreact
+	countWords
+228bd1bc28000eb05868b1a3cfb7b585|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|23|V|javascriptreact
+	  let countLetters = 0;
+1cc4d11fab7af26d5bd56a3323de8d03|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
+	  console.log(countLetters)
+097c3c48be435c81290acd0683bd3e9e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|1|V|javascriptreact
+	    countLetters++;
+734babfd1ed614bdc153be5ef6c30008|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|9|v|javascriptreact
+	maxLetters
+a7d416f9545963a6fe78bdc0c22de9f5|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|7|v|javascriptreact
+	countLetters
+eefec303079ad17405c889e092e105b0|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|8|v|javascriptreact
+	split
+c47d187067c6cf953245f128b5fde62a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|v|javascriptreact
+	word
+f5b75010ea8a54b96f8fe7dafac65c18|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|17|v|javascriptreact
+	letter
+6e0bb89dc876e43f4667824ff17b4859|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|17|V|javascriptreact
+	    countWords++;
+45039946c14e0e7cdec9718d7f3b3ff5|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|1|v|javascriptreact
+	
+	  if (text.length > maxWords) {
+	    text.slice(0, maxWords);
+	  }
+ccb71c1fa95a4119b7288fa429985698|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|23|V|javascriptreact
+	  console.log(text.slice)
+6a992d5529f459a44fee58c733255e86|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|v|javascriptreact
+	index
+e6aaec89025923f2f4374f0c2705a958|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|V|javascriptreact
+	    console.log(total);
+30eb5001914d29dd8461898b5b8094fe|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|34|v|javascriptreact
+	forEach
+fbb44b4487415b134bce9c790a27fe5e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|5|v|javascriptreact
+	total
+2d0125299792cdedce4889c88d4a040c|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|38|17|V|javascriptreact
+	  console.log(newArr);
+9868a97f1f41ce4f906363ff123ed3bd|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|1|V|javascriptreact
+	  text.split(" ").map((word, index, total) => {
+4b3e23b8fa8e8ddbec4c89b0132a89aa|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|1|V|javascriptreact
+	  });
+783d229ad147bb10493e342034362b0a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|15|v|javascriptreact
+	text.split(" ").slice(0, 3)
+1cb251ec0d568de6a929b520c4aed8d1|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|38|16|v|javascriptreact
+	text
+c424b4614133c28bf2c3dee0d0b54f6d|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|55|v|javascriptreact
+	toString
+79f8c5538ef6de1c66f82726fefdb32c|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|17|V|javascriptreact
+	  let countWords;
+a2d6d8c6bcb448ef04a37a2815483c34|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
+	  console.log(bodyText);
+9df22f196a33acd0b372fe502de51211|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|108|14|v|scss
+	auto
+c4646d2f83c510ab1e7e553cd1e2f710|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|108|14|v|scss
+	manuela
+dc59a7ff9b0954e7a073ac9730af2230|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|30|23|V|javascriptreact
+	  console.log(text.length);
+58d58ce6d12c020b3b61f9e29198d5bc|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|3|v|javascriptreact
+	console.log(text.split(" ").slic
+21b62d1bf54fc814341d2f14e14be121|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|15|v|javascriptreact
+	text.split(" ").slice(0, 50)
+079d69b8325bc7b63e681831925c4cea|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
+	import './index.css';
+ae43d241b2a1575250cc14a14e4951e9|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
+	import App from './App';
+f79e3a211eaf9e994417fe3e8d5c9e0b|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
+	import reportWebVitals from './reportWebVitals';
+ea7ecbb8700d40a66b3160b471eb2519|file:///home/andres/workspace/mern-calendar/src/index.js|6|1|V|javascriptreact
+	    <App />
+a1642784e6b8c40897989542956dee95|file:///home/andres/workspace/mern-calendar/src/index.js|5|1|V|javascriptreact
+	  <React.StrictMode>
+ef1640473d2d10a5d1197ca943839456|file:///home/andres/workspace/mern-calendar/src/index.js|5|1|V|javascriptreact
+	  </React.StrictMode>,
+93d259c20853af4b0d8a060f87b5b923|file:///home/andres/workspace/mern-calendar/src/index.js|9|15|V|javascriptreact
+	reportWebVitals();
+a9eab302479b65d905cd7d77405a44d6|file:///home/andres/workspace/mern-calendar/src/index.js|8|15|V|javascriptreact
+	// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+23f257a867e3ef2f67f61c310a715936|file:///home/andres/workspace/mern-calendar/src/index.js|7|15|V|javascriptreact
+	// to log results (for example: reportWebVitals(console.log))
+8961bcb8bc756e6fe36f60263cc3727f|file:///home/andres/workspace/mern-calendar/src/index.js|6|15|V|javascriptreact
+	// If you want to start measuring performance in your app, pass a function
+19957784361cb29caaddce6d9b0eb56b|file:///home/andres/workspace/mern-calendar/public/index.html|27|12|v|html
+	React App
+c1c425268e68385d1ab5074c17a94f14|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|3|1|v|javascriptreact
+	function
+5dd7ac3770aaf6a4c6944ab4ce95f50c|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|1|17|v|javascriptreact
+	useState
+f53bef3d0ce4bcbf4e616ade338604a9|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|1|7|v|javascriptreact
+	ComponentName
+72327b3cd398f243870e1dbb1b419dbc|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|6|17|V|javascriptreact
+	      <p>Body</p>
+c4f82fc8a072e0d2cec145961a3c0499|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|5|9|V|javascriptreact
+	    <div>
+471b911d2d272d4276a1fd7e5e1d3c11|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|9|V|javascriptreact
+	  <Switch >
+cb2351e5daf9e819344863bd06123969|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|9|V|javascriptreact
+	  </Switch>
+873ae376dd11aa02a24efe42c9ac080a|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|19|V|javascriptreact
+	      <Link to="/" />
+a97b270cd2083eb5a3b6c5ef1336f23e|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|1|V|javascriptreact
+	import { Switch } from "react-materialize";
+97e7c9a7d06eac006a28bf05467fcc8b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|35|v|javascriptreact
+	Link
+ac101b32dda4448cf13a93fe283dddd8|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|6|10|v|javascriptreact
+	Body
+e96fea0b8565a1f143b8bab3b3f01bf7|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|10|V|javascriptreact
+	      <Routes>
+e12a2cc2a53b20147ad3bcfe2a39707b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|14|11|V|javascriptreact
+	      </Routes>
+432c12c2500a63dec4f0beb40d937b6c|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|5|7|V|javascriptreact
+	  Routes,
+f6b7a35f6f93c91bc454967ff926bb6b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|43|v|javascriptreact
+	witch } from "react-router-dom"; import RegisterScreen from "../components/auth/RegisterScreen";
+bbc155fb2b111bf61c4f5ff892915e6b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|42|v|javascriptreact
+	Switch
+a7b478fd9f9f4a8a1d754d875e833391|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|14|V|javascriptreact
+	      <Switch>
+c93d6e815a471662c056234e96c72935|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|15|V|javascriptreact
+	      </Switch>
+700c216fb376666eaeda0c892e8bdc09|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|23|v|javascriptreact
+	component
+9873bd4088c7c51b469071c3784e6792|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|32|v|javascriptreact
+	RegisterScreen
+2349219a3f113ed1c929337b6b805d62|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|1|V|javascriptreact
+	        <Route path="/" element={<RegisterScreen />} />
+9de4a97425678c5b1288aa70c1669a64|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|23|v|javascriptreact
+	register
+c1fa236fb935cab74c8dbfabe3ffd06f|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|23|v|javascriptreact
+	sigin
+78d62d29e096ef073b4793b5db3171e4|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|10|1|V|javascriptreact
+	        <Route path="/login" element={<RegisterScreen />} />
+d56b699830e77ba53855679cb1d252da|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|11|23|v|javascriptreact
+	login
+9405c3aff9112c3c60d03b94792877dc|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|10|v|javascriptreact
+	Route
+e07c6d68f045aed27137855cb521f9e6|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|1|V|javascriptreact
+	        <Route path="/" element={<CalendarScreen />} />
+3b7efa09444a31c5d58596e5bbf87d47|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|11|16|v|javascriptreact
+	exact
+81571d6f9887229ad1c447a8137c4ff4|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|14|22|V|javascriptreact
+	        <Route path="*" element={<CalendarScreen />} />
+0330a805c4d6fe2f40882fd6f980c6e8|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|19|16|V|javascriptreact
+	        <Navigate to="/" />
+1004e00d41c7a78f3972ee72a0bf8891|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|20|23|V|javascriptreact
+	      <Navigate to="/" />
+a77ec07d806eb18c9d8632de2823a306|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|13|V|javascriptreact
+	      <p></p>
+5adfbd102817d8edf4122dd59867250a|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|8|18|V|css
+	  font-size: 62.5%;
+662f707d5491e9bce8238a6c0be92190|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|16|13|v|css
+	hidden
+1d565b9e5303987bb1b1938d5d458bca|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|2|10|v|javascriptreact
+	Card
+3c4184e82bb3be8fa32669800fb7373c|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|25|v|javascriptreact
+	teal
+8b1a9953c4611296a827abf8c47804d7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|39|v|javascriptreact
+	Hello
+2133fd717402a7966ee88d06f9e0b792|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|17|16|v|javascriptreact
+	strict
+65ddecc9475043a308016d31e26b2a52|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|3|v|javascriptreact
+	    <Row>
+	        <Col m={6} s={12}>
+	          <CardPanel className="teal">
+	            <form action="">
+	              <Row>
+	                <Col s={12}>
+	                  <TextInput id="" label="Email" />
+	                </Col>
+	              </Row>
+	            </form>
+	          </CardPanel>
+	        </Col>
+	      </Row>
+e7dac29dda8fb5f71f293f0131520167|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|3|V|javascriptreact
+	      hola
+78c9dcc375872362611717a8b7213a1f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	          <CardPanel className="teal">
+352cc5172ce0b7aebbb627f6ba41a2b9|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	            <form action="">
+c3d461574673458c4a1d9364f45b93a7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	              <Row>
+85934481443ae822edee41b156cf3aac|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	                <Col s={12}>
+11248f524fc3444b510cb095404fcdce|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	                  <TextInput id="" label="Email" />
+1f58adc70ffa4707d90ecc5f557adb72|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	                </Col>
+5d6d40734549621f5e65320bd74d5c2e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	              </Row>
+5bf4ebd5604b5a791e4125d21f55d1a6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	            </form>
+3b23011a4a95b077c3722e4daee2c590|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
+	          </CardPanel>
+a51bee62adcc03a91666a37b46fb11a0|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|14|V|javascriptreact
+	          hola
+b0e61d07b2cde2effc54395b488650b8|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|14|V|javascriptreact
+	        </Col>
+d622cabd39a56c9df51823cd69858687|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|12|V|javascriptreact
+	      </Row>
+f0b606c92e44e96214c26e7b0b41e35d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|10|V|javascriptreact
+	        <Col m={6} s={12}>
+fcd8b61254bb1e0a2b137ae13c8d4977|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|10|V|javascriptreact
+	      <Row>
+1d8dd5310e8ffe67f94cfe3b4abac49e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|2|v|javascriptreact
+	   <div>
+	    </div>
+a1b01e734b573fca08eb1a65e6df9a38|file:///home/andres/workspace/mern-calendar/public/index.html|16|34|v|html
+	style
+c35d5201b5aa8963cfe7d430e26a36e8|file:///home/andres/workspace/mern-calendar/public/index.html|40|1|v|html
+	    <!--
+	      This HTML file is a template.
+	      If you open it directly in the browser, you will see an empty page.
+	
+	      You can add webfonts, meta tags, or analytics to this file.
+	      The build step will place the bundled scripts into the <body> tag.
+	
+	      To begin the development, run `npm start` or `yarn start`.
+	      To create a production bundle, use `npm run build` or `yarn build`.
+	    -->
+cb5fa3e9cdecdc07564bf966a5106e16|file:///home/andres/workspace/mern-calendar/public/index.html|16|1|v|html
+	    <link
+	      rel="stylesheet"
+	      href="node_modules/materialize-css/dist/css/materialize.css"
+	    />
+d217e2eb0086a25315b5a8b67c3aea67|file:///home/andres/workspace/mern-calendar/public/index.html|39|77|V|html
+	  <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+48d6215903dff56238e52e8891380c8f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|33|v|javascriptreact
+	blue
+d508fe45cecaf653904a0e774084bb5c|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|52|v|javascriptreact
+	white
+9fef1eb0d0f08f88249e010070f2273b|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|49|V|javascriptreact
+	    <div className="center-align valign-wrapper">
+33271b032f5901d33927f87310402ba6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|23|V|javascriptreact
+	<div className="contain">
+c58ff5e3a379801b6cc137158d5545fe|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|17|v|javascriptreact
+	contain
+ded5197404ffadfc28247e63229c3ef5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|20|v|javascriptreact
+	center-align valign-wrapper
+5cd5bdc804a89ee71ffd9e2ffc940f2d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|10|V|javascriptreact
+	        <Col>
+f88d2a85bd5dd8a459022e23265a3b76|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|11|10|V|javascriptreact
+	              <Col>
+3197d0561d99845ac34ffa6179c7f00b|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|12|10|V|javascriptreact
+	              </Col>
+9d686078a0aeae28433d8abf6b2c0c52|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|20|v|javascriptreact
+	 width: "100%!important" 
+04252e794b32a0d92e51af75c5b5fea7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|67|v|javascriptreact
+	300px
+7d89548da1de6ac88f25f9d3b34acfdf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|10|v|javascriptreact
+	className="container valign-wrapper"
+ef6e368a9cf8cd343cc3dba6d80a69a1|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|12|v|javascriptreact
+	 <Row>
+	              <TextInput
+	                id=""
+	                inputClassName="black-text"
+	                label="Email"
+	                style={{ width: "auto" }}
+	              />
+	            </Row>
+9de052cb2d0ec6f0ead6fd17d4f87458|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|20|18|V|javascriptreact
+	            </Row>
+e93b6342612ebd059c578c775c2378d7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|20|17|V|javascriptreact
+	            <Row>
+2ac1a7bb97042da3be120508f3834505|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|17|31|V|javascriptreact
+	              style={{ width: %" }}
+8833df9f36ac73e489647887813284b5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|22|14|V|javascriptreact
+	              style={{ width: "auto" }}
+5e365a35aa18f619226fbeaa57abea20|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|16|20|V|javascriptreact
+	              inputClassName="black-text"
+0c9bb2b68d551bb24d3dd509d7215b5e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|1|V|javascriptreact
+	            <Col s={12}>
+ce8ae9da5b7cd6c3df2929543a9af92d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|18|39|v|javascriptreact
+	Email
+6c81ebd03d80200d0306810cdcd3aaf1|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|15|1|V|javascriptreact
+	                inputClassName="col s12"
+e2181b5014a67159cc230c8fe0d6c5b6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|49|v|javascriptreact
+	unset
+d11585a69495812e12eedbd521f2b2cf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|37|V|javascriptreact
+	                style={{ width: "auto }}
+320a44052dc837f1d483d9233c5d783e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|15|V|javascriptreact
+	            </Col>
+30e1db3e657e43f062b9527dde7facaf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|14|20|v|javascriptreact
+	{12}>
+	              <TextInput
+	                email
+	                id=""
+	                label="Email"
+	                validate
+	                error="Wrong email"
+	              />
+	            </C
+3d980790f14ffe9d3bddd5d898f0732d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|16|V|javascriptreact
+	            </C>
+1ebfa1ed6aca291491cc970f68862344|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|36|V|javascriptreact
+	              className="alig-center"
+77bb733f770f60746cb1c2f8b27810a4|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|27|12|v|javascriptreact
+	 <Button node="button" type="submit" waves="light">
+	              Log in
+	            </Button>
+	
+adb115059e28d960fa8badfac5516667|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
+	center
+7c4f29407893c334a6cb7a87bf045c0d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
+	right
+71f262d796bed1ab30e8a2d5a8ddee6f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
+	bottom
+e062a54585a5d13d795530bdc68a66f5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|V|javascriptreact
+	                className="bottom"
+206017a896b2a5a1d7710edf7886a9e0|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|22|V|javascriptreact
+	              Register
+bc95dfc14146aa23e43f2ea7af04d310|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|12|V|javascriptreact
+	            
+980676e7a45d639f46014ac54cab37dc|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|4|v|javascriptreact
+	 <div className="container valign-wrapper">
+	      <Row style={{ paddingTop: "50px" }}>
+	        <CardPanel
+	          className="white lighten-3"
+	          style={{ minWidth: "400px", maxWidth: "700px" }}
+	        >
+	          <h4 className="center">Log in</h4>
+	          <form action="" style={{ width: "100%" }}>
+	            <TextInput
+	              email
+	              id="email-input"
+	              label="Email"
+	              validate
+	              error="Wrong email"
+	            />
+	            <TextInput id="password-input" label="Password" password />
+	            <div className="input-field col s12">
+	              <Link to="register">Register</Link>
+	              <Button
+	                className="right blue darken-1"
+	                node="button"
+	                type="submit"
+	                waves="light"
+	              >
+	                Log in
+	              </Button>
+	            </div>
+	          </form>
+	        </CardPanel>
+	      </Row>
+	    </div>
+344fc1fc0da9d07616b55ab2947fa136|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|5|3|v|javascriptreact
+	  <div>
+	      <p>RegisterScreen</p>
+	    </div>
+3c248e34f7c76163b2d8546062d42dc2|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|2|1|V|javascriptreact
+	import { CardPanel, Row, TextInput, Button } from "react-materialize";
+79cbef6453ed797d9c7f0506398f04cb|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|3|1|V|javascriptreact
+	import { Link } from "react-router-dom";
+bffe9a3c9a7e00ba00a11749e022d911|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|13|34|v|javascriptreact
+	Log in
+0ba7583639a274c434bbe6ef797115a4|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|24|35|v|javascriptreact
+	Register
+0c83f57c786a0b4a39efab23731c7ebc|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|26|v|css
+	email
+103af80829e3773733a702ff2f0b7fe9|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|1|v|css
+	.input-field input:focus + label {
+	  color: #000 !important;
+	}
+b5ecb5ce2c7f83cd0b9e597021e9fe8d|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|25|1|v|css
+	
+	/* label focus color */
+	.input-field input[type="text"]:focus + label,
+	.materialize-textarea:focus:not([readonly]) + label {
+	  color: #005eed !important;
+	}
+9b596c67db267eaaf11e705f713c8471|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|15|13|v|javascriptreact
+	<TextInput
+	              email
+	              id="email-input"
+	              label="Email"
+	              validate
+	              error="Wrong email"
+	            />
+d4d5f4df3e34ef19f4ab2678745a605a|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|16|18|V|javascriptreact
+	              email
+fc9875b8e735688cb800cba3ff361f0d|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|28|1|V|javascriptreact
+	            <TextInput id="password-input" label="Password" password />
+600db61ad4c75aedfa980fb0d5637f46|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|19|14|V|javascriptreact
+	              error="Wrong email"
+7fac9e02eb1d09a0591074686a868e67|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|18|14|V|javascriptreact
+	              validate
+eef70a23f7abf065310926ede17cf2fe|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|15|1|V|javascriptreact
+	            <TextInput id="name-input" label="Name" />
+de2bd63e06f9214010847c4cdb1ed57e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|6|1|V|javascriptreact
+	      <p>Calendar Screen</p>
+0ebabfbfc9aa2f4040a510b33ddb432f|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|18|V|javascriptreact
+	import { DayGridView } from "@fullcalendar/daygrid";
+7a70df163e3d85e791cb099ec5f04734|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|7|31|v|javascriptreact
+	DayGridView
+41b4d535af340e9b980672f0c472d1ad|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|3|1|V|javascriptreact
+	function Navbar(){
+	  return(
+	    <div>
+	      <p>Body</p>
+	    </div>
+	    )
+	}
+ab7afaf53b4721ad2fb1da5eaf87d528|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|11|V|javascriptreact
+	      {" "}
+8c2857a9ad1d8f31659e35e904e20fa6|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|7|44|v|javascriptreact
+	Logo
+cfcb75fe3accfe72c3924909ece69a2f|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|9|16|V|javascriptreact
+	      <Navbar />
+703496e484452aa89de6fdd082318aaa|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|2|19|V|javascriptreact
+	import Navbar from "./components/ui/Navbar";
+5f0b6ebc4bea10285ba2b8a6ce78b863|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|10|23|v|javascriptreact
+	container
+e09517314c70b46ccee2f453a07e4241|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|5|7|V|javascriptreact
+	NavItem
+4ef976229de0ba583b510d970758f777|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|5|v|javascriptreact
+	  <Navbar
+	        alignLinks="right"
+	        brand={
+	          <a className="brand-logo" href="#">
+	            Calendar App
+	          </a>
+	        }
+	      ></Navbar>
+	
+fc35fdc70d5fc69d269883a822c7a53e|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|35|v|javascriptreact
+	html
+921191c67f7dfe7a93bac62ebc070947|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|5|v|javascriptreact
+	    brand={
+	          <a className="brand-logo" href="#">
+	            Logo
+	          </a>
+	        }
+0cf31b2c283ce3431794586df7b0996d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|4|V|javascriptreact
+	    
+5ab7e91603d45c243a6eb6d8626fbf3a|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|27|5|v|javascriptreact
+	  <div className="nav-wrapper container">
+	        <a href="/" className="brand-logo">
+	          Calendar App
+	        </a>
+	        <ul
+	          id="nav-mobile"
+	          className="blue lighten-2 right hide-on-med-and-down"
+	        >
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	        </ul>
+	      </div>
+	    </nav>
+	  );
+	
+3237f23a175fe7e742b7fb4a48d7087f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|9|V|javascriptreact
+	    <nav>
+0a3a0b592b9c285e050805307cee87c2|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|1|V|javascriptreact
+	</div>
+d57e675072d601d16a8bcf21cf77240c|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|27|V|javascriptreact
+	    <div className="container">
+a4bb9e265479aa6a5d1cc099cc5e2c58|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|22|23|V|javascriptreact
+	      <div className="container">
+fcc3c75380c124cbb812678e1c50900b|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|24|12|V|javascriptreact
+	      </div>
+c483c7b1fa16409b2c710808ef64ff53|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|27|11|V|javascriptreact
+	      <Container>
+39134184d352114f0517ab86ae575e2e|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|12|V|javascriptreact
+	      </Container>
+ca02a89ec49b0101a24e8e5a8b95a2d8|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|12|12|V|javascriptreact
+	        <a className="brand-logo" href="#">
+d43577ddb99df30a065d0eecfd0e0166|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|13|12|V|javascriptreact
+	        </a>
+8fc27a86dbd0a0f804d2050a1c8204df|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|8|66|V|javascriptreact
+	      <Navbar alignLinks="right" brand={<a className="brand-logo"></a>}></Navbar>
+e70e73dc99f0e3c9eb1481449c331361|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|2|10|v|javascriptreact
+	Navbar
+aa8b26399e3f2314325fcb67b5fbadad|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|2|9|V|javascriptreact
+	import {  NavItem } from "react-materialize";
+21d1f6450b1fdf5a6804f4573c5b1765|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|16|v|javascriptreact
+	NavbarUI
+84b5c720b70bc75b81fb5da2a938d12e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|9|7|V|javascriptreact
+	      <NavbarUI />
+b949f499ae30372d650796891871a5be|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|14|7|v|javascriptreact
+	  <ul
+	          id="nav-mobile"
+	          className="blue lighten-2 right hide-on-med-and-down"
+	        >
+	          <li>
+	            <a href="/">Log out</a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	        </ul>
+532c28d5412dd75bf975fb951c740a30|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|19|v|javascriptreact
+	mobile
+e832c5f37e94f499368a246a3c71a126|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|37|v|javascriptreact
+	blue lighten-2 right hide-on-med-and-down
+6d58c5c0ce0896209267b5491d374f2d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|17|v|javascriptreact
+	sidenav
+56838a9fe7e21a0882ed165a607233ae|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|13|15|V|javascriptreact
+	          <Link
+ddb6fa09d7b9df50e97580d18aac730f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|10|9|v|javascriptreact
+	  <Link to="/" className="brand-logo">
+	            Calendar App
+	          </Link>
+1db416c448556a98db24be64038f4d9d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|7|1|v|javascriptreact
+	    <div className="navbar__main">
+	      <nav>
+	        <div className="nav-wrapper">
+	          <Link to="/" className="brand-logo">
+	            Calendar App
+	          </Link>
+	          <a href="" data-target="mobile-demo" className="sidenav-trigger">
+	            <Icon>menu</Icon>
+	          </a>
+	          <ul id="nav-mobile" className="right hide-on-med-and-down">
+	            <li>
+	              <a href="/">Log out</a>
+	            </li>
+	            <li>
+	              <a href="/"></a>
+	            </li>
+	            <li>
+	              <a href="/"></a>
+	            </li>
+	          </ul>
+	        </div>
+	        <ul id="mobile-demo" className="sidenav">
+	          <li>
+	            <a href="/">Log out</a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	          <li>
+	            <a href="/"></a>
+	          </li>
+	        </ul>
+	      </nav>
+	    </div>
+508a5ce56dbd99da988876fb1ff3e0d9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|22|v|javascriptreact
+	components.html
+865b4c0b4bb95dd7c033ecc1a654dc9a|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|10|34|v|javascriptreact
+	20px
+1cf79421c0d811d8f975f8df35863dd1|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|15|25|V|javascriptreact
+	          height: "80vh",
+ee966b32b27ff4b77ce6fd74156750fd|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|1|V|javascriptreact
+	          overflow: "auto",
+68dc1bf66c585b38c91cc61ffd3b5aeb|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|14|11|v|javascriptreact
+	maxHeight
+e957889cf8f43960c4a34558e11ee7f8|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|12|1|v|javascriptreact
+	        style={{
+	          paddingTop: "10px",
+	          maxWidth: "1500px",
+	          height: "90vh",
+	          margin: "0 auto",
+	          overflow: "auto",
+	        }}
+f99ccc5816b163724af64cf2153b5f0d|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|41|1|v|css
+	.calendar-container::-webkit-scrollbar {
+	  background: transparent;
+	  width: 0;
+	  height: 0;
+	}
+fac2ac4559b08621bd27bc0753b9b964|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|32|1|V|css
+	  overflow-y: auto;
+0d96698a6ca852b296bac3856873bea8|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|36|1|v|css
+	.calendar-container {
+	  padding-top: 10px;
+	  max-width: 1800px;
+	  width: 95%;
+	  height: 90vh;
+	  margin: 0 auto;
+	  overflow: hidden;
+	
+	  scro
+988a3a1efd4b4de5ed56630df6c988e2|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|36|1|v|css
+	.calendar-container {
+	  padding-top: 10px;
+	  max-width: 1800px;
+	  width: 95%;
+	  height: 90vh;
+	  margin: 0 auto;
+	  overflow: hidden;
+	
+	  scrollbar-width: 0;
+	}
+7ac6ee99117abfd5f9f61c56e0a0db57|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|45|11|V|css
+	  margin-top: 30px;
+e554a761fb542bc38cdf208e3d1c39a6|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|1|v|css
+	  display: flex;
+	  flex-flow: column;
+	  gap: 30px;
+1e7b1b5ea91b4ef2c2d1c8d1dc089ba0|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|26|1|v|css
+	.calendar-screen {
+	  display: flex;
+	  flex-flow: column;
+	  height: 100vh;
+	}
+05bbb43b3d923283e0b6ffafd088f41f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|24|v|javascriptreact
+	Components
+39af147c7022b0d121922df20e0fafc9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|22|V|javascriptreact
+	      <Link to="/login">
+f078d92dfdf450ed687fd987d442e204|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|13|V|javascriptreact
+	      </Link>
+9151c0eb84d96abb1f3c4d34f5b5758c|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|30|v|javascriptreact
+	Salir
+e8fab833730f3a939d0b3812fe043b5d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|13|v|javascriptreact
+	href
+2541d938b0a58946090d7abdde0d3890|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|32|17|v|javascriptreact
+	send
+7a38ae33b3131c44081cfd829f4a31e7|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|7|v|javascriptreact
+	  <Button node="button" waves="light">
+	          <Icon small>cloud</Icon>
+	        </Button>
+37fc7edee25a177474eaebe7f7b09785|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|17|v|javascriptreact
+	flat
+9893fa6eb1f89a98ebd5a479ed0a3eb9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|1|1|V|javascriptreact
+	      <NavItem href="">Getting started</NavItem>
+69dfce9d8315e981ac7670cfefd6e768|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|11|8|v|javascriptreact
+	 // <FullCalendar
+	          // plugins={[dayGridPlugin]}
+	          // timeZone="UTC"
+	          // editable="true"
+	          // initialView="dayGridMonth"
+	          // headerToolbar={{
+	            // left: "prev,next",
+	            // center: "title",
+	            // right: "dayGridDay,dayGridWeek,dayGridMonth",
+	          // }}
+	        // />
+e78f16e6faf1ae7e44cef1f54b10b6dc|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|2|42|V|javascriptreact
+	import dayGridPlugin from "@fullcalendar/daygrid"; // a plugin!
+3c95e5dac9f58a44190f92f3329609a4|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|26|V|javascriptreact
+	import FullCalendar from "@fullcalendar/react";
+ecca68ee563582550e9bb41ac97a5f95|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|9|12|V|javascriptreact
+	        <Big
+210d46b591bce6e8e7f4c78901422558|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|3|8|v|javascriptreact
+	BigCalendar
+4af9d51a65eaebd27bafed286f75fe7f|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|11|16|V|javascriptreact
+	        <BigCalendar></BigCalendar>
+ea2b2676c28c0db26d39331a336c6b92|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|26|26|v|javascriptreact
+	start
+6ae26d3198f3a2372390067a1ca95d41|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|7|11|V|javascriptreact
+	calendar_es
+ad0e80499dbac1378e278b54ba9c6056|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|29|29|V|javascriptreact
+	          messages={calendar_es}
+81718fb614efd449fda174d3c172376c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|5|24|V|javascriptreact
+	import "moment/locale/es";
+e69087497610af07caf017fab1a42114|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|47|27|v|javascriptreact
+	CalendarEvent
+b068931cc450442b63f5b3d276ea4297|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|4|18|v|javascriptreact
+	name
+86e62145f93ad57d871202eb48b3a40c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|21|4|v|javascriptreact
+	 user: {
+	      id: "122123",
+	      name: "Cesar",
+	    },
+b60784486924c853f14f5da4d992e820|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|37|16|V|javascriptreact
+	    console.log(event, start, end, isSelected);
+b98a862daba885a1e5b8b0635cef5e81|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|38|19|V|javascriptreact
+	    console.log(e);
+69d58a5962811398046083db39516a4d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|30|10|V|javascriptreact
+	useState(=)
+2260a2ccf648a25194785fde6fbc979d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|59|27|V|javascriptreact
+	    return <CalendarModal />;
+55836db0aeaff74ce34d7aa480b27344|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|63|22|V|javascriptreact
+	  M.Modal.openModal();
+86c4d43ac786a0064074d275cd499050|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|6|13|V|javascriptreact
+	M.Modal.init()
+e3d337c1bb9de19c944ae4d05d00781c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|63|16|v|javascriptreact
+	CalendarModal
+82d9e3d7bed1859649db8ec577087638|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|5|26|v|javascriptreact
+	onOpen
+4d8b8614894fcc4b4a327142f2f4d7fc|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|1|V|javascriptreact
+	      <button onClick={openModal}>Open Modal</button>
+47c9ed64673ab101254e4c2392d6d3a6|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|39|10|v|javascriptreact
+	
+	        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+	        tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim
+	        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+	        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+	        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+	        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+	        mollit anim id est laborum
+	      
+9f27410725ab8cc8854a2769c7a516b8|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|13|57|v|javascriptreact
+	green
+87b7760f14fbff78d8819291f36ab9a0|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|37|45|v|javascriptreact
+	Button
+86cf6048a12b69b8b5e1de6076f0c57c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|81|38|V|javascriptreact
+	        <CalendarModal onOpen={openModal} />
+90c504c9c5caa72e118992f8228f4531|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|15|20|V|javascriptreact
+	      <CalendarModal>
+23b057542e6ec7eeb4be169ebdc2e84d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
+	      // root={[object HTMLBodyElement]}
+8ed2e6f21da57dfbdf1ee60da1016e5b|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
+	      trigger={<Button node="button">MODAL</Button>}
+33fe4fb810a279fd65629ae7e9a1a8be|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|7|16|V|javascriptreact
+	    console.log("hola");
+68934a3e9455fa72420237eb05902327|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|22|13|v|javascriptreact
+	false
+b326b5062b2f0e69046810717534cb09|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|22|13|v|javascriptreact
+	true
+92a47b45dc6e35f4412959fb77377066|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|21|33|v|javascriptreact
+	openModal
+234045b03bf26e4a268e15c97e2d811e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
+	      onOpenStart={onOpen}
+0a3b2c014720ddab777b4c2a58624a27|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|3|1|V|javascriptreact
+	import { Modal, Button } from "react-materialize";
+866c53a307e1894f9b56904415483b94|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|1|1|V|javascriptreact
+	    root={[object HTMLBodyElement]}
+4963aa13f294fe72419d80d7fec93c48|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|24|3|v|javascriptreact
+	    <Button className="modal-trigger" href="#modal1" node="button">
+	        Show Modal
+	      </Button>
+	      <Modal
+	        actions={[
+	          <Button flat modal="close" node="button" waves="green">
+	            Close
+	          </Button>,
+	        ]}
+	        bottomSheet={false}
+	        fixedFooter={false}
+	        header="Modal Header"
+	        id="modal1"
+	        open={false}
+	        options={{
+	          dismissible: true,
+	          endingTop: "10%",
+	          inDuration: 250,
+	          onCloseEnd: null,
+	          onCloseStart: null,
+	          onOpenEnd: null,
+	          onOpenStart: null,
+	          opacity: 0.5,
+	          outDuration: 250,
+	          preventScrolling: true,
+	          startingTop: "4%",
+	        }}
+	      >
+	        Lorem ipsum dolor sit amet
+	      </Modal>
+	
+f384cc571d2df70784cd23570033348d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|23|10|V|javascriptreact
+	      <CalendarModal isModalOpen={isModalOpen} />
+f2845d5c49f6ed72192049d6e7aec871|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|35|6|V|javascriptreact
+	      root={[object HTMLBodyElement]}
+9e000f222e0715bed2a8cd650c9c84ec|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|28|3|v|javascriptreact
+	    <Button className="modal-trigger" href="#modal1" node="button">
+	        Show Modal
+	      </Button>
+0c86e2008b6d97cfa537cd5c33579863|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|28|3|v|javascriptreact
+	   <Button className="modal-trigger" href="#modal-1" node="button">
+	        Show Modal
+	      </Button>
+	      <CalendarModal isModalOpen={isModalOpen} id={idModal} />
+9e2a4aa70587dc3e5a3f6b91b37776fb|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|19|64|v|javascriptreact
+	idModal
+707b76d371ed669bd3bb8b3c10bcf9db|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|20|7|v|javascriptreact
+	  <p>
+	          <span>{title}</span>
+	        </p>
+	        <p>
+	          <strong>- {user.name}</strong>
+	        </p>
+	      </div>
+c7788d7c1497cbef333cc8265dc7abd5|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|23|7|v|javascriptreact
+	  Show Modal
+bd331b1ebe7581bffb089702bb2ab2f7|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|19|6|v|javascriptreact
+	 <div className="modal-trigger">
+	        <p>
+	          <span>{title}</span>
+	        </p>
+	        <p>
+	          <strong>- {user.name}</strong>
+	        </p>
+	      </div>
+7bc20b1828065f1b248a5b86810da41a|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|24|1|V|javascriptreact
+	 <div className="modal-trigger">
+1641bb54a3b10116331aac9ee4503b56|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|22|11|V|javascriptreact
+	        Show Modal
+23824abebb41bb796cc3f14b74bdefc6|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|6|1|v|javascriptreact
+	  const onOpen = () => {
+	    console.log("hola");
+	  };
+3b0707a0848d029999d0a42190f97779|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|32|1|v|javascriptreact
+	      <Modal
+	        actions={[
+	          <Button flat modal="close" node="button" waves="green">
+	            Close
+	          </Button>,
+	        ]}
+	        bottomSheet={false}
+	        fixedFooter={false}
+	        header="Modal Header"
+	        id="modal1"
+	        open={false}
+	        options={{
+	          dismissible: true,
+	          endingTop: "10%",
+	          inDuration: 250,
+	          onCloseEnd: null,
+	          onCloseStart: null,
+	          onOpenEnd: null,
+	          onOpenStart: null,
+	          opacity: 0.5,
+	          outDuration: 250,
+	          preventScrolling: true,
+	          startingTop: "4%",
+	        }}
+	      >
+	        Lorem ipsum dolor sit amet
+	      </Modal>
+4e40b308e9e69da49d8ad306e38749db|file:///home/andres/.config/nvim/init.vim|49|1|V|vim
+	Plug 'StanAngeloff/php.vim'
+1e85cb5b2edb32bb114c6771c134909f|file:///home/andres/.config/nvim/init.vim|234|1|v|vim
+	function IdentPHPHTML()
+	  set ft=html
+	  normal gg=G
+	  set ft=php
+	endfunction
+	
+	nnoremap <leader>ip <CR>:call IdentPHPHTML()<CR>:w<CR>
+6783207c4982b0f0f9d5a308340f2df8|file:///home/andres/.config/nvim/init.vim|232|1|v|vim
+	" Ident html on php
+	
+	
+	
+	
+9df02b4a6fafef4e9be2962bfeaed509|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|7|V|php
+	<?php?>
+a1c0952769ad8ffa49b46e9494a3adf1|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|4|V|php
+	<??>
+feabe5cc691b088d6ade3e04d6b120fc|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|5|V|php
+	<?php
+6c33d8ac9484cf701b45d2d44dbbdce7|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|12|V|php
+	echo "hello world";
+07c6043795e54b39db3eefd397c083cd|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|2|V|php
+	<??>>
+0511aeb1a06e21ea28a5f7f21e3b70df|file:///home/andres/.config/nvim/init.vim|47|33|V|vim
+	Plug '2072/PHP-Indenting-for-VIm'
+ba1e37ad8960325624d984014a8bf1a4|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|3|1|V|php
+	echo "hello world";
+	
+55ddaf27fb6c54609c8e372d4a913b8f|file:///home/andres/.config/nvim/init.vim|203|51|V|vim
+	" au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+d6f311d35124d80e0f89095c7cbf19cd|file:///home/andres/.config/nvim/init.vim|19|1|V|vim
+	Plug 'jiangmiao/auto-pairs'
+d3059d53c21d03d0feb7184e04e59952|file:///home/andres/.config/nvim/init.vim|202|1|V|vim
+	au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
+7107ff8fa274debbb783a372be5af003|file:///home/andres/.config/nvim/init.vim|201|1|V|vim
+	au FileType html let b:AutoPairs = AutoPairsDefine({'<' : '>'})

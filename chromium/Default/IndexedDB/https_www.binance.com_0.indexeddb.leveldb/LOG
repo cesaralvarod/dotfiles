@@ -1,0 +1,30 @@
+2021/11/08-18:42:49.927 6d85c Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_www.binance.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/08-18:42:49.928 6d85c Recovering log #4
+2021/11/08-18:42:49.929 6d85c Reusing old log /home/andres/.config/chromium/Default/IndexedDB/https_www.binance.com_0.indexeddb.leveldb/000004.log 
+2021/11/08-20:10:34.862 853b5 Level-0 table #8: started
+2021/11/08-20:10:34.907 853b5 Level-0 table #8: 1739338 bytes OK
+2021/11/08-20:10:34.909 853b5 Delete type=0 #4
+2021/11/08-20:15:48.799 8909a Compacting 1@1 + 1@2 files
+2021/11/08-20:15:48.811 8909a Generated table #9@1: 216 keys, 22435 bytes
+2021/11/08-20:15:48.811 8909a Compacted 1@1 + 1@2 files => 22435 bytes
+2021/11/08-20:15:48.813 8909a compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/08-20:15:48.813 8909a Delete type=2 #5
+2021/11/08-20:15:48.813 8909a Delete type=2 #8
+2021/11/08-20:20:09.921 6bbfc Level-0 table #11: started
+2021/11/08-20:20:09.939 6bbfc Level-0 table #11: 1844173 bytes OK
+2021/11/08-20:20:09.942 6bbfc Delete type=0 #7
+2021/11/08-20:22:33.682 6bbfc Compacting 1@1 + 1@2 files
+2021/11/08-20:22:33.693 6bbfc Generated table #12@1: 216 keys, 26632 bytes
+2021/11/08-20:22:33.693 6bbfc Compacted 1@1 + 1@2 files => 26632 bytes
+2021/11/08-20:22:33.695 6bbfc compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/08-20:22:33.695 6bbfc Delete type=2 #11
+2021/11/08-20:22:33.695 6bbfc Delete type=2 #9
+2021/11/08-20:27:22.768 8909a Level-0 table #14: started
+2021/11/08-20:27:22.788 8909a Level-0 table #14: 1734647 bytes OK
+2021/11/08-20:27:22.790 8909a Delete type=0 #10
+2021/11/08-20:29:18.891 8909a Compacting 1@1 + 1@2 files
+2021/11/08-20:29:18.902 8909a Generated table #15@1: 216 keys, 26621 bytes
+2021/11/08-20:29:18.902 8909a Compacted 1@1 + 1@2 files => 26621 bytes
+2021/11/08-20:29:18.904 8909a compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/11/08-20:29:18.904 8909a Delete type=2 #12
+2021/11/08-20:29:18.904 8909a Delete type=2 #14

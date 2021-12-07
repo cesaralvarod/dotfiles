@@ -17,7 +17,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'burnettk/vim-angular'
 Plug 'rhysd/vim-clang-format'
 Plug 'jiangmiao/auto-pairs'
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 Plug 'kien/ctrlp.vim'
 Plug 'vim-syntastic/syntastic'
 Plug 'frazrepo/vim-rainbow'
@@ -44,10 +44,9 @@ Plug 'plasticboy/vim-markdown'
 Plug 'grvcoelho/vim-javascript-snippets'
 Plug 'mlaursen/vim-react-snippets'
 Plug 'tomoyukikashiro/vim-angular-snippets'
-Plug '2072/PHP-Indenting-for-VIm'
 Plug 'Galooshi/vim-import-js'
-Plug 'StanAngeloff/php.vim'
 Plug 'tomlion/vim-solidity'
+Plug 'dsawardekar/wordpress.vim'
 
 call plug#end()
 
@@ -229,16 +228,6 @@ let g:ale_lint_on_text_changed = 'normal'
 " Vim python
 
 let g:python_highlight_all = 1
-
-" Ident html on php
-
-function IdentPHPHTML()
-  set ft=html
-  normal gg=G
-  set ft=php
-endfunction
-
-nnoremap <leader>ip <CR>:call IdentPHPHTML()<CR>:w<CR>
 
 " gitgutter
 

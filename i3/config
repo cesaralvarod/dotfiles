@@ -65,7 +65,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # suspend and exit
-bindsym $mod+mod1+e exec --no-startup-id i3 exit && systemctl suspend
+bindsym $mod+mod1+e exec --no-startup-id i3 exit
 # bindsym $mod+mod1+l exec --no-startup-id dm-tool lock
 bindsym $mod+mod1+s exec  --no-startup-id systemctl suspend
 
@@ -213,8 +213,8 @@ bindsym --release Shift + Print exec --no-startup-id flameshot gui
 
 # i3 gaps
 for_window [class="^.*"] border pixel 1
-gaps outer 4
-gaps inner 6
+gaps outer 2
+gaps inner 4
 smart_borders on
 
 # Background screens

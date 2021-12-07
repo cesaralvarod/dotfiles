@@ -1,0 +1,7 @@
+2021/11/29-15:03:57.235 49890 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_rpp.pe_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/29-15:03:57.236 49890 Recovering log #3
+2021/11/29-15:03:57.237 49890 Reusing old log /home/andres/.config/chromium/Default/IndexedDB/https_rpp.pe_0.indexeddb.leveldb/000003.log 
+2021/11/29-15:05:27.756 49890 Level-0 table #5: started
+2021/11/29-15:05:27.759 49890 Level-0 table #5: 13690 bytes OK
+2021/11/29-15:05:27.760 49890 Delete type=0 #3
+2021/11/29-15:05:27.761 49890 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2021/12/06-23:27:51.905 9184 Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_blog.desdelinux.net_0.indexeddb.leveldb since it was missing.
+2021/12/06-23:27:51.912 9184 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_blog.desdelinux.net_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/06-23:44:54.827 c5fa Level-0 table #5: started
+2021/12/06-23:44:54.831 c5fa Level-0 table #5: 6108 bytes OK
+2021/12/06-23:44:54.833 c5fa Delete type=0 #3
+2021/12/06-23:44:54.834 c5fa Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2021/12/06-22:23:19.480 6041 Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_vscode.dev_0.indexeddb.leveldb since it was missing.
+2021/12/06-22:23:19.486 6041 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_vscode.dev_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/06-22:23:31.555 6b35 Level-0 table #5: started
+2021/12/06-22:23:31.564 6b35 Level-0 table #5: 45340 bytes OK
+2021/12/06-22:23:31.566 6b35 Delete type=0 #3
+2021/12/06-22:23:31.567 6b35 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

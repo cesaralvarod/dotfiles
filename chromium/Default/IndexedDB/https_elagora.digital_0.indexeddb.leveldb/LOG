@@ -1,0 +1,6 @@
+2021/11/10-17:39:50.851 1dc9f4 Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_elagora.digital_0.indexeddb.leveldb since it was missing.
+2021/11/10-17:39:50.860 1dc9f4 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_elagora.digital_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/10-17:40:23.259 1dd0c1 Level-0 table #5: started
+2021/11/10-17:40:23.260 1dd0c1 Level-0 table #5: 6085 bytes OK
+2021/11/10-17:40:23.262 1dd0c1 Delete type=0 #3
+2021/11/10-17:40:23.262 1dd0c1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

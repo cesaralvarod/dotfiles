@@ -1,0 +1,6 @@
+2021/11/26-22:56:02.325 1da0f Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb since it was missing.
+2021/11/26-22:56:02.338 1da0f Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/26-22:56:34.983 21fae Level-0 table #5: started
+2021/11/26-22:56:34.987 21fae Level-0 table #5: 73676 bytes OK
+2021/11/26-22:56:34.991 21fae Delete type=0 #3
+2021/11/26-22:56:34.991 21fae Manual compaction at level-0 from (begin) .. (end); will stop at (end)

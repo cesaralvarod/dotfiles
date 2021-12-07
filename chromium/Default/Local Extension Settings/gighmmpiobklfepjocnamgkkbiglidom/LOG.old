@@ -1,0 +1,13 @@
+2021/12/06-23:10:16.588 19ee Reusing MANIFEST /home/andres/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2021/12/06-23:10:16.589 19ee Recovering log #2945
+2021/12/06-23:10:16.589 19ee Reusing old log /home/andres/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/002945.log 
+2021/12/06-23:11:22.991 19ea Level-0 table #2951: started
+2021/12/06-23:11:23.012 19ef Current memtable full; waiting...
+2021/12/06-23:11:23.134 19ea Level-0 table #2951: 6830377 bytes OK
+2021/12/06-23:11:23.136 19ea Delete type=0 #2945
+2021/12/06-23:11:23.140 19eb Level-0 table #2953: started
+2021/12/06-23:11:23.264 19eb Level-0 table #2953: 6830061 bytes OK
+2021/12/06-23:11:23.268 19eb Delete type=0 #2950
+2021/12/06-23:25:47.368 9178 Level-0 table #2955: started
+2021/12/06-23:25:47.485 9178 Level-0 table #2955: 6830252 bytes OK
+2021/12/06-23:25:47.488 9178 Delete type=0 #2952

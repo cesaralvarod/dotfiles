@@ -1,0 +1,20 @@
+2021/12/06-23:49:42.194 13f7 Reusing MANIFEST /home/andres/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2021/12/06-23:49:42.195 13f7 Recovering log #2954
+2021/12/06-23:49:42.196 13f7 Reusing old log /home/andres/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/002954.log 
+2021/12/06-23:50:48.627 13e1 Level-0 table #2958: started
+2021/12/06-23:50:48.737 13e1 Level-0 table #2958: 6830775 bytes OK
+2021/12/06-23:50:48.741 13e1 Delete type=0 #2954
+2021/12/06-23:50:48.745 13f7 Compacting 4@0 + 2@1 files
+2021/12/06-23:50:48.998 13f7 Generated table #2959@0: 1 keys, 6830056 bytes
+2021/12/06-23:50:49.002 13f7 Generated table #2960@0: 7 keys, 423 bytes
+2021/12/06-23:50:49.002 13f7 Compacted 4@0 + 2@1 files => 6830479 bytes
+2021/12/06-23:50:49.004 13f7 compacted to: files[ 0 2 1 0 0 0 0 ]
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2958
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2955
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2947
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2948
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2951
+2021/12/06-23:50:49.004 13f7 Delete type=2 #2953
+2021/12/06-23:51:50.346 13f7 Level-0 table #2962: started
+2021/12/06-23:51:50.450 13f7 Level-0 table #2962: 6830056 bytes OK
+2021/12/06-23:51:50.454 13f7 Delete type=0 #2957

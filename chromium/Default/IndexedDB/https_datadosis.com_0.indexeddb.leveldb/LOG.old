@@ -1,0 +1,6 @@
+2021/11/10-05:27:03.596 1cb69d Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_datadosis.com_0.indexeddb.leveldb since it was missing.
+2021/11/10-05:27:03.603 1cb69d Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_datadosis.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/10-05:27:06.073 1cde04 Level-0 table #5: started
+2021/11/10-05:27:06.075 1cde04 Level-0 table #5: 5836 bytes OK
+2021/11/10-05:27:06.076 1cde04 Delete type=0 #3
+2021/11/10-05:27:06.076 1cde04 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

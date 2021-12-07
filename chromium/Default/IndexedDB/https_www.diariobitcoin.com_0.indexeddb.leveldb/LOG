@@ -1,0 +1,6 @@
+2021/11/22-14:47:26.162 2caf6c Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_www.diariobitcoin.com_0.indexeddb.leveldb since it was missing.
+2021/11/22-14:47:26.169 2caf6c Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_www.diariobitcoin.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/22-22:34:01.284 364b6c Level-0 table #5: started
+2021/11/22-22:34:01.287 364b6c Level-0 table #5: 6094 bytes OK
+2021/11/22-22:34:01.291 364b6c Delete type=0 #3
+2021/11/22-22:34:01.291 364b6c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
