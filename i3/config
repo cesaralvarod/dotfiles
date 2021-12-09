@@ -251,6 +251,10 @@ exec_always --no-startup-id compton
 
 exec_always --no-startup-id blueman-applet
 
+# dunst
+
+exec_always --no-startup-id dunst
+
 # Battery
 
 exec_always --no-startup-id bato
