@@ -21,4 +21,12 @@ On Arh Linux I use i3 as Window Manager, I also tried bspwm and I tried to confi
 
 You can see **webdevicons.vim**, that's a custom file from vim's pluggin **webdevicons**. You can put that in **$HOME/.vimrc/plugged/webdevicons/**
 
+```
+sudo pacman -S python2 python python2-pip python-pip neovim blueman alsa acpi adwait-icon-theme lxappereance npm nodejs okular pavucontrol pm-utils compton ranger neofetch i3 unclutter dunst alacritty terminator xorg-xinit xorg-server unrar unzip zip thunar nemo sweet-gtk-theme-dark rofi redshift nano flameshot fish wget curl
+```
+
+```
+yay -S zoom postman code alacritty-ligatures xampp
+```
+
 It's all :)
