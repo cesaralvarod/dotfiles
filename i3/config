@@ -156,7 +156,11 @@ client.urgent           $blue-color    $blue-color   $text-color
 
 # Google chrome
 
-bindsym $mod+Mod1+g exec --no-startup-id chromium
+bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
+
+# Brave
+
+bindsym $mod+Mod1+b exec --no-startup-id brave-browser-dev
 
 # Firefox
 
@@ -164,7 +168,7 @@ bindsym $mod+Mod1+f exec --no-startup-id firefox
 
 # file manager
 
-bindsym $mod+Mod1+n exec --no-startup-id nemo
+bindsym $mod+Mod1+n exec --no-startup-id thunar
 
 # Visual Studio Code
 
