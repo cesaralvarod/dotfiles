@@ -47,7 +47,6 @@ Plug 'christoomey/vim-tmux-navigator'
 " Autocomplete
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'grvcoelho/vim-javascript-snippets'
 Plug 'tomoyukikashiro/vim-angular-snippets'

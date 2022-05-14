@@ -45,7 +45,7 @@ let g:NERDTreePatternExtensionHighlightFullName=1
 
 " COC
 let g:coc_disable_startup_warning = 1
-let g:coc_global_extensions = ['coc-tsserver']
+let g:coc_global_extensions = ['coc-prettier', 'coc-snippets']
 
 " Prettier
 
