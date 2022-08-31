@@ -4,10 +4,13 @@
   "tsserver.enableJavascript": true,
   "tsserver.log": "verbose",
   "tsserver.npm": "/usr/bin/npm",
+
   "intelephense.enable": true,
 
   "coc.preferences.formatOnType": true,
+
   "diagnostic.errorSign": "✘",
-  "diagnostic.warningSign": "",
-  "diagnostic.infoSign": ""
+  "diagnostic.warningSign": "⚠",
+  "diagnostic.infoSign": "i",
+  "diagnostic.hintSign": "➤"
 }

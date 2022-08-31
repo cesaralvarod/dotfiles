@@ -1,3 +1,46 @@
+lua << END
+require('lualine').setup{
+ options = {
+    icons_enabled = true,
+    theme = 'auto',
+    component_separators = { left = '', right = ''},
+    section_separators = { left = '', right = ''},
+    disabled_filetypes = {},
+    always_divide_middle = true,
+    globalstatus = false,
+  },
+  sections = {
+    lualine_a = {'mode'},
+    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_c = {'filename'},
+    lualine_x = {'filetype'},
+    lualine_y = {'progress'},
+    lualine_z = {'location'}
+  },
+	  inactive_sections = {
+    lualine_a = {},
+    lualine_b = {},
+    lualine_c = {'filename'},
+    lualine_x = {'location'},
+    lualine_y = {},
+    lualine_z = {}
+  }
+}
+
+
+require("bufferline").setup{
+  options={
+    mode = "tabs",
+  }
+}
+END
+
+
+
+" Colorear Tag en JS
+
+let g:vim_jsx_pretty_highlight_close_tag = 1
+
 " Cursor
 
 let &t_SR = "\033]12;199\x7\e[3 q"
@@ -27,13 +70,29 @@ endfunction
 
 " Theme
 
-colorscheme purify
+let g:tokyonight_italic_functions = 1
+let g:tokyonight_sidebars = [ "nerdtree", "vista_kind", "terminal" ]
+let g:tokyonight_style = 'storm'
+
+if (has("nvim"))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+
+if (has("termguicolors"))
+  set termguicolors
+endif
+
 set background=dark
-" hi Normal guibg=#222834 ctermbg=236
-let g:purify_override_colors = {
-      \'pink':  { 'gui': '#FF87FF', 'cterm': '213' },
-      \'green': { 'gui': '#5FD700', 'cterm': '76' }
-      \}
+colorscheme tokyonight 
+let g:palenight_terminal_italics=1
+
+" colorscheme purify
+" set background=dark
+" " hi Normal guibg=#222834 ctermbg=236
+" let g:purify_override_colors = {
+      " \'pink':  { 'gui': '#FF87FF', 'cterm': '213' },
+      " \'green': { 'gui': '#5FD700', 'cterm': '76' }
+      " \}
 
 
 " NerdTree
@@ -42,6 +101,13 @@ let NERDTreeQuitOnOpen=1
 let g:NERDTreeFileExtensionHighlightFullName=1
 let g:NERDTreeFileMatchHighlightFullName=1
 let g:NERDTreePatternExtensionHighlightFullName=1
+
+let g:NERDTreeShowHidden = 1
+let g:NERDTreeMinimalUI = 1
+let g:NERDTreeIgnore = []
+let g:NERDTreeStatusline = ''
+" Automaticaly close nvim if NERDTree is only thing left open
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " COC
 let g:coc_disable_startup_warning = 1
@@ -54,8 +120,14 @@ let g:prettier#quickfix_enabled=0
 
 " Airline
 
-let g:airline_powerline_fonts=1
-let g:airline_theme='purify'
+" let g:airline_powerline_fonts=1
+" let g:airline_theme='purify'
+" let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#left_sep = ' '
+" let g:airline#extensions#tabline#left_alt_sep = '|'
+" let g:airline_left_sep = " "
+" let g:airline_right_sep = " "
+
 
 " Clang format
 

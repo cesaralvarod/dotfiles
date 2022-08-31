@@ -454,6 +454,7 @@ function fclose($stream): bool {}
  * @return bool true if the file pointer is at EOF or an error occurs
  * (including socket timeout); otherwise returns false.
  */
+#[Pure(true)]
 function feof($stream): bool {}
 
 /**
@@ -746,6 +747,7 @@ function ftruncate($stream, int $size): bool {}
  * @return array|false an array with the statistics of the file; the format of the array
  * is described in detail on the stat manual page.
  */
+#[Pure(true)]
 function fstat($stream): array|false {}
 
 /**
@@ -791,6 +793,7 @@ function fseek($stream, int $offset, int $whence = SEEK_SET): int {}
  * <p>
  * If an error occurs, returns false.
  */
+#[Pure(true)]
 function ftell($stream): int|false {}
 
 /**
@@ -800,6 +803,20 @@ function ftell($stream): int|false {}
  * @return bool true on success or false on failure.
  */
 function fflush($stream): bool {}
+
+/**
+ * Sync file to storage. Similar to fflush() but blocks until OS buffers have flushed.
+ * @param resource $stream
+ * @since 8.1
+ */
+function fsync($stream): bool {}
+
+/**
+ * Sync file data only to storage. Similar to fsync but does not flush modified metadata. POSIX only, aliased to fsync on Win32.
+ * @param resource $stream
+ * @since 8.1
+ */
+function fdatasync($stream): bool {}
 
 /**
  * Binary-safe file write
@@ -966,6 +983,7 @@ function tmpfile() {}
  * present.
  * </p>
  */
+#[Pure(true)]
 function file(string $filename, int $flags, $context): array|false {}
 
 /**
@@ -992,6 +1010,7 @@ function file(string $filename, int $flags, $context): array|false {}
  * </p>
  * @return string|false The function returns the read data or false on failure.
  */
+#[Pure(true)]
 function file_get_contents(string $filename, bool $use_include_path = false, $context, int $offset = 0, ?int $length): string|false {}
 
 /**

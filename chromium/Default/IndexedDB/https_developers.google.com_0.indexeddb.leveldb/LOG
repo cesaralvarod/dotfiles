@@ -1,7 +1,0 @@
-2021/11/30-01:34:23.324 13dfc9 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/30-01:34:23.325 13dfc9 Recovering log #3
-2021/11/30-01:34:23.326 13dfc9 Reusing old log /home/andres/.config/chromium/Default/IndexedDB/https_developers.google.com_0.indexeddb.leveldb/000003.log 
-2021/11/30-13:38:18.630 1b8376 Level-0 table #5: started
-2021/11/30-13:38:18.630 1b8376 Level-0 table #5: 3334 bytes OK
-2021/11/30-13:38:18.631 1b8376 Delete type=0 #3
-2021/11/30-13:38:18.631 1b8376 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

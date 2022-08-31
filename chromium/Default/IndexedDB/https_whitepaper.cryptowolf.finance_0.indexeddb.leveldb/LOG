@@ -1,3 +1,0 @@
-2021/11/29-13:50:49.789 1c5cb Creating DB /home/andres/.config/chromium/Default/IndexedDB/https_whitepaper.cryptowolf.finance_0.indexeddb.leveldb since it was missing.
-2021/11/29-13:50:49.792 1c5cb Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_whitepaper.cryptowolf.finance_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/29-13:50:50.197 2a51e Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)

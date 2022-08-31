@@ -29,6 +29,8 @@ set pastetoggle=<F2>
 set updatetime=300
 set undofile
 set undodir=~/.vim/undodir
+set nowritebackup
+set signcolumn=yes
 
 filetype on
 filetype plugin on

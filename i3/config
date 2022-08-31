@@ -160,7 +160,7 @@ bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
 
 # Brave
 
-bindsym $mod+Mod1+b exec --no-startup-id brave-browser-dev
+bindsym $mod+Mod1+b exec --no-startup-id brave
 
 # Firefox
 
@@ -223,7 +223,7 @@ smart_borders on
 
 # Background screens
 
-exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/27.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/47.jpg
 
 # Two screens
 

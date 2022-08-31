@@ -552,6 +552,9 @@ define('XML_OPTION_SKIP_WHITE', 4);
  */
 define('XML_SAX_IMPL', "libxml");
 
-class XMLParser {}
+/**
+ * @since 8.0
+ */
+final class XMLParser {}
 
 // End of xml v.

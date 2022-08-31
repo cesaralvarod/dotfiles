@@ -1,10 +1,29 @@
 let mapleader=" "
 
+" Buffer
+
+nmap <c-e> :bn<CR>
+nmap <c-d> :bd<CR>
+
+" Ventana doble
+
+nnoremap <c-z> :vsp<CR>
+inoremap <C-z> <c-o>:vsp<CR>
+
 " General
 
 nnoremap <leader>w :ALEFix<CR>:w<CR>
 nnoremap <leader>q :ALEFix<CR>:wq<CR>
 nnoremap <leader>qq :q!<CR>
+
+"Atajo para guardar archivos
+"ct+s guardar un solo archivo
+"ct+a guardar todos los archivos
+
+nmap <c-s> :w<CR> 
+imap <c-s> <c-o>:w<CR>
+nmap <c-a> :wa<CR>
+imap <c-a> <c-o>:wa<CR>
 
 
 nnoremap <leader>t :ter<CR>
@@ -38,6 +57,7 @@ cnoreabbrev tree NERDTreeToggle
 nmap ff :Telescope find_files<CR>
 nmap fg :Telescope live_grep<CR>
 nmap fb :Telescope buffers<CR>
+nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
 
 " Easymotion
 
@@ -94,3 +114,21 @@ function! OpenTerminal()
 endfunction
 
 nnoremap <C-t> :call OpenTerminal()<CR>
+
+" Atajo para llamar a la terminal bash
+
+nmap <C-c> :sp term://bash<CR>
+nmap <C-x> :vsp term://bash<CR>
+
+
+tnoremap <Esc> <C-\><C-n>
+
+"cambiar entre paneles
+tnoremap <A-h> <C-\><C-n><C-w>h
+tnoremap <A-j> <C-\><C-n><C-w>j
+tnoremap <A-k> <C-\><C-n><C-w>k
+tnoremap <A-l> <C-\><C-n><C-w>l
+nnoremap <A-h> <C-w>h
+nnoremap <A-j> <C-w>j
+nnoremap <A-k> <C-w>k
+nnoremap <A-l> <C-w>l

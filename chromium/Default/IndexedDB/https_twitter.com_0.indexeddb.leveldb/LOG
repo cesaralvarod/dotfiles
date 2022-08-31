@@ -1,7 +1,0 @@
-2021/11/30-19:51:37.467 235da2 Reusing MANIFEST /home/andres/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
-2021/11/30-19:51:37.468 235da2 Recovering log #3
-2021/11/30-19:51:37.468 235da2 Reusing old log /home/andres/.config/chromium/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000003.log 
-2021/11/30-19:53:12.277 2369ea Level-0 table #5: started
-2021/11/30-19:53:12.278 2369ea Level-0 table #5: 1278 bytes OK
-2021/11/30-19:53:12.279 2369ea Delete type=0 #3
-2021/11/30-19:53:12.279 2369ea Manual compaction at level-0 from (begin) .. (end); will stop at (end)

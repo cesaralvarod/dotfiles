@@ -2,6 +2,8 @@
 
 use JetBrains\PhpStorm\ArrayShape;
 use JetBrains\PhpStorm\Deprecated;
+use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
+use JetBrains\PhpStorm\Internal\PhpStormStubsElementAvailable;
 use JetBrains\PhpStorm\Pure;
 
 /**
@@ -11,19 +13,14 @@ use JetBrains\PhpStorm\Pure;
  * "message", "file" and "line". Returns null if there hasn't been an error
  * yet.
  */
-#[ArrayShape([
-    "type" => "int",
-    "message" => "string",
-    "file" => "string",
-    "line" => "int",
-])]
+#[ArrayShape(["type" => "int", "message" => "string", "file" => "string", "line" => "int"])]
 #[Pure]
 function error_get_last(): ?array {}
 
 /**
  * Call the callback given by the first parameter
  * @link https://php.net/manual/en/function.call-user-func.php
- * @param callback $callback <p>
+ * @param callable $callback <p>
  * The function to be called. Class methods may also be invoked
  * statically using this function by passing
  * array($classname, $methodname) to this parameter.
@@ -38,20 +35,20 @@ function error_get_last(): ?array {}
  * not passed by reference.
  * call_user_func example and references
  * </p>
- * @return mixed|false the function result, or false on error.
+ * @return mixed the function result, or false on error.
  */
 function call_user_func(callable $callback, mixed ...$args): mixed {}
 
 /**
  * Call a callback with an array of parameters
  * @link https://php.net/manual/en/function.call-user-func-array.php
- * @param callback $callback <p>
+ * @param callable $callback <p>
  * The function to be called.
  * </p>
  * @param array $args <p>
  * The parameters to be passed to the function, as an indexed array.
  * </p>
- * @return mixed|false the function result, or false on error.
+ * @return mixed the function result, or false on error.
  */
 function call_user_func_array(callable $callback, array $args): mixed {}
 
@@ -84,7 +81,7 @@ function call_user_method_array(string $method_name, object &$obj, array $params
 /**
  * Call a static method
  * @link https://php.net/manual/en/function.forward-static-call.php
- * @param callback $callback <p>
+ * @param callable $callback <p>
  * The function or method to be called. This parameter may be an array,
  * with the name of the class, and the method, or a string, with a function
  * name.
@@ -92,9 +89,9 @@ function call_user_method_array(string $method_name, object &$obj, array $params
  * @param mixed ...$args [optional] <p>
  * Zero or more parameters to be passed to the function.
  * </p>
- * @return mixed|false the function result, or false on error.
+ * @return mixed the function result, or false on error.
  */
-function forward_static_call(callable $callback, ...$args): mixed {}
+function forward_static_call(callable $callback, mixed ...$args): mixed {}
 
 /**
  * Call a static method and pass the arguments as array
@@ -105,7 +102,7 @@ function forward_static_call(callable $callback, ...$args): mixed {}
  * name.
  * </p>
  * @param array $args
- * @return mixed|false the function result, or false on error.
+ * @return mixed the function result, or false on error.
  */
 function forward_static_call_array(callable $callback, array $args): mixed {}
 
@@ -190,7 +187,7 @@ function unserialize(string $data, array $options = []): mixed {}
  * @param mixed ...$values [optional]
  * @return void
  */
-function var_dump(mixed $value, ...$values): void {}
+function var_dump(mixed $value, #[PhpStormStubsElementAvailable(from: '8.0')] mixed ...$values): void {}
 
 /**
  * Outputs or returns a parsable string representation of a variable
@@ -217,7 +214,11 @@ function var_export(mixed $value, bool $return = false): ?string {}
  * </p>
  * @return void
  */
-function debug_zval_dump(mixed $value, mixed ...$values): void {}
+function debug_zval_dump(
+    #[PhpStormStubsElementAvailable(from: '8.0')] mixed $value,
+    #[PhpStormStubsElementAvailable(from: '5.3', to: '7.4')] $values,
+    mixed ...$values
+): void {}
 
 /**
  * Prints human-readable information about a variable
@@ -267,7 +268,7 @@ function memory_get_peak_usage(bool $real_usage = false): int {}
 /**
  * Register a function for execution on shutdown
  * @link https://php.net/manual/en/function.register-shutdown-function.php
- * @param callback $callback <p>
+ * @param callable $callback <p>
  * The shutdown function to register.
  * </p>
  * <p>
@@ -287,12 +288,12 @@ function memory_get_peak_usage(bool $real_usage = false): int {}
  * </p>
  * @return bool|null
  */
-function register_shutdown_function(callable $callback, ...$args): ?bool {}
+function register_shutdown_function(callable $callback, mixed ...$args): ?bool {}
 
 /**
  * Register a function for execution on each tick
  * @link https://php.net/manual/en/function.register-tick-function.php
- * @param callback $callback <p>
+ * @param callable $callback <p>
  * The function name as a string, or an array consisting of an object and
  * a method.
  * </p>
@@ -300,7 +301,7 @@ function register_shutdown_function(callable $callback, ...$args): ?bool {}
  * </p>
  * @return bool true on success or false on failure.
  */
-function register_tick_function(callable $callback, ...$args): bool {}
+function register_tick_function(callable $callback, mixed ...$args): bool {}
 
 /**
  * De-register a function for execution on each tick
@@ -364,7 +365,10 @@ function highlight_string(string $string, bool $return = false): string|bool {}
  * Otherwise the nanoseconds are returned as integer (64bit platforms) or float (32bit platforms).
  */
 #[Pure]
-function hrtime(bool $as_number = false): array|int|float|false {}
+function hrtime(
+    #[PhpStormStubsElementAvailable(from: '7.3', to: '7.4')] bool $as_number,
+    #[PhpStormStubsElementAvailable(from: '8.0')] bool $as_number = false
+): array|int|float|false {}
 
 /**
  * Return source with stripped comments and whitespace
@@ -449,7 +453,7 @@ function ini_get_all(?string $extension, bool $details = true): array|false {}
  * </p>
  * @return string|false the old value on success, false on failure.
  */
-function ini_set(string $option, string $value): string|false {}
+function ini_set(string $option, #[LanguageLevelTypeAware(['8.1' => 'string|int|float|bool|null'], default: 'string')] $value): string|false {}
 
 /**
  * Alias:
@@ -460,7 +464,7 @@ function ini_set(string $option, string $value): string|false {}
  * @param string $value
  * @return string|false
  */
-function ini_alter(string $option, string $value): string|false {}
+function ini_alter(string $option, #[LanguageLevelTypeAware(['8.1' => 'string|int|float|bool|null'], default: 'string')] $value): string|false {}
 
 /**
  * Restores the value of a configuration option
@@ -634,6 +638,7 @@ function setrawcookie(string $name, $value = '', $expires_or_options = 0, $path 
  * @return bool           If output exists prior to calling this function, setcookie will fail and return false. If
  *                        setcookie successfully runs, it will return true.
  *                        This does not indicate whether the user accepted the cookie.
+ * @since 7.3
  */
 function setrawcookie(string $name, $value = '', array $options = []): bool {}
 
@@ -785,6 +790,7 @@ function ignore_user_abort(?bool $enable): int {}
  * @return array|false The settings are returned as an associative array on success,
  * and false on failure.
  */
+#[Pure(true)]
 function parse_ini_file(string $filename, bool $process_sections = false, int $scanner_mode = INI_SCANNER_NORMAL): array|false {}
 
 /**
@@ -818,7 +824,7 @@ function parse_ini_string(string $ini_string, bool $process_sections = false, in
  * </p>
  * @return bool true on success or false on failure.
  */
-#[Pure]
+#[Pure(true)]
 function is_uploaded_file(string $filename): bool {}
 
 /**

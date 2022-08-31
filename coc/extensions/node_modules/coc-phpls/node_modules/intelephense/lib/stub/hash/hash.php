@@ -1,7 +1,9 @@
 <?php
 
 // Start of hash v.1.0
+use JetBrains\PhpStorm\Deprecated;
 use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
+use JetBrains\PhpStorm\Internal\PhpStormStubsElementAvailable;
 use JetBrains\PhpStorm\Pure;
 
 /**
@@ -23,7 +25,7 @@ use JetBrains\PhpStorm\Pure;
  * binary representation of the message digest is returned.
  */
 #[Pure]
-function hash(string $algo, string $data, bool $binary = false): string|false {}
+function hash(string $algo, string $data, bool $binary = false, #[PhpStormStubsElementAvailable('8.1')] array $options = null): string|false {}
 
 /**
  * Timing attack safe string comparison
@@ -55,7 +57,7 @@ function hash_equals(string $known_string, string $user_string): bool {}
  * binary representation of the message digest is returned.
  */
 #[Pure]
-function hash_file(string $algo, string $filename, bool $binary = false): string|false {}
+function hash_file(string $algo, string $filename, bool $binary = false, #[PhpStormStubsElementAvailable('8.1')] array $options = null): string|false {}
 
 /**
  * (PHP 5 &gt;= 5.1.2, PECL hash &gt;= 1.1)<br/>
@@ -131,7 +133,7 @@ function hash_hmac_file(string $algo, string $data, string $key, bool $binary = 
  */
 #[Pure]
 #[LanguageLevelTypeAware(["7.2" => "HashContext"], default: "resource")]
-function hash_init(string $algo, int $flags = 0, string $key) {}
+function hash_init(string $algo, int $flags = 0, string $key, #[PhpStormStubsElementAvailable('8.1')] array $options = null) {}
 
 /**
  * (PHP 5 &gt;= 5.1.2, PECL hash &gt;= 1.1)<br/>
@@ -145,7 +147,7 @@ function hash_init(string $algo, int $flags = 0, string $key) {}
  * </p>
  * @return bool <b>TRUE</b>.
  */
-function hash_update(#[LanguageLevelTypeAware(["8.0" => "HashContext"], default: "resource")] $context, string $data): bool {}
+function hash_update(#[LanguageLevelTypeAware(["7.2" => "HashContext"], default: "resource")] $context, string $data): bool {}
 
 /**
  * (PHP 5 &gt;= 5.1.2, PECL hash &gt;= 1.1)<br/>
@@ -163,7 +165,7 @@ function hash_update(#[LanguageLevelTypeAware(["8.0" => "HashContext"], default:
  * </p>
  * @return int Actual number of bytes added to the hashing context from <i>handle</i>.
  */
-function hash_update_stream(#[LanguageLevelTypeAware(["8.0" => "HashContext"], default: "resource")] $context, $stream, int $length = -1): int {}
+function hash_update_stream(#[LanguageLevelTypeAware(["7.2" => "HashContext"], default: "resource")] $context, $stream, int $length = -1): int {}
 
 /**
  * (PHP 5 &gt;= 5.1.2, PECL hash &gt;= 1.1)<br/>
@@ -180,7 +182,7 @@ function hash_update_stream(#[LanguageLevelTypeAware(["8.0" => "HashContext"], d
  * </p>
  * @return bool <b>TRUE</b> on success or <b>FALSE</b> on failure.
  */
-function hash_update_file(#[LanguageLevelTypeAware(["8.0" => "HashContext"], default: "resource")] $context, string $filename, $stream_context): bool {}
+function hash_update_file(#[LanguageLevelTypeAware(["7.2" => "HashContext"], default: "resource")] $context, string $filename, $stream_context): bool {}
 
 /**
  * (PHP 5 &gt;= 5.1.2, PECL hash &gt;= 1.1)<br/>
@@ -197,7 +199,7 @@ function hash_update_file(#[LanguageLevelTypeAware(["8.0" => "HashContext"], def
  * unless <i>raw_output</i> is set to true in which case the raw
  * binary representation of the message digest is returned.
  */
-function hash_final(#[LanguageLevelTypeAware(["8.0" => "HashContext"], default: "resource")] $context, bool $binary = false): string {}
+function hash_final(#[LanguageLevelTypeAware(["7.2" => "HashContext"], default: "resource")] $context, bool $binary = false): string {}
 
 /**
  * Copy hashing context
@@ -307,8 +309,10 @@ function hash_pbkdf2(string $algo, string $password, string $salt, int $iteratio
  * The key length, in bytes.
  * </p>
  * @return string|false the generated key as a string, or <b>FALSE</b> on error.
+ * @deprecated 8.1
  */
 #[Pure]
+#[Deprecated(since: '8.1')]
 function mhash_keygen_s2k(int $algo, string $password, string $salt, int $length): string|false {}
 
 /**
@@ -319,8 +323,10 @@ function mhash_keygen_s2k(int $algo, string $password, string $salt, int $length
  * </p>
  * @return int|false the size in bytes or <b>FALSE</b>, if the <i>hash</i>
  * does not exist.
+ * @deprecated 8.1
  */
 #[Pure]
+#[Deprecated(since: '8.1')]
 function mhash_get_block_size(int $algo): int|false {}
 
 /**
@@ -330,8 +336,10 @@ function mhash_get_block_size(int $algo): int|false {}
  * The hash ID. One of the <b>MHASH_hashname</b> constants.
  * </p>
  * @return string|false the name of the hash or <b>FALSE</b>, if the hash does not exist.
+ * @deprecated 8.1
  */
 #[Pure]
+#[Deprecated(since: '8.1')]
 function mhash_get_hash_name(int $algo): string|false {}
 
 /**
@@ -339,8 +347,10 @@ function mhash_get_hash_name(int $algo): string|false {}
  * @link https://php.net/manual/en/function.mhash-count.php
  * @return int the highest available hash ID. Hashes are numbered from 0 to this
  * hash ID.
+ * @deprecated 8.1
  */
 #[Pure]
+#[Deprecated(since: '8.1')]
 function mhash_count(): int {}
 
 /**
@@ -360,8 +370,10 @@ function mhash_count(): int {}
  * </p>
  * @return string|false the resulting hash (also called digest) or HMAC as a string, or
  * <b>FALSE</b> on error.
+ * @deprecated 8.1
  */
 #[Pure]
+#[Deprecated(since: '8.1')]
 function mhash(int $algo, string $data, ?string $key): string|false {}
 
 /**
@@ -406,16 +418,47 @@ define('MHASH_FNV1A32', 30);
 define('MHASH_FNV164', 31);
 define('MHASH_FNV1A64', 32);
 define('MHASH_JOAAT', 33);
+/**
+ * @since 8.1
+ */
+define('MHASH_MURMUR3A', 35);
+/**
+ * @since 8.1
+ */
+define('MHASH_MURMUR3C', 36);
+/**
+ * @since 8.1
+ */
+define('MHASH_MURMUR3F', 37);
+/**
+ * @since 8.1
+ */
+define('MHASH_XXH32', 38);
+/**
+ * @since 8.1
+ */
+define('MHASH_XXH64', 39);
+/**
+ * @since 8.1
+ */
+define('MHASH_XXH3', 40);
+/**
+ * @since 8.1
+ */
+define('MHASH_XXH128', 41);
 
-class HashContext
+/**
+ * @since 7.2
+ */
+final class HashContext
 {
     private function __construct() {}
 
-    public function __serialize() {}
+    public function __serialize(): array {}
 
     /**
      * @param array $data
      */
-    public function __unserialize($data) {}
+    public function __unserialize(#[LanguageLevelTypeAware(['8.0' => 'array'], default: '')] $data): void {}
 }
 // End of hash v.1.0

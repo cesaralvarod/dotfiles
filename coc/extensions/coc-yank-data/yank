@@ -1,939 +1,2708 @@
-0c362caa3bdf23c4304d8b8987be2cce|file:///home/andres/workspace/journalapp-react/src/styles/components/_notes.scss|22|5|v|scss
-	@media (min-width: 780px) {
-	      & {
-	        margin-left: 1.5rem;
-	      }
-	    }
-7d35fea9eda1714d463e3c68cab2b0ff|file:///home/andres/workspace/journalapp-react/src/styles/components/_notes.scss|18|1|v|scss
-	  @media (min-width: 780px) {
-	    & {
-	      margin-left: 1.5rem;
-	    }
-	  }
-82bf1c10eba9e5690bab290df24107e0|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|10|28|V|javascriptreact
-	  console.log("cargando " + id);
-aacb47db6feb6279b989f915c598402a|file:///home/andres/workspace/journalapp-react/src/components/notes/NoteScreen.js|28|32|V|javascriptreact
-	    console.log(notesValues.body);
-b4788af676f98b1bc9d3f84067837bef|file:///home/andres/workspace/journalapp-react/src/components/notes/NoteScreen.js|28|5|v|javascriptreact
-	notesValues
-2063c1608d6e0baf80249c42e2be5804|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|50|v|javascriptreact
-	value
-7f7cfde5ec586119b48911a2c75851e5|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|43|v|javascriptreact
-	newValue
-07582dd71036278789f8d24ca04b9a5e|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|118|7|V|scss
-	      width: 100px;
-3af9112556e6f0a88ac2a937f88a6d7b|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|1|1|V|scss
-	      overflow-wrap: break-word;
-03271eef487b1d4004adc642ca862a06|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|17|v|javascriptreact
-	useEffect
-798e1088414668836c3a8c2f7b78e257|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|99|18|v|scss
-	nowrap
-b67c3ac2868474a6e5b02a280bf5cb9a|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|99|1|V|scss
-	    white-space: wrap;
-7687f8fd21e71675896cd405fb6f4b64|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|100|1|V|scss
-	    overflow-wrap: break-word;
-b1849723b74e8f5064efaf8f56c7454e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|9|20|V|javascriptreact
-	  console.log(title);
-7a1aa11476f3b5b670a51d62f30bcd55|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|12|12|V|javascriptreact
-	    console.log(newValue);
-6c1cc405b85498c60fdea84a4c4c51ea|file:///home/andres/workspace/journalapp-react/src/hooks/useForm.js|1|1|V|javascriptreact
-	    const newValue = target.value.replace(/\n\t\r/g, "\n\t\r");
-8652606c8d662eac2fcf1ce9a9d0fa10|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|9|42|v|javascriptreact
-	nbsp
-281b1f0cafe16c0922e6e6b11f3ffd12|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|7|20|V|javascriptreact
-	  console.log(body);
-0c81c15596e22ca7a2a71afb7a2ca648|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|30|16|V|javascriptreact
-	  console.log(text);
-d6da736e95386461d28a5bd02c70fa97|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|18|V|javascriptreact
-	const BodyEntry = (text) => {};
-1b947ddd5abd259c91f2b9a8694f7a43|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|7|41|V|javascriptreact
-	  const bodyText = body.replace(/\s/g, "\n'");
-6e8c8a76991c85769c49f7a756fcbde2|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|18|48|v|javascriptreact
-	bodyText
-4803e6b9e63dabf04de980788d6a13c4|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|48|v|javascriptreact
-	Line
-eac828e40705bfafd82ef1a82e3f5ab8|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|43|v|javascriptreact
-	span
-adf9fc6e0477667f196e3b8248904a1a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|7|v|javascriptreact
-	BodyEntry
-d478aafe7a29d8c587b2cb1f40735caf|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|29|1|V|javascriptreact
-	const BodyEntry = (text) => {
-	  const textCleaned = text.split("\r\n");
-	  console.log(textCleaned);
+e929f35a77734a687085077b315a7c9e|file:///home/andres/workspace/futurymall-stores-panel/components/coupons/form.vue|29|1|V|vue
+	    <div class="w-full max-h-full overflow-auto md:p-1 md:pr-4 px-2 py-1">
+e2516c203902230766cda7cf4adb3eed|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|267|5|V|vue
+	      <div>
+08fa22a8f19d6816386aaf0012dce79e|file:///home/andres/workspace/futurymall-stores-panel/components/coupons/form.vue|30|4|v|vue
+	   <div
+	        class="bg-white rounded-lg shadow-section flex flex-wrap justify-center p-4"
+	      >
+3754c267ae8940e61a4a78edc60baaa3|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|267|1|V|vue
+	      <div class="w-full max-h-full overflow-auto md:p-1 md:pr-4 px-2 py-1">
+4885878e94757376ae98296581e94a68|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|304|1|v|vue
 	
-	  const span = textCleaned.map((line) => <p>{line}</p>);
+	        <div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap"></div>
+	        </div>
 	
-	  console.log(span);
 	
-	  return { span };
-	};
-	
-9e2cd3a49272eb4863464c187878b93d|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|19|55|v|javascriptreact
-	trim
-927b7918bb582b0da988f38e4b9901ea|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|31|27|V|javascriptreact
-	  console.log(textCleaned);
-41aea6b17456891f7d8997d571ca7b37|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|1|V|javascriptreact
-	  console.log(span);
-f41f31991bd58571be91179c8d2a8c46|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|16|v|javascriptreact
-	textCleaned
-7b16dd3da8227f18681b1e376b6ed87a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
-	  const textCleaned = text.split("\r\n");
-4c740e657f43b24c8c19134e7d575e52|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|7|v|javascriptreact
-	countWords
-228bd1bc28000eb05868b1a3cfb7b585|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|23|V|javascriptreact
-	  let countLetters = 0;
-1cc4d11fab7af26d5bd56a3323de8d03|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
-	  console.log(countLetters)
-097c3c48be435c81290acd0683bd3e9e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|1|V|javascriptreact
-	    countLetters++;
-734babfd1ed614bdc153be5ef6c30008|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|9|v|javascriptreact
-	maxLetters
-a7d416f9545963a6fe78bdc0c22de9f5|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|32|7|v|javascriptreact
-	countLetters
-eefec303079ad17405c889e092e105b0|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|8|v|javascriptreact
-	split
-c47d187067c6cf953245f128b5fde62a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|v|javascriptreact
-	word
-f5b75010ea8a54b96f8fe7dafac65c18|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|17|v|javascriptreact
-	letter
-6e0bb89dc876e43f4667824ff17b4859|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|17|V|javascriptreact
-	    countWords++;
-45039946c14e0e7cdec9718d7f3b3ff5|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|1|v|javascriptreact
-	
-	  if (text.length > maxWords) {
-	    text.slice(0, maxWords);
-	  }
-ccb71c1fa95a4119b7288fa429985698|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|23|V|javascriptreact
-	  console.log(text.slice)
-6a992d5529f459a44fee58c733255e86|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|v|javascriptreact
-	index
-e6aaec89025923f2f4374f0c2705a958|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|17|V|javascriptreact
-	    console.log(total);
-30eb5001914d29dd8461898b5b8094fe|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|34|v|javascriptreact
-	forEach
-fbb44b4487415b134bce9c790a27fe5e|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|5|v|javascriptreact
-	total
-2d0125299792cdedce4889c88d4a040c|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|38|17|V|javascriptreact
-	  console.log(newArr);
-9868a97f1f41ce4f906363ff123ed3bd|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|1|V|javascriptreact
-	  text.split(" ").map((word, index, total) => {
-4b3e23b8fa8e8ddbec4c89b0132a89aa|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|1|V|javascriptreact
-	  });
-783d229ad147bb10493e342034362b0a|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|36|15|v|javascriptreact
-	text.split(" ").slice(0, 3)
-1cb251ec0d568de6a929b520c4aed8d1|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|38|16|v|javascriptreact
-	text
-c424b4614133c28bf2c3dee0d0b54f6d|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|34|55|v|javascriptreact
-	toString
-79f8c5538ef6de1c66f82726fefdb32c|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|33|17|V|javascriptreact
-	  let countWords;
-a2d6d8c6bcb448ef04a37a2815483c34|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|1|1|V|javascriptreact
-	  console.log(bodyText);
-9df22f196a33acd0b372fe502de51211|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|108|14|v|scss
-	auto
-c4646d2f83c510ab1e7e553cd1e2f710|file:///home/andres/workspace/journalapp-react/src/styles/components/_journal.scss|108|14|v|scss
-	manuela
-dc59a7ff9b0954e7a073ac9730af2230|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|30|23|V|javascriptreact
-	  console.log(text.length);
-58d58ce6d12c020b3b61f9e29198d5bc|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|3|v|javascriptreact
-	console.log(text.split(" ").slic
-21b62d1bf54fc814341d2f14e14be121|file:///home/andres/workspace/journalapp-react/src/components/journal/JournalEntry.js|35|15|v|javascriptreact
-	text.split(" ").slice(0, 50)
-079d69b8325bc7b63e681831925c4cea|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
-	import './index.css';
-ae43d241b2a1575250cc14a14e4951e9|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
-	import App from './App';
-f79e3a211eaf9e994417fe3e8d5c9e0b|file:///home/andres/workspace/mern-calendar/src/index.js|3|1|V|javascriptreact
-	import reportWebVitals from './reportWebVitals';
-ea7ecbb8700d40a66b3160b471eb2519|file:///home/andres/workspace/mern-calendar/src/index.js|6|1|V|javascriptreact
-	    <App />
-a1642784e6b8c40897989542956dee95|file:///home/andres/workspace/mern-calendar/src/index.js|5|1|V|javascriptreact
-	  <React.StrictMode>
-ef1640473d2d10a5d1197ca943839456|file:///home/andres/workspace/mern-calendar/src/index.js|5|1|V|javascriptreact
-	  </React.StrictMode>,
-93d259c20853af4b0d8a060f87b5b923|file:///home/andres/workspace/mern-calendar/src/index.js|9|15|V|javascriptreact
-	reportWebVitals();
-a9eab302479b65d905cd7d77405a44d6|file:///home/andres/workspace/mern-calendar/src/index.js|8|15|V|javascriptreact
-	// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-23f257a867e3ef2f67f61c310a715936|file:///home/andres/workspace/mern-calendar/src/index.js|7|15|V|javascriptreact
-	// to log results (for example: reportWebVitals(console.log))
-8961bcb8bc756e6fe36f60263cc3727f|file:///home/andres/workspace/mern-calendar/src/index.js|6|15|V|javascriptreact
-	// If you want to start measuring performance in your app, pass a function
-19957784361cb29caaddce6d9b0eb56b|file:///home/andres/workspace/mern-calendar/public/index.html|27|12|v|html
-	React App
-c1c425268e68385d1ab5074c17a94f14|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|3|1|v|javascriptreact
-	function
-5dd7ac3770aaf6a4c6944ab4ce95f50c|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|1|17|v|javascriptreact
-	useState
-f53bef3d0ce4bcbf4e616ade338604a9|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|1|7|v|javascriptreact
-	ComponentName
-72327b3cd398f243870e1dbb1b419dbc|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|6|17|V|javascriptreact
-	      <p>Body</p>
-c4f82fc8a072e0d2cec145961a3c0499|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|5|9|V|javascriptreact
-	    <div>
-471b911d2d272d4276a1fd7e5e1d3c11|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|9|V|javascriptreact
-	  <Switch >
-cb2351e5daf9e819344863bd06123969|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|9|V|javascriptreact
-	  </Switch>
-873ae376dd11aa02a24efe42c9ac080a|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|19|V|javascriptreact
-	      <Link to="/" />
-a97b270cd2083eb5a3b6c5ef1336f23e|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|1|V|javascriptreact
-	import { Switch } from "react-materialize";
-97e7c9a7d06eac006a28bf05467fcc8b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|35|v|javascriptreact
-	Link
-ac101b32dda4448cf13a93fe283dddd8|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|6|10|v|javascriptreact
-	Body
-e96fea0b8565a1f143b8bab3b3f01bf7|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|10|V|javascriptreact
-	      <Routes>
-e12a2cc2a53b20147ad3bcfe2a39707b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|14|11|V|javascriptreact
-	      </Routes>
-432c12c2500a63dec4f0beb40d937b6c|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|5|7|V|javascriptreact
-	  Routes,
-f6b7a35f6f93c91bc454967ff926bb6b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|43|v|javascriptreact
-	witch } from "react-router-dom"; import RegisterScreen from "../components/auth/RegisterScreen";
-bbc155fb2b111bf61c4f5ff892915e6b|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|2|42|v|javascriptreact
-	Switch
-a7b478fd9f9f4a8a1d754d875e833391|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|14|V|javascriptreact
-	      <Switch>
-c93d6e815a471662c056234e96c72935|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|15|V|javascriptreact
-	      </Switch>
-700c216fb376666eaeda0c892e8bdc09|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|23|v|javascriptreact
-	component
-9873bd4088c7c51b469071c3784e6792|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|8|32|v|javascriptreact
-	RegisterScreen
-2349219a3f113ed1c929337b6b805d62|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|1|V|javascriptreact
-	        <Route path="/" element={<RegisterScreen />} />
-9de4a97425678c5b1288aa70c1669a64|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|23|v|javascriptreact
-	register
-c1fa236fb935cab74c8dbfabe3ffd06f|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|9|23|v|javascriptreact
-	sigin
-78d62d29e096ef073b4793b5db3171e4|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|10|1|V|javascriptreact
-	        <Route path="/login" element={<RegisterScreen />} />
-d56b699830e77ba53855679cb1d252da|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|11|23|v|javascriptreact
-	login
-9405c3aff9112c3c60d03b94792877dc|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|10|v|javascriptreact
-	Route
-e07c6d68f045aed27137855cb521f9e6|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|13|1|V|javascriptreact
-	        <Route path="/" element={<CalendarScreen />} />
-3b7efa09444a31c5d58596e5bbf87d47|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|11|16|v|javascriptreact
-	exact
-81571d6f9887229ad1c447a8137c4ff4|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|14|22|V|javascriptreact
-	        <Route path="*" element={<CalendarScreen />} />
-0330a805c4d6fe2f40882fd6f980c6e8|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|19|16|V|javascriptreact
-	        <Navigate to="/" />
-1004e00d41c7a78f3972ee72a0bf8891|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|20|23|V|javascriptreact
-	      <Navigate to="/" />
-a77ec07d806eb18c9d8632de2823a306|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|13|V|javascriptreact
-	      <p></p>
-5adfbd102817d8edf4122dd59867250a|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|8|18|V|css
-	  font-size: 62.5%;
-662f707d5491e9bce8238a6c0be92190|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|16|13|v|css
-	hidden
-1d565b9e5303987bb1b1938d5d458bca|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|2|10|v|javascriptreact
-	Card
-3c4184e82bb3be8fa32669800fb7373c|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|25|v|javascriptreact
-	teal
-8b1a9953c4611296a827abf8c47804d7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|39|v|javascriptreact
-	Hello
-2133fd717402a7966ee88d06f9e0b792|file:///home/andres/workspace/mern-calendar/src/router/AppRouter.js|17|16|v|javascriptreact
-	strict
-65ddecc9475043a308016d31e26b2a52|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|3|v|javascriptreact
-	    <Row>
-	        <Col m={6} s={12}>
-	          <CardPanel className="teal">
-	            <form action="">
-	              <Row>
-	                <Col s={12}>
-	                  <TextInput id="" label="Email" />
-	                </Col>
-	              </Row>
-	            </form>
-	          </CardPanel>
-	        </Col>
-	      </Row>
-e7dac29dda8fb5f71f293f0131520167|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|3|V|javascriptreact
-	      hola
-78c9dcc375872362611717a8b7213a1f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	          <CardPanel className="teal">
-352cc5172ce0b7aebbb627f6ba41a2b9|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	            <form action="">
-c3d461574673458c4a1d9364f45b93a7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	              <Row>
-85934481443ae822edee41b156cf3aac|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	                <Col s={12}>
-11248f524fc3444b510cb095404fcdce|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	                  <TextInput id="" label="Email" />
-1f58adc70ffa4707d90ecc5f557adb72|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	                </Col>
-5d6d40734549621f5e65320bd74d5c2e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	              </Row>
-5bf4ebd5604b5a791e4125d21f55d1a6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	            </form>
-3b23011a4a95b077c3722e4daee2c590|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|3|V|javascriptreact
-	          </CardPanel>
-a51bee62adcc03a91666a37b46fb11a0|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|14|V|javascriptreact
-	          hola
-b0e61d07b2cde2effc54395b488650b8|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|14|V|javascriptreact
-	        </Col>
-d622cabd39a56c9df51823cd69858687|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|12|V|javascriptreact
-	      </Row>
-f0b606c92e44e96214c26e7b0b41e35d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|10|V|javascriptreact
-	        <Col m={6} s={12}>
-fcd8b61254bb1e0a2b137ae13c8d4977|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|10|V|javascriptreact
-	      <Row>
-1d8dd5310e8ffe67f94cfe3b4abac49e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|2|v|javascriptreact
-	   <div>
-	    </div>
-a1b01e734b573fca08eb1a65e6df9a38|file:///home/andres/workspace/mern-calendar/public/index.html|16|34|v|html
-	style
-c35d5201b5aa8963cfe7d430e26a36e8|file:///home/andres/workspace/mern-calendar/public/index.html|40|1|v|html
-	    <!--
-	      This HTML file is a template.
-	      If you open it directly in the browser, you will see an empty page.
-	
-	      You can add webfonts, meta tags, or analytics to this file.
-	      The build step will place the bundled scripts into the <body> tag.
-	
-	      To begin the development, run `npm start` or `yarn start`.
-	      To create a production bundle, use `npm run build` or `yarn build`.
-	    -->
-cb5fa3e9cdecdc07564bf966a5106e16|file:///home/andres/workspace/mern-calendar/public/index.html|16|1|v|html
-	    <link
-	      rel="stylesheet"
-	      href="node_modules/materialize-css/dist/css/materialize.css"
-	    />
-d217e2eb0086a25315b5a8b67c3aea67|file:///home/andres/workspace/mern-calendar/public/index.html|39|77|V|html
-	  <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
-48d6215903dff56238e52e8891380c8f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|9|33|v|javascriptreact
-	blue
-d508fe45cecaf653904a0e774084bb5c|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|52|v|javascriptreact
-	white
-9fef1eb0d0f08f88249e010070f2273b|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|49|V|javascriptreact
-	    <div className="center-align valign-wrapper">
-33271b032f5901d33927f87310402ba6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|23|V|javascriptreact
-	<div className="contain">
-c58ff5e3a379801b6cc137158d5545fe|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|17|v|javascriptreact
-	contain
-ded5197404ffadfc28247e63229c3ef5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|20|v|javascriptreact
-	center-align valign-wrapper
-5cd5bdc804a89ee71ffd9e2ffc940f2d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|8|10|V|javascriptreact
-	        <Col>
-f88d2a85bd5dd8a459022e23265a3b76|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|11|10|V|javascriptreact
-	              <Col>
-3197d0561d99845ac34ffa6179c7f00b|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|12|10|V|javascriptreact
-	              </Col>
-9d686078a0aeae28433d8abf6b2c0c52|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|20|v|javascriptreact
-	 width: "100%!important" 
-04252e794b32a0d92e51af75c5b5fea7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|67|v|javascriptreact
-	300px
-7d89548da1de6ac88f25f9d3b34acfdf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|6|10|v|javascriptreact
-	className="container valign-wrapper"
-ef6e368a9cf8cd343cc3dba6d80a69a1|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|12|v|javascriptreact
-	 <Row>
-	              <TextInput
-	                id=""
-	                inputClassName="black-text"
-	                label="Email"
-	                style={{ width: "auto" }}
-	              />
-	            </Row>
-9de052cb2d0ec6f0ead6fd17d4f87458|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|20|18|V|javascriptreact
-	            </Row>
-e93b6342612ebd059c578c775c2378d7|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|20|17|V|javascriptreact
-	            <Row>
-2ac1a7bb97042da3be120508f3834505|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|17|31|V|javascriptreact
-	              style={{ width: %" }}
-8833df9f36ac73e489647887813284b5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|22|14|V|javascriptreact
-	              style={{ width: "auto" }}
-5e365a35aa18f619226fbeaa57abea20|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|16|20|V|javascriptreact
-	              inputClassName="black-text"
-0c9bb2b68d551bb24d3dd509d7215b5e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|13|1|V|javascriptreact
-	            <Col s={12}>
-ce8ae9da5b7cd6c3df2929543a9af92d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|18|39|v|javascriptreact
-	Email
-6c81ebd03d80200d0306810cdcd3aaf1|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|15|1|V|javascriptreact
-	                inputClassName="col s12"
-e2181b5014a67159cc230c8fe0d6c5b6|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|49|v|javascriptreact
-	unset
-d11585a69495812e12eedbd521f2b2cf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|37|V|javascriptreact
-	                style={{ width: "auto }}
-320a44052dc837f1d483d9233c5d783e|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|15|V|javascriptreact
-	            </Col>
-30e1db3e657e43f062b9527dde7facaf|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|14|20|v|javascriptreact
-	{12}>
-	              <TextInput
-	                email
-	                id=""
-	                label="Email"
-	                validate
-	                error="Wrong email"
-	              />
-	            </C
-3d980790f14ffe9d3bddd5d898f0732d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|21|16|V|javascriptreact
-	            </C>
-1ebfa1ed6aca291491cc970f68862344|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|36|V|javascriptreact
-	              className="alig-center"
-77bb733f770f60746cb1c2f8b27810a4|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|27|12|v|javascriptreact
-	 <Button node="button" type="submit" waves="light">
-	              Log in
-	            </Button>
-	
-adb115059e28d960fa8badfac5516667|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
-	center
-7c4f29407893c334a6cb7a87bf045c0d|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
-	right
-71f262d796bed1ab30e8a2d5a8ddee6f|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|v|javascriptreact
-	bottom
-e062a54585a5d13d795530bdc68a66f5|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|25|28|V|javascriptreact
-	                className="bottom"
-206017a896b2a5a1d7710edf7886a9e0|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|22|V|javascriptreact
-	              Register
-bc95dfc14146aa23e43f2ea7af04d310|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|24|12|V|javascriptreact
-	            
-980676e7a45d639f46014ac54cab37dc|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|7|4|v|javascriptreact
-	 <div className="container valign-wrapper">
-	      <Row style={{ paddingTop: "50px" }}>
-	        <CardPanel
-	          className="white lighten-3"
-	          style={{ minWidth: "400px", maxWidth: "700px" }}
-	        >
-	          <h4 className="center">Log in</h4>
-	          <form action="" style={{ width: "100%" }}>
-	            <TextInput
-	              email
-	              id="email-input"
-	              label="Email"
-	              validate
-	              error="Wrong email"
-	            />
-	            <TextInput id="password-input" label="Password" password />
-	            <div className="input-field col s12">
-	              <Link to="register">Register</Link>
-	              <Button
-	                className="right blue darken-1"
-	                node="button"
-	                type="submit"
-	                waves="light"
+aa55a175e43b6e244de252c6b8804a82|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|268|8|v|vue
+	 <div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap">
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
 	              >
-	                Log in
-	              </Button>
+	                Desde:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Hasta:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+	
+e69fde683d47e4e062cf96a71b16d9ea|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|268|9|v|vue
+	<div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap">
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Desde:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Hasta:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	          </div>
+	
+e186c2d69562f4750513bf8032ed925c|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|267|8|v|vue
+	div class="flex flex-wrap justify-center">
+	        <div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap">
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Desde:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Hasta:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	          </div>
+	
+c6c73b620be4f987ea1d184f2a4ac693|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|304|1|v|vue
+	
+	        <div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap"></div>
+	        </div>
+6b552469cb6aa70fd5b312c855dbc2b5|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|268|5|v|vue
+	    <div class="w-full md:w-1/2 relative flex-none">
+	          <div class="w-full flex flex-wrap">
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Desde:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Hasta:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+	          </div>
+	        </div>
+7ee9356c8d87a708c30525e32c5bd3fa|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|307|1|v|vue
+	            <div class="w-full md:px-3 mb-2 md:mb-4">
+	              <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Desde:<span class="text-red-500">*</span>
+	              </div>
+	              <div class="w-full">
+	                <el-date-picker
+	                  v-model="range"
+	                  class="input-custom__date-picker-range"
+	                  type="datetime"
+	                  placeholder="Seleccione una fecha"
+	                >
+	                </el-date-picker>
+	              </div>
+	            </div>
+37b19816109a32106d109e83bbb3c97d|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|299|28|v|vue
+	range
+f6d51754a1223eb060a7eb3820ee5d44|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|333|16|V|vue
+	      range: "",
+bf604b38c3e60171c975894bd0cd006b|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|293|14|v|vue
+	 <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                Hasta:<span class="text-red-500">*</span>
+c5cfa602bb43dad099cbffcc396266aa|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|316|17|v|vue
+	Hasta:
+ef1454506980cf870c23d4acec989f64|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|313|1|v|vue
+	 <div
+	                class="w-full text-sm pr-2 flex items-start flex-none md:py-2 lg:px-0 xl:py-2 font-semibold"
+	              >
+	                <span class="text-red-500">Por defecto si usted no selecciona fecha se</span>
+0c738638aa31bd865bf1926ac8366e45|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|283|25|v|vue
+	reportEndDate
+aab2e0e6f64894d71c1e2d0f74a30e9e|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|337|3|v|vue
+	    reportStartDate: new Date(2018, 0, 1, 0, 0),
+	      reportEndDate: Date.now(),
+d51fd9659b44b4316468398923bec9be|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|340|13|v|vue
+	reportStartDate
+4871f30b7645320fd06b2de265e70a78|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|337|1|v|vue
+	      reportStartDate: new Date(2018, 0, 1, 0, 0),
+	      reportEndDate: Date.now(),
+6446e9efde207ecff73359e3115630b2|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|306|37|V|vue
+	                  :min="reportStartDate"
+90d2214e761cd59528b9af00e01fb8c9|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|283|33|V|vue
+	                  :max="Date.now()"
+8fb739c82c1da888bdcf9130dd33b99a|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|338|19|v|vue
+	new Date(2020, 0, 1, 0, 0)
+91ca952a10501ea7c0616f29b730634c|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|1|1|V|vue
+	        disabledTime: this.disabledDueDate,
+d57e13586984030c6eb86e4f8ed358ea|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|75|1|v|javascriptreact
+	    createdDate: {
+	      $gte: startDate,
+	      $lt: endDate,
+	    },
+c13367945d5d4c91047b3b50234aa7ab|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|409|45|v|vue
+	code
+b8995f4349ef49575fb6582bc9584e0c|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|411|1|V|vue
+	                  value: (row) => (!row.code ? "-" : row.code),
+2b99ccd0e801325fa5d710c31cc33097|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|423|19|V|vue
+	                  value: "email",
+374b88902e002fbcf3237bb0643ca51d|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|423|1|V|vue
+	                  value: (row) => (!row.email ? "-" : row.email),
+69973d97f8695245e55c95193944f6ae|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|427|19|V|vue
+	                  value: "phone",
+46a0c238eb32c016f07ba5dd84bf3ecb|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|427|1|V|vue
+	                  value: (row) => (!row.phone ? "-" : row.phone),
+f7a42fe7211f98ac7a60a285ac3a9e87|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|432|41|v|vue
+	phone
+98f7b486548fb08e2a434270e238b738|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|432|1|V|vue
+	                  value: (row) => (!row.address ? "-" : row.address),
+c7d40aae1cca6478578f37fc18bb2fef|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|431|19|V|vue
+	                  value: "address",
+38805738ce0537f5183893f71cdd1662|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|435|19|V|vue
+	                  value: "paymentMethod",
+884d9804999fc47a3c2694e49ad2536a|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|435|41|v|vue
+	address
+ca82e07c4558535582f334bf16fb5e28|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|435|1|V|vue
+	                  value: (row) => (!row.paymentMethod ? "-" : row.paymentMethod),
+e43918aac0193af1eab669e2581b55ba|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|437|49|v|vue
+	 value: "paymentInfo", 
+68ec1eeea9f1b7744e231b5bd0d97df0|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|441|26|v|vue
+	paymentMethod
+b697d8f8571d8026ad054a16ce5f94e0|file:///home/andres/workspace/futurymall-stores-panel/pages/dashboard/mis-ordenes/index.vue|315|54|v|vue
+	Hacer
+4cacd8664fdd477bdd2897acd9d23243|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|61|23|V|javascriptreact
+	    console.log(req.query, req.params);
+2bda90195731b0f0d1ccbb06f6567f01|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|20|1|v|javascriptreact
+	async function findAllOrdersToReport(params) {
+	  try {
+	    let orders = await orderModel
+	      .find(params)
+	      .select(
+	        'code createdDate name lastName email phone address paymentMethod paymentInfo',
+	      )
+	      .sort({ createdDate: -1 });
+	    return orders;
+	  } catch (error) {
+	    return error.message;
+	  }
+	}
+cdaf10717d4a933a747e91302bf82459|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|34|16|v|javascriptreact
+	findAllOrdersToReport
+26ad3ca17de93c29d17c61b761b9879d|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|39|12|V|javascriptreact
+	      .sort({ createdDate: -1 });
+12c500ed0b7879105fb46af0f246be87|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|36|9|v|javascriptreact
+	orders
+c10bdb6b92b3c8d839e6e260d0efee91|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|84|1|V|javascriptreact
+	  findAllOrdersToReport,
+84f1b750dbe2bbab0e19fc67bac0759b|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|57|1|v|javascriptreact
+	async function findAllOrderService(idStore) {
+	  let params = {
+	    idStore: idStore,
+	    flgActive: true,
+	    showInDashboard: { $ne: false },
+	  };
+	  let ordersRes = await orderRepository.findAllOrder(params);
+	  let res = [];
+	  for (let ord of ordersRes) {
+	    ord = JSON.parse(JSON.stringify(ord));
+	    ord.details = await orderDetailService.findAllOrderDetailService(ord._id);
+	    res.push(ord);
+	  }
+	  return res;
+	}
+	
+be3ba9b901866a6be89714ef42e37648|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|73|1|v|javascriptreact
+	async function findAllOrdersToReport(idStore, startDate, endDate) {
+	  let params = {
+	    createdDate: {
+	      $gte: startDate || new Date(0),
+	      $lt: !endDate || endDate <= startDate ? Date.now() : endDate,
+	    },
+	    idStore: idStore,
+	    flgActive: true,
+	    showInDashboard: { $ne: false },
+	  };
+	  let ordersRes = await orderRepository.findAllOrdersToReport(params);
+	  return ordersRes;
+	}
+6d7d98d13fba68042887e7eebba9c434|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|73|1|v|javascriptreact
+	async function findAllOrdersToReport(idStore, startDate, endDate) {
+	  let params = {
+	    createdDate: {
+	      $gte: startDate || new Date(0),
+	      $lt: !endDate || endDate <= startDate ? Date.now() : endDate,
+	    },
+	    idStore: idStore,
+	    flgActive: true,
+	    showInDashboard: { $ne: false },
+	  };
+	  let ordersRes = await orderRepository.findAllOrdersToReport(params);
+	  retu
+73d78ea689df5a55dab477a891270b35|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|97|7|v|javascriptreact
+	ordersRes
+3e30ce7e54cda1caf18b23d26c520d80|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|98|10|v|javascriptreact
+	orderRes
+f330e689bae34778f891dbcccba3f148|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|58|1|v|javascriptreact
+	router.get('/report/:idStore', async (req, res) => {
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	  try {
+	    let orderResult = await orderService.findAllOrdersToReport(
+	      req.params.idStore,
+	      req.query.startDate,
+	      req.query.endDate,
+	    );
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = orderResult.length;
+	    response.objetos = orderResult;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.http ? error.http : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    r
+e98d2f001da5678b39482efbdf5770dc|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|83|14|v|javascriptreact
+	report
+2b1bb7941a660d0c1357ad6f1c1c0b1a|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|86|9|v|javascriptreact
+	orderResult
+2e09b559e558c343957f7d69ca6e901c|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|105|7|V|javascriptreact
+	return ;
+1c66b2cd91ea1ff738123e3126ab2311|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|72|1|V|javascriptreact
+	    res.status(response.code).json(response);
+b380db7e9efc33b500f7373329eb234e|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|140|17|V|javascriptreact
+	// Probar funcion
+b57b4d46230f60152867e3b9749cd0b1|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|51|31|V|javascriptreact
+	      console.log('productCategory', productCategory);
+2b1da85efd17d698defd3d33e67ba788|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|152|1|v|javascriptreact
+	      // let productsResult = await productService.findAllProductsService(
+	      // params,
+031c2be7db04c567a8b3b9e19aa599be|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|27|V|javascriptreact
+	    const { sort, page, itemsPerPage } = req.query;
+4be581176c631bde8f5ec31ba78acbf4|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|27|V|javascriptreact
+	    let { categories } = req.query;
+c234aa2890223884766645f9bdc6f44c|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|27|V|javascriptreact
+	    categories = categories.split(',');
+16e6b8aeca9169a3822f0dc1bbd410dd|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|27|V|javascriptreact
+	    delete req.query.categories;
+f302dd5a368c353923f600437b0ef04d|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|26|V|javascriptreact
+	    delete req.query.sort;
+8d35b8b3553aa8f603345da150eccfc4|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|26|V|javascriptreact
+	    delete req.query.page;
+eaca24191021014ec905dcca476f7bd9|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|108|26|V|javascriptreact
+	    delete req.query.itemsPerPage;
+cadc8c8db42409733582cb3e2298ef87|file:///home/andres/workspace/futurymall-api/src/controllers/admin/products/product.controllers.js|115|7|v|javascriptreact
+	sort
+0d36a67e741473e3accb261e92f65541|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|36|2|v|javascriptreact
+	 const response = JSON.parse(JSON.stringify(myGenericResponse));
+	  try {
+	    let orderResult = await orderService.findAllOrderService(
+	      req.params.idStore,
+	    );
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = orderResult.length;
+	    response.objetos = orderResult;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.http ? error.http : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+57725d54425503a3ca40ceabf3c2b9cb|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|58|26|v|javascriptreact
+	idStore
+21ffce5b8a6cc8cc6a41448dd69623c9|file:///home/andres/workspace/futurymall-api/src/controllers/admin/orders/order.controller.js|62|11|v|javascriptreact
+	params
+db1782ea2852ed0795b59338324e208d|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|15|2|v|javascriptreact
+	 try {
+	    return await orderModel.find(params);
+	  } catch (error) {
+	    return error.message;
+	  }
+6e0e486e3e459128f29a914109c41293|file:///home/andres/workspace/futurymall-api/src/repositories/orders/order.repository.js|24|40|V|javascriptreact
+	    return await orderModel.find(params);
+0cfa954b28e752ec9ea532a606af409f|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|85|1|v|javascriptreact
+	try {
+	  
+	} catch (e) {
+	  /* handle error */
+	}
+b01a39c0581ae911bc2cef8d07b0f995|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|66|1|v|javascriptreact
+	  let res = [];
+	  for (let ord of ordersRes) {
+	    ord = JSON.parse(JSON.stringify(ord));
+	    ord.details = await orderDetailService.findAllOrderDetailService(ord._id);
+	    res.push(ord);
+	  }
+	  return res;
+627dc86cfa1664fc93a87eafc781faf0|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|46|1|v|javascriptreact
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupons = await couponService.findAllCoupons(idStore);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = coupons.length;
+	    response.objetos = coupons;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+8294327184a72e214105a6a2b5659018|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|73|50|V|javascriptreact
+	    const { itemsPerPage, sort, page } = req.body;
+c344834fea83b707dda5db7ea414924c|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|73|22|V|javascriptreact
+	    const { idStore , ...} = req.body;
+841a2d689ad86bd1611447453c22c6fc|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|74|60|v|javascriptreact
+	body
+6e82d6b7735e4104958dc3adbbbf5df9|file:///home/andres/workspace/futurymall-api/src/services/coupons/coupon.service.js|41|1|v|javascriptreact
+	  const storeExists = await storeService.getStoreById(idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const couponsArr = await couponRepository.findAllCoupons({ idStore });
+	
+	  return couponsArr;
+80d5b17efc16ace990c07580fc3e85eb|file:///home/andres/workspace/futurymall-api/src/repositories/coupon/coupon.respository.js|4|4|V|javascriptreact
+	try{
+446d4f830344eb79e3c0e8b26caf74a0|file:///home/andres/workspace/futurymall-api/src/repositories/coupon/coupon.respository.js|6|1|v|javascriptreact
+	  try {
+	    const couponCreated = await couponModel.create(params);
+	    return couponCreated;
+	  } catch (error) {
+	    return error.message;
+	  }
+76ea0bebb3c22822b4f0dd9c9fd021c5|file:///home/andres/workspace/futurymall-api/src/repositories/coupon/coupon.respository.js|5|45|v|javascriptreact
+	create
+7817cd3922a28fe351d9528a9bfcdbe1|file:///home/andres/workspace/futurymall-api/src/services/coupons/coupon.service.js|70|45|v|javascriptreact
+	findAllCoupons
+a4ddcbe0e347bb244944be2b31190a23|file:///home/andres/workspace/alvarod-api/package.json|9|14|v|json
+	cesaralvarod
+bf7c99592e3b8c93ce1086a0036a94fd|file:///home/andres/workspace/alvarod-panel/src/index.js|7|13|v|javascriptreact
+	DOMAIN
+1aa0b4911486487e9c17937a74d88b81|file:///home/andres/workspace/alvarod-panel/src/index.js|4|15|V|javascriptreact
+	import "process";
+588849c53d308159efa1ca45e581904b|file:///home/andres/workspace/alvarod-panel/src/index.js|7|23|V|javascriptreact
+	console.log(process.env);
+3f5ead17822b4cd022532df7dc2479c4|file:///home/andres/workspace/alvarod-panel/src/index.js|4|8|v|javascriptreact
+	dotenv
+939a97dc70f85e421f574cc035f73cb2|file:///home/andres/workspace/alvarod-panel/src/index.js|4|15|V|javascriptreact
+	import "dotenv";
+4504f6b002d4f4171ce5276ace2bc2b7|file:///home/andres/workspace/alvarod-panel/src/index.js|9|33|V|javascriptreact
+	  console.log("Entorno: Desarrollo");
+156af634f63ef94e055b264c29191d02|file:///home/andres/workspace/alvarod-panel/src/index.js|9|28|V|javascriptreact
+	  require("dotenv").config({ path: "" });
+83b9703c4ec6803974501b9a83ff68d8|file:///home/andres/workspace/alvarod-panel/src/index.js|7|1|v|javascriptreact
+	if (process.env.NODE_ENV === "development") {
+	  // require("dotenv");
+	  console.log(process.env);
+	}
+901555fb06e346cb065ceb9808dcfc25|file:///home/andres/workspace/alvarod-api/src/index.js|7|12|v|javascriptreact
+	port
+0897acf49c7c1ea9f76efe59187aa046|file:///home/andres/workspace/alvarod-api/src/index.js|8|18|v|javascriptreact
+	hostname
+f6f32d1030c1ac839b60c3e58ea913dd|file:///home/andres/workspace/alvarod-api/package.json|9|14|V|json
+	    "start": "node src/index.js"
+b026809dc5d118cd45cb15b07db57e06|file:///home/andres/workspace/alvarod-api/package.json|8|33|V|json
+	    "test": "echo \"Error: no test specified\" && exit 1",
+c4ae30aeb15a4f2b1f07e2b23292baab|file:///home/andres/workspace/alvarod-api/src/index.js|6|39|V|javascriptreact
+	const port = process.env.APP_PORT || 4000;
+5b1daff0691ee1f3d1a241e1089a6098|file:///home/andres/workspace/alvarod-api/src/config/db.js|1|34|V|javascriptreact
+	const mongoose = require("mongoose");
+2a88962c8ff1f0955eed5a42655dc317|file:///home/andres/workspace/alvarod-api/.env|2|17|v|sh
+	TH9vTkoOfmQI2L5X;
+5f4dcc3b5aa765d61d8327deb882cf99|file:///home/andres/workspace/alvarod-api/.env|1|33|v|sh
+	password
+21232f297a57a5a743894a0e4a801fc3|file:///home/andres/workspace/alvarod-api/.env|1|26|v|sh
+	admin
+93940d4d6a0b82a8390b94ff450a345f|file:///home/andres/workspace/alvarod-api/.env|2|30|V|sh
+	APP_DB_PASSWORD=TH9vTkoOfmQI2L5X;
+c62dae6ef97593069912b8c4208482d1|file:///home/andres/workspace/alvarod-api/src/config/database.js|10|15|V|javascriptreact
+	mongoose.connect(process.env.URI);
+3e15a7c106d4a6f075a00bf228a6bb3e|file:///home/andres/workspace/alvarod-api/src/config/database.js|4|10|V|javascriptreact
+	  mongoose.connect(process.env.URI);
+35b4278ab0e27f355351ede7366239f9|file:///home/andres/workspace/alvarod-api/src/config/database.js|5|1|v|javascriptreact
+	
+	try {
+	  console.log("Database Connected");
+	} catch (e) {
+	  /* handle error */
+	  console.error(e);
+	}
+6b093a398f4e37cb41ef1d219ecc2050|file:///home/andres/workspace/alvarod-api/src/models/User/User.js|2|27|V|javascriptreact
+	const { Schema } = mongoose;
+758d31f351ce11bf27c522f516cb4c20|file:///home/andres/workspace/alvarod-api/src/models/User/User.js|1|7|v|javascriptreact
+	mongoose
+8f9bfe9d1345237cb3b2b205864da075|file:///home/andres/workspace/alvarod-api/src/index.js|7|19|v|javascriptreact
+	User
+c21f969b5f03d33d43e04f8f136e7682|file:///home/andres/workspace/alvarod-api/src/models/User/User.js|10|8|v|javascriptreact
+	default
+c20e0fd80051ed1293e492d784d316e2|file:///home/andres/workspace/alvarod-api/src/routes/index.js|5|4|V|javascriptreact
+	res.
+eede20c4c27094356d31704ef66e1b2d|file:///home/andres/workspace/alvarod-api/src/index.js|7|18|V|javascriptreact
+	require("./models/");
+63e1cf83625871c604117ba520667ed8|file:///home/andres/workspace/alvarod-api/src/index.js|1|5|V|javascriptreact
+	require("dotenv").config();
+1f38e663e8678564fd7a6285f4298259|file:///home/andres/workspace/alvarod-api/src/index.js|6|5|V|javascriptreact
+	require("./config/database");
+4e64bf86f66832e98c673b8962d24eb2|file:///home/andres/workspace/alvarod-api/src/index.js|12|1|V|javascriptreact
+	  );
+2b9db14d79e2043fbf232a5f5e8e4754|file:///home/andres/workspace/alvarod-api/src/index.js|11|1|V|javascriptreact
+	    } mode.`
+5764dd8d3ef7bfcf5de4fa4924140c83|file:///home/andres/workspace/alvarod-api/src/index.js|10|1|V|javascriptreact
+	      process.env.NODE_ENV
+0335d96fffcdfd7eea6ea8fe2676bcd7|file:///home/andres/workspace/alvarod-api/src/index.js|3|10|V|javascriptreact
+	const express = require("express");
+4ca65a8bdbeae8b6ee400801a8a8f812|file:///home/andres/workspace/alvarod-api/src/index.js|3|13|v|javascriptreact
+	express
+ac5552fd6a3c08ad22387efbe42d137d|file:///home/andres/workspace/alvarod-api/src/config/app.js|4|12|v|javascriptreact
+	models
+2245023265ae4cf87d02c8b6ba991139|file:///home/andres/workspace/alvarod-api/src/config/app.js|5|12|v|javascriptreact
+	config
+08573553e1195ef7f9b2657721c02a8f|file:///home/andres/workspace/alvarod-api/src/index.js|4|23|v|javascriptreact
+	());
+faeeade362c8dbc4dfbf053902f7072f|file:///home/andres/workspace/alvarod-api/src/index.js|4|22|V|javascriptreact
+	console.log(app.Router
+7d793037a0760186574b0282f2f435e7|file:///home/andres/workspace/alvarod-api/src/routes/index.js|5|19|v|javascriptreact
+	world
+b51f3d96e15da3562df1c2064082f771|file:///home/andres/workspace/futurymall-api/src/models/coupon/coupon.schema.js|1|1|v|javascriptreact
+	const { Schema, model } = require('mongoose');
+	
+	const couponSchema = new Schema(
+	  {
+	    idStore: {
+	      type: Schema.Types.ObjectId,
+	      required: true,
+	    },
+	    createdBy: {
+	      types: Schema.Types.ObjectId,
+	    },
+	    modifiedBy: {
+	      types: Schema.Types.ObjectId,
+	    },
+	    code: {
+	      type: String,
+	      required: true,
+	    },
+	    type: {
+	      type: String,
+	      enum: ['percentage', 'fixed_value'],
+	      required: true,
+	    },
+	    value: {
+	      type: Number,
+	      required: true,
+	    },
+	    start_date: {
+	      type: Date,
+	      default: Date.now(),
+	    },
+	    expiration_date: {
+	      type: Date,
+	      required: true,
+	    },
+	    stock: {
+	      type: Number,
+	    },
+	  },
+	  { timestamps: true },
+	);
+	
+	module.exports = model('coupon', couponSchema);
+2fb436cc846edd67e356f8cd90213300|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|3|7|v|javascriptreact
+	couponSchema
+0900e1b184ab5fcda19894150a791622|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|5|4|v|javascriptreact
+	 idStore: {
+	      type: Schema.Types.ObjectId,
+	      required: true,
+	    },
+	    createdBy: {
+	      types: Schema.Types.ObjectId,
+	    },
+	    modifiedBy: {
+	      types: Schema.Types.ObjectId,
+	    },
+	    code: {
+	      type: String,
+	      required: true,
+	    },
+	    type: {
+	      type: String,
+	      enum: ['percentage', 'fixed_value'],
+	      required: true,
+	    },
+	    value: {
+	      type: Number,
+	      required: true,
+	    },
+	    start_date: {
+	      type: Date,
+	      default: Date.now(),
+	    },
+	    expiration_date: {
+	      type: Date,
+	      required: true,
+	    },
+	    stock: {
+	      type: Number,
+	    },
+7471c77cffe54f94937adf160323d557|file:///home/andres/workspace/alvarod-api/src/config/database.js|7|1|v|javascriptreact
+	
+	const db = mongoose.connection;
+	db.on("error", console.error);
+3a28b612d85d94ee59f16c1e4317ccc7|file:///home/andres/workspace/alvarod-api/src/config/database.js|7|1|V|javascriptreact
+	module.export = db;
+1f086da702c912a78a2143dc33c0c0e8|file:///home/andres/workspace/alvarod-api/.env|1|80|v|sh
+	alvarod
+098f6bcd4621d373cade4e832627b4f6|file:///home/andres/workspace/alvarod-api/.env|1|80|v|sh
+	test
+a0c098c6bd1338bbb7d4938d04c88ed4|file:///home/andres/workspace/alvarod-api/src/models/user/User.model.js|6|1|V|javascriptreact
+	    required: true,
+bb97229392b9913fb91366548db28d65|file:///home/andres/workspace/alvarod-api/src/models/user/User.model.js|14|13|V|javascriptreact
+	required:fals
+dd485e41f1758def296e1bc7377f8ea7|file:///home/andres/workspace/alvarod-api/src/routes/index.js|5|18|v|javascriptreact
+	mundo
+de112f1ff7af9be29c7aab944f7add57|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|8|1|v|javascriptreact
+	// GET -> Get all users
+	
+	router.get("/all", (req, res) => {
+	  res.json({
+	    ok: true,
+	  });
+	});
+	
+	
+9bc65c2abec141778ffaa729489f3e87|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|16|19|v|javascriptreact
+	users
+61344779ac48c141400886338f36e24a|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|26|14|V|javascriptreact
+	router.put("/:")
+97cbabea978102a32251f272500850af|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|18|1|v|javascriptreact
+	router.get("/:userId", (req, res) => {
+	  res.json({
+	    ok: true,
+	  });
+	});
+8dcc9714895667fb06b7e1fbdb890e91|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|24|1|v|javascriptreact
+	// PUT -> Update user by id
+	
+	router.put("/:userId", (req, res) => {
+	  res.json({
+	    ok: true,
+	  });
+	});
+06933067aafd48425d67bcb01bba5cb6|file:///home/andres/workspace/alvarod-api/src/routes/auth/index.js|32|14|v|javascriptreact
+	Update
+ba2901479eb1b282e7d2b1cec2ab5967|file:///home/andres/workspace/alvarod-react/tailwind.config.js|6|15|V|javascriptreact
+	        principal: "#f59842",
+a9f0e61a137d86aa9db53465e0801612|file:///home/andres/workspace/alvarod-react/tailwind.config.js|6|9|v|javascriptreact
+	second
+4b0fc52b156d994f222f7792438da594|file:///home/andres/workspace/alvarod-react/tailwind.config.js|7|12|V|javascriptreact
+	        second: "#484041",
+e7d715a9b79d263ae527955341bbe9b1|file:///home/andres/workspace/alvarod-react/tailwind.config.js|7|9|v|javascriptreact
+	principal
+3fd6cf632e4ddfffe96d4f9057ddf9fd|file:///home/andres/workspace/alvarod-react/tailwind.config.js|8|9|V|javascriptreact
+	        third: "#f93e3e",
+dd5c8bf51558ffcbe5007071908e9524|file:///home/andres/workspace/alvarod-react/tailwind.config.js|7|9|v|javascriptreact
+	third
+aa4ba24d0118caba8520d7e2a7428db4|file:///home/andres/workspace/alvarod-react/tailwind.config.js|9|9|v|javascriptreact
+	hoverThird
+6e559557b863a71f16e54a1addf8d4d9|file:///home/andres/workspace/alvarod-react/tailwind.config.js|7|19|v|javascriptreact
+	484041
+c1c425268e68385d1ab5074c17a94f14|file:///home/andres/workspace/alvarod-react/src/components/home/Comments.js|3|1|v|javascriptreact
+	function
+5dd7ac3770aaf6a4c6944ab4ce95f50c|file:///home/andres/workspace/alvarod-react/src/components/home/Comments.js|1|17|v|javascriptreact
+	useState
+1aa6646226a54b49334030cee99d933c|file:///home/andres/workspace/alvarod-react/src/components/home/Comments.js|5|36|v|javascriptreact
+	darkSlate
+97d790a1696f681a894570783c18806b|file:///home/andres/inteligencia-artificial/primeros-pasos/webcam.py|1|1|v|python
+	import cv2
+	
+	cap = cv2 = 
+dbf69b7b51449a227cb3155413e7a75c|file:///home/andres/inteligencia-artificial/primeros-pasos/main.py|3|16|V|python
+	print(msg1+msg2)
+811e29a7e3f2694a5434d3c152637944|file:///home/andres/inteligencia-artificial/primeros-pasos/main.py|2|14|V|python
+	msg2 = "World"
+a630c6a90e2363c26b83886e7a557637|file:///home/andres/inteligencia-artificial/primeros-pasos/main.py|1|14|V|python
+	msg1 = "Hello"
+c8ff66b3f7c28adb688dbaaf95c92edc|file:///home/andres/inteligencia-artificial/primeros-pasos/main.py|16|5|V|python
+	    k
+56ef95593b17140b38aaf30a145e7835|file:///home/andres/inteligencia-artificial/primeros-pasos/webcam.py|7|17|v|python
+	AIOTPERU
+86e5120744d7c8628cb4d966e150077c|file:///home/andres/inteligencia-artificial/primeros-pasos/drawing_line.py|1|1|v|python
+	import numpy as np
+	import cv2 as cv
+	
+	# Create a black image
+	img = np.zeros((512, 512, 3), np.uint8)
+	
+	# Draw a diagonal blue line with thickness of 5px
+	cv.line(img, (384, 0), (510, 128), (0, 255, 0), 5)
+	
+	cv.destroyAllWindows()
+9e2689272e5c522f7d7bd2a742f3c7ca|file:///home/andres/inteligencia-artificial/primeros-pasos/drawing_line.py|20|1|V|python
+	    cv.imshow('image', img)
+e41c52f6e5a500019ce1581b05ababe4|file:///home/andres/workspace/futurymall-landing/components/blocks/TabsContainer/index.vue|56|16|V|vue
+	  components: { FirstTab, SecondTab, ThirdTab },
+d3b9538566b8b7588612f0ed935cd7bc|file:///home/andres/workspace/alvarod-panel/src/store/types/authTypes.js|1|14|v|javascriptreact
+	SIGNIN_USER
+cd14c323902024e72c850aa828d634a7|file:///home/andres/workspace/alvarod-panel/src/store/reducers/authReducer.js|14|11|v|javascriptreact
+	case
+1cbfb724ceee46cd879df7c7cfbe7dca|file:///home/andres/workspace/alvarod-panel/src/store/reducers/authReducer.js|17|7|v|javascriptreact
+	break
+cda7a650c5856cf2f6738072447d7825|file:///home/andres/inteligencia-artificial/detectar-rostros/main.py|15|24|v|python
+	gray
+6ec7309c201e4e01f7933ad692b5ad16|file:///home/andres/inteligencia-artificial/detectar-rostros/main.py|20|3|v|python
+	  if cv.waitKey(1) == ord("c"):
+	        print("Presionando c")
+	        cv.imwrite("test.jpg", frame)
+20f1392ad4eef6c96c161e398c9b8c5d|file:///home/andres/inteligencia-artificial/detectar-rostros/main.py|18|29|V|python
+	        print("Presionando a")
+5ae0c1c8a5260bc7b6648f6fbd115c35|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|8|5|v|javascriptreact
+	photo
+02bd92faa38aaa6cc0ea75e59937a1ef|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|5|5|v|javascriptreact
+	author
+4757fe07fd492a8be0ea6a760d683d6e|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|11|5|v|javascriptreact
+	position
+aaca0f5eb4d2d98a6ce6dffa99f8254b|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|5|5|v|javascriptreact
+	avatar
+e0a23ba932fefdbf05d5e41bacbc7258|file:///home/andres/workspace/futurymall-api/src/models/comment/comment.schema.js|3|7|v|javascriptreact
+	commentSchema
+fe57979ec83a09e981c80f9f9f5b092c|file:///home/andres/workspace/futurymall-api/src/controllers/site/index.js|35|1|V|javascriptreact
+	router.use('/coupons', require('./coupons/coupons.controller'));
+28882724d375042a7b19db1e976cb622|file:///home/andres/workspace/futurymall-api/src/controllers/site/index.js|36|14|v|javascriptreact
+	coupons
+594c103f2c6e04c3d8ab059f031e0c1a|file:///home/andres/workspace/futurymall-api/src/controllers/site/index.js|36|56|v|javascriptreact
+	controller
+e3e2a9bfd88566b05001b02a3f51d286|file:///home/andres/workspace/futurymall-api/src/repositories/testimonial/testimonial.repository.js|5|58|v|javascriptreact
+	docs
+dde295d0940e182e67bf3ceb39008653|file:///home/andres/workspace/futurymall-api/src/repositories/testimonial/testimonial.repository.js|16|20|V|javascriptreact
+	  /* handle error */
+0c88d0b25bf594c2b993752f185637c2|file:///home/andres/workspace/futurymall-api/src/repositories/coupon/coupon.respository.js|51|1|v|javascriptreact
+	  try {
+	    return await couponModel.findByIdAndUpdate(id, { $set: req });
+	  } catch (error) {
+	    return error.message;
+	  }
+31e42c2d275954d0450002539568d7dd|file:///home/andres/workspace/futurymall-api/src/repositories/testimonial/testimonial.repository.js|22|18|v|javascriptreact
+	couponModel
+f2c8e4d207088a0fe383d9e720db025b|file:///home/andres/workspace/futurymall-api/src/repositories/coupon/coupon.respository.js|59|1|v|javascriptreact
+	  try {
+	    return await couponModel.findByIdAndDelete(id);
+	  } catch (error) {
+	    return error.message;
+	  }
+ecda465478867dbe6f0f0a2329f30940|file:///home/andres/workspace/futurymall-api/src/services/testimonials/testimonials.service.js|3|34|v|javascriptreact
+	testimonial
+db98bbede4c390eb9eb35e15cea83993|file:///home/andres/workspace/futurymall-api/src/services/testimonials/testimonials.service.js|4|1|v|javascriptreact
+	  const newTestimonial = await testimonialRepository.createTestimonial(params);
+	
+	  return newTestimonial;
+6e56c2457ca165e5c9a89ea19733428c|file:///home/andres/workspace/futurymall-api/src/services/testimonials/testimonials.service.js|16|3|v|javascriptreact
+	const testimonial = await testimonialRepository.findTestimonialById(id);
+	
+	  return testimonial;
+e70eae1a888a1f8248849d2477274ad2|file:///home/andres/workspace/futurymall-api/src/services/testimonials/testimonials.service.js|22|49|v|javascriptreact
+	findTestimonialById
+09d10fe8e4ba3a1901de3f5d4a31f771|file:///home/andres/workspace/futurymall-api/src/controllers/site/coupons/coupons.controller.js|4|1|v|javascriptreact
+	const myGenericResponse = require('../../../utils/myGenericsResponse');
+	const cleanObject = require('../../../utils/cleanObject');
+eda8376184b3566230613acdba0f9f8d|file:///home/andres/workspace/futurymall-api/src/controllers/site/coupons/coupons.controller.js|9|1|v|javascriptreact
+	const STATUS_OK = 'ok';
+	const STATUS_ERROR = 'error';
+e22836a55919f6f0da57d622d9b59353|file:///home/andres/workspace/futurymall-api/src/controllers/site/coupons/coupons.controller.js|15|1|v|javascriptreact
+	  const { storeId, code } = req.params;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.findCouponByCode(storeId, code);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	
+f38afcc99e7ad4c394b46f2a8cf8a1dc|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|15|25|V|javascriptreact
+	  const { storeId, code } = req.params;
+b68787865948a577835e21f58f950ea2|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|18|26|v|javascriptreact
+	couponService
+c0b94c5ee32eaf5fe0f998fb35724552|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|18|45|v|javascriptreact
+	findCouponByCode
+d6e16e12d31ca5eaaf18ef8c8c6a3d82|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|18|11|v|javascriptreact
+	coupon
+aa3bfd7503a2b8b3c6184f44eb1ab519|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|15|1|v|javascriptreact
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const testimonials = await testimonialService.findAllTestimonials();
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = testimonials.length;
+	    response.objetos = testimonials;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+58ace17ff8196e65b7c767a0bccd746a|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|36|1|v|javascriptreact
+	// POST Create new testimonial
+	
+	router.post((req, res) => {
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const testimonials = await testimonialService.findAllTestimonials();
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = testimonials.length;
+	    response.objetos = testimonials;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	})
+429791b2fb51805e2d4a64ebcf5e67a4|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|14|1|v|javascriptreact
+	router.get('/all', async (req, res) => {
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const testimonials = await testimonialService.findAllTestimonials();
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = testimonials.length;
+	    response.objetos = testimonials;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+cac6f1cd783069952b46ae4f2090d574|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/index.js|18|1|V|javascriptreact
+	router.use('/partners', require('./partner/partner.controller'));
+7896f8fa69398c56d86a65357615c41f|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/index.js|19|14|v|javascriptreact
+	partners
+482a88dd62cc15b6c09793a3e87a2bd4|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/index.js|19|57|v|javascriptreact
+	ontroller
+179a9df35eb013ece9d1345300db894c|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|1|1|v|javascriptreact
+	const express = require('express');
+	const router = express.Router();
+	
+	const myGenericResponse = require('../../../utils/myGenericsResponse');
+	const cleanObject = require('../../../utils/cleanObject');
+	
+	const couponService = require('../../../services/coupons/coupon.service');
+	
+	const STATUS_OK = 'ok';
+	const STATUS_ERROR = 'error';
+	
+	
+e78c9bf56e4616f97a17eaefa97b260a|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|14|1|v|javascriptreact
+	router.post('/', async (req, res) => {
+	  const { body } = req;
+	
+	  if (body) {
+	    const response = JSON.parse(JSON.stringify(myGenericResponse));
+	    try {
+	      const coupon = await couponService.createCoupon(body);
+	
+	      response.status = STATUS_OK;
+	      response.msg_id = Date.now();
+	      response.code = 200;
+	      response.number_records = 1;
+	      response.objeto = coupon;
+	      cleanObject.clean(response);
+	      res.status(response.code).json(response);
+	    } catch (error) {
+	      response.status = STATUS_ERROR;
+	      response.code = error.httpStatus ? error.httpStatus : 500;
+	      response.message = error.message;
+	      response.msg_id = Date.now();
+	      cleanObject.clean(response);
+	      res.status(response.code).json(response);
+	    }
+	  } else {
+	    res.status(400).send({ message: 'Cuerpo de la petición faltante' });
+	  }
+	});
+	
+5db4db39dc8c9b0905e78a267596a1d3|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|7|14|V|javascriptreact
+	const couponService = require('../../../services/coupons/coupon.service');
+9663bc362a307227b819c934a461ee18|file:///home/andres/workspace/futurymall-api/src/controllers/site/testimonials/testimonials.controller.js|7|1|V|javascriptreact
+	const testimonialService = require('../../../services/testimonials/testimonials.service');
+33a6b63505b8d54a644504434b3c59c8|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|20|52|v|javascriptreact
+	createCoupon
+808ecd90a3303cdd4a6669796c5fb4ff|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|42|1|v|javascriptreact
+	// GET coupons list
+	
+	router.get('/all/:idStore', async (req, res) => {
+	  const { idStore } = req.params;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupons = await couponService.findAllCoupons(idStore);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = coupons.length;
+	    response.objetos = coupons;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+23a3228290559ab4d4137b6c4fbca30d|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|49|27|v|javascriptreact
+	coupownService
+84ad10f3366d637b48353ba4b0a592a9|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|45|20|V|javascriptreact
+	  const { idStore } = req.params;
+aff526df853355137f66b7d90ab4b6ef|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|69|1|v|javascriptreact
+	router.get('/:id', async (req, res) => {
+	  const {
+	    params: { id },
+	  } = req;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.findCouponById(id);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+29a22702196f7ee988a7791f0b21a6b7|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|75|45|v|javascriptreact
+	findCouponById
+6056e3004bd6772432c2c2927e979ccc|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|127|1|v|javascriptreact
+	router.put('/:id', async (req, res) => {
+	  const {
+	    params: { id },
+	    body,
+	  } = req;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.updateCoupon(id, body);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+	
+ed9888642dac35ae69c286c4291966d2|file:///home/andres/workspace/futurymall-api/src/controllers/superadmin/testimonials/testimonials.controller.js|104|45|v|javascriptreact
+	updateCoupon
+c1a2420ce169c0deabca719a7e06ca66|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|155|1|v|javascriptreact
+	router.delete('/:id', async (req, res) => {
+	  const {
+	    params: { id },
+	  } = req;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.deleteCoupon(id);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+	
+	
+c92a9d35d0b1c0967d9047cbb28f8570|file:///home/andres/workspace/futurymall-api/src/configs/app.js|17|14|V|javascriptreact
+	app.use(routes);
+9c514e654794791493a9df6b627edc1b|file:///home/andres/workspace/futurymall-api/src/controllers/site/index.js|36|14|v|javascriptreact
+	testimonials
+a5d491060952aa8ad5fdee071be752de|file:///home/andres/workspace/futurymall-api/src/controllers/site/index.js|36|14|v|javascriptreact
+	comments
+4922909f8ea24f1057914c9e1f8f0eff|file:///home/andres/workspace/detector-python/src/helpers/faceDetectCam.py|6|1|v|python
+	cascade
+9a46e399552a886aeb90a6c46609c5ab|file:///home/andres/workspace/detector-python/src/helpers/faceDetectCam.py|9|1|v|python
+	def faceDetectCam():
+	    cap = cv.VideoCapture(0)
+	
+	    if not cap.isOpened():
+	        print("Cannot open camera")
+	        return
+	
+	    while cap.isOpened():
+	        ret, frame = cap.read()
+	
+	        if not ret:
+	            print("Can't reecieve frame. Exiting...")
+	            return
+	
+	        cv.imshow("My frame", frame)
+	
+	        if cv.waitKey(1) == ord("q"):
+	            print("Bye!")
+	            return
+	
+	    cap.release()
+	    cv.destroyAllWindows()
+	    return
+be787b2a539ac20090a5bce756d25fa2|file:///home/andres/workspace/detector-python/src/helpers/detectAndDisplay.py|7|1|v|python
+	def detectAndDisplay(frame):
+	    cap = cv.isOpened()
+	    return
+0dd4ffb4eda933cd9455d5b4f4f1b475|file:///home/andres/workspace/detector-python/src/helpers/detectAndDisplay.py|7|5|v|python
+	faciwtectCam
+a63f4ab0f667ffe441c5ebcd2f49cdb2|file:///home/andres/workspace/futurymall-stores-panel/pages/index.vue|1|1|v|vue
+	<template>
+	  <section class="w-full h-screen bg-white overflow-hidden relative">
+	    <img
+	      src="/images/circle_futury_2.svg"
+	      class="absolute"
+	      style="top: 0; left: 0"
+	    />
+	    <img
+	      src="/images/circle_futury_1.svg"
+	      class="absolute hidden md:block"
+	      style="top: 0; right: 0; height: 100%"
+	    />
+	    <img
+	      src="/images/SHINY 1.svg"
+	      class="absolute hidden md:block"
+	      style="bottom: 0; right: 0; height: 100%"
+	    />
+	    <div class="w-full h-full bg-login relative">
+	      <div class="mx-auto w-full h-full flex flex-col justify-between py-16">
+	        <div class="mx-5 sm:mx-10 md:ml-32">
+	          <img
+	            src="/logo.png"
+	            style="max-width: 220px; top: 55px; left: 115px"
+	            alt="futury"
+	          />
+	        </div>
+	
+	        <div
+	          class="flex justify-center md:justify-start items-center mx-5 sm:mx-10 md:ml-32"
+	        >
+	          <form
+	            class="block w-full p-5 sm:p-10 bg-white z-20 shadow-xl"
+	            style="border-radius: 1.5rem; max-width: 450px"
+	          >
+	            <h1 class="text-primary font-bold sm:text-xl text-lg mb-12">
+	              Accede a tu tienda en línea
+	            </h1>
+	            <div class="flex mb-4">
+	              <el-input
+	                v-model="auth.userName"
+	                class="input-login"
+	                type="text"
+	                name=""
+	                value=""
+	                placeholder="Correo"
+	              />
+	            </div>
+	            <div class="flex mb-4">
+	              <el-input
+	                v-model="auth.password"
+	                class="input-login"
+	                type="password"
+	                minlength="6"
+	                name=""
+	                value=""
+	                placeholder="Contraseña"
+	                @keyup.enter.native="login()"
+	              />
+	            </div>
+	            <div class="w-full flex flex-col justify-center items-center mb-2">
+	              <el-button
+	                @click="login"
+	                class="block w-full login-button"
+	                style="margin: 0 0 10px 0"
+	              >
+	                Inicia sesión
+	              </el-button>
+	            </div>
+	            <div class="mb-6">
+	              <span class="text-gray-800 font-normal" style="font-size: 14px"
+	                >¿Olvidaste tu contraseña? Haz clic
+	                <nuxt-link to="/olvide-contrasenia" class="underline"
+	                  >aquí</nuxt-link
+	                >
+	              </span>
+	            </div>
+	            <div class="bg-gray-400 w-full mb-6" style="height: 1px"></div>
+	            <div class="">
+	              <p class="font-bold" style="font-size: 14px">
+	                ¿Eres nuevo?
+	                <span>
+	                  <a
+	                    href="https://futurymall.com/registro"
+	                    target="_blank"
+	                    class="text-primary hover:underline"
+	                    >Registra tu negocio</a
+	                  ></span
+	                >
+	              </p>
 	            </div>
 	          </form>
-	        </CardPanel>
-	      </Row>
-	    </div>
-344fc1fc0da9d07616b55ab2947fa136|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|5|3|v|javascriptreact
-	  <div>
-	      <p>RegisterScreen</p>
-	    </div>
-3c248e34f7c76163b2d8546062d42dc2|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|2|1|V|javascriptreact
-	import { CardPanel, Row, TextInput, Button } from "react-materialize";
-79cbef6453ed797d9c7f0506398f04cb|file:///home/andres/workspace/mern-calendar/src/components/auth/LoginScreen.js|3|1|V|javascriptreact
-	import { Link } from "react-router-dom";
-bffe9a3c9a7e00ba00a11749e022d911|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|13|34|v|javascriptreact
-	Log in
-0ba7583639a274c434bbe6ef797115a4|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|24|35|v|javascriptreact
-	Register
-0c83f57c786a0b4a39efab23731c7ebc|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|26|v|css
-	email
-103af80829e3773733a702ff2f0b7fe9|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|1|v|css
-	.input-field input:focus + label {
-	  color: #000 !important;
-	}
-b5ecb5ce2c7f83cd0b9e597021e9fe8d|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|25|1|v|css
-	
-	/* label focus color */
-	.input-field input[type="text"]:focus + label,
-	.materialize-textarea:focus:not([readonly]) + label {
-	  color: #005eed !important;
-	}
-9b596c67db267eaaf11e705f713c8471|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|15|13|v|javascriptreact
-	<TextInput
-	              email
-	              id="email-input"
-	              label="Email"
-	              validate
-	              error="Wrong email"
-	            />
-d4d5f4df3e34ef19f4ab2678745a605a|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|16|18|V|javascriptreact
-	              email
-fc9875b8e735688cb800cba3ff361f0d|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|28|1|V|javascriptreact
-	            <TextInput id="password-input" label="Password" password />
-600db61ad4c75aedfa980fb0d5637f46|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|19|14|V|javascriptreact
-	              error="Wrong email"
-7fac9e02eb1d09a0591074686a868e67|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|18|14|V|javascriptreact
-	              validate
-eef70a23f7abf065310926ede17cf2fe|file:///home/andres/workspace/mern-calendar/src/components/auth/RegisterScreen.js|15|1|V|javascriptreact
-	            <TextInput id="name-input" label="Name" />
-de2bd63e06f9214010847c4cdb1ed57e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|6|1|V|javascriptreact
-	      <p>Calendar Screen</p>
-0ebabfbfc9aa2f4040a510b33ddb432f|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|18|V|javascriptreact
-	import { DayGridView } from "@fullcalendar/daygrid";
-7a70df163e3d85e791cb099ec5f04734|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|7|31|v|javascriptreact
-	DayGridView
-41b4d535af340e9b980672f0c472d1ad|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|3|1|V|javascriptreact
-	function Navbar(){
-	  return(
-	    <div>
-	      <p>Body</p>
-	    </div>
-	    )
-	}
-ab7afaf53b4721ad2fb1da5eaf87d528|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|11|V|javascriptreact
-	      {" "}
-8c2857a9ad1d8f31659e35e904e20fa6|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|7|44|v|javascriptreact
-	Logo
-cfcb75fe3accfe72c3924909ece69a2f|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|9|16|V|javascriptreact
-	      <Navbar />
-703496e484452aa89de6fdd082318aaa|file:///home/andres/workspace/mern-calendar/src/CalendarApp.js|2|19|V|javascriptreact
-	import Navbar from "./components/ui/Navbar";
-5f0b6ebc4bea10285ba2b8a6ce78b863|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|10|23|v|javascriptreact
-	container
-e09517314c70b46ccee2f453a07e4241|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|5|7|V|javascriptreact
-	NavItem
-4ef976229de0ba583b510d970758f777|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|5|v|javascriptreact
-	  <Navbar
-	        alignLinks="right"
-	        brand={
-	          <a className="brand-logo" href="#">
-	            Calendar App
-	          </a>
-	        }
-	      ></Navbar>
-	
-fc35fdc70d5fc69d269883a822c7a53e|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|35|v|javascriptreact
-	html
-921191c67f7dfe7a93bac62ebc070947|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|5|v|javascriptreact
-	    brand={
-	          <a className="brand-logo" href="#">
-	            Logo
-	          </a>
-	        }
-0cf31b2c283ce3431794586df7b0996d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|4|V|javascriptreact
-	    
-5ab7e91603d45c243a6eb6d8626fbf3a|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|27|5|v|javascriptreact
-	  <div className="nav-wrapper container">
-	        <a href="/" className="brand-logo">
-	          Calendar App
-	        </a>
-	        <ul
-	          id="nav-mobile"
-	          className="blue lighten-2 right hide-on-med-and-down"
-	        >
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	        </ul>
+	        </div>
+	        <div class="mx-5 sm:mx-10 md:ml-32" style="max-width: 450px">
+	          <p style="font-size: 14px">
+	            Cuando creas tu cuenta en nuestra plataforma aceptas nuestras
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >póliticas de privacidad</nuxt-link
+	            >
+	            y
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >términos y condiciones</nuxt-link
+	            >
+	          </p>
+	        </div>
 	      </div>
-	    </nav>
+	    </div>
+	  </section>
+	</template>
+	
+	<script>
+	export default {
+	  middleware: "auth",
+	  layout: "auth",
+	  data() {
+	    const validatorEmailOnly = (rule, value, callback) => {
+	      if (this.value === "") {
+	        callback(new Error("Campo requerido"));
+	      } else {
+	        if (!this.validateEmail(value)) {
+	          callback(new Error("Ingrese un correo válido"));
+	        } else {
+	          callback();
+	        }
+	      }
+	    };
+	    return {
+	      recover_dialog: false,
+	      recover_success: false,
+	      recover: {
+	        userName: "",
+	      },
+	      auth: {
+	        userName: "",
+	        password: "",
+	      },
+	      url: process.env.API_URL,
+	      valid: true,
+	      dialog: false,
+	      incorrect: false,
+	      noClose: false,
+	      formRules: {
+	        userName: [
+	          { required: true, message: "Campo requerido", trigger: "blur" },
+	          { validator: validatorEmailOnly, trigger: "blur" },
+	        ],
+	      },
+	    };
+	  },
+	  methods: {
+	    notify() {
+	      this.$notify({
+	        title: "Aviso",
+	        message: "Por favor, comunicarse con Prodequa",
+	        type: "warning",
+	      });
+	    },
+	    validateEmail(email) {
+	      let re =
+	        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	      return re.test(email);
+	    },
+	    handleClose() {
+	      this.recover_dialog = false;
+	      this.recover_success = false;
+	      this.recover.userName = "";
+	    },
+	    send() {
+	      this.$refs["recoverForm"].validate(async (valid) => {
+	        if (valid) {
+	          this.loading = this.$loading({
+	            lock: true,
+	            text: "Procesando",
+	            spinner: "el-icon-loading",
+	            background: "rgba(0, 0, 0, 0.8)",
+	          });
+	          let resp;
+	          let request_config = {
+	            type: "GET",
+	            origin: this.$route.path,
+	            logs: true,
+	            label: "request to recover password",
+	            error: {
+	              show: true,
+	              container: "notify",
+	              message:
+	                "Algo salió mal. Asegúrese de ingresar un correo asociado a una cuenta futury.",
+	              data: null,
+	            },
+	            success: {
+	              show: false,
+	              container: "message",
+	              message: "Solicitud procesada con éxito",
+	              data: [],
+	            },
+	            url: "/site/users/recoverPassword",
+	            body: {},
+	            params: {
+	              email: this.recover.userName,
+	            },
+	          };
+	
+	          resp = await this.$fetchTo(request_config);
+	          this.loading.close();
+	
+	          if (resp !== null) this.recover_success = true;
+	        }
+	      });
+	    },
+	    register() {
+	      window.open("https://futurymall.com/registro");
+	    },
+	    async login() {
+	      if ((this.auth.userName !== "") & (this.auth.password !== "")) {
+	        if (this.auth.password.length < 6) {
+	          const h = this.$createElement;
+	          this.$notify.error({
+	            title: "Error",
+	            message: "La contraseña no puede ser menor a 6 caracteres",
+	          });
+	        } else {
+	          await this.$auth
+	            .loginWith("local", { data: this.auth })
+	            .then(() => {
+	              const loading = this.$loading({
+	                lock: true,
+	                text: "Loading",
+	                spinner: "el-icon-loading",
+	                background: "rgba(0, 0, 0, 0.7)",
+	              });
+	              // this.$store.commit('SET_EMPLOYEE', this.$auth.user)
+	              // console.log('user', this.$auth.user)
+	              this.$router.push("/dashboard");
+	              loading.close();
+	            })
+	            .catch((e) => {
+	              console.error(e);
+	              this.$notify.error({
+	                title: "Error",
+	                message: "Usuario y/o contraseña incorrecta",
+	              });
+	            });
+	        }
+	      } else {
+	        this.$notify.error({
+	          title: "Error",
+	          message: "Usuario y/o contraseña incompleto(s)",
+	        });
+	      }
+	    },
+	  },
+	};
+	</script>
+	
+	<style lang="scss">
+	.formulario-login {
+	  width: auto;
+	  min-width: 490px;
+	  z-index: 2;
+	  @media (max-width: 400px) {
+	    width: 100%;
+	    min-width: 200px;
+	  }
+	}
+	.bg-login,
+	.bg-login-inside {
+	  display: flex;
+	  align-items: center;
+	  text-align: center;
+	}
+	.bg-login-inside {
+	  width: 100%;
+	  max-width: 1000px;
+	}
+	@media (min-width: 960px) {
+	  .bg-login-inside {
+	    // justify-content: center;
+	  }
+	}
+	@media (min-width: 1400px) {
+	  .bg-login-inside {
+	    max-width: 1200px;
+	  }
+	}
+	.input-login {
+	  /* box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.5) !important; */
+	}
+	.input-login > input {
+	  background-color: #fff;
+	  border: solid 1px #8c8c8c !important;
+	  border-radius: 20px !important;
+	
+	  &:hover,
+	  &:focus {
+	    border: solid 1px black !important;
+	  }
+	}
+	.input-login > input::placeholder {
+	  color: #808080 !important;
+	}
+	
+	.el-button.login-button {
+	  color: white;
+	  background-color: var(--primaryColor) !important;
+	  display: block !important;
+	  border: 0;
+	  font-weight: bold;
+	  box-shadow: 0px 4px 5px -4px rgba(0, 0, 0, 0.5) !important;
+	  border-radius: 10px;
+	}
+	.el-button.login-button:hover {
+	  background-color: #4783f1 !important;
+	}
+	.login-button2:active,
+	.login-button2:focus,
+	.login-button2.active,
+	.login-button:active,
+	.login-button:focus,
+	.login-button.active {
+	  background-image: none;
+	  outline: 0;
+	  -webkit-box-shadow: none;
+	  box-shadow: none;
+	}
+	.login-panel {
+	  background: white;
+	  border-radius: 20px;
+	  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+	  @media screen and (max-width: 640px) {
+	    max-width: 300px;
+	    border-radius: 10px;
+	  }
+	}
+	.recovery {
+	  & > div > .el-form-item {
+	    & > label {
+	      color: black;
+	      font-weight: 600;
+	    }
+	    & > .el-form-item__content {
+	      & > .el-form-item__error {
+	        font-weight: 500;
+	      }
+	    }
+	  }
+	}
+	</style>
+1881d3e6c5353b5e0e6a0afbe546b1c8|file:///home/andres/workspace/futurymall-stores-panel/pages/olvide-contrasenia.vue|1|1|v|vue
+	<template>
+	  <section class="w-full h-screen bg-white overflow-hidden relative">
+	    <img
+	      src="/images/circle_futury_2.svg"
+	      class="absolute"
+	      style="top: 0; left: 0"
+	    />
+	    <img
+	      src="/images/circle_futury_1.svg"
+	      class="absolute hidden md:block"
+	      style="top: 0; right: 0; height: 100%"
+	    />
+	    <img
+	      src="/images/SHINY 1.svg"
+	      class="absolute hidden md:block"
+	      style="bottom: 0; right: 0; height: 100%"
+	    />
+	    <div class="w-full h-full bg-login relative">
+	      <div class="mx-auto w-full h-full flex flex-col justify-between py-16">
+	        <div class="mx-5 sm:mx-10 md:ml-32">
+	          <img
+	            src="/logo.png"
+	            style="max-width: 220px; top: 55px; left: 115px"
+	            alt="futury"
+	          />
+	        </div>
+	
+	        <div
+	          class="flex justify-center md:justify-start items-center mx-auto sm:mx-10 md:ml-32"
+	        >
+	          <el-form
+	            class="block w-full p-5 sm:p-10 bg-white z-20 shadow-xl"
+	            style="border-radius: 1.5rem; max-width: 450px"
+	            ref="recoverForm"
+	            :model="recover"
+	            :rules="formRules"
+	          >
+	            <div class="mb-4">
+	              <h1 class="text-primary font-bold sm:text-xl text-lg">
+	                ¿Olvidaste tu contraseña?
+	              </h1>
+	              <p class="text-gray-800" style="font-size: 14px">
+	                Si tienes una cuenta en Futury, te enviaremos un mensaje con un
+	                enlace para cambiar tu contraseña.
+	              </p>
+	            </div>
+	
+	            <el-form-item
+	              class="flex flex-col mb-4 gap-2"
+	              label=""
+	              prop="userName"
+	            >
+	              <el-input
+	                v-model="recover.userName"
+	                class="input-recovery"
+	                type="text"
+	                required
+	                placeholder="Correo"
+	                @keyup.enter.native="
+	                  (event) => {
+	                    event.preventDefault();
+	                    send();
+	                  }
+	                "
+	              />
+	            </el-form-item>
+	            <div class="w-full flex flex-col justify-center items-center mb-6">
+	              <el-button @click="send()" class="block w-full login-button">
+	                Enviar
+	              </el-button>
+	            </div>
+	            <div class="bg-gray-400 w-full mb-6" style="height: 1px"></div>
+	            <div class="">
+	              <p class="font-bold" style="font-size: 14px">
+	                Quiero volver al
+	                <span>
+	                  <nuxt-link to="/" class="text-primary hover:underline"
+	                    >Inicio de sesión</nuxt-link
+	                  ></span
+	                >
+	              </p>
+	            </div>
+	          </el-form>
+	        </div>
+	        <div class="mx-5 sm:mx-10 md:ml-32" style="max-width: 450px">
+	          <p style="font-size: 14px">
+	            Cuando creas tu cuenta en nuestra plataforma aceptas nuestras
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >póliticas de privacidad</nuxt-link
+	            >
+	            y
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >términos y condiciones</nuxt-link
+	            >
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+	
+	    <el-dialog
+	      :visible.sync="recover_dialog"
+	      width="10%"
+	      center
+	      :show-close="false"
+	    >
+	      <div class="text-center">
+	        <h1 class="text-primary text-2xl font-bold text-center">
+	          ¡Solicitud exitosa!
+	        </h1>
+	        <p class="mx-auto" style="max-width: 600px">
+	          Si tu correo es correcto, recibirás un mensaje con el enlace de
+	          recuperación.
+	        </p>
+	        <p class="font-bold">Válido por 1 hora</p>
+	      </div>
+	      <div class="text-center mt-5">
+	        <el-button @click="handleCloseModal">Aceptar</el-button>
+	      </div>
+	    </el-dialog>
+	  </section>
+	</template>
+	
+	<script>
+	export default {
+	  layout: "auth",
+	  data() {
+	    const validatorEmailOnly = (rule, value, callback) => {
+	      if (this.value === "") {
+	        callback(new Error("Campo requerido"));
+	      } else {
+	        if (!this.validateEmail(value)) {
+	          callback(new Error("Ingrese un correo válido"));
+	        } else {
+	          callback();
+	        }
+	      }
+	    };
+	    return {
+	      recover_dialog: false,
+	      recover_success: false,
+	      recover: {
+	        userName: "",
+	      },
+	      url: process.env.API_URL,
+	      valid: true,
+	      dialog: false,
+	      incorrect: false,
+	      noClose: false,
+	      formRules: {
+	        userName: [
+	          { required: true, message: "Campo requerido", trigger: "blur" },
+	          { validator: validatorEmailOnly, trigger: "blur" },
+	        ],
+	      },
+	    };
+	  },
+	  methods: {
+	    validateEmail(email) {
+	      let re =
+	        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+	      return re.test(email);
+	    },
+	    handleCloseModal() {
+	      this.recover_success = false;
+	      this.recover_dialog = false;
+	    },
+	    send() {
+	      this.$refs["recoverForm"].validate(async (valid) => {
+	        if (valid) {
+	          this.loading = this.$loading({
+	            lock: true,
+	            text: "Procesando",
+	            spinner: "el-icon-loading",
+	            background: "rgba(0, 0, 0, 0.8)",
+	          });
+	          let resp;
+	          let request_config = {
+	            type: "GET",
+	            origin: this.$route.path,
+	            logs: true,
+	            label: "request to recover password",
+	            error: {
+	              show: true,
+	              container: "notify",
+	              message:
+	                "Algo salió mal. Asegúrese de ingresar un correo asociado a una cuenta futury.",
+	              data: null,
+	            },
+	            success: {
+	              show: false,
+	              container: "message",
+	              message: "Solicitud procesada con éxito",
+	              data: [],
+	            },
+	            url: "/site/users/recoverPassword",
+	            body: {},
+	            params: {
+	              email: this.recover.userName,
+	            },
+	          };
+	          resp = await this.$fetchTo(request_config);
+	          this.loading.close();
+	
+	          if (resp.status === "ok") {
+	            this.recover_success = true;
+	            this.recover_dialog = true;
+	          }
+	        }
+	      });
+	    },
+	  },
+	};
+	</script>
+	
+	<style lang="scss">
+	.custom-recovery {
+	  background: white;
+	  border-radius: 20px;
+	  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+	}
+	.input-recovery-disabled > input {
+	  background-color: #fff;
+	  border: solid 1px #ececec !important;
+	  border-radius: 20px !important;
+	}
+	.input-recovery > input {
+	  background-color: #fff;
+	  border: solid 1px #ececec !important;
+	  border-radius: 20px !important;
+	
+	  &:hover,
+	  &:focus {
+	    border: solid 1px #2c71f0 !important;
+	  }
+	}
+	.recovery {
+	  & > .el-form-item {
+	    & > label {
+	      color: black;
+	      font-weight: 600;
+	    }
+	    & > .el-form-item__content {
+	      & > .el-form-item__error {
+	        font-weight: 500;
+	      }
+	    }
+	  }
+	}
+	</style
+acc7762667371f1925516499a216bfe7|file:///home/andres/workspace/futurymall-stores-panel/pages/recuperar-contrasenia.vue|1|1|v|vue
+	<template>
+	  <section class="w-full h-screen bg-white overflow-hidden relative">
+	    <img
+	      src="/images/circle_futury_2.svg"
+	      class="absolute"
+	      style="top: 0; left: 0"
+	    />
+	    <img
+	      src="/images/circle_futury_1.svg"
+	      class="absolute hidden md:block"
+	      style="top: 0; right: 0; height: 100%"
+	    />
+	    <div class="w-full h-full bg-login relative">
+	      <div class="mx-auto w-full h-full flex flex-col justify-between py-16">
+	        <div class="mx-5 sm:mx-10 md:ml-32">
+	          <img
+	            src="/logo.png"
+	            style="max-width: 220px; top: 55px; left: 115px"
+	            alt="futury"
+	          />
+	        </div>
+	
+	        <div class="flex justify-center items-center mx-auto sm:mx-10 md:ml-32">
+	          <el-form
+	            ref="recoverForm"
+	            class="block w-full p-5 sm:p-10 bg-white z-20 shadow-xl"
+	            style="border-radius: 1.5rem; max-width: 450px"
+	            :model="recover"
+	            :rules="formRules"
+	          >
+	            <h1 class="text-primary font-bold sm:text-xl text-lg mb-6 text-center">
+	              Recuperar cuenta
+	            </h1>
+	            <el-form-item
+	              class="w-full mb-6 relative"
+	              label="Ingrese su nueva contraseña"
+	              prop="password"
+	            >
+	              <el-input
+	                v-model="recover.password"
+	                class="input-recovery"
+	                type="password"
+	                required
+	              />
+	            </el-form-item>
+	            <el-form-item
+	              class="w-full mb-6 relative"
+	              label="Confirme su nueva contraseña"
+	              prop="same_password"
+	            >
+	              <el-input
+	                v-model="recover.same_password"
+	                :class="
+	                  recover.password === ''
+	                    ? 'input-recovery-disabled'
+	                    : 'input-recovery'
+	                "
+	                type="password"
+	                :disabled="recover.password === '' ? true : false"
+	                required
+	              />
+	            </el-form-item>
+	            <div class="w-full flex justify-center items-center mt-3">
+	              <el-button @click="send()" class="flex justify-center items-center">
+	                Cambiar contraseña
+	              </el-button>
+	            </div>
+	          </el-form>
+	<!--           <form
+	            class="block w-full p-5 sm:p-10 bg-white z-20 shadow-xl"
+	            style="border-radius: 1.5rem; max-width: 450px"
+	          >
+	            <h1 class="text-primary font-bold sm:text-xl text-lg mb-12">
+	              Recuperar cuenta
+	            </h1>
+	            <div class="flex flex-col mb-4 gap-2">
+	              <label class="block w-full text-left" style="font-size: 14px"
+	                ><span class="text-red-500">*</span> Ingrese su nueva
+	                contraseña</label
+	              >
+	              <el-input
+	                v-model="recover.password"
+	                class="input-recovery"
+	                type="password"
+	                required
+	              />
+	            </div>
+	            <div class="flex flex-col mb-4 gap-2">
+	              <label class="block w-full text-left" style="font-size: 14px"
+	                ><span class="text-red-500">*</span> Confirmar nueva
+	                contraseña</label
+	              >
+	              <el-input
+	                v-model="recover.same_password"
+	                :class="
+	                  recover.password === ''
+	                    ? 'input-recovery-disabled'
+	                    : 'input-recovery'
+	                "
+	                type="password"
+	                :disabled="recover.password === '' ? true : false"
+	                required
+	              />
+	            </div>
+	            <div class="w-full flex flex-col justify-center items-center mb-2">
+	              <el-button @click="send()" class="block w-full login-button">
+	                Cambiar contraseña
+	              </el-button>
+	            </div>
+	          </form> -->
+	        </div>
+	        <div class="mx-5 sm:mx-10 md:ml-32" style="max-width: 450px">
+	          <p class="hidden" style="font-size: 14px">
+	            Cuando creas tu cuenta en nuestra plataforma aceptas nuestras
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >póliticas de privacidad</nuxt-link
+	            >
+	            y
+	            <nuxt-link to="/" class="font-semibold underline"
+	              >términos y condiciones</nuxt-link
+	            >
+	          </p>
+	        </div>
+	      </div>
+	    </div>
+	  </section>
+	</template>
+	
+	<script>
+	export default {
+	  layout: "auth",
+	  data() {
+	    const validatorPassword = (rule, value, callback) => {
+	      if (this.value === "") {
+	        callback(new Error("Campo requerido"));
+	      } else {
+	        if (!this.validatorPassword(value)) {
+	          callback(new Error("La contraseña debe tener mínimo 6 caracteres"));
+	        } else {
+	          callback();
+	        }
+	      }
+	    };
+	    const validatorSamePassword = (rule, value, callback) => {
+	      if (this.value === "") {
+	        callback(new Error("Campo requerido"));
+	      } else {
+	        if (!this.validatorSamePassword(value)) {
+	          callback(new Error("Las contraseñas no coinciden"));
+	        } else {
+	          callback();
+	        }
+	      }
+	    };
+	    return {
+	      recover: {
+	        password: "",
+	        same_password: "",
+	      },
+	      formRules: {
+	        password: [
+	          { required: true, message: "Campo requerido", trigger: "blur" },
+	          { validator: validatorPassword, trigger: "blur" },
+	        ],
+	        same_password: [
+	          { required: true, message: "Campo requerido", trigger: "blur" },
+	          { validator: validatorSamePassword, trigger: "blur" },
+	        ],
+	      },
+	    };
+	  },
+	  async mounted() {
+	    await this.validateCode();
+	  },
+	  methods: {
+	    validatorPassword(value) {
+	      const pass = /^.{6,}$/i;
+	      return value.match(pass);
+	    },
+	    validatorSamePassword(value) {
+	      if (value === this.recover.password) return true;
+	      else return false;
+	    },
+	    async validateCode() {
+	      this.loading = this.$loading({
+	        lock: true,
+	        text: "Validando ruta",
+	        spinner: "el-icon-loading",
+	        background: "rgba(0, 0, 0, 0.8)",
+	      });
+	      let resp;
+	      let request_config = {
+	        type: "GET",
+	        origin: this.$route.path,
+	        logs: true,
+	        label: "recover password",
+	        error: {
+	          show: false,
+	          container: "notify",
+	          message:
+	            "Lo sentimos. Ocurrió un error al procesar la solicitud. Intente nuevamente.",
+	          data: null,
+	        },
+	        success: {
+	          show: false,
+	          container: "message",
+	          message: "Solicitud procesada con éxito",
+	          data: [],
+	        },
+	        url: "/site/users/validationCode",
+	        body: {},
+	        params: {
+	          userName: this.$route.query.userName,
+	          recoverCode: this.$route.query.token,
+	        },
+	      };
+	
+	      resp = await this.$fetchTo(request_config);
+	      this.loading.close();
+	
+	      if (resp === null) {
+	        this.$router.push("/");
+	      }
+	    },
+	    send() {
+	      this.$refs["recoverForm"].validate(async (valid) => {
+	        if (valid) {
+	          this.loading = this.$loading({
+	            lock: true,
+	            text: "Procesando",
+	            spinner: "el-icon-loading",
+	            background: "rgba(0, 0, 0, 0.8)",
+	          });
+	          let resp;
+	          let request_config = {
+	            type: "PUT",
+	            origin: this.$route.path,
+	            logs: true,
+	            label: "recover password",
+	            error: {
+	              show: true,
+	              container: "notify",
+	              message:
+	                "Lo sentimos. Ocurrió un error al procesar la solicitud. Intente nuevamente.",
+	              data: null,
+	            },
+	            success: {
+	              show: true,
+	              container: "message",
+	              message: "¡La contraseña fue cambiada con éxito!",
+	              data: [],
+	            },
+	            url: "/site/users/changePassword",
+	            body: {
+	              userName: this.$route.query.userName,
+	              recoverCode: this.$route.query.token,
+	              password: this.recover.password,
+	            },
+	            params: {},
+	          };
+	
+	          resp = await this.$fetchTo(request_config);
+	          this.loading.close();
+	
+	          this.$router.push("/");
+	        }
+	      });
+	    },
+	  },
+	};
+	</script>
+	
+	<style lang="scss">
+	.custom-recovery {
+	  background: white;
+	  border-radius: 20px;
+	  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+	}
+	.input-recovery-disabled > input {
+	  background-color: #fff;
+	  border: solid 1px #ececec !important;
+	  border-radius: 20px !important;
+	}
+	.input-recovery > input {
+	  background-color: #fff;
+	  border: solid 1px #ececec !important;
+	  border-radius: 20px !important;
+	
+	  &:hover,
+	  &:focus {
+	    border: solid 1px #2c71f0 !important;
+	  }
+	}
+	.recovery {
+	  & > .el-form-item {
+	    & > label {
+	      color: black;
+	      font-weight: 600;
+	    }
+	    & > .el-form-item__content {
+	      & > .el-form-item__error {
+	        font-weight: 500;
+	      }
+	    }
+	  }
+	}
+	</style>
+d00023869f32aacfffb21e086712f4cd|file:///home/andres/workspace/aplicacion-yolo/.gitignore|4|1|v|gitignore
+	output_video
+09e66aa33a3ef95fe55d8fc9ec8ea395|file:///home/andres/workspace/futurymall-dynamic-store/middleware/getStore.js|10|56|v|javascriptreact
+	mangamics
+64a733d4bc09c5139cfb1997c337aefd|file:///home/andres/workspace/futurymall-dynamic-store/env_config/dev.config.properties|8|1|V|jproperties
+	API_URL=https://api.futurymall.com
+0aa33aa0c775b594af464c684f7b4021|file:///home/andres/workspace/futurymall-api/src/models/workers/workers.schema.js|4|7|v|javascriptreact
+	collaboratorsSchema
+234a406049caf2efd229b06ba04d2bcd|file:///home/andres/workspace/futurymall-api/src/models/workers/workers.schema.js|58|25|v|javascriptreact
+	Collaborators
+b2c97ae425dd751b0e48a3acae79cf4a|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|7|20|v|javascriptreact
+	filter
+17d8c14b57356c91de7000bb90615834|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|36|1|v|javascriptreact
+	
+	async function findWorkerById(id) {
+	  try {
+	    return await workersModel.findById(id);
+	  } catch (error) {
+	    return error.message;
+	  }
+	}
+e53b806b2181801f87bec11f91ca13bb|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|38|1|v|javascriptreact
+	  try {
+	    return await workersModel.findById(id);
+	  } catch (error) {
+	    return error.message;
+	  }
+f2595d978dbd3674d1f6c48ecfdfc5f2|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|55|31|v|javascriptreact
+	findById
+d6e8570e24efaf001d59e25ec2b26ae6|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|32|19|V|javascriptreact
+	    /* handle error */
+c6ac564f8704b999fb7b844bbf87ee7f|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|2|31|v|javascriptreact
+	../../services/stores/store.service
+7b34af86b06ceed1b138b04f8775149a|file:///home/andres/workspace/futurymall-api/src/services/coupons/coupon.service.js|1|1|v|javascriptreact
+	const createCoupon = async (coupon) => {
+	  const storeExists = await storeService.getStoreById(coupon.idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const couponExists = await couponRepository.findCouponByParams(coupon);
+	
+	  if (couponExists) {
+	    return {
+	      status_code: 400,
+	      message: 'El cupón ya ha sido creado.',
+	      error_message: 'Coupon code is not valid',
+	    };
+	  }
+	
+	  const { start_date, expiration_date } = coupon;
+	
+	  if (Number(start_date) >= Number(expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'La fecha de expiración del cupón es inválida.',
+	      error_message: 'Invalid coupon expiration date',
+	    };
+	  }
+	
+	  const newCoupon = await couponRepository.createCoupon(coupon);
+	
+	  return newCoupon;
+	};
+	
+	const findAllCoupons = async (idStore) => {
+	  const storeExists = await storeService.getStoreById(idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const couponsArr = await couponRepository.findAllCoupons({ idStore });
+	
+	  return couponsArr;
+	};
+	
+	const findCouponById = async (id) => {
+	  const coupon = await couponRepository.findCouponById(id);
+	
+	  return coupon;
+	};
+	
+	const findCouponByCode = async (idStore, code) => {
+	  const storeExists = await storeService.getStoreById(idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const coupon = await couponRepository.findCouponByParams({ code, idStore });
+	  if (!coupon || Number(Date.now()) < Number(coupon.start_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'Cupón no válido.',
+	      error_message: 'Invalid coupon',
+	    };
+	  }
+	
+	  if (Number(Date.now()) > Number(coupon.expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'El cupón ha expirado',
+	      error_message: 'Invalid coupon',
+	    };
+	  }
+	
+	  return { ...coupon._doc, status_code: 200 };
+	};
+	
+	const findCouponsPaginated = async ({ sort, page, itemsPerPage, params }) => {
+	  const storeExists = await storeService.getStoreById(params.idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const paramsFilter = { idStore: params.idStore };
+	
+	  const couponsArr = await couponRepository.queryCoupons(
+	    paramsFilter,
+	    page,
+	    itemsPerPage,
+	    sort,
 	  );
 	
-3237f23a175fe7e742b7fb4a48d7087f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|9|V|javascriptreact
-	    <nav>
-0a3a0b592b9c285e050805307cee87c2|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|9|1|V|javascriptreact
-	</div>
-d57e675072d601d16a8bcf21cf77240c|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|6|27|V|javascriptreact
-	    <div className="container">
-a4bb9e265479aa6a5d1cc099cc5e2c58|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|22|23|V|javascriptreact
-	      <div className="container">
-fcc3c75380c124cbb812678e1c50900b|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|24|12|V|javascriptreact
-	      </div>
-c483c7b1fa16409b2c710808ef64ff53|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|27|11|V|javascriptreact
-	      <Container>
-39134184d352114f0517ab86ae575e2e|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|12|V|javascriptreact
-	      </Container>
-ca02a89ec49b0101a24e8e5a8b95a2d8|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|12|12|V|javascriptreact
-	        <a className="brand-logo" href="#">
-d43577ddb99df30a065d0eecfd0e0166|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|13|12|V|javascriptreact
-	        </a>
-8fc27a86dbd0a0f804d2050a1c8204df|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|8|66|V|javascriptreact
-	      <Navbar alignLinks="right" brand={<a className="brand-logo"></a>}></Navbar>
-e70e73dc99f0e3c9eb1481449c331361|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|2|10|v|javascriptreact
-	Navbar
-aa8b26399e3f2314325fcb67b5fbadad|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|2|9|V|javascriptreact
-	import {  NavItem } from "react-materialize";
-21d1f6450b1fdf5a6804f4573c5b1765|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|16|v|javascriptreact
-	NavbarUI
-84b5c720b70bc75b81fb5da2a938d12e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|9|7|V|javascriptreact
-	      <NavbarUI />
-b949f499ae30372d650796891871a5be|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|14|7|v|javascriptreact
-	  <ul
-	          id="nav-mobile"
-	          className="blue lighten-2 right hide-on-med-and-down"
-	        >
-	          <li>
-	            <a href="/">Log out</a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	        </ul>
-532c28d5412dd75bf975fb951c740a30|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|19|v|javascriptreact
-	mobile
-e832c5f37e94f499368a246a3c71a126|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|37|v|javascriptreact
-	blue lighten-2 right hide-on-med-and-down
-6d58c5c0ce0896209267b5491d374f2d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|17|v|javascriptreact
-	sidenav
-56838a9fe7e21a0882ed165a607233ae|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|13|15|V|javascriptreact
-	          <Link
-ddb6fa09d7b9df50e97580d18aac730f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|10|9|v|javascriptreact
-	  <Link to="/" className="brand-logo">
-	            Calendar App
-	          </Link>
-1db416c448556a98db24be64038f4d9d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|7|1|v|javascriptreact
-	    <div className="navbar__main">
-	      <nav>
-	        <div className="nav-wrapper">
-	          <Link to="/" className="brand-logo">
-	            Calendar App
-	          </Link>
-	          <a href="" data-target="mobile-demo" className="sidenav-trigger">
-	            <Icon>menu</Icon>
-	          </a>
-	          <ul id="nav-mobile" className="right hide-on-med-and-down">
-	            <li>
-	              <a href="/">Log out</a>
-	            </li>
-	            <li>
-	              <a href="/"></a>
-	            </li>
-	            <li>
-	              <a href="/"></a>
-	            </li>
-	          </ul>
-	        </div>
-	        <ul id="mobile-demo" className="sidenav">
-	          <li>
-	            <a href="/">Log out</a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	          <li>
-	            <a href="/"></a>
-	          </li>
-	        </ul>
-	      </nav>
-	    </div>
-508a5ce56dbd99da988876fb1ff3e0d9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|29|22|v|javascriptreact
-	components.html
-865b4c0b4bb95dd7c033ecc1a654dc9a|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|10|34|v|javascriptreact
-	20px
-1cf79421c0d811d8f975f8df35863dd1|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|15|25|V|javascriptreact
-	          height: "80vh",
-ee966b32b27ff4b77ce6fd74156750fd|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|1|V|javascriptreact
-	          overflow: "auto",
-68dc1bf66c585b38c91cc61ffd3b5aeb|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|14|11|v|javascriptreact
-	maxHeight
-e957889cf8f43960c4a34558e11ee7f8|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|12|1|v|javascriptreact
-	        style={{
-	          paddingTop: "10px",
-	          maxWidth: "1500px",
-	          height: "90vh",
-	          margin: "0 auto",
-	          overflow: "auto",
-	        }}
-f99ccc5816b163724af64cf2153b5f0d|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|41|1|v|css
-	.calendar-container::-webkit-scrollbar {
-	  background: transparent;
-	  width: 0;
-	  height: 0;
-	}
-fac2ac4559b08621bd27bc0753b9b964|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|32|1|V|css
-	  overflow-y: auto;
-0d96698a6ca852b296bac3856873bea8|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|36|1|v|css
-	.calendar-container {
-	  padding-top: 10px;
-	  max-width: 1800px;
-	  width: 95%;
-	  height: 90vh;
-	  margin: 0 auto;
-	  overflow: hidden;
+	  return couponsArr;
+	};
 	
-	  scro
-988a3a1efd4b4de5ed56630df6c988e2|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|36|1|v|css
-	.calendar-container {
-	  padding-top: 10px;
-	  max-width: 1800px;
-	  width: 95%;
-	  height: 90vh;
-	  margin: 0 auto;
-	  overflow: hidden;
+	const updateCoupon = async (id, params) => {
+	  const couponExists = await couponRepository.findCouponById(id);
 	
-	  scrollbar-width: 0;
-	}
-7ac6ee99117abfd5f9f61c56e0a0db57|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|45|11|V|css
-	  margin-top: 30px;
-e554a761fb542bc38cdf208e3d1c39a6|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|27|1|v|css
-	  display: flex;
-	  flex-flow: column;
-	  gap: 30px;
-1e7b1b5ea91b4ef2c2d1c8d1dc089ba0|file:///home/andres/workspace/mern-calendar/src/styles/CalendarApp.css|26|1|v|css
-	.calendar-screen {
-	  display: flex;
-	  flex-flow: column;
-	  height: 100vh;
-	}
-05bbb43b3d923283e0b6ffafd088f41f|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|24|v|javascriptreact
-	Components
-39af147c7022b0d121922df20e0fafc9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|22|V|javascriptreact
-	      <Link to="/login">
-f078d92dfdf450ed687fd987d442e204|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|13|V|javascriptreact
-	      </Link>
-9151c0eb84d96abb1f3c4d34f5b5758c|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|30|v|javascriptreact
-	Salir
-e8fab833730f3a939d0b3812fe043b5d|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|30|13|v|javascriptreact
-	href
-2541d938b0a58946090d7abdde0d3890|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|32|17|v|javascriptreact
-	send
-7a38ae33b3131c44081cfd829f4a31e7|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|7|v|javascriptreact
-	  <Button node="button" waves="light">
-	          <Icon small>cloud</Icon>
-	        </Button>
-37fc7edee25a177474eaebe7f7b09785|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|31|17|v|javascriptreact
-	flat
-9893fa6eb1f89a98ebd5a479ed0a3eb9|file:///home/andres/workspace/mern-calendar/src/components/ui/Navbar.js|1|1|V|javascriptreact
-	      <NavItem href="">Getting started</NavItem>
-69dfce9d8315e981ac7670cfefd6e768|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|11|8|v|javascriptreact
-	 // <FullCalendar
-	          // plugins={[dayGridPlugin]}
-	          // timeZone="UTC"
-	          // editable="true"
-	          // initialView="dayGridMonth"
-	          // headerToolbar={{
-	            // left: "prev,next",
-	            // center: "title",
-	            // right: "dayGridDay,dayGridWeek,dayGridMonth",
-	          // }}
-	        // />
-e78f16e6faf1ae7e44cef1f54b10b6dc|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|2|42|V|javascriptreact
-	import dayGridPlugin from "@fullcalendar/daygrid"; // a plugin!
-3c95e5dac9f58a44190f92f3329609a4|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|26|V|javascriptreact
-	import FullCalendar from "@fullcalendar/react";
-ecca68ee563582550e9bb41ac97a5f95|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|9|12|V|javascriptreact
-	        <Big
-210d46b591bce6e8e7f4c78901422558|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|3|8|v|javascriptreact
-	BigCalendar
-4af9d51a65eaebd27bafed286f75fe7f|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|11|16|V|javascriptreact
-	        <BigCalendar></BigCalendar>
-ea2b2676c28c0db26d39331a336c6b92|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|26|26|v|javascriptreact
-	start
-6ae26d3198f3a2372390067a1ca95d41|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|7|11|V|javascriptreact
-	calendar_es
-ad0e80499dbac1378e278b54ba9c6056|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|29|29|V|javascriptreact
-	          messages={calendar_es}
-81718fb614efd449fda174d3c172376c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|5|24|V|javascriptreact
-	import "moment/locale/es";
-e69087497610af07caf017fab1a42114|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|47|27|v|javascriptreact
-	CalendarEvent
-b068931cc450442b63f5b3d276ea4297|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|4|18|v|javascriptreact
-	name
-86e62145f93ad57d871202eb48b3a40c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|21|4|v|javascriptreact
-	 user: {
-	      id: "122123",
-	      name: "Cesar",
+	  if (!couponExists) {
+	    return {
+	      status_code: 404,
+	      message: 'El cupón no existe.',
+	      error_message: 'Partner does not exist',
+	    };
+	  }
+	
+	  if (Number(params.start_date) >= Number(params.expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'La fecha de expiración del cupón es inválida.',
+	      error_message: 'Invalid coupon expiration date',
+	    };
+	  }
+	
+	  const couponUpdated = await couponRepository.updateCoupon(id, {
+	    idStore: couponExists.idStore,
+	    ...params,
+	  });
+	
+	  return couponUpdated;
+	};
+	
+	const deleteCoupon = async (id) => {
+	  const couponExists = await couponRepository.findCouponById(id);
+	
+	  if (!couponExists) {
+	    return {
+	      status_code: 404,
+	      message: 'El cupón no existe.',
+	      error_message: 'Partner does not exist',
+	    };
+	  }
+	
+	  return await couponRepository.deleteCoupon(id);
+	};
+	
+	module.exports = {
+	  createCoupon,
+	  findAllCoupons,
+	  findCouponById,
+	  findCouponByCode,
+	  findCouponsPaginated,
+	  updateCoupon,
+	  deleteCoupon,
+	};
+c90177df1a29b29c034e2846763dc32b|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|4|17|V|javascriptreact
+	const createWorker = async (worker) => {};
+49a18686deab1bf6cd8cb34abdce069a|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|16|30|v|javascriptreact
+	couponRepository
+b657b835150919551e7106d5ca78c0ad|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|16|47|v|javascriptreact
+	findCouponByParams
+f81bc8fd054bf2e58d7858f4b90879ad|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|35|9|v|javascriptreact
+	newCoupon
+7604e03056b26e12572581a158437f27|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|35|36|v|javascriptreact
+	ository
+260fc301d74dd138cfd1a9e182ad536d|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|35|27|v|javascriptreact
+	couponRep
+18bc1e2684b9112196b069a539c173e3|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|25|1|v|javascriptreact
+	  const { start_date, expiration_date } = coupon;
+	
+	  if (Number(start_date) >= Number(expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'La fecha de expiración del cupón es inválida.',
+	      error_message: 'Invalid coupon expiration date',
+	    };
+	  }
+	
+	
+fadb1753dcaf0249737d85b581cf679a|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|41|9|v|javascriptreact
+	couponsArr
+409ac187b106b0d21dd4402c29f92865|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|41|28|v|javascriptreact
+	workerModel
+e177cb79804d28d8a73bf27442928b6d|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|151|16|V|javascriptreact
+	  findCouponByCode,
+f522ca36aac006b8e1b49a53ebde5461|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|133|7|v|javascriptreact
+	deleteCoupon
+ede93f74dc1cc3967dd2e7401a589285|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|116|1|v|javascriptreact
+	
+	  if (Number(params.start_date) >= Number(params.expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'La fecha de expiración del cupón es inválida.',
+	      error_message: 'Invalid coupon expiration date',
+	    };
+	  }
+64895291255478a790aa7105fc304e50|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|96|45|v|javascriptreact
+	queryCoupons
+ba33a98e8a67b7fe1f61765eadd12233|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|52|1|v|javascriptreact
+	const findCouponByCode = async (idStore, code) => {
+	  const storeExists = await storeService.getStoreById(idStore);
+	
+	  if (!storeExists) {
+	    return {
+	      status_code: 400,
+	      message: 'La tienda no existe.',
+	      error_message: 'Store does not exist',
+	    };
+	  }
+	
+	  const coupon = await couponRepository.findCouponByParams({ code, idStore });
+	  if (!coupon || Number(Date.now()) < Number(coupon.start_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'Cupón no válido.',
+	      error_message: 'Invalid coupon',
+	    };
+	  }
+	
+	  if (Number(Date.now()) > Number(coupon.expiration_date)) {
+	    return {
+	      status_code: 400,
+	      message: 'El cupón ha expirado',
+	      error_message: 'Invalid coupon',
+	    };
+	  }
+	
+	  return { ...coupon._doc, status_code: 200 };
+	};
+408c57dec099479145a5febfb4b5c0e1|file:///home/andres/workspace/futurymall-api/src/models/coupon/coupon.schema.js|9|3|v|javascriptreact
+	  createdBy: {
+	      types: Schema.Types.ObjectId,
 	    },
-b60784486924c853f14f5da4d992e820|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|37|16|V|javascriptreact
-	    console.log(event, start, end, isSelected);
-b98a862daba885a1e5b8b0635cef5e81|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|38|19|V|javascriptreact
-	    console.log(e);
-69d58a5962811398046083db39516a4d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|30|10|V|javascriptreact
-	useState(=)
-2260a2ccf648a25194785fde6fbc979d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|59|27|V|javascriptreact
-	    return <CalendarModal />;
-55836db0aeaff74ce34d7aa480b27344|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|63|22|V|javascriptreact
-	  M.Modal.openModal();
-86c4d43ac786a0064074d275cd499050|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|6|13|V|javascriptreact
-	M.Modal.init()
-e3d337c1bb9de19c944ae4d05d00781c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|63|16|v|javascriptreact
-	CalendarModal
-82d9e3d7bed1859649db8ec577087638|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|5|26|v|javascriptreact
-	onOpen
-4d8b8614894fcc4b4a327142f2f4d7fc|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|1|1|V|javascriptreact
-	      <button onClick={openModal}>Open Modal</button>
-47c9ed64673ab101254e4c2392d6d3a6|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|39|10|v|javascriptreact
+	    modifiedBy: {
+	      types: Schema.Types.ObjectId,
+	    },
+d58ac158898d16750b071324a8b1da5e|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|1|1|v|javascriptreact
+	const express = require('express');
+	const router = express.Router();
 	
-	        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-	        tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minim
-	        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-	        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-	        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-	        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-	        mollit anim id est laborum
-	      
-9f27410725ab8cc8854a2769c7a516b8|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|13|57|v|javascriptreact
-	green
-87b7760f14fbff78d8819291f36ab9a0|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|37|45|v|javascriptreact
-	Button
-86cf6048a12b69b8b5e1de6076f0c57c|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarScreen.js|81|38|V|javascriptreact
-	        <CalendarModal onOpen={openModal} />
-90c504c9c5caa72e118992f8228f4531|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|15|20|V|javascriptreact
-	      <CalendarModal>
-23b057542e6ec7eeb4be169ebdc2e84d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
-	      // root={[object HTMLBodyElement]}
-8ed2e6f21da57dfbdf1ee60da1016e5b|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
-	      trigger={<Button node="button">MODAL</Button>}
-33fe4fb810a279fd65629ae7e9a1a8be|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|7|16|V|javascriptreact
-	    console.log("hola");
-68934a3e9455fa72420237eb05902327|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|22|13|v|javascriptreact
-	false
-b326b5062b2f0e69046810717534cb09|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|22|13|v|javascriptreact
-	true
-92a47b45dc6e35f4412959fb77377066|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|21|33|v|javascriptreact
-	openModal
-234045b03bf26e4a268e15c97e2d811e|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|1|1|V|javascriptreact
-	      onOpenStart={onOpen}
-0a3b2c014720ddab777b4c2a58624a27|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|3|1|V|javascriptreact
-	import { Modal, Button } from "react-materialize";
-866c53a307e1894f9b56904415483b94|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|1|1|V|javascriptreact
-	    root={[object HTMLBodyElement]}
-4963aa13f294fe72419d80d7fec93c48|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|24|3|v|javascriptreact
-	    <Button className="modal-trigger" href="#modal1" node="button">
-	        Show Modal
-	      </Button>
-	      <Modal
-	        actions={[
-	          <Button flat modal="close" node="button" waves="green">
-	            Close
-	          </Button>,
-	        ]}
-	        bottomSheet={false}
-	        fixedFooter={false}
-	        header="Modal Header"
-	        id="modal1"
-	        open={false}
-	        options={{
-	          dismissible: true,
-	          endingTop: "10%",
-	          inDuration: 250,
-	          onCloseEnd: null,
-	          onCloseStart: null,
-	          onOpenEnd: null,
-	          onOpenStart: null,
-	          opacity: 0.5,
-	          outDuration: 250,
-	          preventScrolling: true,
-	          startingTop: "4%",
-	        }}
-	      >
-	        Lorem ipsum dolor sit amet
-	      </Modal>
+	const myGenericResponse = require('../../../utils/myGenericsResponse');
+	const cleanObject = require('../../../utils/cleanObject');
 	
-f384cc571d2df70784cd23570033348d|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|23|10|V|javascriptreact
-	      <CalendarModal isModalOpen={isModalOpen} />
-f2845d5c49f6ed72192049d6e7aec871|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|35|6|V|javascriptreact
-	      root={[object HTMLBodyElement]}
-9e000f222e0715bed2a8cd650c9c84ec|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|28|3|v|javascriptreact
-	    <Button className="modal-trigger" href="#modal1" node="button">
-	        Show Modal
-	      </Button>
-0c86e2008b6d97cfa537cd5c33579863|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|28|3|v|javascriptreact
-	   <Button className="modal-trigger" href="#modal-1" node="button">
-	        Show Modal
-	      </Button>
-	      <CalendarModal isModalOpen={isModalOpen} id={idModal} />
-9e2a4aa70587dc3e5a3f6b91b37776fb|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|19|64|v|javascriptreact
-	idModal
-707b76d371ed669bd3bb8b3c10bcf9db|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|20|7|v|javascriptreact
-	  <p>
-	          <span>{title}</span>
-	        </p>
-	        <p>
-	          <strong>- {user.name}</strong>
-	        </p>
-	      </div>
-c7788d7c1497cbef333cc8265dc7abd5|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|23|7|v|javascriptreact
-	  Show Modal
-bd331b1ebe7581bffb089702bb2ab2f7|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|19|6|v|javascriptreact
-	 <div className="modal-trigger">
-	        <p>
-	          <span>{title}</span>
-	        </p>
-	        <p>
-	          <strong>- {user.name}</strong>
-	        </p>
-	      </div>
-7bc20b1828065f1b248a5b86810da41a|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|24|1|V|javascriptreact
-	 <div className="modal-trigger">
-1641bb54a3b10116331aac9ee4503b56|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|22|11|V|javascriptreact
-	        Show Modal
-23824abebb41bb796cc3f14b74bdefc6|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarModal.js|6|1|v|javascriptreact
-	  const onOpen = () => {
-	    console.log("hola");
+	
+0cdeb030c3f24bb05418b8e474bc0415|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|12|1|v|javascriptreact
+	// CREATE NEW coupon
+	
+	router.post('/', async (req, res) => {
+	  const { body } = req;
+	
+	  if (body) {
+	    const response = JSON.parse(JSON.stringify(myGenericResponse));
+	    try {
+	      const coupon = await couponService.createCoupon(body);
+	
+	      response.status = STATUS_OK;
+	      response.msg_id = Date.now();
+	      response.code = 200;
+	      response.number_records = 1;
+	      response.objeto = coupon;
+	      cleanObject.clean(response);
+	      res.status(response.code).json(response);
+	    } catch (error) {
+	      response.status = STATUS_ERROR;
+	      response.code = error.httpStatus ? error.httpStatus : 500;
+	      response.message = error.message;
+	      response.msg_id = Date.now();
+	      cleanObject.clean(response);
+	      res.status(response.code).json(response);
+	    }
+	  } else {
+	    res.status(400).send({ message: 'Cuerpo de la petición faltante' });
+	  }
+	});
+	
+	
+10ae9fc7d453b0dd525d0edf2ede7961|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|42|16|v|javascriptreact
+	list
+fd244c513fc87f877b255ca101dfd670|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|20|20|v|javascriptreact
+	cupón
+adb6e651c47c732f9af50ae33748feaa|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|21|23|v|javascriptreact
+	Coupon
+967220a4491ff90a83088a368daa9218|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|15|1|v|javascriptreact
+	  const couponExists = await workerRepository.findWorkerById(worker);
+	
+	  if (couponExists) {
+	    return {
+	      status_code: 400,
+	      message: 'El colaborador ya ha sido creado.',
+	      error_message: 'Worker code is not valid',
+	    };
+	  }
+6f041af43be87a195bd3f075922f344a|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|72|23|v|javascriptreact
+	Partner
+184d95b5c108026233e96a25f54904d0|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|66|9|v|javascriptreact
+	couponExists
+f364a2e756e99e0e27c8da33bf446007|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|125|1|v|javascriptreact
+	// UPDATE coupon
+	
+	router.put('/:id', async (req, res) => {
+	  const {
+	    params: { id },
+	    body,
+	  } = req;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.updateCoupon(id, body);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+	
+b803ba3282ed5698ee7a052edc92259e|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|153|1|v|javascriptreact
+	// DELETE coupon
+	
+	router.delete('/:id', async (req, res) => {
+	  const {
+	    params: { id },
+	  } = req;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const coupon = await couponService.deleteCoupon(id);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = 1;
+	    response.objetos = coupon;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+	
+311dc69f0ed8027b50a32df413db4701|file:///home/andres/workspace/futurymall-api/src/controllers/admin/coupons/coupons.controller.js|94|1|v|javascriptreact
+	// POST: Get coupons paginated
+	
+	router.post('/all/:idStore', async (req, res) => {
+	  const { idStore } = req.params;
+	
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  const couponsParams = {
+	    params: { idStore, ...req.body.params },
+	    ...req.body,
 	  };
-3b0707a0848d029999d0a42190f97779|file:///home/andres/workspace/mern-calendar/src/components/calendar/CalendarEvent.js|32|1|v|javascriptreact
-	      <Modal
-	        actions={[
-	          <Button flat modal="close" node="button" waves="green">
-	            Close
-	          </Button>,
-	        ]}
-	        bottomSheet={false}
-	        fixedFooter={false}
-	        header="Modal Header"
-	        id="modal1"
-	        open={false}
-	        options={{
-	          dismissible: true,
-	          endingTop: "10%",
-	          inDuration: 250,
-	          onCloseEnd: null,
-	          onCloseStart: null,
-	          onOpenEnd: null,
-	          onOpenStart: null,
-	          opacity: 0.5,
-	          outDuration: 250,
-	          preventScrolling: true,
-	          startingTop: "4%",
-	        }}
+	
+	  try {
+	    const coupons = await couponService.findCouponsPaginated(couponsParams);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = coupons.length;
+	    response.objetos = coupons;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+	
+0d3e67096ca2671aeac3de964fa4d1b9|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|80|41|v|javascriptreact
+	findCouponsPaginated
+ed7e7d44ec09f5bc3f2b74ae337be28a|file:///home/andres/workspace/futurymall-api/src/models/orders/order.schema.js|12|22|V|javascriptreact
+	  sku: { type: String, required: true },
+0dc5d11d49677b48e9b6ff7d47fcf56e|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|65|1|v|javascriptreact
+	  for (let ord of ordersRes) {
+	    ord = JSON.parse(JSON.stringify(ord));
+	    ord.details = await orderDetailService.findAllOrderDetailService(ord._id);
+	    res.push(ord);
+	  }
+0612e87e40070d64f9c22c967339adf4|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|94|12|V|javascriptreact
+	  console.log(res);
+d38430431b0cacd7dc8f22a676f7e5bd|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|86|1|V|javascriptreact
+	  console.log(ordersRes);
+23dd1a2703c226556d64c7540199b01c|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|139|1|V|javascriptreact
+	    order.status = await orderStatusService.findOrderStatusByIdService(
+be9d01b9fcd214e216d065c87185104e|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|71|71|V|javascriptreact
+	  order.status = await orderStatusService.findOrderStatusByIdService();
+725f723e1aefe150d7016afb48f21f77|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|68|43|v|javascriptreact
+	findOrderStatusByIdService
+d2f07013a4ace601aa797fcd94078eaa|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|68|1|v|javascriptreact
+	    ord.status = await orderStatusService.findOrderStatusById(ord._id);
+	    console.log(ord.status);
+810a405807e14bcef1d51ac1ed01a02e|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|91|43|v|javascriptreact
+	findOrderStatusById
+36e9e027b74f9277ead7250f95ef34c0|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|101|25|V|javascriptreact
+	    console.log(ord.status);
+3dce8fc504ca2ab2305df9eb26dc3a8d|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|96|5|v|javascriptreact
+	delete ord.idOrderType;
+	    delete ord.showInDashboard;
+	    delete ord.source;
+	    delete ord.flgActive;
+	    delete ord.idStore;
+0cf31b2c283ce3431794586df7b0996d|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|96|4|V|javascriptreact
+	    
+446cb64b4e1b27dc9f8cfde343b8ab18|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|97|6|V|javascriptreact
+	    delete ord.idOrderType;
+b068931cc450442b63f5b3d276ea4297|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|93|7|v|javascriptreact
+	name
+d77469d750547467680c432359ee2eb3|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|46|6|V|javascriptreact
+	  params,
+c13c567c7d93ccd849d0965aa6a485b7|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|82|26|V|javascriptreact
+	  console.log(couponsParams);
+959fd7300dd026d6c04844dc454b7721|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|72|17|V|javascriptreact
+	  console.log(idStore);
+25a3c2f307f9920d97ffc4d336ca657a|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|83|62|v|javascriptreact
+	couponsParams
+b3ee6f9743d1034525d5aa12c6531583|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|77|16|V|javascriptreact
+	    ...req.body,
+124c3d7728322a9270782588d5ef5292|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|43|22|V|javascriptreact
+	  console.log('Hola');
+e00313d0e85e9349ac9220ec70d64640|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|43|23|V|javascriptreact
+	  console.log(page, itemsPerPage);
+ea99b6748900b621c3bc47b60912561b|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|31|20|V|javascriptreact
+	    // console.log(queryResult);
+3f34ab3841639b94a17a1aaf01fed859|file:///home/andres/workspace/futurymall-api/src/repositories/worker/worker.repository.js|21|19|V|javascriptreact
+	  console.log('Repositorio');
+68f9c7180aad71566bc2154d3611c47c|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|41|1|v|javascriptreact
+	
+	// GET: Find all workers
+	
+	router.get('/all/:idStore', async (req, res) => {
+	  const { idStore } = req.params;
+	  const response = JSON.parse(JSON.stringify(myGenericResponse));
+	
+	  try {
+	    const workers = await workerService.findAllWorkers(idStore);
+	    response.status = STATUS_OK;
+	    response.msg_id = Date.now();
+	    response.code = 200;
+	    response.number_records = workers.length;
+	    response.objetos = workers;
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  } catch (error) {
+	    response.status = STATUS_ERROR;
+	    response.code = error.httpStatus ? error.httpStatus : 500;
+	    response.message = error.message;
+	    response.msg_id = Date.now();
+	    cleanObject.clean(response);
+	    res.status(response.code).json(response);
+	  }
+	});
+2fa47f7c65fec19cc163b195725e3844|file:///home/andres/workspace/futurymall-api/src/controllers/admin/workers/workers.controller.js|79|39|v|javascriptreact
+	length
+8edc47908f08ce7a27cd7017a88447d8|file:///home/andres/workspace/futurymall-api/src/utils/mailers/freeAdvice/templateForFreeAdvice.ejs|1|1|v|jst
+	<div>
+	  <table align="center" border="0" cellpadding="0" cellspacing="0" width="600">
+	    <tr>
+	      <td align="center" style="text-align: center; background-color: #2c71f0;">
+	        <img
+	          src="https://futurymall.com/images/landing/outline-logo.png"
+	          alt=""
+	          width="220"
+	        />
+	      </td>
+	    </tr>
+	    <tr>
+	      <td
+	        style="
+	          padding: 20px 50px;
+	          border-width: 0px 1px 1px 1px;
+	          border-style: solid;
+	          border-color: #2c71f0;
+	        "
 	      >
-	        Lorem ipsum dolor sit amet
-	      </Modal>
-4e40b308e9e69da49d8ad306e38749db|file:///home/andres/.config/nvim/init.vim|49|1|V|vim
-	Plug 'StanAngeloff/php.vim'
-1e85cb5b2edb32bb114c6771c134909f|file:///home/andres/.config/nvim/init.vim|234|1|v|vim
-	function IdentPHPHTML()
-	  set ft=html
-	  normal gg=G
-	  set ft=php
-	endfunction
+	        <h2 style="text-align: center;">Alerta, nuevo registrado</h2>
 	
-	nnoremap <leader>ip <CR>:call IdentPHPHTML()<CR>:w<CR>
-6783207c4982b0f0f9d5a308340f2df8|file:///home/andres/.config/nvim/init.vim|232|1|v|vim
-	" Ident html on php
+	        <table style="width: 100%; border-collapse: collapse;">
+	          <tbody>
+	            <tr>
+	              <td
+	                style="
+	                  padding: 1rem;
+	                  border: 1px solid #2c71f0;
+	                  border-collapse: collapse;
+	                "
+	              >
+	                <b>Nombres y Apellidos:</b>
+	              </td>
+	              <td
+	                style="
+	                  padding: 1rem;
+	                  border: 1px solid #2c71f0;
+	                  border-collapse: collapse;
+	                "
+	              >
+	                <%= mailBody.name %>
+	              </td>
+	            </tr>
+	            <tr>
+	              <td
+	                style="
+	                  padding: 1rem;
+	                  border: 1px solid #2c71f0;
+	                  border-collapse: collapse;
+	                "
+	              >
+	                <b>Celular:</b>
+	              </td>
+	              <td
+	                style="
+	                  padding: 1rem;
+	                  border: 1px solid #2c71f0;
+	                  border-collapse: collapse;
+	                "
+	              >
+	                <%= mailBody.phone %>
+	              </td>
+	            </tr>
+	          </tbody>
+	        </table>
+	      </td>
+	    </tr>
+	  </table>
+	</div>
+c848ffbf04961647cd776c4bd8f0c8f0|file:///home/andres/workspace/futurymall-api/src/utils/mailers/newWorker/index.html|21|55|v|html
+	registrado
+9f5ce0781ce8fb739d0777f780d5b06b|file:///home/andres/workspace/futurymall-api/src/utils/mailers/newWorker/index.html|42|1|V|html
+	                <%= mailBody.name %>
+73913b1d329845553dcde5ef3e4ebfbd|file:///home/andres/workspace/futurymall-api/src/utils/mailers/newWorker/index.html|34|30|v|html
+	Apellidos
+49129ef1ee2bdba2a4fe1216af5dd940|file:///home/andres/workspace/futurymall-api/src/utils/mailers/newWorker/index.html|54|20|v|html
+	Celular
+2219d7053c9f264690e15ea568aae69b|file:///home/andres/workspace/futurymall-api/src/services/freeAdvice/freeAdvice.service.js|3|1|v|javascriptreact
+	const { dopplerMailing } = require('../../utils/mailers');
 	
+	async function sendEmail(name, phone) {
+	  try {
+	    const mailSettings = {
+	      fromMail: 'correos@futurymall.com',
+	      destinationsMail: [''],
+	      subjectMail: `Futury Mall | ${name} desea una asesoría gratuita`,
+	    };
 	
+	    const mailBody = {
+	      name,
+	      phone,
+	    };
 	
+	    const template = './freeAdvice/templateForFreeAdvice.ejs';
 	
-9df02b4a6fafef4e9be2962bfeaed509|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|7|V|php
-	<?php?>
-a1c0952769ad8ffa49b46e9494a3adf1|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|4|V|php
-	<??>
-feabe5cc691b088d6ade3e04d6b120fc|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|5|V|php
-	<?php
-6c33d8ac9484cf701b45d2d44dbbdce7|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|12|V|php
-	echo "hello world";
-07c6043795e54b39db3eefd397c083cd|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|1|2|V|php
-	<??>>
-0511aeb1a06e21ea28a5f7f21e3b70df|file:///home/andres/.config/nvim/init.vim|47|33|V|vim
-	Plug '2072/PHP-Indenting-for-VIm'
-ba1e37ad8960325624d984014a8bf1a4|file:///opt/lampp/htdocs/Wordpress/firstproject/wp-content/themes/templateWP/index.php|3|1|V|php
-	echo "hello world";
+	    await dopplerMailing(mailSettings, mailBody, template);
+	  } catch (error) {
+	    return {
+	      ok: false,
+	      message: error.message,
+	      code: 500,
+	      user: 'Cesar',
+	    };
+	  }
+	}
+00da5ee3249c90e71fce838df437337a|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|11|63|v|javascriptreact
+	gratuita
+f1adb3bbdb727fcc7c4e4f355084c70a|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|28|14|v|javascriptreact
+	Cesar
+b62da25ad75511a8669dc9a73f41c23c|file:///home/andres/workspace/futurymall-api/src/services/freeAdvice/freeAdvice.service.js|26|9|V|javascriptreact
+	      user: name,
+91f816fc0d4c790e89971b5e8e9d1501|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|20|36|v|javascriptreact
+	templateForFreeAdvice
+c8d42dec1084446a179762c4f53948e5|file:///home/andres/workspace/futurymall-api/src/services/workers/worker.service.js|20|25|v|javascriptreact
+	freeAdvice
+027e493d9d6c3cd524ef0e712dea98ef|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|120|1|v|javascriptreact
+	  try {
+	    let order = await orderRepository.findOrderById(params);
+	    order = JSON.parse(JSON.stringify(order));
+	    let details = await orderDetailService.findAllOrderDetailService(order._id);
+	    if (details.length > 0) {
+	      details = details[0];
+	      details = JSON.parse(JSON.stringify(details));
+	      let products = [];
+	      for (let d of details.details) {
+	        d = JSON.parse(JSON.stringify(d));
+	        let product = await productService.findProductByIdService(d.idProduct);
+	        d.product = product;
+	        delete d.idProduct;
+	        products.push(d);
+	      }
+	      details.details = products;
+	      order.orderDetails = details;
+	    }
+	    return order;
+	  } catch (error) {
+	    return error.message;
+	  }
+e45d7a5f74400c02256a40fe4f0eaf1d|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|91|19|v|javascriptreact
+	await orderDetailService.findAllOrderDetailService(ord._id);
 	
-55ddaf27fb6c54609c8e372d4a913b8f|file:///home/andres/.config/nvim/init.vim|203|51|V|vim
-	" au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
-d6f311d35124d80e0f89095c7cbf19cd|file:///home/andres/.config/nvim/init.vim|19|1|V|vim
-	Plug 'jiangmiao/auto-pairs'
-d3059d53c21d03d0feb7184e04e59952|file:///home/andres/.config/nvim/init.vim|202|1|V|vim
-	au FileType php let b:AutoPairs = AutoPairsDefine({'<?' : '?>', '<?php': '?>'})
-7107ff8fa274debbb783a372be5af003|file:///home/andres/.config/nvim/init.vim|201|1|V|vim
-	au FileType html let b:AutoPairs = AutoPairsDefine({'<' : '>'})
+5e7d64a6b69da177ef47160606ae6447|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|109|12|V|javascriptreact
+	    ord.details = await orderDetailService.findAllOrderDetailService(ord._id);
+1ce847b2107209fa9cf8a019872f9ab9|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|108|32|V|javascriptreact
+	    ord = JSON.parse(JSON.stringify(ord));
+9acb44549b41563697bb490144ec6258|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|110|9|v|javascriptreact
+	status
+12b62433807f134d7ba84954a53187fa|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|114|9|v|javascriptreact
+	orderType
+206c2a7bb0881822a24183a4df4f48d0|file:///home/andres/workspace/futurymall-api/src/services/orders/order.service.js|124|1|v|javascriptreact
+	
+	  // try {
+	  // let order = await orderRepository.findOrderById(params);
+	  // order = JSON.parse(JSON.stringify(order));
+	  // let details = await orderDetailService.findAllOrderDetailService(order._id);
+	  // if (details.length > 0) {
+	  // details = details[0];
+	  // details = JSON.parse(JSON.stringify(details));
+	  // let products = [];
+	  // for (let d of details.details) {
+	  // d = JSON.parse(JSON.stringify(d));
+	  // let product = await productService.findProductByIdService(d.idProduct);
+	  // d.product = product;
+	  // delete d.idProduct;
+	  // products.push(d);
+	  // }
+	  // details.details = products;
+	  // order.orderDetails = details;
+	  // }
+	  // return order;
+	  // } catch (error) {
+	  // return error.message;
+	  // }

@@ -3,6 +3,7 @@
 // Start of Core v.5.3.6-13ubuntu3.2
 use JetBrains\PhpStorm\ArrayShape;
 use JetBrains\PhpStorm\Deprecated;
+use JetBrains\PhpStorm\Internal\LanguageLevelTypeAware;
 use JetBrains\PhpStorm\Pure;
 
 /**
@@ -335,7 +336,11 @@ function error_reporting(?int $error_level): int {}
  * </p>
  * @return bool true on success or false on failure.
  */
-function define(string $constant_name, $value, #[Deprecated] bool $case_insensitive = false): bool {}
+function define(
+    string $constant_name,
+    #[LanguageLevelTypeAware(['8.1' => 'mixed'], default: 'null|array|bool|int|float|string')] $value,
+    #[Deprecated()] bool $case_insensitive = false
+): bool {}
 
 /**
  * Checks whether a given named constant exists
@@ -474,6 +479,21 @@ function interface_exists(string $interface, bool $autoload = true): bool {}
  */
 #[Pure(true)]
 function function_exists(string $function): bool {}
+
+/**
+ * Checks if the enum has been defined
+ * @link https://php.net/manual/en/function.enum-exists.php
+ * @param string $enum <p>
+ * The enum name. The name is matched in a case-insensitive manner.
+ * </p>
+ * @param bool $autoload [optional] <p>
+ * Whether or not to call autoload by default.
+ * </p>
+ * @return bool true if <i>enum</i> is a defined enum,
+ * false otherwise.
+ * @since 8.1
+ */
+function enum_exists(string $enum, bool $autoload = true): bool {}
 
 /**
  * Creates an alias for a class
@@ -1056,12 +1076,7 @@ function gc_disable(): void {}
  * </ul>
  * @since 7.3
  */
-#[ArrayShape([
-    "runs" => "int",
-    "collected" => "int",
-    "threshold" => "int",
-    "roots" => "int"
-])]
+#[ArrayShape(["runs" => "int", "collected" => "int", "threshold" => "int", "roots" => "int"])]
 #[Pure]
 function gc_status(): array {}
 
