@@ -26,6 +26,7 @@ Plug 'mxw/vim-jsx' " JSX highlight
 " Plug 'maxmellon/vim-jsx-pretty' " Tabs JSX
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'rust-lang/rust.vim'
 
 " Status bar
 

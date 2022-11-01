@@ -111,6 +111,16 @@ require("nvim-tree").setup({
 
 EOF
 
+lua << EOF
+
+require("nvim-treesitter.configs").setup {
+  highlight={
+    enable=true,
+  }
+}
+
+EOF
+
 
 
 " Colorear Tag en JS
@@ -264,7 +274,7 @@ let g:ale_echo_msg_warning_str = ''
 let g:ale_echo_msg_info_str = ''
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
 let g:ale_fixers={'*':['prettier'], 'python':['autopep8']}
-let g:ale_linters={'typescript':['typescript-eslint'], 'css':['eslint'], 'javascript': ['prettier-eslint', 'eslint'], 'json':['eslint'], }
+let g:ale_linters={'typescript':['typescript-eslint'], 'css':['eslint'], 'javascript': ['prettier-eslint', 'eslint'], 'json':['eslint'] }
 let g:ale_lint_on_enter = 1
 let g:ale_lint_on_filetype_changed = 1
 let g:ale_lint_on_insert_leave = 1
