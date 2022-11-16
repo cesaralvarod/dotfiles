@@ -162,13 +162,21 @@ bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
 
 bindsym $mod+Mod1+b exec --no-startup-id brave
 
+# ranger
+
+bindsym $mod+n exec --no-startup-id alacritty -e ranger
+
+#btop
+
+bindsym $mod+i exec --no-startup-id alacritty -e btop -t
+
 # Firefox
 
 bindsym $mod+Mod1+f exec --no-startup-id firefox
 
 # file manager
 
-bindsym $mod+Mod1+n exec --no-startup-id thunar
+bindsym $mod+Mod1+n exec --no-startup-id nemo
 
 # Visual Studio Code
 
@@ -183,6 +191,7 @@ bindsym $mod+Mod1+p exec --no-startup-id postman
 set $rofi_theme "$HOME/.config/rofi/flat-blue.rasi"
 bindsym $mod+Shift+i exec --no-startup-id rofi -show run -show-icons
 bindsym $mod+Shift+d exec --no-startup-id rofi -show window -show-icons
+bindsym $mod+Shift+o exec --no-startup-id rofi -show drun -show-icons
 
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
@@ -223,7 +232,7 @@ smart_borders on
 
 # Background screens
 
-exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/47.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/51.jpg
 
 # Two screens
 
@@ -261,5 +270,12 @@ exec_always --no-startup-id dunst
 
 # Battery
 
-exec_always --no-startup-id bato
+exec_always --no-startup-id xfce4-power-manager
 
+# autotiling
+
+exec_always --no-startup-id autotiling
+
+# volume
+
+# exec --no-startup-id volumeicon
