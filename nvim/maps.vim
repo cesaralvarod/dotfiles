@@ -1,18 +1,9 @@
 let mapleader=" "
 
-" Buffer
-
-nmap <c-e> :bn<CR>
-nmap <c-d> :bd<CR>
-
-" Ventana doble
-
-nnoremap <c-z> :vsp<CR>
-
 " General
 
-nnoremap <leader>w :ALEFix<CR>:w<CR>
-nnoremap <leader>q :ALEFix<CR>:wq<CR>
+nnoremap <leader>w :w<CR>
+nnoremap <leader>q :wq<CR>
 nnoremap <leader>qq :q!<CR>
 
 "Atajo para guardar archivos
@@ -28,12 +19,6 @@ imap <c-a> <c-o>:wa<CR>
 " Terminal
 
 " nnoremap <leader>t :ter<CR>
-
-" Buffers
-
-noremap <leader>k :bnext<CR>
-noremap <leader>j :bprevious<CR>
-noremap <leader>0 :bdelete<CR>
 
 " Add ; to end of line
 
@@ -121,7 +106,7 @@ nmap <C-z> :vsp term://fish<CR>
 
 tnoremap <Esc> <C-\><C-n>
 
-"cambiar entre paneles
+" cambiar entre paneles
 tnoremap <A-h> <C-\><C-n><C-w>h
 tnoremap <A-j> <C-\><C-n><C-w>j
 tnoremap <A-k> <C-\><C-n><C-w>k
@@ -131,7 +116,10 @@ nnoremap <A-j> <C-w>j
 nnoremap <A-k> <C-w>k
 nnoremap <A-l> <C-w>l
 
-" Barbar
+" Buffers
+noremap <leader>k :bnext<CR>
+noremap <leader>j :bprevious<CR>
+noremap <leader>0 :bdelete<CR>
 
 " Move to previous/next
 nnoremap <silent>    <A-,> :BufferLineCyclePrev<CR>
@@ -159,3 +147,7 @@ nmap <leader>gi <Plug>(coc-implementation)
 
 inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
 inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+
+" Codi
+
+nmap <leader>d :Codi<CR>

@@ -1,10 +1,9 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'folke/trouble.nvim'
+Plug 'simrat39/lsp-trouble.nvim'
+Plug 'folke/lsp-colors.nvim'
 
-" Plug 'glepnir/dashboard-nvim'
-" Plug 'applejwjcat/dashboard-nvim'
-Plug 'liuchengxu/vim-clap'
+Plug 'applejwjcat/dashboard-nvim'
 
 " Syntax
 
@@ -22,15 +21,19 @@ Plug 'dsawardekar/wordpress.vim'
 Plug 'digitaltoad/vim-pug'
 Plug 'jparise/vim-graphql'
 Plug 'vim-python/python-syntax'
+Plug 'yuezk/vim-js'
 Plug 'mxw/vim-jsx' " JSX highlight
-" Plug 'maxmellon/vim-jsx-pretty' " Tabs JSX
+Plug 'maxmellon/vim-jsx-pretty' " Tabs JSX -- La estoy probando
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'rust-lang/rust.vim'
+Plug 'tellijo/vim-react-native-snippets'
+
+
+Plug 'metakirby5/codi.vim'
 
 " Status bar
 
-" Plug 'vim-airline/vim-airline'
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 Plug 'nvim-lualine/lualine.nvim'	" Lualine
 
@@ -44,7 +47,6 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'nanozuki/tabby.nvim'
 " Plug 'scrooloose/nerdtree'
 Plug 'kyazdani42/nvim-tree.lua'
-" Plug 'preservim/nerdtree'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
 " Icons
@@ -119,11 +121,6 @@ Plug 'airblade/vim-gitgutter'
 " Others
 
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-" Plug 'rrethy/vim-hexokinase', { 'do': 'make hexokinase' } " View colors: css, sass, less
 Plug 'lukas-reineke/indent-blankline.nvim' " Color indent
-
-" Plug 'iamcco/markdown-previeautow.nvim', { 'do': 'cd app && yarn install' }
-Plug 'michaelb/sniprun', {'do': 'bash install.sh'} " Permite ejecutar codigo desde el mismo vim
-
 
 call plug#end()

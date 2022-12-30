@@ -1,4 +1,4 @@
-lua << END
+lua << EOF
 require('lualine').setup{
  options = {
     icons_enabled = true,
@@ -17,7 +17,7 @@ require('lualine').setup{
     lualine_y = {'progress'},
     lualine_z = {'location'}
   },
-	  inactive_sections = {
+    inactive_sections = {
     lualine_a = {},
     lualine_b = {},
     lualine_c = {'filename'},
@@ -37,33 +37,24 @@ require("bufferline").setup{
     }
   }
 }
-END
+EOF
 
 lua << EOF
   require("trouble").setup {
-    position = "bottom", -- position of the list can be: bottom, top, left, right
-    height = 10, -- height of the trouble list when position is top or bottom
-    width = 50, -- width of the list when position is left or right
+    height = 10, -- height of the trouble list
     icons = true, -- use devicons for filenames
-    mode = "workspace_diagnostics", -- "workspace_diagnostics", "document_diagnostics", "quickfix", "lsp_references", "loclist"
+    mode = "lsp_workspace_diagnostics", -- "lsp_workspace_diagnostics", "lsp_document_diagnostics", "quickfix", "lsp_references", "loclist"
     fold_open = "", -- icon used for open folds
     fold_closed = "", -- icon used for closed folds
-    group = true, -- group results by file
-    padding = true, -- add an extra new line on top of the list
     action_keys = { -- key mappings for actions in the trouble list
-        -- map to {} to remove a mapping, for example:
-        -- close = {},
         close = "q", -- close the list
         cancel = "<esc>", -- cancel the preview and get back to your last window / buffer / cursor
         refresh = "r", -- manually refresh
         jump = {"<cr>", "<tab>"}, -- jump to the diagnostic or open / close folds
-        open_split = { "<c-x>" }, -- open buffer in new split
-        open_vsplit = { "<c-v>" }, -- open buffer in new vsplit
-        open_tab = { "<c-t>" }, -- open buffer in new tab
         jump_close = {"o"}, -- jump to the diagnostic and close the list
         toggle_mode = "m", -- toggle between "workspace" and "document" diagnostics mode
         toggle_preview = "P", -- toggle auto_preview
-        hover = "K", -- opens a small popup with the full multiline message
+        hover = "K", -- opens a small poup with the full multiline message
         preview = "p", -- preview the diagnostic location
         close_folds = {"zM", "zm"}, -- close all folds
         open_folds = {"zR", "zr"}, -- open all folds
@@ -74,9 +65,8 @@ lua << EOF
     indent_lines = true, -- add an indent guide below the fold icons
     auto_open = false, -- automatically open the list when you have diagnostics
     auto_close = false, -- automatically close the list when you have no diagnostics
-    auto_preview = true, -- automatically preview the location of the diagnostic. <esc> to close preview and go back to last window
+    auto_preview = true, -- automatyically preview the location of the diagnostic. <esc> to close preview and go back to last window
     auto_fold = false, -- automatically fold a file trouble list at creation
-    auto_jump = {"lsp_definitions"}, -- for the given modes, automatically jump if there is only a single result
     signs = {
         -- icons / text used for a diagnostic
         error = "",
@@ -85,29 +75,238 @@ lua << EOF
         information = "",
         other = "﫠"
     },
-    use_diagnostic_signs = false -- enabling this will use the signs defined in your lsp client
-  }
+    use_lsp_diagnostic_signs = false -- enabling this will use the signs defined in your lsp client
+}
+  require("lsp-colors").setup({
+  Error = "#db4b4b",
+  Warning = "#e0af68",
+  Information = "#0db9d7",
+  Hint = "#10B981"
+})
 EOF
 
 lua << EOF
 
-require("nvim-tree").setup({
-  sort_by = "case_sensitive",
-  view = {
-    adaptive_size = true,
-    mappings = {
-      list = {
-        { key = "u", action = "dir_up" },
+ require("nvim-tree").setup { -- BEGIN_DEFAULT_OPTS
+      auto_reload_on_write = true,
+      create_in_closed_folder = false,
+      disable_netrw = false,
+      hijack_cursor = false,
+      hijack_netrw = true,
+      hijack_unnamed_buffer_when_opening = false,
+      ignore_buffer_on_setup = false,
+      open_on_setup = false,
+      open_on_setup_file = false,
+      sort_by = "name",
+      root_dirs = {},
+      prefer_startup_root = false,
+      sync_root_with_cwd = false,
+      reload_on_bufenter = false,
+      respect_buf_cwd = false,
+      on_attach = "disable",
+      remove_keymaps = false,
+      select_prompts = false,
+      view = {
+        adaptive_size = false,
+        centralize_selection = false,
+        width = 30,
+        hide_root_folder = false,
+        side = "left",
+        preserve_window_proportions = false,
+        number = false,
+        relativenumber = false,
+        signcolumn = "yes",
+        mappings = {
+          custom_only = false,
+          list = {
+            -- user mappings go here
+          },
+        },
+        float = {
+          enable = false,
+          quit_on_focus_loss = true,
+          open_win_config = {
+            relative = "editor",
+            border = "rounded",
+            width = 30,
+            height = 30,
+            row = 1,
+            col = 1,
+          },
+        },
       },
-    },
-  },
-  renderer = {
-    group_empty = true,
-  },
-  filters = {
-    dotfiles = true,
-  },
-})
+      renderer = {
+        add_trailing = false,
+        group_empty = false,
+        highlight_git = false,
+        full_name = false,
+        highlight_opened_files = "none",
+        root_folder_label = ":~:s?$?/..?",
+        indent_width = 2,
+        indent_markers = {
+          enable = false,
+          inline_arrows = true,
+          icons = {
+            corner = "└",
+            edge = "│",
+            item = "│",
+            bottom = "─",
+            none = " ",
+          },
+        },
+        icons = {
+          webdev_colors = true,
+          git_placement = "before",
+          padding = " ",
+          symlink_arrow = " ➛ ",
+          show = {
+            file = true,
+            folder = true,
+            folder_arrow = true,
+            git = true,
+          },
+          glyphs = {
+            default = "",
+            symlink = "",
+            bookmark = "",
+            folder = {
+              arrow_closed = "",
+              arrow_open = "",
+              default = "",
+              open = "",
+              empty = "",
+              empty_open = "",
+              symlink = "",
+              symlink_open = "",
+            },
+            git = {
+              unstaged = "✗",
+              staged = "✓",
+              unmerged = "",
+              renamed = "➜",
+              untracked = "★",
+              deleted = "",
+              ignored = "◌",
+            },
+          },
+        },
+        special_files = { "Cargo.toml", "Makefile", "README.md", "readme.md" },
+        symlink_destination = true,
+      },
+      hijack_directories = {
+        enable = true,
+        auto_open = true,
+      },
+      update_focused_file = {
+        enable = false,
+        update_root = false,
+        ignore_list = {},
+      },
+      ignore_ft_on_setup = {},
+      system_open = {
+        cmd = "",
+        args = {},
+      },
+      diagnostics = {
+        enable = false,
+        show_on_dirs = false,
+        debounce_delay = 50,
+        severity = {
+          min = vim.diagnostic.severity.HINT,
+          max = vim.diagnostic.severity.ERROR
+        },
+        icons = {
+          hint = "",
+          info = "",
+          warning = "",
+          error = "",
+        },
+      },
+      filters = {
+        dotfiles = false,
+        custom = {},
+        exclude = {},
+      },
+      filesystem_watchers = {
+        enable = true,
+        debounce_delay = 50,
+        ignore_dirs = {},
+      },
+      git = {
+        enable = true,
+        ignore = true,
+        show_on_dirs = true,
+        timeout = 400,
+      },
+      actions = {
+        use_system_clipboard = true,
+        change_dir = {
+          enable = true,
+          global = false,
+          restrict_above_cwd = false,
+        },
+        expand_all = {
+          max_folder_discovery = 300,
+          exclude = {},
+        },
+        file_popup = {
+          open_win_config = {
+            col = 1,
+            row = 1,
+            relative = "cursor",
+            border = "shadow",
+            style = "minimal",
+          },
+        },
+        open_file = {
+          quit_on_open = false,
+          resize_window = true,
+          window_picker = {
+            enable = true,
+            chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
+            exclude = {
+              filetype = { "notify", "packer", "qf", "diff", "fugitive", "fugitiveblame" },
+              buftype = { "nofile", "terminal", "help" },
+            },
+          },
+        },
+        remove_file = {
+          close_window = true,
+        },
+      },
+      trash = {
+        cmd = "gio trash",
+        require_confirm = true,
+      },
+      live_filter = {
+        prefix = "[FILTER]: ",
+        always_show_folders = true,
+      },
+      tab = {
+        sync = {
+          open = false,
+          close = false,
+          ignore = {},
+        },
+      },
+      notify = {
+        threshold = vim.log.levels.INFO,
+      },
+      log = {
+        enable = false,
+        truncate = false,
+        types = {
+          all = false,
+          config = false,
+          copy_paste = false,
+          dev = false,
+          diagnostics = false,
+          git = false,
+          profile = false,
+          watcher = false,
+        },
+      },
+    } -- END_DEFAULT_OPTS
 
 EOF
 
@@ -120,8 +319,6 @@ require("nvim-treesitter.configs").setup {
 }
 
 EOF
-
-
 
 " Colorear Tag en JS
 
@@ -275,8 +472,12 @@ let g:ale_echo_msg_error_str = ''
 let g:ale_echo_msg_warning_str = ''
 let g:ale_echo_msg_info_str = ''
 let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_fixers={'*':['prettier'], 'python':['autopep8']}
-let g:ale_linters={'typescript':['typescript-eslint'], 'css':['eslint'], 'javascript': ['prettier-eslint', 'eslint'], 'json':['eslint'] }
+let g:ale_fix_on_save = 1
+
+let g:ale_fixers={'*':['prettier'], 'python':['autopep8'], 'javascript': ['prettier'], 'typescript':['prettier']}
+let g:ale_linter_aliases = {'jsx': ['css', 'javascript'], 'tsx':['javascript', 'typescript']}
+
+let g:ale_linters={'typescript':['tsserver','typescript-eslint'], 'css':['eslint'], 'javascript': ['tsserver', 'eslint'], 'json':['eslint'], 'jsx':['eslint'], 'vue':['vls'] }
 let g:ale_lint_on_enter = 1
 let g:ale_lint_on_filetype_changed = 1
 let g:ale_lint_on_insert_leave = 1
