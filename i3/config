@@ -8,7 +8,8 @@ font pango:mononoki Nerd Font Bold 10
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+#bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -190,7 +191,7 @@ bindsym $mod+Mod1+p exec --no-startup-id postman
 
 set $rofi_theme "$HOME/.config/rofi/flat-blue.rasi"
 bindsym $mod+Shift+i exec --no-startup-id rofi -show run -show-icons
-bindsym $mod+Shift+d exec --no-startup-id rofi -show window -show-icons
+bindsym $mod+Shift+p exec --no-startup-id rofi -show window -show-icons
 bindsym $mod+Shift+o exec --no-startup-id rofi -show drun -show-icons
 
 # Pulse Audio controls
@@ -229,6 +230,8 @@ for_window [class="^.*"] border pixel 1
 gaps outer 2
 gaps inner 4
 smart_borders on
+# smart_borders no_gaps
+# border_radius 2
 
 # Background screens
 
