@@ -10,6 +10,7 @@ floating_modifier $mod
 # start a terminal
 #bindsym $mod+Return exec --no-startup-id alacritty
 bindsym $mod+Return exec --no-startup-id kitty
+#for_window [class=kitty] floating enable
 
 # kill focused window
 bindsym $mod+Shift+q kill
