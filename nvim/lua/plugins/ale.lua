@@ -3,8 +3,15 @@ local g = vim.g
 g.ale_list_window_size = 5
 g.ale_set_quickfix = 1
 
+g.ale_disable_lsp = 1
+
 g.ale_echo_msg_format = "[%linter%] %s [%severity%]"
 g.ale_fix_on_save = 1
+
+g.ale_linters_aliases = {
+	jsx = { "css", "javascript", "javascript.jsx" },
+	tsx = { "javascript", "typescript", "typescript.tsx" },
+}
 
 g.ale_fixers = {
 	all = { "prettier" },
@@ -24,16 +31,15 @@ g.ale_fixers = {
 	css = { "prettier" },
 	cpp = { "clang" },
 	c = { "clang" },
-}
-
-g.ale_linters_aliases = {
-	jsx = { "css", "javascript" },
-	tsx = { "javascript", "typescript" },
+	javascriptreact = { "prettier" },
+	typescriptreact = { "prettier" },
 }
 
 g.ale_linters = {
 	typescript = { "tsserver" },
+	typescriptreact = { "tsserver" },
 	javascript = { "tsserver", "eslint" },
+	javascriptreact = { "tsserver", "eslint" },
 	json = { "tsserver", "eslint" },
 	jsx = { "eslint" },
 	css = { "eslint", "stylelint" },

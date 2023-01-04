@@ -18,6 +18,9 @@ require("plugins/notify")
 require("plugins/gitsigns")
 require("plugins/nvim-spectre")
 require("plugins/sniprun")
+require("plugins/rainbow")
+require("plugins/colorizer")
+require("plugins/lspsaga")
 -- require("lsp/trouble")
 
 -- Themes

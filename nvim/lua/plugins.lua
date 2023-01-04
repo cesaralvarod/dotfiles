@@ -76,7 +76,11 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------
 	use({
 		"nvim-telescope/telescope.nvim",
-		requires = { { "nvim-lua/plenary.nvim" } },
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"jeetsukumaran/telescope-buffer-lines.nvim",
+			"nvim-telescope/telescope-media-files.nvim",
+		},
 	})
 
 	---------------------------------------------------------------
@@ -157,6 +161,7 @@ return require("packer").startup(function(use)
 	use("mlaursen/vim-react-snippets")
 	use("mattn/emmet-vim")
 	use("tomoyukikashiro/vim-angular-snippets")
+	use("tellijo/vim-react-native-snippets")
 
 	---------------------------------------------------------------
 	-- Codi
@@ -181,7 +186,63 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------
 	-- Sniprun
 	---------------------------------------------------------------
-	use({ "michaelb/sniprun", run="bash ./install.sh" })
+	use({ "michaelb/sniprun", run = "bash ./install.sh" })
+
+	---------------------------------------------------------------
+	-- Vim JS File Import
+	---------------------------------------------------------------
+	use({
+		"kristijanhusak/vim-js-file-import",
+		requires = {
+			"ludovicchabant/vim-gutentags",
+		},
+		run = "npm install",
+	})
+	---------------------------------------------------------------
+	-- Vim Polyglot
+	---------------------------------------------------------------
+	use("sheerun/vim-polyglot")
+
+	---------------------------------------------------------------
+	-- Vim Rainbow
+	---------------------------------------------------------------
+	use("frazrepo/vim-rainbow")
+
+	---------------------------------------------------------------
+	-- Popup.nvim
+	---------------------------------------------------------------
+	use({ "nvim-lua/popup.nvim", requires = { "nvim-lua/plenary.nvim" } })
+
+	---------------------------------------------------------------
+	-- Vim-matchit -> '%' operator... go to close pair
+	---------------------------------------------------------------
+	use("adelarsq/vim-matchit")
+
+	---------------------------------------------------------------
+	-- Colorizer
+	---------------------------------------------------------------
+	use("norcalli/nvim-colorizer.lua")
+
+	---------------------------------------------------------------
+	-- Eunuch -> Helpers for vim, example: :Remove :Delete, :Move, :Chmod, etc.
+	---------------------------------------------------------------
+	use("tpope/vim-eunuch")
+
+	---------------------------------------------------------------
+	-- Ident Blankline
+	---------------------------------------------------------------
+	use("lukas-reineke/indent-blankline.nvim")
+
+	---------------------------------------------------------------
+	-- lspsaga
+	---------------------------------------------------------------
+
+	use({
+		"kkharji/lspsaga.nvim",
+		requires = {
+			"neovim/nvim-lspconfig",
+		},
+	})
 
 	-------------------------------------------------------------
 

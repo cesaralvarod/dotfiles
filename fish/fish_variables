@@ -1,6 +1,13 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export ANDROID_HOME:/home/andres/Android/Sdk
+SETUVAR --export ANDROID_SDK_ROOT:/home/andres/Android/Sdk
+SETUVAR --export FOO:bar
 SETUVAR __fish_initialized:3400
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_jorgebucaran_2F_nvm_2E_fish_files:\x7e/\x2econfig/fish/functions/_nvm_index_update\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_list\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_activate\x2efish\x1e\x7e/\x2econfig/fish/functions/_nvm_version_deactivate\x2efish\x1e\x7e/\x2econfig/fish/functions/nvm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/nvm\x2efish\x1e\x7e/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejorgebucaran/nvm\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR budspencer_colors:000000\x1e083743\x1e445659\x1efdf6e3\x1eb58900\x1ecb4b16\x1edc121f\x1eaf005f\x1e6c71c4\x1e268bd2\x1e2aa198\x1e859900
 SETUVAR budspencer_cursors:\x5c033\x5d12\x3b\x23268bd2\x5c007\x1e\x5c033\x5d12\x3b\x23b58900\x5c007\x1e\x5c033\x5d12\x3b\x23af005f\x5c007\x1e\x5c033\x5d12\x3b\x236c71c4\x5c007
 SETUVAR budspencer_day:000000\x1e333333\x1e666666\x1effffff\x1effff00\x1eff6600\x1eff0000\x1eff0033\x1e3300ff\x1e00aaff\x1e00ffff\x1e00ff00
@@ -38,5 +45,7 @@ SETUVAR fish_pager_color_description:555\x1eyellow
 SETUVAR fish_pager_color_prefix:cyan
 SETUVAR fish_pager_color_progress:cyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/andres/\x2ecargo/bin
+SETUVAR fish_user_paths:/home/andres/Android/Sdk/platform\x2dtools\x1e/home/andres/Android/Sdk/tools\x2dbin\x1e/home/andres/Android/Sdk/tools\x1e/home/andres/Android/Sdk/emulator\x1e/home/andres/\x2ecargo/bin
+SETUVAR nvm_data:/home/andres/\x2elocal/share/nvm
+SETUVAR nvm_mirror:https\x3a//nodejs\x2eorg/dist
 SETUVAR rustup:/home/andres/\x2ecargo/bin/

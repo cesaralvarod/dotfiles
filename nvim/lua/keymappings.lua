@@ -118,3 +118,33 @@ nnoremap("<A-0>", "<Cmd>BufferLast<CR>")
 -- 14. Sniprun
 
 vnoremap("<leader>x", "<Cmd>SnipRun<CR>")
+
+-- 15. Lspsaga
+
+nnoremap("gh", "<Cmd>Lspsaga lsp_finder<CR>")
+
+nnoremap("<leader>cx", "<cmd>Lspsaga code_action<CR>")
+vnoremap("<leader>cx", "<cmd>Lspsaga code_action<CR>")
+
+nnoremap("gr", "<Cmd>Lspsaga rename<CR>")
+nnoremap("gd", "<Cmd>Lspsaga preview_definition<CR>")
+nnoremap("<leader>cd", "<Cmd>Lspsaga show_line_diagnostics<CR>")
+
+-- Diagnostic jump can use `<c-o>` to jump back
+
+nnoremap("[e", "<cmd>Lspsaga diagnostic_jump_prev<CR>")
+nnoremap("]e", "<cmd>Lspsaga diagnostic_jump_next<CR>")
+
+-- Only jump to error
+
+--nnoremap("[E", function()
+--require("lspsaga.diagnostic").goto_prev({ severity = vim.diagnostic.severity.ERROR })
+--end)
+--nnoremap("]E", function()
+--require("lspsaga.diagnostic").goto_next({ severity = vim.diagnostic.severity.ERROR })
+--end)
+
+nnoremap("<leader>o", "<cmd>LSoutlineToggle<CR>")
+nnoremap("<leader>ot", "<cmd>Lspsaga open_floaterm<CR>")
+nnoremap("<A-d>", "<cmd>Lspsaga open_floaterm lazygit<CR>")
+tnoremap("<A-d>", [[<C-\><C-n><cmd>Lspsaga close_floaterm<CR>]])

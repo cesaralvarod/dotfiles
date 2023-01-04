@@ -1,3 +1,6 @@
+require("telescope").load_extension("buffer_lines")
+require("telescope").load_extension("media_files")
+
 require("telescope").setup({
 	defaults = {
 		vimgrep_arguments = {
@@ -54,7 +57,7 @@ require("telescope").setup({
 			-- the default case_mode is "smart_case"
 		},
 		media_files = {
-			filetypes = { "png", "webp", "jpg", "jpeg" },
+			filetypes = { "png", "webp", "jpg", "jpeg", "svg" },
 			find_cmd = "rg", -- find command (defaults to `fd`)
 		},
 	},

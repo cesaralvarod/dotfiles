@@ -166,11 +166,13 @@ bindsym $mod+Mod1+b exec --no-startup-id brave
 
 # ranger
 
-bindsym $mod+n exec --no-startup-id alacritty -e ranger
+#bindsym $mod+n exec --no-startup-id alacritty -e ranger
+bindsym $mod+n exec --no-startup-id kitty -e ranger
 
 #btop
 
-bindsym $mod+i exec --no-startup-id alacritty -e btop -t
+#bindsym $mod+i exec --no-startup-id alacritty -e btop -t
+bindsym $mod+i exec --no-startup-id kitty -e btop -t
 
 # Firefox
 
@@ -179,6 +181,7 @@ bindsym $mod+Mod1+f exec --no-startup-id firefox
 # file manager
 
 bindsym $mod+Mod1+n exec --no-startup-id nemo
+for_window [class=nemo] floating enable
 
 # Visual Studio Code
 
