@@ -18,3 +18,7 @@ set -U fish_user_paths $ANDROID_HOME/platform-tools $fish_user_paths
 # Starship
 
 starship init fish | source
+
+alias unset 'set --erase'
+
+set --erase ANDROID_SDK_ROOT
