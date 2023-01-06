@@ -1,6 +1,5 @@
 local keymap = vim.keymap.set
 local lspsaga = require("lspsaga")
-
 lspsaga.setup({ -- defaults ...
 	debug = false,
 	use_saga_diagnostic_sign = true,
@@ -49,7 +48,6 @@ lspsaga.setup({ -- defaults ...
 	diagnostic_message_format = "%m %c",
 	highlight_prefix = false,
 })
-
 -- Only jump to error
 keymap("n", "[E", function()
 	require("lspsaga.diagnostic").goto_prev({ severity = vim.diagnostic.severity.ERROR })

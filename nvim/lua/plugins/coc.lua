@@ -1,7 +1,5 @@
 local g = vim.g
-
 g.coc_config_home = "~/.config/nvim/"
-
 g.coc_global_extensions = {
 	"coc-clangd",
 	"coc-css",
@@ -50,13 +48,11 @@ g.coc_global_extensions = {
 	"coc-pairs",
 	-- 'coc-rust-analyzer'
 }
-
 -- Autocomplete
 function _G.check_back_space()
 	local col = vim.fn.col(".") - 1
 	return col == 0 or vim.fn.getline("."):sub(col, col):match("%s") ~= nil
 end
-
 function _G.show_docs()
 	local cw = fn.expand("<cword>")
 	if fn.index({ "vim", "help" }, vim.bo.filetype) >= 0 then
@@ -67,11 +63,8 @@ function _G.show_docs()
 		cmd("!" .. vim.o.keywordprg .. " " .. cw)
 	end
 end
-
 local opts = { silent = true, noremap = true, expr = true, replace_keycodes = false }
-
 local api = vim.api
-
 api.nvim_set_keymap(
 	"i",
 	"<TAB>",

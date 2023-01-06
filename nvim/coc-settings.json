@@ -16,6 +16,7 @@
   "javascript.suggestionActions.enabled": true,
   "typescript.suggest.autoImports": true,
 
+  "diagnostic.enableMessage": "jump",
   "diagnostic.errorSign": "✘",
   "diagnostic.warningSign": "⚠",
   "diagnostic.infoSign": "i",

@@ -71,6 +71,29 @@ return require("packer").startup(function(use)
 		"neovim/nvim-lspconfig",
 	}) -- Configurations for Nvim LSP
 
+	-- Completition
+	use({
+		"ray-x/lsp_signature.nvim",
+	})
+	use({
+		"hrsh7th/nvim-cmp",
+		requires = {
+			"hrsh7th/cmp-nvim-lsp",
+			"hrsh7th/cmp-buffer",
+			"hrsh7th/cmp-path",
+			"hrsh7th/cmp-cmdline",
+			"neovim/nvim-lspconfig",
+			"hrsh7th/cmp-vsnip",
+			"hrsh7th/vim-vsnip",
+			"saadparwaiz1/cmp_luasnip",
+			"hrsh7th/cmp-nvim-lsp-signature-help",
+      --"quangnguyen30192/cmp-nvim-ultisnips",
+			"dcampos/nvim-snippy",
+			"dcampos/cmp-snippy",
+			"L3MON4D3/LuaSnip",
+		},
+	})
+
 	---------------------------------------------------------------
 	-- Telescope
 	---------------------------------------------------------------
@@ -84,12 +107,12 @@ return require("packer").startup(function(use)
 	})
 
 	---------------------------------------------------------------
-	-- Coc
+	-- Coc: DISABLED
 	---------------------------------------------------------------
-	use({
-		"neoclide/coc.nvim",
-		branch = "release",
-	})
+	--use({
+	--"neoclide/coc.nvim",
+	--branch = "release",
+	--})
 
 	---------------------------------------------------------------
 	-- Autopairs
@@ -110,14 +133,14 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------
 	-- Trouble
 	---------------------------------------------------------------
-	use({
-		"folke/trouble.nvim",
-		requires = {
-			"kyazdani42/nvim-web-devicons",
-			"folke/lsp-colors.nvim",
-			"neovim/nvim-lspconfig",
-		},
-	})
+	--use({
+	--"folke/trouble.nvim",
+	--requires = {
+	--"kyazdani42/nvim-web-devicons",
+	--"folke/lsp-colors.nvim",
+	--"neovim/nvim-lspconfig",
+	--},
+	--})
 
 	---------------------------------------------------------------
 	-- Prettier.nvim
@@ -198,6 +221,7 @@ return require("packer").startup(function(use)
 		},
 		run = "npm install",
 	})
+
 	---------------------------------------------------------------
 	-- Vim Polyglot
 	---------------------------------------------------------------
@@ -232,17 +256,6 @@ return require("packer").startup(function(use)
 	-- Ident Blankline
 	---------------------------------------------------------------
 	use("lukas-reineke/indent-blankline.nvim")
-
-	---------------------------------------------------------------
-	-- lspsaga
-	---------------------------------------------------------------
-
-	use({
-		"kkharji/lspsaga.nvim",
-		requires = {
-			"neovim/nvim-lspconfig",
-		},
-	})
 
 	-------------------------------------------------------------
 
