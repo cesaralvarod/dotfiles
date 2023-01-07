@@ -1,21 +1,21 @@
 -- Set up nvim-cmp.
-local cmp = require("cmp")
-local luasnip = require("luasnip")
+local cmp_status_ok, cmp = pcall(require, "cmp")
+if not cmp_status_ok then
+	return
+end
 
--- html snippets in javascript and javascriptreact
-luasnip.snippets = {
-	html = {},
-}
-luasnip.snippets.javascript = luasnip.snippets.html
-luasnip.snippets.javascriptreact = luasnip.snippets.html
-luasnip.snippets.typescriptreact = luasnip.snippets.html
+local snip_status_ok, luasnip = pcall(require, "luasnip")
+if not snip_status_ok then
+	return
+end
 
-require("luasnip.loaders.from_vscode").lazy_load({ include = { "javascript", "javascriptreact" } })
 require("luasnip/loaders/from_vscode").lazy_load()
 
------------------------------------------------------------------------
+---------------------------------------------------------------------
 
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
+-- local capabilities = vim.lsp.protocol.make_client_capabilities()
+-- capabilities = require("cmp_nvim_lsp").update_capabilities(capabilities)
 
 local servers = {
 	"html",
@@ -29,7 +29,6 @@ local servers = {
 	"cssmodules_ls",
 }
 
--- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
 for _, lsp in ipairs(servers) do
 	require("lspconfig")[lsp].setup({
 		capabilities = capabilities,

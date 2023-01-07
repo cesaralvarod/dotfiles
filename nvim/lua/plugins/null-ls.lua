@@ -16,30 +16,28 @@ local hover = null_ls.builtins.hover
 local completion = null_ls.builtins.completion
 
 local sources = {
-  formatting.prettier, -- js, ts, tsx, jsx, css, html, etc files
-  formatting.autopep8, -- python files
-  formatting.stylua, -- lua files
-  formatting.beautysh, -- sh file
-  formatting.clang_format, -- java, cpp, c, cuda files
-  formatting.phpcsfixer, -- php files
-  formatting.trim_whitespace,
-  formatting.trim_newlines,
+	-- FORMATTING
+	formatting.prettier, -- js, ts, tsx, jsx, css, html, etc files
+	formatting.autopep8, -- python files
+	formatting.stylua, -- lua files
+	formatting.beautysh, -- sh file
+	formatting.clang_format, -- java, cpp, c, cuda files
+	formatting.phpcsfixer, -- php files
+
+	-- Importants
+	formatting.trim_whitespace,
+	formatting.trim_newlines,
 }
 
 local on_attach = function(client)
-  --if client.resolved_capabilities.document_formatting then
-  --vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format({sync=true})")
-  --end
-
-  -- Replace:
-  if client.server_capabilities.documentFormattingProvider then
-    vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format({sync=true})")
-  end
+	if client.server_capabilities.documentFormattingProvider then
+		vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format({sync=true})")
+	end
 end
 
 null_ls.setup({
-  sources = sources,
-  on_attach = on_attach,
+	sources = sources,
+	on_attach = on_attach,
 })
 
 -- :echo executable("<SOURCE>") para ver si existe el ejecutable de ese lsp server

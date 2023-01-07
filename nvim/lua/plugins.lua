@@ -15,16 +15,19 @@ end
 
 local packer_bootstrap = ensure_packer()
 
--- Initialize packer
-
-return require("packer").startup(function(use)
+local startup = function(use)
 	---------------------------------------------------------------
 	-- Packer
 	---------------------------------------------------------------
 	use("wbthomason/packer.nvim")
 
 	---------------------------------------------------------------
-	-- Nvim Tree
+	-- Theme: Tokyonight
+	---------------------------------------------------------------
+	use("folke/tokyonight.nvim")
+
+	---------------------------------------------------------------
+	-- Nvim Tree -> Search bar files
 	---------------------------------------------------------------
 	use({
 		"nvim-tree/nvim-tree.lua",
@@ -35,12 +38,7 @@ return require("packer").startup(function(use)
 	})
 
 	---------------------------------------------------------------
-	-- Theme: Tokyonight
-	---------------------------------------------------------------
-	use("folke/tokyonight.nvim")
-
-	---------------------------------------------------------------
-	-- Lualine
+	-- Lualine -> Status line
 	---------------------------------------------------------------
 	use({
 		"nvim-lualine/lualine.nvim",
@@ -48,14 +46,14 @@ return require("packer").startup(function(use)
 	})
 
 	---------------------------------------------------------------
-	-- Bufferline
+	-- Bufferline -> Buffer line in top
 	---------------------------------------------------------------
 	use({ "akinsho/bufferline.nvim", tag = "v3.*", requires = "nvim-tree/nvim-web-devicons" })
 
 	---------------------------------------------------------------
-	-- ALE
+	-- Which key -> Help for write a command in nvim terminal
 	---------------------------------------------------------------
-	--use({ "dense-analysis/ale" })
+	use("folke/which-key.nvim")
 
 	---------------------------------------------------------------
 	-- Nvim Treesitter
@@ -114,56 +112,27 @@ return require("packer").startup(function(use)
 			"nvim-lua/plenary.nvim",
 			"jeetsukumaran/telescope-buffer-lines.nvim",
 			"nvim-telescope/telescope-media-files.nvim",
+			"xiyaowong/telescope-emoji.nvim",
 		},
 	})
 
 	---------------------------------------------------------------
-	-- Coc: DISABLED
-	---------------------------------------------------------------
-	--use({
-	--"neoclide/coc.nvim",
-	--branch = "release",
-	--})
-
-	---------------------------------------------------------------
-	-- Autopairs
+	-- Autopairs -> Autoclose <, ", ', (, [, {
 	---------------------------------------------------------------
 	use("windwp/nvim-autopairs")
 
 	---------------------------------------------------------------
-	-- Closetag
+	-- Comment -> Make comments in the code
 	---------------------------------------------------------------
-
-	use("alvan/vim-closetag")
-
-	---------------------------------------------------------------
-	-- Nerdcommenter
-	---------------------------------------------------------------
-	use("preservim/nerdcommenter")
+	use("numToStr/Comment.nvim")
 
 	---------------------------------------------------------------
-	-- Prettier.nvim
-	---------------------------------------------------------------
-	use({
-		"MunifTanjim/prettier.nvim",
-		requires = {
-			"neovim/nvim-lspconfig",
-			"jose-elias-alvarez/null-ls.nvim",
-		},
-	})
-
-	---------------------------------------------------------------
-	-- Notify
+	-- Notify -> Notifications top-left neovim
 	---------------------------------------------------------------
 	use("rcarriga/nvim-notify")
 
 	---------------------------------------------------------------
-	-- Gitgutter
-	---------------------------------------------------------------
-	use("airblade/vim-gitgutter")
-
-	---------------------------------------------------------------
-	-- Gitsigns
+	-- Gitsigns -> Super fast git decorations implemented purely in lua/teal.
 	---------------------------------------------------------------
 	use({
 		"lewis6991/gitsigns.nvim",
@@ -171,19 +140,10 @@ return require("packer").startup(function(use)
 	})
 
 	---------------------------------------------------------------
-	-- Vim-surround
-	---------------------------------------------------------------
-	use("tpope/vim-surround") -- This plugin provides mappings to easily delete, change and add such surroundings in pairs.
+	-- Vim-surround -> This plugin provides mappings to easily delete, change and add such surroundings in pairs.
 
 	---------------------------------------------------------------
-	-- Snippets
-	---------------------------------------------------------------
-	use("honza/vim-snippets")
-	use("grvcoelho/vim-javascript-snippets")
-	use("mlaursen/vim-react-snippets")
-	use("mattn/emmet-vim")
-	use("tomoyukikashiro/vim-angular-snippets")
-	use("tellijo/vim-react-native-snippets")
+	use("tpope/vim-surround")
 
 	---------------------------------------------------------------
 	-- Codi
@@ -196,30 +156,9 @@ return require("packer").startup(function(use)
 	use("justinmk/vim-sneak")
 
 	---------------------------------------------------------------
-	-- Vim-spectre
-	---------------------------------------------------------------
-	use({
-		"windwp/nvim-spectre",
-		requires = {
-			"nvim-lua/plenary.nvim",
-		},
-	})
-
-	---------------------------------------------------------------
 	-- Sniprun
 	---------------------------------------------------------------
 	use({ "michaelb/sniprun", run = "bash ./install.sh" })
-
-	---------------------------------------------------------------
-	-- Vim JS File Import
-	---------------------------------------------------------------
-	use({
-		"kristijanhusak/vim-js-file-import",
-		requires = {
-			"ludovicchabant/vim-gutentags",
-		},
-		run = "npm install",
-	})
 
 	---------------------------------------------------------------
 	-- Vim Rainbow
@@ -237,7 +176,7 @@ return require("packer").startup(function(use)
 	use("adelarsq/vim-matchit")
 
 	---------------------------------------------------------------
-	-- Colorizer
+	-- Colorizer -> #454545 #89f652
 	---------------------------------------------------------------
 	use("norcalli/nvim-colorizer.lua")
 
@@ -247,9 +186,17 @@ return require("packer").startup(function(use)
 	use("tpope/vim-eunuch")
 
 	---------------------------------------------------------------
-	-- Ident Blankline
+	-- Ident Blankline -> line in tabs
 	---------------------------------------------------------------
 	use("lukas-reineke/indent-blankline.nvim")
+
+	---------------------------------------------------------------
+	-- Alpha
+	---------------------------------------------------------------
+	use({
+		"goolord/alpha-nvim",
+		requires = { "nvim-tree/nvim-web-devicons" },
+	})
 
 	-------------------------------------------------------------
 
@@ -258,4 +205,8 @@ return require("packer").startup(function(use)
 	if packer_bootstrap then
 		require("packer").sync()
 	end
-end)
+end
+
+-- Load plugins
+
+return require("packer").startup(startup)

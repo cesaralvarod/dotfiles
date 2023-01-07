@@ -18,6 +18,7 @@ vim.g.maplocalleader = " "
 -- 1. Save documents
 
 nnoremap("<leader>w", ":w<CR>") -- Save document with Space+w / Normal Mode
+nnoremap("<leader>wa", ":wa<CR>") -- Save all documents with Space+w+a / Normal Mode
 inoremap("<c-s>", "<c-o>:w<CR>") -- Save document with Ctrl+s / Insert Mode
 nnoremap("<c-s>", ":w<CR>") -- Save document with Ctrl+s / Normal Mode
 inoremap("<c-a>", "<c-o>:wa<CR>") -- Save all documents with Ctrl+a / Insert Mode

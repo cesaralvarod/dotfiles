@@ -1,4 +1,9 @@
-require("nvim-treesitter.configs").setup({
+local status_ok, configs = pcall(require, "nvim-treesitter.configs")
+if not status_ok then
+	return
+end
+
+configs.setup({
 	highlight = {
 		enable = true,
 		use_languagetree = true,
@@ -24,5 +29,11 @@ require("nvim-treesitter.configs").setup({
 		"arduino",
 		"rust",
 		"ruby",
+		"bash",
+		"python",
+		"tsx",
+		"yaml",
+		"markdown",
+		"markdown_inline",
 	},
 })
