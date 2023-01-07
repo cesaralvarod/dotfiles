@@ -1,3 +1,5 @@
+vim.g.gutentags_enabled = 1
+
 require("gitsigns").setup({
 	on_attach = function(bufnr)
 		local gs = package.loaded.gitsigns

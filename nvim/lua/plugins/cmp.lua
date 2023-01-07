@@ -2,6 +2,45 @@
 local cmp = require("cmp")
 local luasnip = require("luasnip")
 
+-- html snippets in javascript and javascriptreact
+luasnip.snippets = {
+	html = {},
+}
+luasnip.snippets.javascript = luasnip.snippets.html
+luasnip.snippets.javascriptreact = luasnip.snippets.html
+luasnip.snippets.typescriptreact = luasnip.snippets.html
+
+require("luasnip.loaders.from_vscode").lazy_load({ include = { "javascript", "javascriptreact" } })
+require("luasnip/loaders/from_vscode").lazy_load()
+
+-----------------------------------------------------------------------
+
+local capabilities = require("cmp_nvim_lsp").default_capabilities()
+
+local servers = {
+	"html",
+	"cssls",
+	"tsserver",
+	"pyright",
+	"jsonls",
+	"eslint",
+	"intelephense",
+	"tailwindcss",
+	"cssmodules_ls",
+}
+
+-- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
+for _, lsp in ipairs(servers) do
+	require("lspconfig")[lsp].setup({
+		capabilities = capabilities,
+		root_dir = function(fname)
+			return vim.fn.getcwd()
+		end,
+	})
+end
+
+----------------------------------------------------------------------
+
 local check_backspace = function()
 	local col = vim.fn.col(".") - 1
 	return col == 0 or vim.fn.getline("."):sub(col, col):match("%s")
@@ -36,20 +75,7 @@ local kind_icons = {
 	TypeParameter = "",
 }
 
-local luasnip = require("luasnip")
-
--- html snippets in javascript and javascriptreact
-luasnip.snippets = {
-	html = {},
-}
-luasnip.snippets.javascript = luasnip.snippets.html
-luasnip.snippets.javascriptreact = luasnip.snippets.html
-luasnip.snippets.typescriptreact = luasnip.snippets.html
-
-require("luasnip.loaders.from_vscode").lazy_load({ include = { "javascript", "javascriptreact" } })
-require("luasnip/loaders/from_vscode").lazy_load()
-
-cmp.setup({
+local cfg = {
 	snippet = {
 		expand = function(args)
 			luasnip.lsp_expand(args.body) -- For `luasnip` users.
@@ -78,6 +104,8 @@ cmp.setup({
 	mapping = {
 		["<C-k>"] = cmp.mapping.select_prev_item(),
 		["<C-j>"] = cmp.mapping.select_next_item(),
+		["<Down>"] = cmp.mapping.select_next_item(),
+		["<Up>"] = cmp.mapping.select_prev_item(),
 		["<C-b>"] = cmp.mapping(cmp.mapping.scroll_docs(-1), { "i", "c" }),
 		["<C-f>"] = cmp.mapping(cmp.mapping.scroll_docs(1), { "i", "c" }),
 		["<C-Space>"] = cmp.mapping(cmp.mapping.complete(), { "i", "c" }),
@@ -123,12 +151,15 @@ cmp.setup({
 		{ name = "luasnip" },
 		{ name = "buffer" },
 		{ name = "path" },
+		--{ name = "nvim_lsp_signature_help" },
 	},
 	experimental = {
 		ghost_text = false,
 		native_menu = false,
 	},
-})
+}
+
+cmp.setup(cfg)
 
 -- Set configuration for specific filetype.
 cmp.setup.filetype("gitcommit", {
@@ -156,24 +187,3 @@ cmp.setup.cmdline(":", {
 		{ name = "cmdline" },
 	}),
 })
-
--------------------------------------------------
-
-local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
-local servers = {
-	"html",
-	"cssls",
-	"tsserver",
-	"pyright",
-}
-
--- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-for _, lsp in ipairs(servers) do
-	require("lspconfig")[lsp].setup({
-		capabilities = capabilities,
-		root_dir = function(fname)
-			return vim.fn.getcwd()
-		end,
-	})
-end

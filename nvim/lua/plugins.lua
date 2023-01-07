@@ -55,7 +55,7 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------
 	-- ALE
 	---------------------------------------------------------------
-	use({ "dense-analysis/ale" })
+	--use({ "dense-analysis/ale" })
 
 	---------------------------------------------------------------
 	-- Nvim Treesitter
@@ -71,10 +71,12 @@ return require("packer").startup(function(use)
 		"neovim/nvim-lspconfig",
 	}) -- Configurations for Nvim LSP
 
-	-- Completition
+	-- Dialogs
 	use({
 		"ray-x/lsp_signature.nvim",
 	})
+
+	-- Completion
 	use({
 		"hrsh7th/nvim-cmp",
 		requires = {
@@ -83,16 +85,25 @@ return require("packer").startup(function(use)
 			"hrsh7th/cmp-path",
 			"hrsh7th/cmp-cmdline",
 			"neovim/nvim-lspconfig",
-			"hrsh7th/cmp-vsnip",
-			"hrsh7th/vim-vsnip",
-			"saadparwaiz1/cmp_luasnip",
-			"hrsh7th/cmp-nvim-lsp-signature-help",
-      --"quangnguyen30192/cmp-nvim-ultisnips",
-			"dcampos/nvim-snippy",
-			"dcampos/cmp-snippy",
-			"L3MON4D3/LuaSnip",
 		},
 	})
+
+	-- For LuaSnip users
+	use("saadparwaiz1/cmp_luasnip")
+	use({
+		"L3MON4D3/LuaSnip",
+		requires = {
+			"rafamadriz/friendly-snippets",
+		},
+		-- after = "nvim-cmp",
+		config = function()
+			require("config.snippets")
+		end,
+	})
+
+	-- Format
+
+	use("jose-elias-alvarez/null-ls.nvim") -- > Inject LSP diagnostics, code actions, and more via Lua.
 
 	---------------------------------------------------------------
 	-- Telescope
@@ -131,18 +142,6 @@ return require("packer").startup(function(use)
 	use("preservim/nerdcommenter")
 
 	---------------------------------------------------------------
-	-- Trouble
-	---------------------------------------------------------------
-	--use({
-	--"folke/trouble.nvim",
-	--requires = {
-	--"kyazdani42/nvim-web-devicons",
-	--"folke/lsp-colors.nvim",
-	--"neovim/nvim-lspconfig",
-	--},
-	--})
-
-	---------------------------------------------------------------
 	-- Prettier.nvim
 	---------------------------------------------------------------
 	use({
@@ -168,7 +167,7 @@ return require("packer").startup(function(use)
 	---------------------------------------------------------------
 	use({
 		"lewis6991/gitsigns.nvim",
-		-- tag = "release", -- To use the latest release (do not use this if you run Neovim nightly or dev builds!)
+		-- tag = "release",
 	})
 
 	---------------------------------------------------------------
@@ -221,11 +220,6 @@ return require("packer").startup(function(use)
 		},
 		run = "npm install",
 	})
-
-	---------------------------------------------------------------
-	-- Vim Polyglot
-	---------------------------------------------------------------
-	--use("sheerun/vim-polyglot")
 
 	---------------------------------------------------------------
 	-- Vim Rainbow
