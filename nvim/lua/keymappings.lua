@@ -120,3 +120,21 @@ nnoremap("<A-0>", "<Cmd>BufferLast<CR>")
 -- 14. Sniprun
 
 vnoremap("<leader>x", "<Cmd>SnipRun<CR>")
+
+-- 15. LSP and diagnostics
+
+nnoremap("gK", "<Cmd>:lua vim.lsp.buf.hover()<CR>")
+nnoremap("gd", "<Cmd>:lua vim.lsp.buf.definition()<CR>")
+nnoremap("gi", "<Cmd>:lua vim.lsp.buf.implementation()<CR>")
+nnoremap("gr", "<Cmd>:lua vim.lsp.buf.references()<CR>")
+nnoremap("gD", "<Cmd>:lua vim.lsp.buf.declaration()<CR>")
+nnoremap("<space>K", "<Cmd>:lua vim.lsp.buf.signature_help()<CR>")
+
+nnoremap("gt", "<Cmd>:lua vim.lsp.buf.type_definition()<CR>")
+nnoremap("<leader>rn", "<Cmd>:lua vim.lsp.buf.rename()<CR>")
+nnoremap("<leader>ca", "<Cmd>:lua vim.lsp.buf.code_action()<CR>")
+nnoremap("ff", "<Cmd>:lua vim.lsp.buf.formatting()<CR>")
+nnoremap("<leader>e", "<Cmd>:lua vim.diagnostic.open_float()<CR>")
+
+nnoremap("[e", "<Cmd>:lua vim.diagnostic.goto_prev()<CR>")
+nnoremap("]e", "<Cmd>:lua vim.diagnostic.goto_next()<CR>")

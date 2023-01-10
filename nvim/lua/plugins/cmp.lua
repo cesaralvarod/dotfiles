@@ -9,6 +9,11 @@ if not snip_status_ok then
 	return
 end
 
+local cmp_status_ok, lspconfig = pcall(require, "lspconfig")
+if not cmp_status_ok then
+	return
+end
+
 require("luasnip/loaders/from_vscode").lazy_load()
 
 ---------------------------------------------------------------------
@@ -27,10 +32,11 @@ local servers = {
 	"intelephense",
 	"tailwindcss",
 	"cssmodules_ls",
+	-- "jdtls",
 }
 
 for _, lsp in ipairs(servers) do
-	require("lspconfig")[lsp].setup({
+	lspconfig[lsp].setup({
 		capabilities = capabilities,
 		root_dir = function(fname)
 			return vim.fn.getcwd()

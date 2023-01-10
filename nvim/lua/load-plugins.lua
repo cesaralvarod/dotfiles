@@ -12,6 +12,8 @@ require("plugins/sniprun")
 require("plugins/rainbow")
 require("plugins/colorizer")
 require("plugins/alpha")
+require("plugins/closetags")
+require("plugins/hologram")
 
 require("plugins/lspconfig")
 

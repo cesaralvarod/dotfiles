@@ -17,21 +17,45 @@ local completion = null_ls.builtins.completion
 
 local sources = {
 	-- FORMATTING
-	formatting.prettier, -- js, ts, tsx, jsx, css, html, etc files
+	formatting.prettier.with({
+		extra_filetypes = { "java" },
+	}), -- js, ts, tsx, jsx, css, html, etc files
 	formatting.autopep8, -- python files
 	formatting.stylua, -- lua files
 	formatting.beautysh, -- sh file
 	formatting.clang_format, -- java, cpp, c, cuda files
 	formatting.phpcsfixer, -- php files
+	-- formatting.astyle, -- java files
 
 	-- Importants
-	formatting.trim_whitespace,
-	formatting.trim_newlines,
+	formatting.trim_whitespace.with({
+		disabled_filetypes = { "sql", "mysql" },
+	}),
+	formatting.trim_newlines.with({
+		disabled_filetypes = { "sql", "mysql" },
+	}),
+
+	code_actions.gitsigns,
 }
 
-local on_attach = function(client)
-	if client.server_capabilities.documentFormattingProvider then
-		vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format({sync=true})")
+local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
+
+local on_attach = function(client, bufnr)
+	-- if client.server_capabilities.documentFormattingProvider then
+	-- 	vim.cmd("autocmd BufWritePre <buffer> lua vim.lsp.buf.format()")
+	-- end
+
+	-- Documentation
+	if client.supports_method("textDocument/formatting") then
+		vim.api.nvim_clear_autocmds({ group = augroup, buffer = bufnr })
+		vim.api.nvim_create_autocmd("BufWritePre", {
+			group = augroup,
+			buffer = bufnr,
+			callback = function()
+				-- on 0.8, you should use vim.lsp.buf.format({ bufnr = bufnr }) instead
+				vim.lsp.buf.format({ bufnr = bufnr })
+			end,
+		})
 	end
 end
 
