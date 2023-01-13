@@ -17,9 +17,10 @@ local completion = null_ls.builtins.completion
 
 local sources = {
 	-- FORMATTING
-	formatting.prettier.with({
-		extra_filetypes = {},
-	}), -- js, ts, tsx, jsx, css, html, etc files
+	--formatting.prettier.with({
+	-- extra_filetypes = {},
+	-- }),
+	formatting.prettier, -- js, ts, tsx, jsx, css, html, etc files
 	formatting.autopep8, -- python files
 	formatting.stylua, -- lua files
 	formatting.beautysh, -- sh file
@@ -54,7 +55,7 @@ local on_attach = function(client, bufnr)
 			buffer = bufnr,
 			callback = function()
 				-- on 0.8, you should use vim.lsp.buf.format({ bufnr = bufnr }) instead
-				vim.lsp.buf.format({ bufnr = bufnr })
+				vim.lsp.buf.format({ async = true })
 			end,
 		})
 	end

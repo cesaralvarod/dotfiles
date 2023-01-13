@@ -133,7 +133,7 @@ nnoremap("<space>K", "<Cmd>:lua vim.lsp.buf.signature_help()<CR>")
 nnoremap("gt", "<Cmd>:lua vim.lsp.buf.type_definition()<CR>")
 nnoremap("<leader>rn", "<Cmd>:lua vim.lsp.buf.rename()<CR>")
 nnoremap("<leader>ca", "<Cmd>:lua vim.lsp.buf.code_action()<CR>")
-nnoremap("ff", "<Cmd>:lua vim.lsp.buf.format()<CR>")
+nnoremap("ff", "<Cmd>:lua vim.lsp.buf.format({async=true})<CR>")
 nnoremap("<leader>e", "<Cmd>:lua vim.diagnostic.open_float()<CR>")
 
 nnoremap("[e", "<Cmd>lua vim.diagnostic.goto_prev()<CR>")
@@ -142,10 +142,5 @@ nnoremap("]e", "<Cmd>lua vim.diagnostic.goto_next()<CR>")
 -- 16. Alternate Toggler
 nnoremap("<leader><space>", "<cmd>lua require('alternate-toggler').toggleAlternate()<CR>")
 
--- 17. Sideways
-nnoremap("<c-h>", "<cmd>SidewaysLeft<CR>")
-nnoremap("<c-l>", "<cmd>SidewaysRight<CR>")
-nnoremap("ga", "<cmd>SidewaysJumpRight<CR>")
-
--- 18. Bookmarks
+-- 17. Bookmarks
 nnoremap("ma", "<cmd>lua require('telescope').extensions.vim_bookmarks.all()<CR>")

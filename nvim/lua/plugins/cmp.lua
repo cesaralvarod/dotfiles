@@ -33,7 +33,7 @@ local servers = {
 	"tailwindcss",
 	"cssmodules_ls",
 	"jdtls",
-	"diagnosticls",
+	-- "diagnosticls", -- Falta configurarlo bien
 }
 
 for _, lsp in ipairs(servers) do

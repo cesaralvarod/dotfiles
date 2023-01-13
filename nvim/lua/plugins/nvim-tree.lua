@@ -58,7 +58,7 @@ nvim_tree.setup({
 		symlink_destination = true,
 	},
 	hijack_directories = {
-		enable = false,
+		enable = true,
 		auto_open = true,
 	},
 	update_focused_file = {
@@ -168,13 +168,14 @@ nvim_tree.setup({
 		args = {},
 	},
 	view = {
-		width = 30,
+		width = 35,
 		side = "left",
 		mappings = {
 			list = {
 				{ key = { "l", "<CR>", "o" }, cb = tree_cb("edit") },
 				{ key = "h", cb = tree_cb("close_node") },
 				{ key = "v", cb = tree_cb("vsplit") },
+				{ key = "s", cb = tree_cb("split") },
 			},
 		},
 	},
