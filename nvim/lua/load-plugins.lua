@@ -13,7 +13,10 @@ require("plugins/rainbow")
 require("plugins/colorizer")
 require("plugins/alpha")
 require("plugins/closetags")
-require("plugins/hologram")
+require("plugins/alternate")
+require("plugins/todo-comments")
+require("plugins/fidget")
+require("plugins/bookmarks")
 
 require("plugins/lspconfig")
 

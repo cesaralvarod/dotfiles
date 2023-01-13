@@ -1,10 +1,16 @@
-require("telescope").load_extension("buffer_lines")
-require("telescope").load_extension("media_files")
-require("telescope").load_extension("emoji")
+local status_ok, telescope = pcall(require, "telescope")
+if not status_ok then
+	return
+end
+
+telescope.load_extension("buffer_lines")
+telescope.load_extension("media_files")
+telescope.load_extension("emoji")
+telescope.load_extension("vim_bookmarks")
 
 local icons = require("icons")
 
-require("telescope").setup({
+telescope.setup({
 	defaults = {
 		vimgrep_arguments = {
 			"rg",

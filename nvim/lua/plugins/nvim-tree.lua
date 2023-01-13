@@ -83,7 +83,7 @@ nvim_tree.setup({
 		dotfiles = false,
 		git_clean = false,
 		no_buffer = false,
-		custom = { "node_modules", "\\.cache" },
+		custom = { "^node_modules$", "\\.cache", "^.git$" },
 		exclude = {},
 	},
 	git = {
@@ -114,7 +114,7 @@ nvim_tree.setup({
 			},
 		},
 		open_file = {
-			quit_on_open = false,
+			quit_on_open = true,
 			resize_window = false,
 			window_picker = {
 				enable = true,

@@ -4,10 +4,6 @@ if not status_ok then
 end
 
 configs.setup({
-	highlight = {
-		enable = true,
-		use_languagetree = true,
-	},
 	ensure_installed = {
 		"lua",
 		"javascript",
@@ -35,5 +31,41 @@ configs.setup({
 		"yaml",
 		"markdown",
 		"markdown_inline",
+		"regex",
+	},
+	highlight = {
+		enable = true,
+		use_languagetree = true,
+		diable = {},
+		additional_vim_regex_highlighting = false,
+	},
+	indent = {
+		enable = true,
+		disable = {},
+	},
+	autotag = {
+		enable = true,
+	},
+	rainbow = {
+		enable = false,
+		extended_mode = true,
+		max_file_lines = nil,
+	},
+})
+
+require("template-string").setup({
+	filetypes = {
+		"typescript",
+		"javascript",
+		"typescriptreact",
+		"javascriptreact",
+		"python",
+	}, -- filetypes where the plugin is active
+	jsx_brackets = true, -- must add brackets to jsx attributes
+	remove_template_string = false, -- remove backticks when there are no template string
+	restore_quotes = {
+		-- quotes used when "remove_template_string" option is enabled
+		normal = [[']],
+		jsx = [["]],
 	},
 })

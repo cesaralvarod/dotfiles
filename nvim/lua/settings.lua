@@ -44,6 +44,7 @@ opt.smarttab = true
 opt.expandtab = true -- Use spaces instead of tabs
 opt.shiftwidth = 2 -- Shift 4 spaces when tab
 opt.tabstop = 2 -- 1 tab == 2 spaces
+opt.softtabstop = 2 -- 1 tab == 2 spaces
 opt.smartindent = true -- Auto indent new lines
 opt.linebreak = true -- Line break when is not space
 opt.breakindent = true -- Line break config
@@ -62,6 +63,7 @@ opt.lazyredraw = true -- Faster scrolling
 opt.undofile = true -- Persistent undo history
 opt.pastetoggle = "<F2>"
 opt.swapfile = false
+opt.autoread = true
 opt.history = 2000
 opt.backup = false
 opt.writebackup = false

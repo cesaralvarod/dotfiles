@@ -76,11 +76,11 @@ nnoremap("<leader>vs", ":vsplit<CR>")
 
 -- 9. Telescope
 
-nnoremap("<leader>ff", ":Telescope find_files hidden=false<CR>")
+nnoremap("<leader>f", ":Telescope find_files hidden=false<CR>")
 nnoremap("<leader>fhf", ":Telescope find_files hidden=true<CR>")
-nnoremap("<leader>fb", ":Telescope buffers<CR>")
-nnoremap("<leader>fg", ":Telescope live_grep<CR>")
-nnoremap("<leader>fh", ":Telescope current_buffer_fuzzy_find<CR>")
+nnoremap("<leader>b", ":Telescope buffers<CR>")
+nnoremap("<leader>F", ":Telescope live_grep<CR>")
+nnoremap("<leader>G", ":Telescope current_buffer_fuzzy_find<CR>")
 
 -- 10. Codi
 
@@ -133,8 +133,19 @@ nnoremap("<space>K", "<Cmd>:lua vim.lsp.buf.signature_help()<CR>")
 nnoremap("gt", "<Cmd>:lua vim.lsp.buf.type_definition()<CR>")
 nnoremap("<leader>rn", "<Cmd>:lua vim.lsp.buf.rename()<CR>")
 nnoremap("<leader>ca", "<Cmd>:lua vim.lsp.buf.code_action()<CR>")
-nnoremap("ff", "<Cmd>:lua vim.lsp.buf.formatting()<CR>")
+nnoremap("ff", "<Cmd>:lua vim.lsp.buf.format()<CR>")
 nnoremap("<leader>e", "<Cmd>:lua vim.diagnostic.open_float()<CR>")
 
-nnoremap("[e", "<Cmd>:lua vim.diagnostic.goto_prev()<CR>")
-nnoremap("]e", "<Cmd>:lua vim.diagnostic.goto_next()<CR>")
+nnoremap("[e", "<Cmd>lua vim.diagnostic.goto_prev()<CR>")
+nnoremap("]e", "<Cmd>lua vim.diagnostic.goto_next()<CR>")
+
+-- 16. Alternate Toggler
+nnoremap("<leader><space>", "<cmd>lua require('alternate-toggler').toggleAlternate()<CR>")
+
+-- 17. Sideways
+nnoremap("<c-h>", "<cmd>SidewaysLeft<CR>")
+nnoremap("<c-l>", "<cmd>SidewaysRight<CR>")
+nnoremap("ga", "<cmd>SidewaysJumpRight<CR>")
+
+-- 18. Bookmarks
+nnoremap("ma", "<cmd>lua require('telescope').extensions.vim_bookmarks.all()<CR>")

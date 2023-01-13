@@ -127,6 +127,7 @@ local mappings = {
 			"<cmd>Gitsigns diffthis HEAD<cr>",
 			"Diff",
 		},
+		t = { "<cmd>TodoTelescope<cr>", "Check Todo Comments" },
 	},
 
 	l = {

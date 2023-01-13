@@ -58,7 +58,14 @@ local startup = function(use)
 	---------------------------------------------------------------
 	-- Nvim Treesitter
 	---------------------------------------------------------------
-	use({ "nvim-treesitter/nvim-treesitter" })
+	use({
+		"nvim-treesitter/nvim-treesitter",
+		requires = {
+			"windwp/nvim-ts-autotag",
+			"p00f/nvim-ts-rainbow",
+			"axelvc/template-string.nvim",
+		},
+	})
 
 	---------------------------------------------------------------
 	-- LSP
@@ -109,6 +116,7 @@ local startup = function(use)
 			"jeetsukumaran/telescope-buffer-lines.nvim",
 			"nvim-telescope/telescope-media-files.nvim",
 			"xiyaowong/telescope-emoji.nvim",
+			"tom-anders/telescope-vim-bookmarks.nvim",
 		},
 	})
 
@@ -137,7 +145,6 @@ local startup = function(use)
 
 	---------------------------------------------------------------
 	-- Vim-surround -> This plugin provides mappings to easily delete, change and add such surroundings in pairs.
-
 	---------------------------------------------------------------
 	use("tpope/vim-surround")
 
@@ -195,16 +202,43 @@ local startup = function(use)
 	})
 
 	---------------------------------------------------------------
-	-- Alpha -> Auto close <></>
+	-- Alternate toggler -> toggles the current word () based on a pre-defined map of alternates.
 	---------------------------------------------------------------
-
-	use("alvan/vim-closetag")
+	use("rmagatti/alternate-toggler")
 
 	---------------------------------------------------------------
-	-- Hologram.nvim -> View images
+	-- Visual multi -> multiple cursors
 	---------------------------------------------------------------
+	use("mg979/vim-visual-multi")
 
-	use("edluffy/hologram.nvim")
+	---------------------------------------------------------------
+	-- TODO comments
+	---------------------------------------------------------------
+	-- PERF: message
+	-- HACK: message
+	-- TODO: message
+	-- NOTE: message
+	-- FIX: message
+	-- WARNING: message
+	use({
+		"folke/todo-comments.nvim",
+		requires = "nvim-lua/plenary.nvim",
+	})
+
+	---------------------------------------------------------------
+	-- Fidget -> Standalone UI for nvim-lsp progress. Eye candy for the impatient.
+	---------------------------------------------------------------
+	use("j-hui/fidget.nvim")
+
+	---------------------------------------------------------------
+	-- sideways
+	---------------------------------------------------------------
+	use("AndrewRadev/sideways.vim")
+
+	---------------------------------------------------------------
+	-- Bookmarks
+	---------------------------------------------------------------
+	use("MattesGroeger/vim-bookmarks")
 
 	-------------------------------------------------------------
 
