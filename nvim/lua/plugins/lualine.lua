@@ -7,11 +7,16 @@ local hide_in_width = function()
 	return vim.fn.winwidth(0) > 80
 end
 
+local icons = require("icons")
+
 local diagnostics = {
 	"diagnostics",
 	sources = { "nvim_diagnostic" },
 	sections = { "error", "warn" },
-	symbols = { error = " ", warn = " " },
+	symbols = {
+		error = icons.diagnostics.BoldError .. " ",
+		warn = icons.diagnostics.BoldWarning .. " ",
+	},
 	colored = true,
 	update_in_insert = false,
 	always_visible = true,
@@ -20,7 +25,11 @@ local diagnostics = {
 local diff = {
 	"diff",
 	colored = true,
-	symbols = { added = " ", modified = " ", removed = " " }, -- changes diff symbols
+	symbols = {
+		added = icons.git.LineAdded .. " ",
+		modified = icons.git.LineModified .. " ",
+		removed = icons.git.LineRemoved .. " ",
+	}, -- changes diff symbols
 	cond = hide_in_width,
 }
 
@@ -41,7 +50,7 @@ local filetype = {
 local branch = {
 	"branch",
 	icons_enabled = true,
-	icon = "",
+	icon = icons.git.Branch,
 }
 
 local location = {

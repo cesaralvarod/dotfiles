@@ -20,13 +20,15 @@ local servers = {
 	"pyright",
 }
 
+local icons = require("icons")
+
 mason.setup({
 	ui = {
 		border = "none",
 		icons = {
-			package_installed = "✓",
-			package_pending = "➜",
-			package_uninstalled = "✗",
+			package_installed = icons.ui.Check,
+			package_pending = icons.ui.BoldArrowRight,
+			package_uninstalled = icons.ui.Close,
 		},
 	},
 	ensure_installed = servers,

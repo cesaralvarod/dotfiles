@@ -2,6 +2,8 @@ require("telescope").load_extension("buffer_lines")
 require("telescope").load_extension("media_files")
 require("telescope").load_extension("emoji")
 
+local icons = require("icons")
+
 require("telescope").setup({
 	defaults = {
 		vimgrep_arguments = {
@@ -13,8 +15,8 @@ require("telescope").setup({
 			"--column",
 			"--smart-case",
 		},
-		prompt_prefix = "   ",
-		selection_caret = " ",
+		prompt_prefix = " " .. icons.ui.Telescope .. " ",
+		selection_caret = icons.ui.Forward .. " ",
 		entry_prefix = "  ",
 		initial_mode = "insert",
 		selection_strategy = "reset",

@@ -93,10 +93,6 @@ local startup = function(use)
 		requires = {
 			"rafamadriz/friendly-snippets",
 		},
-		-- after = "nvim-cmp",
-		config = function()
-			require("config.snippets")
-		end,
 	})
 
 	-- Format

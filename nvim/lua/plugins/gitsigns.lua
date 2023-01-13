@@ -3,13 +3,40 @@ if not status_ok then
 	return
 end
 
+local icons = require("icons")
+
 gitsigns.setup({
 	signs = {
-		add = { hl = "GitSignsAdd", text = "▎", numhl = "GitSignsAddNr", linehl = "GitSignsAddLn" },
-		change = { hl = "GitSignsChange", text = "▎", numhl = "GitSignsChangeNr", linehl = "GitSignsChangeLn" },
-		delete = { hl = "GitSignsDelete", text = "契", numhl = "GitSignsDeleteNr", linehl = "GitSignsDeleteLn" },
-		topdelete = { hl = "GitSignsDelete", text = "契", numhl = "GitSignsDeleteNr", linehl = "GitSignsDeleteLn" },
-		changedelete = { hl = "GitSignsChange", text = "▎", numhl = "GitSignsChangeNr", linehl = "GitSignsChangeLn" },
+		add = {
+			hl = "GitSignsAdd",
+			text = icons.ui.BoldLineLeft,
+			numhl = "GitSignsAddNr",
+			linehl = "GitSignsAddLn",
+		},
+		change = {
+			hl = "GitSignsChange",
+			text = icons.ui.BoldLineLeft,
+			numhl = "GitSignsChangeNr",
+			linehl = "GitSignsChangeLn",
+		},
+		delete = {
+			hl = "GitSignsDelete",
+			text = icons.ui.Triangle,
+			numhl = "GitSignsDeleteNr",
+			linehl = "GitSignsDeleteLn",
+		},
+		topdelete = {
+			hl = "GitSignsDelete",
+			text = icons.ui.Triangle,
+			numhl = "GitSignsDeleteNr",
+			linehl = "GitSignsDeleteLn",
+		},
+		changedelete = {
+			hl = "GitSignsChange",
+			text = icons.ui.BoldLineLeft,
+			numhl = "GitSignsChangeNr",
+			linehl = "GitSignsChangeLn",
+		},
 	},
 	signcolumn = true, -- Toggle with `:Gitsigns toggle_signs`
 	numhl = false, -- Toggle with `:Gitsigns toggle_numhl`
@@ -30,13 +57,14 @@ gitsigns.setup({
 	current_line_blame_formatter_opts = {
 		relative_time = false,
 	},
+	current_line_blame_formatter = "<author>, <author_time:%Y-%m-%d> - <summary>",
 	sign_priority = 6,
 	update_debounce = 100,
 	status_formatter = nil, -- Use default
 	max_file_length = 40000,
 	preview_config = {
 		-- Options passed to nvim_open_win
-		border = "single",
+		border = "rounded",
 		style = "minimal",
 		relative = "cursor",
 		row = 0,
