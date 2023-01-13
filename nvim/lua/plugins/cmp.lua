@@ -32,7 +32,7 @@ local servers = {
 	"intelephense",
 	"tailwindcss",
 	"cssmodules_ls",
-	-- "jdtls",
+	"jdtls",
 }
 
 for _, lsp in ipairs(servers) do

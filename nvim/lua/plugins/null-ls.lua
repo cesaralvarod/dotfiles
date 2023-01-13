@@ -18,14 +18,14 @@ local completion = null_ls.builtins.completion
 local sources = {
 	-- FORMATTING
 	formatting.prettier.with({
-		extra_filetypes = { "java" },
+		extra_filetypes = {},
 	}), -- js, ts, tsx, jsx, css, html, etc files
 	formatting.autopep8, -- python files
 	formatting.stylua, -- lua files
 	formatting.beautysh, -- sh file
 	formatting.clang_format, -- java, cpp, c, cuda files
 	formatting.phpcsfixer, -- php files
-	-- formatting.astyle, -- java files
+	formatting.astyle, -- java files
 
 	-- Importants
 	formatting.trim_whitespace.with({
