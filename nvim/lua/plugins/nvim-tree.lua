@@ -12,13 +12,46 @@ local tree_cb = nvim_tree_config.nvim_tree_callback
 
 local icons = require("icons")
 
-nvim_tree.setup({
-	update_focused_file = {
-		enable = true,
-		update_cwd = true,
+local web_devicons_ok, web_devicons = pcall(require, "nvim-web-devicons")
+if not web_devicons_ok then
+	return
+end
+
+local material_icon_ok, material_icon = pcall(require, "nvim-material-icon")
+
+material_icon.setup({
+	-- your personnal icons can go here (to override)
+	override = {
+		zsh = {
+			icon = "",
+			color = "#428850",
+			cterm_color = "65",
+			name = "Zsh",
+		},
+		fish = {
+			icon = "",
+			color = "#428850",
+			cterm_color = "65",
+			name = "Fish",
+		},
 	},
+	color_icons = true,
+	default = true,
+})
+
+web_devicons.setup({
+	override = material_icon.get_icons(),
+})
+
+local config = {
+
 	renderer = {
+		group_empty = true,
 		root_folder_modifier = ":t",
+		full_name = true,
+		indent_markers = {
+			enable = true,
+		},
 		icons = {
 			webdev_colors = true,
 			padding = " ",
@@ -57,20 +90,21 @@ nvim_tree.setup({
 		special_files = { "Cargo.toml", "Makefile", "README.md", "readme.md" },
 		symlink_destination = true,
 	},
+
 	hijack_directories = {
 		enable = true,
 		auto_open = true,
 	},
 	update_focused_file = {
 		enable = true,
-		debounce_delay = 15,
+		-- debounce_delay = 15,
 		update_root = true,
-		ignore_list = {},
+		ignore_list = { "help" },
 	},
 	diagnostics = {
 		enable = true,
 		show_on_dirs = false,
-		show_on_open_dirs = true,
+		-- show_on_open_dirs = true,
 		debounce_delay = 50,
 		icons = {
 			hint = icons.diagnostics.BoldHint,
@@ -81,8 +115,8 @@ nvim_tree.setup({
 	},
 	filters = {
 		dotfiles = false,
-		git_clean = false,
-		no_buffer = false,
+		-- git_clean = false,
+		-- no_buffer = false,
 		custom = { "^node_modules$", "\\.cache", "^.git$" },
 		exclude = {},
 	},
@@ -90,7 +124,7 @@ nvim_tree.setup({
 		enable = true,
 		ignore = false,
 		show_on_dirs = true,
-		show_on_open_dirs = true,
+		-- show_on_open_dirs = true,
 		timeout = 200,
 	},
 	actions = {
@@ -118,7 +152,7 @@ nvim_tree.setup({
 			resize_window = false,
 			window_picker = {
 				enable = true,
-				picker = "default",
+				-- picker = "default",
 				chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
 				exclude = {
 					filetype = { "notify", "lazy", "qf", "diff", "fugitive", "fugitiveblame" },
@@ -127,7 +161,7 @@ nvim_tree.setup({
 			},
 		},
 		remove_file = {
-			close_window = true,
+			close_window = false,
 		},
 	},
 
@@ -136,19 +170,16 @@ nvim_tree.setup({
 		require_confirm = true,
 	},
 	live_filter = {
-		prefix = "[FILTER]: ",
-		always_show_folders = true,
+		prefix = "[" .. icons.ui.Search .. "]: ",
+		always_show_folders = false,
 	},
-	tab = {
-		sync = {
-			open = false,
-			close = false,
-			ignore = {},
-		},
-	},
-	notify = {
-		threshold = vim.log.levels.INFO,
-	},
+	-- tab = {
+	-- 	sync = {
+	-- 		open = false,
+	-- 		close = false,
+	-- 		ignore = {},
+	-- 	},
+	-- },
 	log = {
 		enable = false,
 		truncate = false,
@@ -170,13 +201,47 @@ nvim_tree.setup({
 	view = {
 		width = 35,
 		side = "left",
+		adaptive_size = false,
 		mappings = {
 			list = {
 				{ key = { "l", "<CR>", "o" }, cb = tree_cb("edit") },
 				{ key = "h", cb = tree_cb("close_node") },
 				{ key = "v", cb = tree_cb("vsplit") },
 				{ key = "s", cb = tree_cb("split") },
+				{ key = "?", action = "toggle_help" },
+				{ key = "d", action = "cd" }, -- remove
+				{ key = "x", action = "remove" }, -- cut
+				{ key = "t", action = "cut" },
+				{ key = "u", action = "dir_up" },
+				{ key = "'", action = "close_node" },
+				{ key = '"', action = "collapse_all" },
+
+				{ key = "<Space>p", action = "prev_diag_item" },
+				{ key = "<Space>.", action = "next_diag_item" },
+				{ key = "<Space>k", action = "prev_git_item" },
+				{ key = "<Space>j", action = "next_git_item" },
+
+				{ key = { "<2-RightMouse>", "<C-]>" }, action = "" }, -- cd
+				{ key = "<C-v>", action = "" }, -- vsplit
+				{ key = "<C-x>", action = "" }, -- split
+				{ key = "<C-t>", action = "" }, -- tabnew
+				{ key = "<BS>", action = "" }, -- close_node
+				{ key = "<Tab>", action = "" }, -- preview
+				{ key = "D", action = "" }, -- trash
+				{ key = "[e", action = "" }, -- prev_diag_item
+				{ key = "]e", action = "" }, -- next_diag_item
+				{ key = "[c", action = "" }, -- prev_git_item
+				{ key = "]c", action = "" }, -- next_git_item
+				{ key = "-", action = "" }, -- dir_up
+				{ key = "s", action = "" }, -- system_open
+				{ key = "W", action = "" }, -- collapse_all
+				{ key = "g?", action = "" }, -- toggle_help
 			},
 		},
 	},
-})
+}
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
+nvim_tree.setup(config)

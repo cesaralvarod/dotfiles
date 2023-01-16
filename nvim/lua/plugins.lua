@@ -30,11 +30,13 @@ local startup = function(use)
 	-- Nvim Tree -> Search bar files
 	---------------------------------------------------------------
 	use({
-		"nvim-tree/nvim-tree.lua",
+		-- "nvim-tree/nvim-tree.lua", -- Original
+		"DaikyXendo/nvim-tree.lua",
 		requires = {
 			"nvim-tree/nvim-web-devicons", -- for file icons
+			"DaikyXendo/nvim-material-icon", -- Material icons
 		},
-		tag = "nightly", -- optional, updated every week. (see issue #1193)
+		-- tag = "nightly", -- optional, updated every week. (see issue #1193)
 	})
 
 	---------------------------------------------------------------
