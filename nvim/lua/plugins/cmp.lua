@@ -33,6 +33,9 @@ local servers = {
 	"tailwindcss",
 	"cssmodules_ls",
 	"jdtls",
+	"volar",
+	"vuels",
+	"emmet_ls",
 	-- "diagnosticls", -- Falta configurarlo bien
 }
 
@@ -44,6 +47,15 @@ for _, lsp in ipairs(servers) do
 		end,
 	})
 end
+
+-- Emmet
+require("lspconfig").emmet_ls.setup({
+	capabilities = capabilities,
+	filetypes = { "html", "typescriptreact", "javascriptreact", "css", "sass", "scss", "less", "eruby", "vue" },
+	root_dir = function(fname)
+		return vim.fn.getcwd()
+	end,
+})
 
 ----------------------------------------------------------------------
 
@@ -125,6 +137,7 @@ local cfg = {
 		-- Accept currently selected item. If none selected, `select` first item.
 		-- Set `select` to `false` to only confirm explicitly selected items.
 		["<CR>"] = cmp.mapping.confirm({ select = true }),
+		["<C-l>"] = cmp.mapping.confirm({ select = true }),
 		["<Tab>"] = cmp.mapping(function(fallback)
 			if cmp.visible() then
 				cmp.select_next_item()

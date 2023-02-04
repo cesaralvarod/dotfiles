@@ -1,4 +1,4 @@
-# $mod = windows 
+# $mod = windows
 set $mod Mod4
 
 # Font
@@ -145,6 +145,7 @@ bindsym $mod+r mode "resize"
 
 # Color config
 set $bg-color 	         #2f343f
+set $active-color        #5E81AC
 set $inactive-bg-color   #2f343f
 set $text-color          #f3f4f5
 set $inactive-text-color #676E7D
@@ -152,10 +153,11 @@ set $urgent-bg-color     #E53935
 set $blue-color          #5DA8F4
 
 # Window colors
-client.focused #5E81AC #5E81AC #5E81AC #5E81AC
+client.focused $active-color $active-color $active-color $active-color
+# client.focused #fff #fff #fff #fff
 client.unfocused        $inactive-bg-color $inactive-bg-color $inactive-text-color #999
 client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-color #999
-client.urgent           $blue-color    $blue-color   $text-color  
+client.urgent           $blue-color    $blue-color   $text-color
 
 # Google chrome
 
@@ -231,20 +233,24 @@ bindsym --release Shift + Print exec --no-startup-id flameshot gui
 # exec_always --no-startup-id shutter
 
 # i3 gaps
-for_window [class="^.*"] border pixel 1
+for_window [class="^.*"] border pixel 0
 gaps outer 2
 gaps inner 4
+
 smart_borders on
-# smart_borders no_gaps
-# border_radius 2
+smart_borders no_gaps
+
+# radius -> only if i3-gaps-rounded is installed
+border_radius 3
 
 # Background screens
 
-exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/51.jpg
+# exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/51.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/.config/i3/wallpapers/japan_street.jpg
 
 # Two screens
 
-exec_always --no-startup-id sh $HOME/.config/i3/screen.sh 
+exec_always --no-startup-id sh $HOME/.config/i3/screen.sh
 
 # Polybar
 
