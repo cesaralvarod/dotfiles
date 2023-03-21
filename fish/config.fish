@@ -1,5 +1,7 @@
 set -g -x fish_greeting ''
 
+set -g -x BROWSER brave
+
 #  Android Studio and Android SDK
 
 set -g -x ANDROID_HOME $HOME/Android/Sdk
