@@ -1,0 +1,15 @@
+2022/12/17-17:21:26.031 23483 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.binance.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/17-17:21:26.032 23483 Recovering log #11
+2022/12/17-17:21:26.051 23483 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.binance.com_0.indexeddb.leveldb/000011.log 
+2022/12/17-17:21:28.873 2348b Level-0 table #16: started
+2022/12/17-17:21:28.906 2348b Level-0 table #16: 595408 bytes OK
+2022/12/17-17:21:28.912 2348b Delete type=0 #11
+2022/12/17-17:21:28.914 22f4e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/12/17-17:21:28.914 22f4e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x07\x01\x02\x01\x1d\x00C\x00A\x00N\x00D\x00L\x00E\x00S\x00T\x00I\x00C\x00K\x00_\x00S\x00E\x00T\x00T\x00I\x00N\x00G\x00_\x00I\x00N\x00D\x00I\x00C\x00A\x00T\x00O\x00R' @ 8153 : 1
+2022/12/17-17:21:28.914 22f4e Compacting 1@1 + 1@2 files
+2022/12/17-17:21:28.925 22f4e Generated table #17@1: 284 keys, 12794 bytes
+2022/12/17-17:21:28.925 22f4e Compacted 1@1 + 1@2 files => 12794 bytes
+2022/12/17-17:21:28.931 22f4e compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/12/17-17:21:28.932 22f4e Delete type=2 #13
+2022/12/17-17:21:28.932 22f4e Delete type=2 #16
+2022/12/17-17:21:28.933 22f4e Manual compaction at level-1 from '\x00\x07\x01\x02\x01\x1d\x00C\x00A\x00N\x00D\x00L\x00E\x00S\x00T\x00I\x00C\x00K\x00_\x00S\x00E\x00T\x00T\x00I\x00N\x00G\x00_\x00I\x00N\x00D\x00I\x00C\x00A\x00T\x00O\x00R' @ 8153 : 1 .. (end); will stop at (end)

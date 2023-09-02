@@ -230,7 +230,7 @@ for_window [title="video0 - mpv"] sticky enable
 
 bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
 
-bindsym --release Shift + Print exec --no-startup-id flameshot gui
+bindsym --release $mod+Shift+s exec --no-startup-id flameshot gui
 
 # exec_always --no-startup-id shutter
 

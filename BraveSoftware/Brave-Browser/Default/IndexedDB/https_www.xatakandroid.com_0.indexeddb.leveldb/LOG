@@ -1,0 +1,6 @@
+2022/12/05-01:04:51.121 645f6 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.xatakandroid.com_0.indexeddb.leveldb since it was missing.
+2022/12/05-01:04:51.128 645f6 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.xatakandroid.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/05-01:05:09.882 640d6 Level-0 table #5: started
+2022/12/05-01:05:09.895 640d6 Level-0 table #5: 1868 bytes OK
+2022/12/05-01:05:09.899 640d6 Delete type=0 #3
+2022/12/05-01:05:09.899 640d6 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

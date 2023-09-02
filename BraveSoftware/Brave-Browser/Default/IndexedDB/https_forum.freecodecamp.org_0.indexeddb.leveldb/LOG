@@ -1,0 +1,15 @@
+2023/03/31-11:58:42.994 1af3ce Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.freecodecamp.org_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/31-11:58:42.994 1af3ce Recovering log #7
+2023/03/31-11:58:42.995 1af3ce Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forum.freecodecamp.org_0.indexeddb.leveldb/000007.log 
+2023/03/31-12:16:58.059 1af3cf Level-0 table #12: started
+2023/03/31-12:16:58.062 1af3cf Level-0 table #12: 7928 bytes OK
+2023/03/31-12:16:58.064 1af3cf Delete type=0 #7
+2023/03/31-12:16:58.064 1af3cf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/31-12:16:58.065 1af3cf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x000^\xba\x89sxB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00f\x00r\x00e\x00e\x00c\x00o\x00d\x00e\x00c\x00a\x00m\x00p\x00.\x00o\x00r\x00g\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 465 : 1
+2023/03/31-12:16:58.065 1af3cf Compacting 1@1 + 1@2 files
+2023/03/31-12:16:58.067 1af3cf Generated table #13@1: 53 keys, 4265 bytes
+2023/03/31-12:16:58.067 1af3cf Compacted 1@1 + 1@2 files => 4265 bytes
+2023/03/31-12:16:58.069 1af3cf compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/31-12:16:58.069 1af3cf Delete type=2 #9
+2023/03/31-12:16:58.070 1af3cf Delete type=2 #12
+2023/03/31-12:16:58.070 1af3cf Manual compaction at level-1 from '\x00\x01\x01 \x03\x000^\xba\x89sxB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00f\x00r\x00e\x00e\x00c\x00o\x00d\x00e\x00c\x00a\x00m\x00p\x00.\x00o\x00r\x00g\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 465 : 1 .. (end); will stop at (end)

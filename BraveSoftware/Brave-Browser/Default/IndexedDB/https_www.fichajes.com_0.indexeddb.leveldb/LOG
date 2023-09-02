@@ -1,0 +1,6 @@
+2023/03/31-20:03:13.861 1e41ff Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fichajes.com_0.indexeddb.leveldb since it was missing.
+2023/03/31-20:03:13.874 1e41ff Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.fichajes.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/31-20:03:16.018 1e4200 Level-0 table #5: started
+2023/03/31-20:03:16.021 1e4200 Level-0 table #5: 1505 bytes OK
+2023/03/31-20:03:16.025 1e4200 Delete type=0 #3
+2023/03/31-20:03:16.026 1e4200 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

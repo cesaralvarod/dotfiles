@@ -1,0 +1,47 @@
+# Tor state file last generated on 2023-06-04 16:17:30 local time
+# Other times below are in UTC
+# You *do not* need to edit this file.
+
+Dormant 0
+Guard in=default rsa_id=166850D169CC7956E77525A1A9228BC4563CFC8B nickname=Piratenpartei10 sampled_on=2023-05-24T23:34:23 sampled_idx=0 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=8F5309EE529768AA9182B4B404F0333D8B465447 nickname=hawksTorRelay sampled_on=2023-05-26T02:27:07 sampled_idx=1 sampled_by=0.4.7.10 listed=1 confirmed_on=2023-05-24T00:38:28 confirmed_idx=0
+Guard in=default rsa_id=1F2EB70268CE9E18CE864D44D793E2091F3CE72C nickname=Citadel5 sampled_on=2023-05-30T07:41:21 sampled_idx=2 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=3D58B4E144B4314408EF4F6F4A7B31FD80071D9E nickname=flying sampled_on=2023-05-28T20:42:03 sampled_idx=3 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=D0D99CCA36B406F813CB7E5CA17CEE58FBDE88C9 nickname=hotthing sampled_on=2023-05-23T12:41:16 sampled_idx=4 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=996BC8F2EE9E15B3A8B656BC14D3CD250BDC556F nickname=Unnamed sampled_on=2023-05-27T19:39:20 sampled_idx=5 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=674F66D7D8C6F0DF9997B3C9423AA153C988FE77 nickname=ForPrivacyNET sampled_on=2023-05-28T05:53:03 sampled_idx=6 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=C06EE81C5D80677E3E4E167F136F7216E6777297 nickname=cowTools sampled_on=2023-05-23T04:08:43 sampled_idx=7 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=529DD11C3500DBBB636DD4A579529C5CDA5074EC nickname=NeedAVacation sampled_on=2023-05-21T21:48:44 sampled_idx=8 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=9ACD21680CCBE65A5D5A638D85A8388A85D6EE05 nickname=YoYuD1N02NoExit sampled_on=2023-05-27T11:30:58 sampled_idx=9 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=6B50CC10498ED79FF12F403AD9755AD5B21C7C36 nickname=TORb sampled_on=2023-05-23T22:30:18 sampled_idx=10 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=A162AB33A75096A780CD8D15A47DC9EC6ABDC4C7 nickname=Reeses2 sampled_on=2023-05-23T11:00:22 sampled_idx=11 sampled_by=0.4.7.10 unlisted_since=2023-06-04T05:01:55 listed=0
+Guard in=default rsa_id=4B68D0E5392ED6F3469A37880631353A96558631 nickname=TORion sampled_on=2023-05-22T06:14:15 sampled_idx=12 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=555A688E385DF980E1B3A72C960E2383D9C8ACF2 nickname=magentasunshine sampled_on=2023-05-23T22:36:59 sampled_idx=13 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=5FBD9DCADD9F7E341CA85CE38D5873079D84ABEE nickname=prsv sampled_on=2023-05-26T03:07:22 sampled_idx=14 sampled_by=0.4.7.10 unlisted_since=2023-06-01T06:24:01 listed=0
+Guard in=default rsa_id=C0C8864A37FA681EC6770DDCBCFFEFFFE854C924 nickname=zinha sampled_on=2023-05-25T11:09:23 sampled_idx=15 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=F9D0C338C4E3C0BF777D6681A0904902717BAA30 nickname=mindzero9 sampled_on=2023-05-27T00:34:31 sampled_idx=16 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=F7C5E84CF5621630B711DB76F5EE06C9F4531A43 nickname=TORa sampled_on=2023-05-25T05:59:42 sampled_idx=17 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=EEDB9FEFC9165F9B41B515A282F95A574A807FBA nickname=trash1 sampled_on=2023-05-31T23:53:57 sampled_idx=18 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=7D2AAC13CC236854D6A26CAE5004BFAB327724A0 nickname=TorNodeBeta sampled_on=2023-06-02T05:29:44 sampled_idx=19 sampled_by=0.4.7.10 listed=1
+Guard in=default rsa_id=BBD8F4DF8FF5C69A6A989DB8C1EE2CA7ADFE0755 nickname=sprucegoose sampled_on=2023-05-26T21:55:01 sampled_idx=20 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=7896A8075D51F60B950D8E63AAC2899731060843 nickname=licinius sampled_on=2023-05-31T13:27:15 sampled_idx=21 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=3239007CE1FB2ECDFDF2067DF23B949295DC5EF6 nickname=TOR2DFN01a sampled_on=2023-06-03T10:12:39 sampled_idx=22 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=5027B7919360F10414FEBD95ACA0B78B416F5FF4 nickname=Tororist1 sampled_on=2023-05-30T08:10:54 sampled_idx=23 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=3FEAC8B379959917E48FCD0B57CF09BCC290B5A7 nickname=bauruine sampled_on=2023-06-03T06:16:12 sampled_idx=24 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=5B55DD61246C6290D54B04DFCF81AD5F39E852C4 nickname=jitul sampled_on=2023-06-03T16:24:36 sampled_idx=25 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=1F2FC2214D63A90926D0A6837896F84A16F4DB60 nickname=Cornball sampled_on=2023-05-24T19:30:54 sampled_idx=26 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=9A82114F767D0A2E5A83FF60815B64044AC224B7 nickname=naruto sampled_on=2023-06-02T23:03:45 sampled_idx=27 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=94F6A4893A80149AEEEB7509BEFCDBA1AE4D5898 nickname=torRelayTaledoCorp sampled_on=2023-05-28T18:53:05 sampled_idx=28 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=9B2BC7EFD661072AFADC533BE8DCF1C19D8C2DCC nickname=MIGHTYWANG sampled_on=2023-05-27T03:19:36 sampled_idx=29 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=03D1EF3EF2BE5145150C58ACC72519DD860E61BA nickname=blackfox sampled_on=2023-05-30T02:35:47 sampled_idx=30 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=388A1B34CE00231D48ADBAE351FD23AF5FCE6DBF nickname=Unnamed sampled_on=2023-05-26T23:49:56 sampled_idx=31 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=CDC643E59D04F63ADFDE0EC4473AC728D9A78BDB nickname=bulbasaur sampled_on=2023-05-25T09:33:25 sampled_idx=32 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=A7317673B923B591066204FFD299AB2C4150B6BE nickname=Piratenpartei12 sampled_on=2023-05-30T02:20:01 sampled_idx=33 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=18F4F0F749B0A48F51F0C56233A7F00C7BCEB4D8 nickname=4712 sampled_on=2023-06-03T09:44:03 sampled_idx=34 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=94F16DA2BDDBA092954FF8EC29F9234A69949403 nickname=MarinaOvsyannikova sampled_on=2023-06-04T18:42:34 sampled_idx=35 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=335D2BB714F2741EAE67745B4623683D7385087C nickname=6i0n4d324 sampled_on=2023-05-29T20:55:14 sampled_idx=36 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=FA751944A6DADBB99496E5E06A8EA1C14D5A5C2D nickname=fortherepublic sampled_on=2023-05-28T00:44:02 sampled_idx=37 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=36FA7085B8CF7293DEFA82A8C0281E0EE43F3B5E nickname=maupin sampled_on=2023-05-29T00:29:45 sampled_idx=38 sampled_by=0.4.7.13 listed=1
+Guard in=default rsa_id=C197D9FA1E2B629A5DD82D26861C03DA17BD469F nickname=Symbolic sampled_on=2023-05-25T09:51:43 sampled_idx=39 sampled_by=0.4.7.13 listed=1
+LastWritten 2023-06-04 21:17:30
+TorVersion Tor 0.4.7.13

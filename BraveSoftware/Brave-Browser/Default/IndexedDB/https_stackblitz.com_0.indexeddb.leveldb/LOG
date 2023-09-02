@@ -1,0 +1,15 @@
+2023/02/19-18:05:07.454 e2bb Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/19-18:05:07.454 e2bb Recovering log #4
+2023/02/19-18:05:07.454 e2bb Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/000004.log 
+2023/02/19-20:05:07.202 e2bc Level-0 table #8: started
+2023/02/19-20:05:07.206 e2bc Level-0 table #8: 226 bytes OK
+2023/02/19-20:05:07.214 e2bc Delete type=0 #4
+2023/02/19-20:05:07.214 e2bc Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/02/19-20:05:07.214 e2bc Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 48 : 1
+2023/02/19-20:05:07.214 e2bc Compacting 1@1 + 1@2 files
+2023/02/19-20:05:07.217 e2bc Generated table #9@1: 19 keys, 525 bytes
+2023/02/19-20:05:07.217 e2bc Compacted 1@1 + 1@2 files => 525 bytes
+2023/02/19-20:05:07.221 e2bc compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/02/19-20:05:07.227 e2bc Delete type=2 #5
+2023/02/19-20:05:07.227 e2bc Delete type=2 #8
+2023/02/19-20:05:07.228 e2be Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 48 : 1 .. (end); will stop at (end)

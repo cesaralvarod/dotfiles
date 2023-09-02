@@ -1,0 +1,6 @@
+Dark
+Desconexión
+Mode
+challenge
+realizarlos
+checksum_v1 = aea71e6a10f175fec8aa6587ab54effc

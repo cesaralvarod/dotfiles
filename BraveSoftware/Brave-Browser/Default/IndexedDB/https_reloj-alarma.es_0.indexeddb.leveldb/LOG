@@ -1,0 +1,6 @@
+2022/11/06-17:30:08.315 2362b Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_reloj-alarma.es_0.indexeddb.leveldb since it was missing.
+2022/11/06-17:30:08.321 2362b Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_reloj-alarma.es_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/06-19:10:19.939 51ad8 Level-0 table #5: started
+2022/11/06-19:10:19.941 51ad8 Level-0 table #5: 810 bytes OK
+2022/11/06-19:10:19.944 51ad8 Delete type=0 #3
+2022/11/06-19:10:19.944 51ad8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

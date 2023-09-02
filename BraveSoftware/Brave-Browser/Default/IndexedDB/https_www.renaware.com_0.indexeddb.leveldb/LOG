@@ -1,0 +1,6 @@
+2023/06/16-13:04:55.696 bc094 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.renaware.com_0.indexeddb.leveldb since it was missing.
+2023/06/16-13:04:55.703 bc094 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.renaware.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/16-13:05:32.467 bc091 Level-0 table #5: started
+2023/06/16-13:05:32.470 bc091 Level-0 table #5: 14123 bytes OK
+2023/06/16-13:05:32.472 bc091 Delete type=0 #3
+2023/06/16-13:05:32.473 bc091 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,25 @@
+2023/04/19-01:31:15.485 401d5 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hpanel.hostinger.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/19-01:31:15.485 401d5 Recovering log #83
+2023/04/19-01:31:15.485 401d5 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_hpanel.hostinger.com_0.indexeddb.leveldb/000083.log 
+2023/04/19-01:31:15.485 401d5 Delete type=2 #81
+2023/04/19-01:31:37.857 401d8 Level-0 table #88: started
+2023/04/19-01:31:37.859 401d8 Level-0 table #88: 4020 bytes OK
+2023/04/19-01:31:37.863 401d8 Delete type=0 #83
+2023/04/19-01:31:37.863 401d5 Manual compaction at level-0 from '\x00\x15\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at '\x00\x15\x00\x00\x05' @ 2802 : 1
+2023/04/19-01:31:37.863 401d5 Compacting 1@0 + 1@1 files
+2023/04/19-01:31:37.865 401d5 Generated table #89@0: 35 keys, 2062 bytes
+2023/04/19-01:31:37.865 401d5 Compacted 1@0 + 1@1 files => 2062 bytes
+2023/04/19-01:31:37.868 401d5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/19-01:31:37.868 401d5 Delete type=2 #88
+2023/04/19-01:31:37.868 401d5 Manual compaction at level-0 from '\x00\x15\x00\x00\x05' @ 2802 : 1 .. '\x00\x16\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/04/19-01:31:37.868 401d8 Level-0 table #91: started
+2023/04/19-01:31:37.870 401d8 Level-0 table #91: 492 bytes OK
+2023/04/19-01:31:37.873 401d8 Delete type=2 #85
+2023/04/19-01:31:37.873 401d8 Delete type=0 #87
+2023/04/19-01:31:37.873 401d5 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\x05' @ 2829 : 0
+2023/04/19-01:31:37.873 401d5 Compacting 1@0 + 1@1 files
+2023/04/19-01:31:37.875 401d5 Generated table #92@0: 32 keys, 1943 bytes
+2023/04/19-01:31:37.875 401d5 Compacted 1@0 + 1@1 files => 1943 bytes
+2023/04/19-01:31:37.878 401d5 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/04/19-01:31:37.878 401d5 Delete type=2 #91
+2023/04/19-01:31:37.878 401d5 Manual compaction at level-0 from '\x00\x14\x00\x00\x05' @ 2829 : 0 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)

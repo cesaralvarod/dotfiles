@@ -1,0 +1,312 @@
+{
+   "checksum": "583a7f9e4f617e0224b1eb0080cd7c44",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13312322623448790",
+            "date_last_used": "0",
+            "guid": "5dbaad13-1fc0-4b9f-8d6f-53d9b0b4d7fb",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "JSONPlaceholder - Free Fake REST API",
+            "type": "url",
+            "url": "https://jsonplaceholder.typicode.com/"
+         }, {
+            "date_added": "13312424295154861",
+            "date_last_used": "0",
+            "guid": "fba28794-928f-417f-b1e3-447064dd605d",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "WhatsApp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13312906057732412",
+            "date_last_used": "0",
+            "guid": "be4bef98-a78c-452b-a8d8-f21dddada9dc",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Horarios mercados mundiales divisas y Bolsa - Investing.com",
+            "type": "url",
+            "url": "https://es.investing.com/tools/market-hours"
+         }, {
+            "date_added": "13313479959078279",
+            "date_last_used": "0",
+            "guid": "8f8a2daa-9560-44c2-b802-7b11dcf5be33",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Meet - ecb-ypvj-edj",
+            "type": "url",
+            "url": "https://meet.google.com/ecb-ypvj-edj"
+         }, {
+            "date_added": "13314784635263620",
+            "date_last_used": "0",
+            "guid": "644c69b7-4eb2-4244-8a01-48ed683dcbfd",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Rust on Exercism",
+            "type": "url",
+            "url": "https://exercism.org/tracks/rust/exercises"
+         }, {
+            "date_added": "13315218849639331",
+            "date_last_used": "0",
+            "guid": "64c3e5a5-b5ef-40a3-a5c2-a4ed89c52f10",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Tutorial | Formik",
+            "type": "url",
+            "url": "https://formik.org/docs/tutorial"
+         }, {
+            "date_added": "13315218860885649",
+            "date_last_used": "0",
+            "guid": "fc9fc4b9-8431-443e-ae73-054ad5faed0d",
+            "id": "16",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "jquense/yup: Dead simple Object schema validation",
+            "type": "url",
+            "url": "https://github.com/jquense/yup"
+         }, {
+            "date_added": "13316859645921849",
+            "date_last_used": "0",
+            "guid": "0edf4775-517a-40c4-b438-f1703fa57b30",
+            "id": "18",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "nvim-lspconfig/server_configurations.md at master · neovim/nvim-lspconfig",
+            "type": "url",
+            "url": "https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md"
+         }, {
+            "date_added": "13317545864537933",
+            "date_last_used": "0",
+            "guid": "a977ecff-394b-4d0e-a7c0-18b1b6204226",
+            "id": "20",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "mattn/vim-lsp-settings: Auto configurations for Language Server for vim-lsp",
+            "type": "url",
+            "url": "https://github.com/mattn/vim-lsp-settings"
+         }, {
+            "date_added": "13317720179993967",
+            "date_last_used": "0",
+            "guid": "6dd3b5d8-3e4d-4457-a206-0003c90e7c45",
+            "id": "22",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Java Script",
+            "type": "url",
+            "url": "https://www.uv.es/jac/guia/jscript/javascr04.htm"
+         }, {
+            "date_added": "13318327605397154",
+            "date_last_used": "0",
+            "guid": "b37c68be-dc12-45a1-9011-630fa890dd82",
+            "id": "24",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Git Explorer",
+            "type": "url",
+            "url": "https://gitexplorer.com/"
+         }, {
+            "date_added": "13318750258690816",
+            "date_last_used": "0",
+            "guid": "b17103b0-50d8-416c-b714-64a232eb160b",
+            "id": "26",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "History",
+            "type": "url",
+            "url": "chrome://history/"
+         }, {
+            "date_added": "13319527866819754",
+            "date_last_used": "0",
+            "guid": "e145c913-620a-4ab9-b751-74a7a9baa873",
+            "id": "28",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "React.js Wiki - Preguntas típicas con respuesta y solución",
+            "type": "url",
+            "url": "https://www.reactjs.wiki/"
+         }, {
+            "date_added": "13319572208520212",
+            "date_last_used": "0",
+            "guid": "3db3f7a7-7497-4a33-9660-b6a5462e7d73",
+            "id": "30",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Excalidraw",
+            "type": "url",
+            "url": "https://excalidraw.com/"
+         }, {
+            "date_added": "13319746332036853",
+            "date_last_used": "0",
+            "guid": "302a8c63-881f-457a-a546-f15d615f87da",
+            "id": "32",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Calltoidea - Light up your imagination",
+            "type": "url",
+            "url": "https://www.calltoidea.com/"
+         }, {
+            "date_added": "13319788468853222",
+            "date_last_used": "13319845480027718",
+            "guid": "20398f9d-40f5-428e-83c3-e7d58b8c7488",
+            "id": "33",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Profile - Calltoidea",
+            "type": "url",
+            "url": "https://www.calltoidea.com/profile/"
+         }, {
+            "date_added": "13319825120652379",
+            "date_last_used": "0",
+            "guid": "285943e6-c317-44e3-8c50-2ad07e6435e1",
+            "id": "35",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "visualising data structures and algorithms through animation - VisuAlgo",
+            "type": "url",
+            "url": "https://visualgo.net/en"
+         }, {
+            "date_added": "13319938757618432",
+            "date_last_used": "0",
+            "guid": "57462b7b-d511-469d-94c2-340c4abd5263",
+            "id": "37",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "OverAPI.com | Collecting all the cheat sheets",
+            "type": "url",
+            "url": "https://overapi.com/"
+         }, {
+            "date_added": "13322982523966766",
+            "date_last_used": "0",
+            "guid": "6b3f7bfa-b071-46e9-9bf4-39bb9d81eea9",
+            "id": "39",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "engVid",
+            "type": "url",
+            "url": "https://www.engvid.com/"
+         }, {
+            "date_added": "13323504838827343",
+            "date_last_used": "0",
+            "guid": "cf3cb7f3-0316-4f74-a50d-c2f813761724",
+            "id": "41",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nuevos trabajos de Backend en Lima, Lima - 17 de marzo, 2023 | Indeed.com",
+            "type": "url",
+            "url": "https://pe.indeed.com/jobs?q=backend&l=lima%2C+lima&vjk=dbc79530226590dc"
+         }, {
+            "date_added": "13325233279391984",
+            "date_last_used": "13326337085723867",
+            "guid": "25c6c67a-cbc6-4518-83ea-490eb8e78c6f",
+            "id": "43",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Sonner",
+            "type": "url",
+            "url": "https://sonner.emilkowal.ski/"
+         }, {
+            "date_added": "13327030722654768",
+            "date_last_used": "0",
+            "guid": "c561afc6-cc99-4e75-98a1-7cfca80ed13e",
+            "id": "45",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Empleos según tu perfil | LinkedIn",
+            "type": "url",
+            "url": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3586203162"
+         }, {
+            "date_added": "13327101798403219",
+            "date_last_used": "0",
+            "guid": "36e20362-6e6c-47aa-bd8f-51438a760913",
+            "id": "47",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Instantly parse JSON in any language | quicktype",
+            "type": "url",
+            "url": "https://app.quicktype.io/"
+         }, {
+            "date_added": "13327392881316836",
+            "date_last_used": "0",
+            "guid": "b8a3ae54-669d-4127-9797-f956ba7e76a5",
+            "id": "49",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "JSON Storage & JSON Hosting Service - JSONBin.io",
+            "type": "url",
+            "url": "https://jsonbin.io/"
+         }, {
+            "date_added": "13333508998380844",
+            "date_last_used": "0",
+            "guid": "ccf71e76-4021-4e08-bc1b-afe7fb6aa30a",
+            "id": "51",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Uniswap Interface",
+            "type": "url",
+            "url": "https://app.uniswap.org/#/pools/952386"
+         } ],
+         "date_added": "13312245690950437",
+         "date_last_used": "0",
+         "date_modified": "13333508998380844",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13312245690950441",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13312245690950445",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CowBChAIiIECEgqqkpifwGIAAAAAEgAaWEdDbVNrNUEyTURWTmE4NC9JYU55N0xuZkFqbGNUWU1WTmY3WUM5WEpqaG5HOE1VWmxDOEF4enRxSDRtczFlZWROKzlCTGduY3o3MnpDYUNpSUwxaEtnPT0gASoYTEFKdG4xblRGYUl1Qnh0VFFBcEU2QT09SAMSqgEIMRKlAQocN3BQMVZ4RGorSFRQYXlRREtQbzNnVEVXSUk4PRIkOWQ4MzI0YjctZGFlYi00NGNlLTkyM2UtNDU1NjU4ZDBjOGQzGAAgAigCMI7mua79MDimpbmu/TBAi8+5rv0wShxTRXhSU0d6SmplWHpoUXMzMG5HMTdQQTBzWUk9WiEiH////nhpVWMrNGgwcm5SWkM2dVY5Yk5PR2hicU15cz1lqmCWARKqAQgvEqUBChxRcHVRS2dHUXJjY3I5akFVRlY1MklPM3M0U1U9EiRhYjJkYzFmOC03MzNmLTRiMzgtOWE2Ny0yYzViOWY3OTNiMjEYACACKAIwuZrTo/wwOIWA06P8MECagNOj/DBKHEZOWVlQaE1wN3ZteUFMZ1l0dE9JSzF0aFFXdz1aISIf///8TjM3ZXQyc0ZhUkNTZUd5VWZZYXBPVU13MVVjPWUma25sEqoBCC0SpQEKHE1lNGt4ZDdDSE1GLy8yNFd2VWdLVHJTSzR1VT0SJGYwMzYzODhiLTVmZjQtNDM2NC04ZDJkLWZiNmQyYjBmMDNkNRgAIAIoAjC6iuGB/DA44fDggfwwQO7w4IH8MEocSkhxLzhPNjdNVWlhZHlqQWdBVkZTbkpiOWU0PVohIh////ltTlptQS9sYmUyUkdlZDZIbHNtWlBMcyttZE09ZUVNStESqQEIGhKkAQocMVNFNXVQL0dmM29sajN0eTQwNEhuNFVtb3ZNPRIkZjYyMjZjZmMtZjBiNi00ZDA3LThiMzQtNzM3YWE0MTRmMTlmGAAgAigCMNDPqZXdMDiDvKmV3TBAibypld0wShxsMW1TK1R3ZGJrMUJUZTROMzlHRmE2UFlkaU09WiAiHv/tTk1idlhuc1VGbEN5bUpuS2tYQnNyeXNienBvPWVxEwzHEqgBCAsSowEKHDk3Q05VbU1TdnZLc2hUcGZ4YzR0WUJHUUN5bz0SJDYxM2RhM2FiLTEwZTctNDljOS04ODI0LTBkNmI2NGUzMzFhMRgAIAEoATCO2Ini0DA4/MeJ4tAwQPzHieLQMEocdVg0YmxuOHN3MHlWaXNwSXhscHhxVnc1RVpVPVofIh3uQU5kOHhCeUZCY2sycjg3dkNGNG4xOHBWVGNJPWX0IvUbEqcBCAUSogEKHGNuQ0xOVmhsQUxKWW5LZmhQeXp2Z2FxQ1JjYz0SJDNhNjYwZjIyLTIyNWItNGM1YS1hMWQxLTZhMzk4YWY3ZWI2NBgAIAEoATDW14ni0DA4+8eJ4tAwQPvHieLQMEocdGlhN0VNNEV1bWZxSlhFaGxUM2dTNmk4YlZnPVoeIhx0QVdpb1k1eGlVTmllbWttUUppN3NnbEpsM2s9ZTqjJFkSqQEIIBKkAQoccWZZWUd6VWNpdnJDbFcxakFZbmc1SkJIVFhBPRIkYzhiMGMyN2ItMzgyNi00MmU3LTkxMTEtZWJlZGM3MGI0YjRjGAAgAigCMLKPpfDgMDiF+6Tw4DBAivuk8OAwShw0VitqbGdXVWtPaXpDQVhDZVVNRGxaMVdURDA9WiAiHv/9ZGkvMWtObkI5KzZzb0FJeUliN2d5LzdzRk9zPWUUn6fWEoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNGUyNDY5YTMtYzRlNC00MTc5LTk4ZjQtMmFlMGY2NzkyZmRiGAAgACgAMAE4wbju4dAwQMG47uHQMEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqQEIGBKkAQoceG9PNVBuc2hua3JEakxCRVhIQ1VYaFRFZkJFPRIkODlhNDcwYzItNTQ2YS00NzNhLWI4MzUtMGRjMTA0NmQ0MWYzGAAgAigCMOzz5MvbMDiV4eTL2zBAo+Hky9swShxHRDNnS0NRK00zU2JaNnhtVTRUSVJxVFlRRUU9WiAiHv/bODlCeW8wdWQvTE9DaUJJYlpIZ2hjbW96UkcwPWWEjZmjEqkBCCMSpAEKHC9hYWhsV0FZN0hJaHphbnNQRWhOL25KQWtjND0SJDgyNDQxZmQxLWU2OGYtNDYwOC1hOTczLTg1MTFiODQxM2ExMxgAIAIoAjCqhO6V4TA4jevtleEwQJfr7ZXhMEocVjVZdmlrWUZDYlcxVHRaZUordUVIS2IyQTQ4PVogIh7//zFNdmxTQTBkUk80V0J4enhUR0t3cTkrUmtqdz1lfPR1CRKDAQgDEn8KHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDk3ZGIyYTc0LTVlNjUtNGY0Ny1hYTU5LTgyZWY0NTI5YjE1OBgAIAAoADABOMG47uHQMEDBuO7h0DBKHHl6TkIwMWNuNTRBN2NSVTB1VCsvUGdtVHRVbz1aAGUAAAAAEqkBCB4SpAEKHFVDZ0l1L3RzRE02TDFuY2wwMjlucGN5bnV6QT0SJGQzNTQ1NGVjLTIzNDctNDMzNS04MmZhLWI3ZGVlNWZlYjQ4MhgAIAIoAjCfvqGd4DA4i6ehneAwQJqnoZ3gMEocTjVqRmNTT2dMaDBjZlJXZDcxYTE5Wm1FSm5jPVogIh7/+2g2VHoxQ1AxRUFwb3ptK2pxa29WdFNGaDFMcz1lMrUboRKoAQgQEqMBChxGZjdwekpBYlQ3MHQ1SWhOeFp4UFEwVGwxajA9EiQyODMyYjM0OS0xZTg4LTQ2NzctYjhiNy1hYWJiNDNjYmVhODkYACACKAIw45vQvogxOPzHieLQMEDdidC+iDFKHHU3QzZZNUhMb0x0YTAreXBqVW5OM2lIV0NCTT1aHyId/WRWdmJsVzBRNWlZeUxBbnlYZVZob05YaEo0MD1lXUePgxKqAQgrEqUBChxlY0w4UUoxRnZ2WE5qakhVelBUZ0MvNmpOalE9EiQzMjJhMGY1NC0wOWI2LTRlYWEtYjUyYy04ODBhYjk3MzdmOTcYACACKAIwtOHVqPUwOKDT1aj1MECi09Wo9TBKHEtxeitaSFI4MmhDaWRWS1JvUUR5SUhqdml6VT1aISIf///zcU51OHUyb25LUmRkSUFqUXhKNmpPZEpwbEVBPWUEjAk0EqoBCCcSpQEKHHFYc2FYODlEYW1JSjJxWitFL2dZN054anNCaz0SJDVlNzZjMjFmLTEwNjMtNDZiYS05ZWU4LTI0ZWJmNDIxY2ZmMRgAIAIoAjDT07b37DA4v7i29+wwQMu4tvfsMEocczdPZGVGTnBIY281VXUwQmJMNG9VelI0bFlRPVohIh///8wwdDlmaElnL2hyQ1hiYkZ6K0wzZWVvRXRpTXc9ZTYzMj4SqgEIJRKlAQocQVpEK2MvR3V0SWlPamFmYUVSSUluaGdRVUtvPRIkYzE5MjI3NTUtYzMxNy00ZDZjLTlkNmUtNzI1ZjhiN2I5MWVjGAAgAigCMOzshczhMDjy14XM4TBAidiFzOEwShxrejRDdUhvSy9mVDdsK0JPQXVkdldhMjY5Q0E9WiEiH///mDBzc3JLcDdrbXQ1eWRJVWFFU29Cbzg3OE9EVT1lhc08wxKoAQgSEqMBChxKS3dzWUZYQkFlcVduYUJkYVlscXVMWk5yL1E9EiQ3MjY0ZDBhNy04ZjYyLTQyNGMtYTliMC00ODQwM2QxMzYxN2EYACADKAMw6ZvQvogxOOLP54/WMEDeidC+iDFKHEhINm1saHRDUFcrN2JYNkxYNXdSZU9wanlqST1aHyId/jV5TXpYMFEzN3dqeXNEajhsMTdKUkpJeU5hRT1lXUePgxKqAQgHEqUBChxpVkkwM0Zsd2FVNWR1d0JITTJTVC9rSmdLd0E9EiRhZjE3ZmE1NS02MGM2LTQzZGMtYjE2YS02MmQ2MGEzNDQwNGYYACCqKyiqKzCVicyPoDE4/MeJ4tAwQLOBzI+gMUocZys4NmtLMzRiOFp0bmxyRjcrVkdWUnpTdXRRPVofIh26TURwbzR2MGc0bzdxalZBUjJ0bys1RUlhMWFFPWX91iByEqkBCBwSpAEKHGpEd1JRQkpBSjMzU1NUbmwzaWtZUHc4eWltYz0SJGI5NDc1OGY0LWY3MDUtNGNjMS1iODZjLTQzNWQyODVhYmY5NhgAIAIoAjDqjo+I4DA4xvOOiOAwQNTzjojgMEocZUNqS0NDVVlrcW82Z3NxdEdWT3F3Wng1Qk1vPVogIh7/9kJFSTd3RVBSSXdvclBEeVNnUEgweVNnRHNxTT1l2bX83xKoAQgJEqMBChxPWXY4c2k1Y2hPSHhDMVRkL1BLaWVCOGVpcTQ9EiQ4MWVlZjI5Mi0yYTAyLTRmZmUtODliZS0wYzVhN2EwMWM0YzYYACABKAEwoNiJ4tAwOPzHieLQMED8x4ni0DBKHDJpTlJLSEpXak1RUTFQaUxpMG9uTGp5OEQwUT1aHyId3TNwRS8wRkJqUzcxbWFYR1Y1YzN5RktOQU5kdz1lLl3PJBKqAQgzEqUBChxpbHNTeE5paG5pRThNb3JwMW4xanBOSURrTDA9EiQ4ZDg5MDEwMS0wODg4LTRlOTAtYjA1MC00NTRjZDNhNGI5ODUYACACKAIw6svrkpQxOO2565KUMUD0ueuSlDFKHDZzK3kxdWMxY0hxNWZSYkZaMXFiUlN5aG5oUT1aISIf////TzJKWjZRU21raDBxb244c1h5YWJWNFhTUmkwPWWCNRHdEoMBCAESfwoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkZGM4MGJkMWItYTM4Zi00NDVhLWIxYmYtMWU3NjM4ZjljMGVhGAAgACgAMAE4wbju4dAwQMG47uHQMEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAASqgEIKRKlAQocMjdZNm1RckxIWDh5eXRVUDZueXJTMGRNM0ZnPRIkYzhlYzM4ZjctNTI0Yy00NjllLWE4ODctNDQ0NzU5ZmY2NzAyGAAgAigCMJaUvvDuMDirgb7w7jBAsYG+8O4wShxQSitHM3MramNtUVdOclBSbGNTZldCQW5wWmc9WiEiH///5mtXQ3BLM3ppZmxGSmpHSk1mSWtaVXp3aDZ5dz1l7RzdJxKoAQgNEqMBChxIZzRlZmg5VWQzRnZmTVBna2x3UTdJTTNCS1U9EiRmOGViODJjNy03MjExLTRkNmYtOTUwYy1lZmNlYmI2NWZlZTQYACABKAEwtNiJ4tAwOPzHieLQMED8x4ni0DBKHGNUNXpCZzVJVTU4bVUrVTRjeHR3YW9wNXhFMD1aHyId91FFTmsyNWpkTmxYRDVRMmsvQ1hCRkI0bmxnWT1l0ZNGGhKpAQgWEqQBChxBY1J3Z3FFSktFSDEvdlczbUlYR08ybGdhYlk9EiQwMzE4Y2NmOC1kYWI5LTQ5NjctYmM3OC05NzAwNjg3NDcyOTMYACACKAIwpc2SqtkwOJq6kqrZMECfupKq2TBKHGxqTkxOeXlobWk5VVpGRXhwOEZkZkMvb05GMD1aICIe/7YwTTllSXptbzR2TGZwVVBydForbWY0YmYvdWM9ZRu9vqkSqQEIIRKkAQocWU5QbElwVTJZUEdkdUlqU3k0Sm1TNStLRThVPRIkYTdlZjkxZjctOWJhZC00N2YxLWFkNTItNTBlNjgzMzYwMTVmGAAgAigCMOXR2IThMDj25LCE4TBAhuWwhOEwShxRWFkvbnNoMXpWL285WjZxSnQyMG9hVzhXN1E9WiAiHv/+ZXVUUWVBa3FqMExnMndJUk9HNmE0OWI4Q0hNPWUUn6fWEqgBCA8SowEKHDVaUExrWDIwUWF5WFRjVGJ3N2JHZVpSdkw2bz0SJDc2NWE3NGI3LTA1OGItNDhjZC1iYjA1LTBhYzNjMDg0NzA3NhgAIAEoATD714ni0DA4/MeJ4tAwQPzHieLQMEocSUlLSFd3QXVvQlV1clFINlJ6UlpzQUpqMCtJPVofIh37VjhLaHQ0STNxV0RldXVWU01idXQ4b3hLOUVBPWUL5ghpEqgBCBQSowEKHHVLZ3ZEcmhpclJGS1dHTWt5TjJKL3ZKcDNNUT0SJDY4YTEzNWZkLWZiYzMtNDBkYS1iYmJhLTg0ZDllNmFmOWFhZRgAIAMoAzDum9C+iDE42oqD19gwQN6J0L6IMUocdFErYkMwaUFKS1lnKzl4cnpuclBqSEswc2ZFPVofIh3/bXJMRXp1SEQ1NmhtOFF0VURKaGNER1E5QVdjPWVdR4+DMAE4AA==",
+   "version": 1
+}

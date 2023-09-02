@@ -1,0 +1,62 @@
+2023/05/29-23:24:32.256 231e Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/29-23:24:32.257 231e Recovering log #645
+2023/05/29-23:24:32.258 231e Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000645.log 
+2023/05/29-23:24:36.545 231e Level-0 table #649: started
+2023/05/29-23:24:36.547 231e Level-0 table #649: 527 bytes OK
+2023/05/29-23:24:36.549 231e Delete type=0 #645
+2023/05/29-23:24:36.549 231e Manual compaction at level-0 from '\x00^\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00_\x00\x00\x00' @ 0 : 0; will stop at '\x00^\x00\x00\x05' @ 2678673 : 1
+2023/05/29-23:24:36.549 231e Compacting 1@0 + 1@1 files
+2023/05/29-23:24:36.551 231e Generated table #650@0: 22 keys, 569 bytes
+2023/05/29-23:24:36.551 231e Compacted 1@0 + 1@1 files => 569 bytes
+2023/05/29-23:24:36.553 231e compacted to: files[ 0 1 3 0 0 0 0 ]
+2023/05/29-23:24:36.553 231e Delete type=2 #649
+2023/05/29-23:24:36.554 231e Manual compaction at level-0 from '\x00^\x00\x00\x05' @ 2678673 : 1 .. '\x00_\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/05/29-23:28:41.502 231f Compacting 1@1 + 1@2 files
+2023/05/29-23:28:41.588 231f Generated table #651@1: 65403 keys, 2221299 bytes
+2023/05/29-23:28:41.588 231f Compacted 1@1 + 1@2 files => 2221299 bytes
+2023/05/29-23:28:41.591 231f compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/05/29-23:28:41.591 231f Delete type=2 #646
+2023/05/29-23:28:41.591 231f Delete type=2 #641
+2023/05/29-23:28:41.591 231f Delete type=2 #650
+2023/05/29-23:31:21.243 231f Level-0 table #653: started
+2023/05/29-23:31:21.288 231f Level-0 table #653: 1136682 bytes OK
+2023/05/29-23:31:21.291 231f Delete type=0 #648
+2023/05/29-23:31:22.439 231f Compacting 1@1 + 3@2 files
+2023/05/29-23:31:22.525 231f Generated table #654@1: 65904 keys, 2223640 bytes
+2023/05/29-23:31:22.584 231f Generated table #655@1: 33138 keys, 2195939 bytes
+2023/05/29-23:31:22.645 231f Generated table #656@1: 52541 keys, 1126664 bytes
+2023/05/29-23:31:22.645 231f Compacted 1@1 + 3@2 files => 5546243 bytes
+2023/05/29-23:31:22.647 231f compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/05/29-23:31:22.648 231f Delete type=2 #653
+2023/05/29-23:31:22.648 231f Delete type=2 #642
+2023/05/29-23:31:22.648 231f Delete type=2 #651
+2023/05/29-23:31:22.648 231f Delete type=2 #643
+2023/05/29-23:39:23.829 231e Level-0 table #658: started
+2023/05/29-23:39:23.864 231e Level-0 table #658: 1125664 bytes OK
+2023/05/29-23:39:23.867 231e Delete type=0 #652
+2023/05/29-23:39:25.159 231f Compacting 1@1 + 3@2 files
+2023/05/29-23:39:25.232 231f Generated table #659@1: 66503 keys, 2224133 bytes
+2023/05/29-23:39:25.275 231f Generated table #660@1: 33138 keys, 2196166 bytes
+2023/05/29-23:39:25.325 231f Generated table #661@1: 54501 keys, 1216972 bytes
+2023/05/29-23:39:25.325 231f Compacted 1@1 + 3@2 files => 5637271 bytes
+2023/05/29-23:39:25.329 231f compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/05/29-23:39:53.566 231f Level-0 table #663: started
+2023/05/29-23:39:53.571 231f Level-0 table #663: 122132 bytes OK
+2023/05/29-23:39:53.574 231f Delete type=2 #655
+2023/05/29-23:39:53.574 231f Delete type=0 #657
+2023/05/29-23:39:53.574 231f Delete type=2 #654
+2023/05/29-23:39:53.574 231f Delete type=2 #658
+2023/05/29-23:39:53.574 231f Delete type=2 #656
+2023/05/29-23:39:53.576 231f Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/05/29-23:39:53.576 231f Manual compaction at level-1 from (begin) .. (end); will stop at '\x00/\x02"\x01$\x00e\x00d\x000\x006\x00e\x00c\x007\x000\x00-\x006\x00b\x005\x006\x00-\x004\x005\x009\x003\x00-\x008\x007\x009\x006\x00-\x003\x00a\x004\x000\x002\x00d\x006\x006\x000\x004\x007\x009\x00\x03\x00\x00\x00\x00@\x1c\xe9@' @ 2749835 : 1
+2023/05/29-23:39:53.576 231f Compacting 1@1 + 3@2 files
+2023/05/29-23:39:53.635 231f Generated table #664@1: 66570 keys, 2224227 bytes
+2023/05/29-23:39:53.700 231f Generated table #665@1: 33096 keys, 2193923 bytes
+2023/05/29-23:39:53.769 231f Generated table #666@1: 54727 keys, 1227821 bytes
+2023/05/29-23:39:53.769 231f Compacted 1@1 + 3@2 files => 5645971 bytes
+2023/05/29-23:39:53.771 231f compacted to: files[ 0 0 3 0 0 0 0 ]
+2023/05/29-23:39:53.771 231f Delete type=2 #659
+2023/05/29-23:39:53.771 231f Delete type=2 #661
+2023/05/29-23:39:53.771 231f Delete type=2 #663
+2023/05/29-23:39:53.771 231f Delete type=2 #660
+2023/05/29-23:39:53.773 231f Manual compaction at level-1 from '\x00/\x02"\x01$\x00e\x00d\x000\x006\x00e\x00c\x007\x000\x00-\x006\x00b\x005\x006\x00-\x004\x005\x009\x003\x00-\x008\x007\x009\x006\x00-\x003\x00a\x004\x000\x002\x00d\x006\x006\x000\x004\x007\x009\x00\x03\x00\x00\x00\x00@\x1c\xe9@' @ 2749835 : 1 .. (end); will stop at (end)

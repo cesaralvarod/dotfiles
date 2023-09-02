@@ -1,0 +1,6 @@
+2023/04/20-11:56:44.894 8bffb Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/20-11:56:44.894 8bffb Recovering log #4
+2023/04/20-11:56:44.919 8bffb Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/000004.log 
+2023/04/20-12:01:50.013 8bffc Level-0 table #8: started
+2023/04/20-12:01:50.058 8bffc Level-0 table #8: 723535 bytes OK
+2023/04/20-12:01:50.069 8bffc Delete type=0 #4

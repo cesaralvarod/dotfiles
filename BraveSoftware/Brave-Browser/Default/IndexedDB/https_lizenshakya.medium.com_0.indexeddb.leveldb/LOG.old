@@ -1,0 +1,6 @@
+2023/04/22-01:11:48.163 2d77 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lizenshakya.medium.com_0.indexeddb.leveldb since it was missing.
+2023/04/22-01:11:48.169 2d77 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lizenshakya.medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/22-01:19:52.744 2d77 Level-0 table #5: started
+2023/04/22-01:19:52.746 2d77 Level-0 table #5: 2262 bytes OK
+2023/04/22-01:19:52.749 2d77 Delete type=0 #3
+2023/04/22-01:19:52.749 2d77 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2022/11/24-16:40:06.254 a9269 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb since it was missing.
+2022/11/24-16:40:06.260 a9269 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_us02web.zoom.us_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/24-18:14:40.620 de537 Level-0 table #5: started
+2022/11/24-18:14:40.633 de537 Level-0 table #5: 53651 bytes OK
+2022/11/24-18:14:40.637 de537 Delete type=0 #3
+2022/11/24-18:14:40.638 de537 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

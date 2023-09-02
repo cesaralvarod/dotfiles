@@ -1,0 +1,6 @@
+2022/11/30-00:44:14.139 ad98e Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_knowledgebase.paloaltonetworks.com_0.indexeddb.leveldb since it was missing.
+2022/11/30-00:44:14.144 ad98e Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_knowledgebase.paloaltonetworks.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/30-00:44:22.301 a4794 Level-0 table #5: started
+2022/11/30-00:44:22.303 a4794 Level-0 table #5: 946 bytes OK
+2022/11/30-00:44:22.305 a4794 Delete type=0 #3
+2022/11/30-00:44:22.305 a4794 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

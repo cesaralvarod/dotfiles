@@ -1,0 +1,6 @@
+2023/03/17-10:48:44.955 4af99 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forums.docker.com_0.indexeddb.leveldb since it was missing.
+2023/03/17-10:48:44.961 4af99 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_forums.docker.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/17-10:51:09.761 4af9a Level-0 table #5: started
+2023/03/17-10:51:09.764 4af9a Level-0 table #5: 3186 bytes OK
+2023/03/17-10:51:09.766 4af9a Delete type=0 #3
+2023/03/17-10:51:09.767 4af9a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

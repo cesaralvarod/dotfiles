@@ -1,0 +1,15 @@
+2023/04/01-01:02:59.332 1e4200 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/01-01:02:59.332 1e4200 Recovering log #19
+2023/04/01-01:02:59.332 1e4200 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_neovim.discourse.group_0.indexeddb.leveldb/000019.log 
+2023/04/01-01:03:41.306 1e4200 Level-0 table #24: started
+2023/04/01-01:03:41.311 1e4200 Level-0 table #24: 5246 bytes OK
+2023/04/01-01:03:41.315 1e4200 Delete type=0 #19
+2023/04/01-01:03:41.316 1e4200 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/01-01:03:41.316 1e4200 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x10t\x99\xb6sxB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00o\x00v\x00i\x00m\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00r\x00o\x00u\x00p\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 864 : 1
+2023/04/01-01:03:41.316 1e4200 Compacting 1@1 + 1@2 files
+2023/04/01-01:03:41.322 1e4200 Generated table #25@1: 49 keys, 4280 bytes
+2023/04/01-01:03:41.322 1e4200 Compacted 1@1 + 1@2 files => 4280 bytes
+2023/04/01-01:03:41.324 1e4200 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/01-01:03:41.325 1e4200 Delete type=2 #21
+2023/04/01-01:03:41.325 1e4200 Delete type=2 #24
+2023/04/01-01:03:41.326 1e4200 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x10t\x99\xb6sxB\x00\x01?\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00n\x00e\x00o\x00v\x00i\x00m\x00.\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00.\x00g\x00r\x00o\x00u\x00p\x00/\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t\x00.\x00w\x00e\x00b\x00m\x00a\x00n\x00i\x00f\x00e\x00s\x00t' @ 864 : 1 .. (end); will stop at (end)

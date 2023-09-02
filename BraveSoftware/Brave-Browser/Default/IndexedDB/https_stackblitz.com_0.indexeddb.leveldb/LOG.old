@@ -1,0 +1,6 @@
+2022/12/21-17:09:11.967 5cb72 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb since it was missing.
+2022/12/21-17:09:11.973 5cb72 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_stackblitz.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/21-17:09:38.373 5cb72 Level-0 table #5: started
+2022/12/21-17:09:38.376 5cb72 Level-0 table #5: 846 bytes OK
+2022/12/21-17:09:38.381 5cb72 Delete type=0 #3
+2022/12/21-17:09:38.381 5cb72 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2023/02/27-14:10:59.217 581 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_react.i18next.com_0.indexeddb.leveldb since it was missing.
+2023/02/27-14:10:59.223 581 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_react.i18next.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/27-14:11:33.479 1d90f Level-0 table #5: started
+2023/02/27-14:11:33.482 1d90f Level-0 table #5: 29989 bytes OK
+2023/02/27-14:11:33.487 1d90f Delete type=0 #3
+2023/02/27-14:11:33.487 1d90f Manual compaction at level-0 from (begin) .. (end); will stop at (end)

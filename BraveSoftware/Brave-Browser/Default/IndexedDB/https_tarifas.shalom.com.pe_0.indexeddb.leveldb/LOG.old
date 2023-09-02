@@ -1,0 +1,6 @@
+2022/11/05-12:53:37.046 2b947 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tarifas.shalom.com.pe_0.indexeddb.leveldb since it was missing.
+2022/11/05-12:53:37.051 2b947 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_tarifas.shalom.com.pe_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/05-12:54:25.043 2c319 Level-0 table #5: started
+2022/11/05-12:54:25.045 2c319 Level-0 table #5: 409 bytes OK
+2022/11/05-12:54:25.048 2c319 Delete type=0 #3
+2022/11/05-12:54:25.048 2c319 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

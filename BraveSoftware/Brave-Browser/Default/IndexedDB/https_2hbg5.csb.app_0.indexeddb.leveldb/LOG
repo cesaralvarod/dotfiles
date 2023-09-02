@@ -1,0 +1,6 @@
+2023/01/27-00:32:48.853 abed0 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_2hbg5.csb.app_0.indexeddb.leveldb since it was missing.
+2023/01/27-00:32:48.863 abed0 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_2hbg5.csb.app_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/27-00:33:30.676 abecc Level-0 table #5: started
+2023/01/27-00:33:30.681 abecc Level-0 table #5: 5121 bytes OK
+2023/01/27-00:33:30.684 abecc Delete type=0 #3
+2023/01/27-00:33:30.684 abecc Manual compaction at level-0 from (begin) .. (end); will stop at (end)

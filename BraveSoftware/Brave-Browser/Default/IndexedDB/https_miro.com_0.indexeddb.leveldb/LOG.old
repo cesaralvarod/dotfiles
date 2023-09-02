@@ -1,0 +1,26 @@
+2023/01/21-00:07:01.408 3ce85 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_miro.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/01/21-00:07:01.408 3ce85 Recovering log #12
+2023/01/21-00:07:01.408 3ce85 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_miro.com_0.indexeddb.leveldb/000012.log 
+2023/01/21-00:07:02.250 3ce85 Level-0 table #18: started
+2023/01/21-00:07:02.253 3ce85 Level-0 table #18: 531 bytes OK
+2023/01/21-00:07:02.256 3ce85 Delete type=0 #12
+2023/01/21-00:07:02.257 3ce85 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/01/21-00:07:04.267 3ce85 Level-0 table #20: started
+2023/01/21-00:07:04.270 3ce85 Level-0 table #20: 256 bytes OK
+2023/01/21-00:07:04.275 3ce85 Delete type=0 #17
+2023/01/21-00:07:04.276 3ce85 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 64 : 0
+2023/01/21-00:07:04.276 3ce85 Compacting 1@0 + 1@1 files
+2023/01/21-00:07:04.280 3ce85 Generated table #21@0: 5 keys, 251 bytes
+2023/01/21-00:07:04.280 3ce85 Compacted 1@0 + 1@1 files => 251 bytes
+2023/01/21-00:07:04.283 3ce85 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/01/21-00:07:04.284 3ce85 Delete type=2 #20
+2023/01/21-00:07:04.284 3ce85 Delete type=2 #18
+2023/01/21-00:07:04.287 3ce85 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 64 : 0 .. (end); will stop at (end)
+2023/01/21-00:07:04.287 3ce85 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x06' @ 67 : 1
+2023/01/21-00:07:04.287 3ce85 Compacting 1@1 + 1@2 files
+2023/01/21-00:07:04.293 3ce85 Generated table #22@1: 6 keys, 268 bytes
+2023/01/21-00:07:04.293 3ce85 Compacted 1@1 + 1@2 files => 268 bytes
+2023/01/21-00:07:04.296 3ce85 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/01/21-00:07:04.299 3ce85 Delete type=2 #15
+2023/01/21-00:07:04.299 3ce85 Delete type=2 #21
+2023/01/21-00:07:04.305 3ce86 Manual compaction at level-1 from '\x00\x00\x00\x00\x06' @ 67 : 1 .. (end); will stop at (end)

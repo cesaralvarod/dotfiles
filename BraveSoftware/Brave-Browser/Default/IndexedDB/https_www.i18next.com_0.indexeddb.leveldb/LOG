@@ -1,0 +1,7 @@
+2023/03/28-01:09:20.868 86771 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.i18next.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/28-01:09:20.868 86771 Recovering log #3
+2023/03/28-01:09:20.870 86771 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.i18next.com_0.indexeddb.leveldb/000003.log 
+2023/03/28-13:58:58.369 86772 Level-0 table #5: started
+2023/03/28-13:58:58.372 86772 Level-0 table #5: 42827 bytes OK
+2023/03/28-13:58:58.375 86772 Delete type=0 #3
+2023/03/28-13:58:58.375 86772 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

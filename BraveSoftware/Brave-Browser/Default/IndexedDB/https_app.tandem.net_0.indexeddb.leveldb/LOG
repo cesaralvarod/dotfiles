@@ -1,0 +1,15 @@
+2023/03/10-13:25:11.545 36b6d Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.tandem.net_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/10-13:25:11.545 36b6d Recovering log #4
+2023/03/10-13:25:11.546 36b6d Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.tandem.net_0.indexeddb.leveldb/000004.log 
+2023/03/10-13:25:39.720 36b6e Level-0 table #8: started
+2023/03/10-13:25:39.722 36b6e Level-0 table #8: 8832 bytes OK
+2023/03/10-13:25:39.724 36b6e Delete type=0 #4
+2023/03/10-13:25:39.725 36b6e Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/03/10-13:25:39.725 36b6e Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x00H\x00L\x00i\x00w\x00I\x00T\x00G\x00Y\x008\x00s\x00e\x00y\x008\x00p\x00E\x00A\x00G\x007\x00u\x00B\x00e\x006\x00b\x00B\x00W\x00P\x001\x00P\x008\x000\x003\x004\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 142 : 1
+2023/03/10-13:25:39.725 36b6e Compacting 1@1 + 1@2 files
+2023/03/10-13:25:39.729 36b6e Generated table #9@1: 21 keys, 2634 bytes
+2023/03/10-13:25:39.729 36b6e Compacted 1@1 + 1@2 files => 2634 bytes
+2023/03/10-13:25:39.731 36b6e compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/10-13:25:39.732 36b6e Delete type=2 #5
+2023/03/10-13:25:39.732 36b6e Delete type=2 #8
+2023/03/10-13:25:39.733 36b6e Manual compaction at level-1 from '\x00\x01\x01\x02\x01C\x00f\x00i\x00r\x00e\x00b\x00a\x00s\x00e\x00:\x00a\x00u\x00t\x00h\x00U\x00s\x00e\x00r\x00:\x00A\x00I\x00z\x00a\x00S\x00y\x00D\x00H\x00L\x00i\x00w\x00I\x00T\x00G\x00Y\x008\x00s\x00e\x00y\x008\x00p\x00E\x00A\x00G\x007\x00u\x00B\x00e\x006\x00b\x00B\x00W\x00P\x001\x00P\x008\x000\x003\x004\x00:\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]' @ 142 : 1 .. (end); will stop at (end)

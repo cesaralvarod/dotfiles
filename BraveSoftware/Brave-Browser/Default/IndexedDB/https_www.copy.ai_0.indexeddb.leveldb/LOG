@@ -1,0 +1,6 @@
+2022/12/02-13:44:21.225 a5607 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.copy.ai_0.indexeddb.leveldb since it was missing.
+2022/12/02-13:44:21.231 a5607 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.copy.ai_0.indexeddb.leveldb/MANIFEST-000001
+2022/12/02-13:48:43.976 a55ff Level-0 table #5: started
+2022/12/02-13:48:43.979 a55ff Level-0 table #5: 1142 bytes OK
+2022/12/02-13:48:43.981 a55ff Delete type=0 #3
+2022/12/02-13:48:43.982 a55ff Manual compaction at level-0 from (begin) .. (end); will stop at (end)
