@@ -1,7 +1,0 @@
-2023/03/23-18:47:42.174 61d Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vitest.dev_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/23-18:47:42.174 61d Recovering log #3
-2023/03/23-18:47:42.174 61d Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_vitest.dev_0.indexeddb.leveldb/000003.log 
-2023/03/23-18:48:44.253 61e Level-0 table #5: started
-2023/03/23-18:48:44.259 61e Level-0 table #5: 2878 bytes OK
-2023/03/23-18:48:44.265 61e Delete type=0 #3
-2023/03/23-18:48:44.266 61e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

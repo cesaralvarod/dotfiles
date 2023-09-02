@@ -1,6 +1,0 @@
-2022/11/02-15:01:07.580 c1e1 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teachable.com_0.indexeddb.leveldb since it was missing.
-2022/11/02-15:01:07.603 c1e1 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_teachable.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/02-15:01:58.717 101b8 Level-0 table #5: started
-2022/11/02-15:01:58.725 101b8 Level-0 table #5: 1588 bytes OK
-2022/11/02-15:01:58.728 101b8 Delete type=0 #3
-2022/11/02-15:01:58.728 101b8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

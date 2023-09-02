@@ -1,6 +1,0 @@
-2022/11/02-11:42:08.519 59c3c Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.postman.co_0.indexeddb.leveldb since it was missing.
-2022/11/02-11:42:08.525 59c3c Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_web.postman.co_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/02-11:43:48.705 568ad Level-0 table #5: started
-2022/11/02-11:43:48.710 568ad Level-0 table #5: 9450 bytes OK
-2022/11/02-11:43:48.714 568ad Delete type=0 #3
-2022/11/02-11:43:48.715 568ad Manual compaction at level-0 from (begin) .. (end); will stop at (end)

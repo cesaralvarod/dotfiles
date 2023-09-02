@@ -1,6 +1,0 @@
-2023/03/16-14:06:21.078 802 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.zed.dev_0.indexeddb.leveldb since it was missing.
-2023/03/16-14:06:21.084 802 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_docs.zed.dev_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/16-14:06:31.843 803 Level-0 table #5: started
-2023/03/16-14:06:31.847 803 Level-0 table #5: 1730 bytes OK
-2023/03/16-14:06:31.851 803 Delete type=0 #3
-2023/03/16-14:06:31.851 803 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

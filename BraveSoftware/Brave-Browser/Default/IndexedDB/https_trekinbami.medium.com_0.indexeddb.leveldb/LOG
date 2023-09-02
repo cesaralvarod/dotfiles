@@ -1,6 +1,0 @@
-2023/04/19-12:49:41.306 66a Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_trekinbami.medium.com_0.indexeddb.leveldb since it was missing.
-2023/04/19-12:49:41.320 66a Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_trekinbami.medium.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/19-12:52:01.501 66e Level-0 table #5: started
-2023/04/19-12:52:01.504 66e Level-0 table #5: 2261 bytes OK
-2023/04/19-12:52:01.507 66e Delete type=0 #3
-2023/04/19-12:52:01.507 66e Manual compaction at level-0 from (begin) .. (end); will stop at (end)

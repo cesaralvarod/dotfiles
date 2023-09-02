@@ -1,6 +1,0 @@
-2023/08/31-01:31:06.178 6b20 Creating DB /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.redeszone.net_0.indexeddb.leveldb since it was missing.
-2023/08/31-01:31:06.186 6b20 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.redeszone.net_0.indexeddb.leveldb/MANIFEST-000001
-2023/08/31-01:31:12.158 6b20 Level-0 table #5: started
-2023/08/31-01:31:12.162 6b20 Level-0 table #5: 29417 bytes OK
-2023/08/31-01:31:12.165 6b20 Delete type=0 #3
-2023/08/31-01:31:12.166 6b20 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

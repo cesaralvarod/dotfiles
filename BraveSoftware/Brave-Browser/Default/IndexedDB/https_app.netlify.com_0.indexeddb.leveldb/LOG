@@ -1,9 +1,0 @@
-2023/07/09-00:33:34.356 c30 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/07/09-00:33:34.358 c30 Recovering log #7
-2023/07/09-00:33:34.359 c30 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_app.netlify.com_0.indexeddb.leveldb/000007.log 
-2023/07/09-00:33:36.967 c3b Compacting 1@1 + 1@2 files
-2023/07/09-00:33:37.022 c3b Generated table #10@1: 87 keys, 6253 bytes
-2023/07/09-00:33:37.022 c3b Compacted 1@1 + 1@2 files => 6253 bytes
-2023/07/09-00:33:37.028 c3b compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/07/09-00:33:37.029 c3b Delete type=2 #5
-2023/07/09-00:33:37.029 c3b Delete type=2 #8

@@ -1,7 +1,0 @@
-2022/12/05-23:49:54.499 42ab2 Reusing MANIFEST /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.walmart.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/12/05-23:49:54.500 42ab2 Recovering log #3
-2022/12/05-23:49:54.500 42ab2 Reusing old log /home/andres/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.walmart.com_0.indexeddb.leveldb/000003.log 
-2022/12/06-00:16:06.636 4d4a2 Level-0 table #5: started
-2022/12/06-00:16:06.639 4d4a2 Level-0 table #5: 2686 bytes OK
-2022/12/06-00:16:06.641 4d4a2 Delete type=0 #3
-2022/12/06-00:16:06.642 4d4a2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
