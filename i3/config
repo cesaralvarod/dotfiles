@@ -68,9 +68,12 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # suspend and exit
+
 bindsym $mod+mod1+e exec --no-startup-id i3 exit
-# bindsym $mod+mod1+l exec --no-startup-id dm-tool lock
-bindsym $mod+mod1+s exec  --no-startup-id systemctl suspend
+bindsym $mod+mod1+l exec --no-startup-id dm-tool lock
+bindsym $mod+mod1+s exec --no-startup-id (dm-tool lock && systemctl suspend)
+bindsym $mod+Shift+mod1+r exec --no-startup-id shutdown -r now
+bindsym $mod+Shift+mod1+s exec --no-startup-id shutdown now
 
 # Workspaces
 
@@ -232,8 +235,6 @@ bindsym --release Print exec --no-startup-id flameshot screen -r -p ~/Pictures/
 
 bindsym --release $mod+Shift+s exec --no-startup-id flameshot gui
 
-# exec_always --no-startup-id shutter
-
 # i3 gaps
 for_window [class="^.*"] border pixel 0
 gaps outer 2
@@ -295,3 +296,7 @@ exec_always --no-startup-id autotiling
 # volume
 
 # exec --no-startup-id volumeicon
+
+# locker
+
+exec --no-startup-id light-locker

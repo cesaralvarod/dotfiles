@@ -158,7 +158,7 @@ local config = function()
 		},
 		view = {
 			width = 35,
-			side = "left",
+			side = "right",
 			adaptive_size = false,
 			mappings = {
 				list = {
