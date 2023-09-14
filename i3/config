@@ -300,3 +300,7 @@ exec_always --no-startup-id autotiling
 # locker
 
 exec --no-startup-id light-locker
+
+# layout
+
+bindsym $mod+Mod1+space exec "$HOME/.config/i3/scripts/layout.sh"
