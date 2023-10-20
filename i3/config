@@ -168,7 +168,7 @@ bindsym $mod+Mod1+g exec --no-startup-id google-chrome-stable
 
 # Brave
 
-bindsym $mod+Mod1+b exec --no-startup-id brave
+bindsym $mod+Mod1+b exec --no-startup-id brave --password-store=basic
 
 # ranger
 
@@ -303,4 +303,4 @@ exec --no-startup-id light-locker
 
 # layout
 
-bindsym $mod+Mod1+space exec "$HOME/.config/i3/scripts/layout.sh"
+bindsym $mod+Mod1+space exec --no-startup-id "$HOME/.config/i3/scripts/layout.sh"
