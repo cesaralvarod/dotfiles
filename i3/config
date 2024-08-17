@@ -301,6 +301,10 @@ exec_always --no-startup-id autotiling
 
 exec --no-startup-id light-locker
 
+# autorandr
+
+exec --no-startup-id autorandr mobile
+
 # layout
 
 bindsym $mod+Mod1+space exec --no-startup-id "$HOME/.config/i3/scripts/layout.sh"

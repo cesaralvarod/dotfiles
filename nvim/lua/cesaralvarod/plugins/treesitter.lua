@@ -1,4 +1,9 @@
 local config = function()
+	local parsers = require("nvim-treesitter.parsers")
+	local configs = require("nvim-treesitter.configs")
+	local template_string = require("template-string")
+	local comment_string = require("ts_context_commentstring")
+
 	-- neovim < 0.9
 	--[[ 	local parser_mapping = require("nvim-treesitter.parsers").filetype_to_parsername
 	parser_mapping.astro = "tsx" --map the astro parser to be used when using tsx files
@@ -7,7 +12,7 @@ local config = function()
 	vim.treesitter.language.register("astro", "tsx")
 	vim.treesitter.language.register("xml", "html")
 
-	require("nvim-treesitter.parsers").get_parser_configs().asm = {
+	parsers.get_parser_configs().asm = {
 		install_info = {
 			url = "https://github.com/rush-rs/tree-sitter-asm.git",
 			files = { "src/parser.c" },
@@ -15,37 +20,39 @@ local config = function()
 		},
 	}
 
-	-- require("nvim-treesitter.install").prefer_git = true
+	-- servers
+	local ensure_installed = {
+		"lua",
+		"javascript",
+		"typescript",
+		"json",
+		"css",
+		"html",
+		"vue",
+		"svelte",
+		"gitignore",
+		"vim",
+		"solidity",
+		"graphql",
+		"php",
+		"java",
+		"c",
+		"cpp",
+		"arduino",
+		"rust",
+		"ruby",
+		"bash",
+		"python",
+		"tsx",
+		"yaml",
+		"markdown",
+		"markdown_inline",
+		"regex",
+		"astro",
+	}
 
-	require("nvim-treesitter.configs").setup({
-		ensure_installed = {
-			"lua",
-			"javascript",
-			"typescript",
-			"json",
-			"css",
-			"html",
-			"vue",
-			"svelte",
-			"gitignore",
-			"vim",
-			"solidity",
-			"graphql",
-			"php", -- vim-polyglot better
-			"java",
-			"c",
-			"cpp",
-			"arduino",
-			"rust",
-			"ruby",
-			"bash",
-			"python",
-			"tsx",
-			"yaml",
-			"markdown",
-			"markdown_inline",
-			"regex",
-		},
+	local setup = {
+		ensure_installed = ensure_installed,
 		highlight = {
 			enable = true,
 			use_languagetree = false,
@@ -103,10 +110,6 @@ local config = function()
 			max_file_lines = nil,
 			extended_mode = false,
 		},
-		context_commentstring = {
-			enable = true,
-			enable_autocmd = false,
-		},
 		playground = {
 			enable = true,
 			disable = {},
@@ -125,9 +128,12 @@ local config = function()
 				show_help = "?",
 			},
 		},
-	})
+	}
 
-	require("template-string").setup({
+	-- setup
+	configs.setup(setup)
+
+	template_string.setup({
 		filetypes = {
 			"typescript",
 			"javascript",
@@ -144,17 +150,30 @@ local config = function()
 			tsx = [["]],
 		},
 	})
+
+	comment_string.setup({
+		enable_autocmd = false,
+	})
 end
 
 return {
-	"nvim-treesitter/nvim-treesitter",
-	dependencies = {
-		"windwp/nvim-ts-autotag", -- tresitter auto close tags
-		"p00f/nvim-ts-rainbow", -- treesiter rainbow pairs
-		"JoosepAlviste/nvim-ts-context-commentstring", -- treesitter comments, work with Comment.nvim
-		"axelvc/template-string.nvim", -- treesitter template string
-		"nvim-treesitter/playground",
-		"rush-rs/tree-sitter-asm", -- assembler highlight
+	{
+		"nvim-treesitter/nvim-treesitter",
+		dependencies = {
+			"windwp/nvim-ts-autotag", -- tresitter auto close tags
+			"p00f/nvim-ts-rainbow", -- treesiter rainbow pairs
+			"JoosepAlviste/nvim-ts-context-commentstring", -- treesitter comments, work with Comment.nvim
+			"axelvc/template-string.nvim", -- treesitter template string
+			"rush-rs/tree-sitter-asm", -- assembler highlight
+			-- "gbprod/php-enhanced-treesitter.nvim", -- sql embedded in files php
+		},
+
+		config = config,
 	},
-	config = config,
+
+	{
+		"nvim-treesitter/playground",
+		dependencies = { "nvim-treesitter/nvim-treesitter" },
+		cmd = { "TSHighlightCapturesUnderCursor", "TSNodeUnderCursor" },
+	},
 }

@@ -2,6 +2,14 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+function es
+  setxkbmap latam
+end
+
+function us
+  setxkbmap us
+end
+
 function fish_user_key_bindings
    fzf_key_bindings
 end
@@ -35,5 +43,8 @@ function fish_user_key_bindings
     bind ! bind_bang
     bind '$' bind_dollar
 end
+
+# flutter
+set -Ua fish_user_paths /usr/bin/flutter/bin
 
 starship init fish | source
